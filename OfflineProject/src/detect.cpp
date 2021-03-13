@@ -103,6 +103,7 @@ int main()
 	std::cout << "Data couldn't be found. Please check list and dat folder" << std::endl;
     }
     /*v4l2-ctl -d /dev/video0 --list-formats-ext*/
+    // gst-device-monitor-1.0
     /*const std::string gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640 height=480, framerate=20/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";*/
     const std::string gst_pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
     cv::VideoCapture cap(gst_pipeline, cv::CAP_GSTREAMER);
