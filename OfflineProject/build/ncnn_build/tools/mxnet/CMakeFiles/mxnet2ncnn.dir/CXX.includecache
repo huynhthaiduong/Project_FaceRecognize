@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/tools/mxnet/mxnet2ncnn.cpp
+limits.h
+-
+map
+-
+set
+-
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+string
+-
+vector
+-
+
