@@ -1,4 +1,9 @@
 /============/ \
+CLONE DLIB \
+/===========/ \
+git clone https://github.com/davisking/dlib \
+\
+/============/ \
 CLONE NCNN \
 /===========/ \
 Step 1  \
