@@ -129,7 +129,7 @@ int main()
             std::cout << "Capture read error" << std::endl;
             break;
         }
-//        cv::resize(img, img, cv::Size(800, 600));
+//      cv::resize(img, img, cv::Size(800, 600));
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
         int fps_int = static_cast<int>(1000 / fps);
         cv::putText(img, to_string(fps_int) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
