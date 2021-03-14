@@ -122,7 +122,10 @@ int main()
     std::vector<matrix<rgb_pixel>> faces;
     cv::Mat img;
     cv::namedWindow("Detect", cv::WINDOW_AUTOSIZE);
-    std::chrono::time_point<std::chrono::system_clock> m_StartTime = std::chrono::system_clock::now();
+    auto m_StartTime = std::chrono::system_clock::now();
+    auto m_EndTime = std::chrono::system_clock::now();
+    double FPS = cap.get(cv::CAP_PROP_FPS);
+    std::cout << "Capture " << FPS << " FPS " <<std::endl;
     while (true)
     {
         if (!cap.read(img))
@@ -130,27 +133,15 @@ int main()
             std::cout << "Capture read error" << std::endl;
             break;
         }
-//        cv::resize(img, img, cv::Size(1080, 720));
-        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
-        int fps_int = static_cast<int>(1000 / fps);
-        cv::putText(img, to_string(fps_int) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
-        cv::imshow("Detect", img);
-/*        if (cv::waitKey(1) >= 0)
-        {
-            cv::destroyAllWindows();
-            break;
-        }*/
         m_StartTime = std::chrono::system_clock::now();
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
 /************************************************/
-//	ncnn::create_gpu_instance();
+/*		      DETECT		        */
 /************************************************/
         std::vector<FaceInfo> face_info;
         ultraface.detect(inmat, face_info);
-/************************************************/
-//      ncnn::destroy_gpu_instance();
-/************************************************/
+
         cv_image<bgr_pixel> cimg(img);
         matrix<rgb_pixel> matrix;
         assign_image(matrix, cimg);
@@ -171,9 +162,6 @@ int main()
             temp_obj.check_index = -1;
             for (int j = 0; j < temp_lst.size(); j++)
             {
-	/************************************************/
-//		ncnn::create_gpu_instance();
-	/************************************************/
                 temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
                 if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
                 {
@@ -183,22 +171,14 @@ int main()
                     temp_obj.Bound_style = cv::Scalar(0, 255, 0);
                     temp_obj.check_index = j;
                 }
-	/************************************************/
-//		ncnn::destroy_gpu_instance();
-	/************************************************/
             }
             if (temp_obj.check_index != -1)
             {
                 temp_lst[temp_obj.check_index].checked = 1;
             }
+            m_EndTime = std::chrono::system_clock::now();
             cv::rectangle(img, cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2), temp_obj.Bound_style, 1);
             cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
-            cv::imshow("Detect", img);
-/*          if (cv::waitKey(10) >= 0)
-	    {
-		cv::destroyAllWindows();
-                break;
-	    }*/
             faces.clear();
         }
 	if (cv::waitKey(1) >= 0)
@@ -206,6 +186,10 @@ int main()
 	    cv::destroyAllWindows();
 	    break;
 	}
+        m_EndTime = std::chrono::system_clock::now();
+        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(m_EndTime - m_StartTime).count();
+	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
+	cv::imshow("Detect", img);
     }
     for (int i = 0; i < temp_lst.size(); i++)
     {
