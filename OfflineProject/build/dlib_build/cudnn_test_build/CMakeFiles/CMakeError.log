@@ -1,25 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b04db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b04db.dir/build.make CMakeFiles/cmTC_b04db.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b04db.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_b04db.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b04db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b04db.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_b04db.dir/CheckSymbolExists.c.o  -o cmTC_b04db 
-CMakeFiles/cmTC_b04db.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_1758e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1758e.dir/build.make CMakeFiles/cmTC_1758e.dir/build
+make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1758e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_1758e.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1758e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1758e.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_1758e.dir/CheckSymbolExists.c.o  -o cmTC_1758e 
+CMakeFiles/cmTC_1758e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b04db.dir/build.make:97: recipe for target 'cmTC_b04db' failed
-make[1]: *** [cmTC_b04db] Error 1
-make[1]: Leaving directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b04db/fast' failed
-make: *** [cmTC_b04db/fast] Error 2
+CMakeFiles/cmTC_1758e.dir/build.make:97: recipe for target 'cmTC_1758e' failed
+make[1]: *** [cmTC_1758e] Error 1
+make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1758e/fast' failed
+make: *** [cmTC_1758e/fast] Error 2
 
-File /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -35,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e402/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e402.dir/build.make CMakeFiles/cmTC_0e402.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e402.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0e402.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0e402
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e402.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0e402.dir/CheckFunctionExists.c.o  -o cmTC_0e402 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_bfa34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfa34.dir/build.make CMakeFiles/cmTC_bfa34.dir/build
+make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfa34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bfa34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bfa34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfa34.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bfa34.dir/CheckFunctionExists.c.o  -o cmTC_bfa34 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0e402.dir/build.make:97: recipe for target 'cmTC_0e402' failed
-make[1]: *** [cmTC_0e402] Error 1
-make[1]: Leaving directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0e402/fast' failed
-make: *** [cmTC_0e402/fast] Error 2
+CMakeFiles/cmTC_bfa34.dir/build.make:97: recipe for target 'cmTC_bfa34' failed
+make[1]: *** [cmTC_bfa34] Error 1
+make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bfa34/fast' failed
+make: *** [cmTC_bfa34/fast] Error 2
 
 

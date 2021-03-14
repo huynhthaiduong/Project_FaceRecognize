@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/../ncnn/src -isystem /usr/include/opencv4 -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/.. 
+CXX_INCLUDES = -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/../ncnn/src -isystem /usr/include/opencv4 -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/.. 
 

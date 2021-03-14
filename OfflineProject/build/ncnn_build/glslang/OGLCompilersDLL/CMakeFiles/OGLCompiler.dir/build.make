@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/progress.m
 include ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/flags.make
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o: ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/flags.make
-ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp
+ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp > CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp > CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.i
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.s
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o.requires:
 
@@ -91,9 +91,9 @@ OGLCompiler_EXTERNAL_OBJECTS =
 ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a: ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o
 ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a: ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/build.make
 ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a: ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libOGLCompiler.a"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -P CMakeFiles/OGLCompiler.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OGLCompiler.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libOGLCompiler.a"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -P CMakeFiles/OGLCompiler.dir/cmake_clean_target.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OGLCompiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/build: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
@@ -105,10 +105,10 @@ ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/requires: ncnn_bui
 .PHONY : ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/requires
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/clean:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -P CMakeFiles/OGLCompiler.dir/cmake_clean.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL && $(CMAKE_COMMAND) -P CMakeFiles/OGLCompiler.dir/cmake_clean.cmake
 .PHONY : ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/clean
 
 ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/OGLCompilersDLL /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/depend
 

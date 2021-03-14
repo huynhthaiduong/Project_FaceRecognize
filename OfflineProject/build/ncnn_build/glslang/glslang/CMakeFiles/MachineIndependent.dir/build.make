@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/progress.ma
 include ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/attribute.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/attribute.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Constant.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Constant.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o.requires:
 
@@ -130,17 +130,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o.requires:
 
@@ -154,17 +154,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o.requires:
 
@@ -178,17 +178,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o.requires:
 
@@ -202,17 +202,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o.requires:
 
@@ -226,17 +226,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o.requires:
 
@@ -250,17 +250,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o.requires:
 
@@ -274,17 +274,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o.requires:
 
@@ -298,17 +298,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o.requires:
 
@@ -322,17 +322,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o.requires:
 
@@ -346,17 +346,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Scan.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Scan.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o.requires:
 
@@ -370,17 +370,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o.requires:
 
@@ -394,17 +394,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o.requires:
 
@@ -418,17 +418,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Versions.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/Versions.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o.requires:
 
@@ -442,17 +442,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o.requires:
 
@@ -466,17 +466,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/limits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/limits.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/limits.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/limits.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o.requires:
 
@@ -490,17 +490,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o.requires:
 
@@ -514,17 +514,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o.requires:
 
@@ -538,17 +538,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/reflection.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/reflection.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o.requires:
 
@@ -562,17 +562,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o.requires:
 
@@ -586,17 +586,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o.requires:
 
@@ -610,17 +610,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o.requires:
 
@@ -634,17 +634,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o.requires:
 
@@ -658,17 +658,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o.requires:
 
@@ -682,17 +682,17 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/
 
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
+ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp > CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o.requires:
 
@@ -767,9 +767,9 @@ ncnn_build/glslang/glslang/libMachineIndependent.a: ncnn_build/glslang/glslang/C
 ncnn_build/glslang/glslang/libMachineIndependent.a: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o
 ncnn_build/glslang/glslang/libMachineIndependent.a: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make
 ncnn_build/glslang/glslang/libMachineIndependent.a: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libMachineIndependent.a"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/MachineIndependent.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MachineIndependent.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libMachineIndependent.a"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/MachineIndependent.dir/cmake_clean_target.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MachineIndependent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build: ncnn_build/glslang/glslang/libMachineIndependent.a
@@ -807,10 +807,10 @@ ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/requires: ncnn_buil
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/requires
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/clean:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/MachineIndependent.dir/cmake_clean.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/MachineIndependent.dir/cmake_clean.cmake
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/clean
 
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/depend
 

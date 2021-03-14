@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cuda
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cuda_test.dir/depend.make
@@ -59,22 +59,22 @@ include CMakeFiles/cuda_test.dir/flags.make
 
 CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o: CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o.depend
 CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o: CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o.cmake
-CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cuda/cuda_test.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir && /usr/bin/cmake -E make_directory /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//.
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.o -D generated_cubin_file:STRING=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.o.cubin.txt -P /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//cuda_test_generated_cuda_test.cu.o.cmake
+CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda/cuda_test.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir && /usr/bin/cmake -E make_directory /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//.
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.o -D generated_cubin_file:STRING=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.o.cubin.txt -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//cuda_test_generated_cuda_test.cu.o.cmake
 
 # Object files for target cuda_test
 cuda_test_OBJECTS =
 
 # External object files for target cuda_test
 cuda_test_EXTERNAL_OBJECTS = \
-"/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o"
+"/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o"
 
 libcuda_test.a: CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o
 libcuda_test.a: CMakeFiles/cuda_test.dir/build.make
 libcuda_test.a: CMakeFiles/cuda_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcuda_test.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcuda_test.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cuda_test.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cuda_test.dir/link.txt --verbose=$(VERBOSE)
 
@@ -92,6 +92,6 @@ CMakeFiles/cuda_test.dir/clean:
 .PHONY : CMakeFiles/cuda_test.dir/clean
 
 CMakeFiles/cuda_test.dir/depend: CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.o
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cuda /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cuda /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir/DependInfo.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir/DependInfo.cmake
 .PHONY : CMakeFiles/cuda_test.dir/depend
 

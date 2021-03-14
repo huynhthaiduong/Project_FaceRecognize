@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/./../glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/./../glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/./../glslang/Public/ShaderLang.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/./../glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/./../glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/./../glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/./../glslang/MachineIndependent/Versions.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/./../glslang/MachineIndependent/Versions.h
 cstring
 -
 vector
@@ -24,7 +24,7 @@ string
 utility
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/DirStackFileIncluder.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/DirStackFileIncluder.h
 vector
 -
 string
@@ -34,15 +34,15 @@ fstream
 algorithm
 -
 ./../glslang/Public/ShaderLang.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/./../glslang/Public/ShaderLang.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/./../glslang/Public/ShaderLang.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../StandAlone/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../StandAlone/ResourceLimits.h
 string
 -
 ../glslang/Include/ResourceLimits.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/Common.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/Common.h
 algorithm
 -
 cassert
@@ -76,15 +76,15 @@ stdint.h
 stdlib.h
 -
 PoolAlloc.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/PoolAlloc.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/PoolAlloc.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/InfoSink.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/InfoSink.h
 ../Include/Common.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/Common.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/Common.h
 cmath
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/PoolAlloc.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring
@@ -92,33 +92,33 @@ cstring
 vector
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/ShHandle.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/ShHandle.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Public/ShaderLang.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Public/ShaderLang.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
 InfoSink.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/InfoSink.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/InfoSink.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/glslang_c_interface.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/glslang_c_interface.h
 stdbool.h
 -
 stdlib.h
 -
 glslang_c_shader_types.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/glslang_c_shader_types.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/glslang_c_shader_types.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/glslang_c_shader_types.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/glslang_c_shader_types.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Public/ShaderLang.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/../glslang/MachineIndependent/Versions.h
 cstring
 -
 vector
@@ -130,17 +130,17 @@ string
 utility
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
 glslang/Include/glslang_c_interface.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/glslang/Include/glslang_c_interface.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang/Include/glslang_c_interface.h
 StandAlone/DirStackFileIncluder.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/StandAlone/DirStackFileIncluder.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/StandAlone/DirStackFileIncluder.h
 StandAlone/ResourceLimits.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/StandAlone/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/StandAlone/ResourceLimits.h
 glslang/Include/ShHandle.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/glslang/Include/ShHandle.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang/Include/ShHandle.h
 glslang/Include/ResourceLimits.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/glslang/Include/ResourceLimits.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang/Include/ResourceLimits.h
 glslang/MachineIndependent/Versions.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/CInterface/glslang/MachineIndependent/Versions.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang/MachineIndependent/Versions.h
 

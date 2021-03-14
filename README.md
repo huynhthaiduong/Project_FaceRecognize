@@ -33,8 +33,7 @@ RUN WITH GPU \
 /============/ \
 Step 1 
 cmake -DCMAKE_BUILD_TYPE=Release -DNCNN_VULKAN=ON -DNCNN_SYSTEM_GLSLANG=ON \
--DNCNN_BUILD_EXAMPLES=ON -DDLIB_USE_CUDA=1 \
--DCMAKE_TOOLCHAIN_FILE=../toolchains/jetson.toolchain.cmake .. \
+-DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1 .. \
 Step 2 \
 make -j$(nproc) \
  \

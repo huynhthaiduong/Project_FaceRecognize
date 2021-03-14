@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib
+# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

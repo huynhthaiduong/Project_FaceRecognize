@@ -1,25 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37082/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37082.dir/build.make CMakeFiles/cmTC_37082.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_37082.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_37082.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_37082
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37082.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_37082.dir/CheckSymbolExists.c.o  -o cmTC_37082 
-CMakeFiles/cmTC_37082.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_29044/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29044.dir/build.make CMakeFiles/cmTC_29044.dir/build
+make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29044.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_29044.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29044
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29044.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_29044.dir/CheckSymbolExists.c.o  -o cmTC_29044 
+CMakeFiles/cmTC_29044.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_37082.dir/build.make:97: recipe for target 'cmTC_37082' failed
-make[1]: *** [cmTC_37082] Error 1
-make[1]: Leaving directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_37082/fast' failed
-make: *** [cmTC_37082/fast] Error 2
+CMakeFiles/cmTC_29044.dir/build.make:97: recipe for target 'cmTC_29044' failed
+make[1]: *** [cmTC_29044] Error 1
+make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29044/fast' failed
+make: *** [cmTC_29044/fast] Error 2
 
-File /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -35,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23edd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23edd.dir/build.make CMakeFiles/cmTC_23edd.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23edd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23edd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_23edd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23edd.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_23edd.dir/CheckFunctionExists.c.o  -o cmTC_23edd -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b205f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b205f.dir/build.make CMakeFiles/cmTC_b205f.dir/build
+make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b205f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b205f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b205f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b205f.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b205f.dir/CheckFunctionExists.c.o  -o cmTC_b205f -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_23edd.dir/build.make:97: recipe for target 'cmTC_23edd' failed
-make[1]: *** [cmTC_23edd] Error 1
-make[1]: Leaving directory '/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_23edd/fast' failed
-make: *** [cmTC_23edd/fast] Error 2
+CMakeFiles/cmTC_b205f.dir/build.make:97: recipe for target 'cmTC_b205f' failed
+make[1]: *** [cmTC_b205f] Error 1
+make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b205f/fast' failed
+make: *** [cmTC_b205f/fast] Error 2
 
 

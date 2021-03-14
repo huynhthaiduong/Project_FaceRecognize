@@ -103,10 +103,10 @@ int main()
 	std::cout << "Data couldn't be found. Please check list and dat folder" << std::endl;
     }
     /*v4l2-ctl -d /dev/video0 --list-formats-ext*/
-    /*const std::string gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640 height=480, framerate=20/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";*/
+    /*gst-device-monitor-1.0*/
+//    const std::string gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=800, height=600, framerate=20/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";
     const std::string gst_pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
     cv::VideoCapture cap(gst_pipeline, cv::CAP_GSTREAMER);
-    /*cv::VideoCapture cap(0);*/
     if (!cap.isOpened())
     {
         std::cout << "Failed to open camera." << std::endl;
@@ -129,16 +129,16 @@ int main()
             std::cout << "Capture read error" << std::endl;
             break;
         }
-//      cv::resize(img, img, cv::Size(800, 600));
+//        cv::resize(img, img, cv::Size(1080, 720));
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
         int fps_int = static_cast<int>(1000 / fps);
         cv::putText(img, to_string(fps_int) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
         cv::imshow("Detect", img);
-        if (cv::waitKey(1) >= 0)
+/*        if (cv::waitKey(1) >= 0)
         {
             cv::destroyAllWindows();
             break;
-        }
+        }*/
         m_StartTime = std::chrono::system_clock::now();
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
@@ -191,12 +191,18 @@ int main()
             cv::rectangle(img, cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2), temp_obj.Bound_style, 1);
             cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
             cv::imshow("Detect", img);
-            if (cv::waitKey(10) >= 0)
+/*          if (cv::waitKey(10) >= 0)
+	    {
+		cv::destroyAllWindows();
                 break;
+	    }*/
             faces.clear();
         }
-        if (cv::waitKey(1) >= 0)
-            break;
+	if (cv::waitKey(1) >= 0)
+	{
+	    cv::destroyAllWindows();
+	    break;
+	}
     }
     for (int i = 0; i < temp_lst.size(); i++)
     {

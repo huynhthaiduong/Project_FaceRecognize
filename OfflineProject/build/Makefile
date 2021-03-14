@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -573,6 +573,19 @@ ncnn2mem/fast:
 .PHONY : ncnn2mem/fast
 
 #=============================================================================
+# Target rules for targets named caffe2ncnn
+
+# Build rule for target.
+caffe2ncnn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 caffe2ncnn
+.PHONY : caffe2ncnn
+
+# fast build rule for target.
+caffe2ncnn/fast:
+	$(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build
+.PHONY : caffe2ncnn/fast
+
+#=============================================================================
 # Target rules for targets named mxnet2ncnn
 
 # Build rule for target.
@@ -584,6 +597,19 @@ mxnet2ncnn: cmake_check_build_system
 mxnet2ncnn/fast:
 	$(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
 .PHONY : mxnet2ncnn/fast
+
+#=============================================================================
+# Target rules for targets named onnx2ncnn
+
+# Build rule for target.
+onnx2ncnn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 onnx2ncnn
+.PHONY : onnx2ncnn
+
+# fast build rule for target.
+onnx2ncnn/fast:
+	$(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build
+.PHONY : onnx2ncnn/fast
 
 #=============================================================================
 # Target rules for targets named darknet2ncnn
@@ -779,7 +805,9 @@ help:
 	@echo "... ncnnoptimize"
 	@echo "... ncnnmerge"
 	@echo "... ncnn2mem"
+	@echo "... caffe2ncnn"
 	@echo "... mxnet2ncnn"
+	@echo "... onnx2ncnn"
 	@echo "... darknet2ncnn"
 	@echo "... ncnn2int8"
 	@echo "... ncnn2table"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark
+# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

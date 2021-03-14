@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/tools/darknet/darknet2ncnn.cpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/darknet/darknet2ncnn.cpp
 algorithm
 -
 assert.h

@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cudnn/CMakeLists.txt"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cudnn/find_cudnn.txt"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/use_cpp_11.cmake"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
-  "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn/CMakeLists.txt"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn/find_cudnn.txt"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/use_cpp_11.cmake"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.10.2/CMakeSystem.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"

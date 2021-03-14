@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/benchmark/CMakeFiles/progress.marks
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles 0
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/benchmark/CMakeFiles/progress.marks
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/clean
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/preinstall
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/preinstall
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
 .PHONY : ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ benchncnn: ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
 
 # fast build rule for target.
 benchncnn/fast:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build
 .PHONY : benchncnn/fast
 
 benchncnn.o: benchncnn.cpp.o
@@ -177,7 +177,7 @@ benchncnn.o: benchncnn.cpp.o
 
 # target to build an object file
 benchncnn.cpp.o:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o
 .PHONY : benchncnn.cpp.o
 
 benchncnn.i: benchncnn.cpp.i
@@ -186,7 +186,7 @@ benchncnn.i: benchncnn.cpp.i
 
 # target to preprocess a source file
 benchncnn.cpp.i:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.i
 .PHONY : benchncnn.cpp.i
 
 benchncnn.s: benchncnn.cpp.s
@@ -195,7 +195,7 @@ benchncnn.s: benchncnn.cpp.s
 
 # target to generate assembly for a file
 benchncnn.cpp.s:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.s
 .PHONY : benchncnn.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

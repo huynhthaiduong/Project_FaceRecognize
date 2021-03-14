@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/benchncnn.cpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/benchncnn.cpp
 float.h
 -
 stdio.h
@@ -22,21 +22,21 @@ unistd.h
 emscripten.h
 -
 benchmark.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/benchmark.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/benchmark.h
 cpu.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/cpu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/cpu.h
 datareader.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/datareader.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/datareader.h
 net.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/net.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/net.h
 gpu.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/benchmark/gpu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/benchmark/gpu.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/allocator.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.h
 windows.h
 -
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 stdlib.h
 -
 vulkan/vulkan.h
@@ -44,75 +44,75 @@ vulkan/vulkan.h
 android/hardware_buffer.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/benchmark.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/benchmark.h
 layer.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/layer.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/blob.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/command.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 vulkan/vulkan.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/cpu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/cpu.h
 stddef.h
 -
 sched.h
 -
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/datareader.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/datareader.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 stdio.h
 -
 android/asset_manager.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/gpu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 vulkan/vulkan.h
 -
 vulkan_header_fix.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/vulkan_header_fix.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/layer.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 modelbin.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/modelbin.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.h
 option.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/option.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
 paramdict.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/paramdict.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 math.h
 -
 command.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/command.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.h
 pipeline.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/pipeline.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.h
 vulkan/vulkan.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 stdlib.h
 -
 string.h
@@ -122,11 +122,11 @@ arm_neon.h
 immintrin.h
 -
 allocator.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/allocator.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.h
 option.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/option.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 vulkan/vulkan.h
 -
 android/bitmap.h
@@ -134,43 +134,43 @@ android/bitmap.h
 jni.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/modelbin.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/net.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/net.h
 blob.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/blob.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.h
 layer.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/layer.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 option.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/option.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 android/asset_manager.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/option.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/paramdict.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/pipeline.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.h
 mat.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/mat.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
 platform.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/platform.h
 gpu.h
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/gpu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.h
 vulkan/vulkan.h
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/simplestl.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.h
 stddef.h
 -
 stdint.h
@@ -180,7 +180,7 @@ string.h
 new
 -
 
-/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/vulkan_header_fix.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
 vulkan/vulkan.h
 -
 

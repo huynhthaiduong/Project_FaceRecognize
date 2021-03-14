@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/train_model_v2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/train_model_v2.dir/flags.make
 
 CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o: CMakeFiles/train_model_v2.dir/flags.make
 CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o: ../src/train_model2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/train_model2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/train_model2.cpp
 
 CMakeFiles/train_model_v2.dir/src/train_model2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/train_model_v2.dir/src/train_model2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/train_model2.cpp > CMakeFiles/train_model_v2.dir/src/train_model2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/train_model2.cpp > CMakeFiles/train_model_v2.dir/src/train_model2.cpp.i
 
 CMakeFiles/train_model_v2.dir/src/train_model2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/train_model_v2.dir/src/train_model2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/train_model2.cpp -o CMakeFiles/train_model_v2.dir/src/train_model2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/train_model2.cpp -o CMakeFiles/train_model_v2.dir/src/train_model2.cpp.s
 
 CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/train_model_v2.dir/src/student.cpp.o: CMakeFiles/train_model_v2.dir/flags.make
 CMakeFiles/train_model_v2.dir/src/student.cpp.o: ../src/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/train_model_v2.dir/src/student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/train_model_v2.dir/src/student.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/train_model_v2.dir/src/student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/train_model_v2.dir/src/student.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
 
 CMakeFiles/train_model_v2.dir/src/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/train_model_v2.dir/src/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp > CMakeFiles/train_model_v2.dir/src/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/train_model_v2.dir/src/student.cpp.i
 
 CMakeFiles/train_model_v2.dir/src/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/train_model_v2.dir/src/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp -o CMakeFiles/train_model_v2.dir/src/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/train_model_v2.dir/src/student.cpp.s
 
 CMakeFiles/train_model_v2.dir/src/student.cpp.o.requires:
 
@@ -138,6 +138,9 @@ train_model_v2: /usr/lib/aarch64-linux-gnu/libSM.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libICE.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libX11.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libXext.so
+train_model_v2: /usr/lib/aarch64-linux-gnu/libpng.so
+train_model_v2: /usr/lib/aarch64-linux-gnu/libz.so
+train_model_v2: /usr/lib/aarch64-linux-gnu/libjpeg.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libopenblas.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libcublas.so
 train_model_v2: /usr/lib/aarch64-linux-gnu/libcudnn.so
@@ -145,7 +148,7 @@ train_model_v2: /usr/local/cuda/lib64/libcurand.so
 train_model_v2: /usr/local/cuda/lib64/libcusolver.so
 train_model_v2: /usr/local/cuda/lib64/libcudart.so
 train_model_v2: CMakeFiles/train_model_v2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable train_model_v2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable train_model_v2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/train_model_v2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +166,6 @@ CMakeFiles/train_model_v2.dir/clean:
 .PHONY : CMakeFiles/train_model_v2.dir/clean
 
 CMakeFiles/train_model_v2.dir/depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/train_model_v2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/train_model_v2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/train_model_v2.dir/depend
 

@@ -6,7 +6,7 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -DNCNN_STATIC_DEFINE -Wall -Wextra -Wno-unused-
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/layer/arm -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/src -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/layer -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src/.. -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/glslang/.. -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/include -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/.. 
+CXX_INCLUDES = -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/.. -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/.. -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/include -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/.. 
 
 # Custom flags: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o_FLAGS = -march=armv8.2-a+fp16
 

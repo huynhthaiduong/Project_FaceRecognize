@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/detect.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/detect.dir/flags.make
 
 CMakeFiles/detect.dir/src/detect.cpp.o: CMakeFiles/detect.dir/flags.make
 CMakeFiles/detect.dir/src/detect.cpp.o: ../src/detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detect.dir/src/detect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/detect.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/detect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detect.dir/src/detect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/detect.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/detect.cpp
 
 CMakeFiles/detect.dir/src/detect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/detect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/detect.cpp > CMakeFiles/detect.dir/src/detect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/detect.cpp > CMakeFiles/detect.dir/src/detect.cpp.i
 
 CMakeFiles/detect.dir/src/detect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/detect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/detect.cpp -o CMakeFiles/detect.dir/src/detect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/detect.cpp -o CMakeFiles/detect.dir/src/detect.cpp.s
 
 CMakeFiles/detect.dir/src/detect.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/detect.dir/src/detect.cpp.o.provides.build: CMakeFiles/detect.dir/src
 
 CMakeFiles/detect.dir/src/UltraFace.cpp.o: CMakeFiles/detect.dir/flags.make
 CMakeFiles/detect.dir/src/UltraFace.cpp.o: ../src/UltraFace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/src/UltraFace.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/UltraFace.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/UltraFace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/src/UltraFace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/UltraFace.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp
 
 CMakeFiles/detect.dir/src/UltraFace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/UltraFace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/UltraFace.cpp > CMakeFiles/detect.dir/src/UltraFace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp > CMakeFiles/detect.dir/src/UltraFace.cpp.i
 
 CMakeFiles/detect.dir/src/UltraFace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/UltraFace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/UltraFace.cpp -o CMakeFiles/detect.dir/src/UltraFace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp -o CMakeFiles/detect.dir/src/UltraFace.cpp.s
 
 CMakeFiles/detect.dir/src/UltraFace.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/detect.dir/src/UltraFace.cpp.o.provides.build: CMakeFiles/detect.dir/
 
 CMakeFiles/detect.dir/src/student.cpp.o: CMakeFiles/detect.dir/flags.make
 CMakeFiles/detect.dir/src/student.cpp.o: ../src/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/detect.dir/src/student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/student.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/detect.dir/src/student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/student.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
 
 CMakeFiles/detect.dir/src/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp > CMakeFiles/detect.dir/src/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/detect.dir/src/student.cpp.i
 
 CMakeFiles/detect.dir/src/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/src/student.cpp -o CMakeFiles/detect.dir/src/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/detect.dir/src/student.cpp.s
 
 CMakeFiles/detect.dir/src/student.cpp.o.requires:
 
@@ -165,6 +165,9 @@ detect: /usr/lib/aarch64-linux-gnu/libSM.so
 detect: /usr/lib/aarch64-linux-gnu/libICE.so
 detect: /usr/lib/aarch64-linux-gnu/libX11.so
 detect: /usr/lib/aarch64-linux-gnu/libXext.so
+detect: /usr/lib/aarch64-linux-gnu/libpng.so
+detect: /usr/lib/aarch64-linux-gnu/libz.so
+detect: /usr/lib/aarch64-linux-gnu/libjpeg.so
 detect: /usr/lib/aarch64-linux-gnu/libopenblas.so
 detect: /usr/lib/aarch64-linux-gnu/libcublas.so
 detect: /usr/lib/aarch64-linux-gnu/libcudnn.so
@@ -181,7 +184,7 @@ detect: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 detect: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 detect: ncnn_build/glslang/glslang/libGenericCodeGen.a
 detect: CMakeFiles/detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable detect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -200,6 +203,6 @@ CMakeFiles/detect.dir/clean:
 .PHONY : CMakeFiles/detect.dir/clean
 
 CMakeFiles/detect.dir/depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles/detect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/detect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/detect.dir/depend
 

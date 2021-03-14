@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/Dlib/dlib/cmake_utils/test_for_cuda
+# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/dlib_build/cuda_test_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,40 +67,6 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -124,16 +90,50 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/tools/caffe/CMakeFiles/progress.marks
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles 0
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/CMakeFiles/progress.marks
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/clean
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,18 +143,87 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/preinstall
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/preinstall
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule
+.PHONY : ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule
+
+# Convenience name for target.
+caffe2ncnn: ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule
+
+.PHONY : caffe2ncnn
+
+# fast build rule for target.
+caffe2ncnn/fast:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build
+.PHONY : caffe2ncnn/fast
+
+caffe.pb.o: caffe.pb.cc.o
+
+.PHONY : caffe.pb.o
+
+# target to build an object file
+caffe.pb.cc.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.o
+.PHONY : caffe.pb.cc.o
+
+caffe.pb.i: caffe.pb.cc.i
+
+.PHONY : caffe.pb.i
+
+# target to preprocess a source file
+caffe.pb.cc.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.i
+.PHONY : caffe.pb.cc.i
+
+caffe.pb.s: caffe.pb.cc.s
+
+.PHONY : caffe.pb.s
+
+# target to generate assembly for a file
+caffe.pb.cc.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.s
+.PHONY : caffe.pb.cc.s
+
+caffe2ncnn.o: caffe2ncnn.cpp.o
+
+.PHONY : caffe2ncnn.o
+
+# target to build an object file
+caffe2ncnn.cpp.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.o
+.PHONY : caffe2ncnn.cpp.o
+
+caffe2ncnn.i: caffe2ncnn.cpp.i
+
+.PHONY : caffe2ncnn.i
+
+# target to preprocess a source file
+caffe2ncnn.cpp.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.i
+.PHONY : caffe2ncnn.cpp.i
+
+caffe2ncnn.s: caffe2ncnn.cpp.s
+
+.PHONY : caffe2ncnn.s
+
+# target to generate assembly for a file
+caffe2ncnn.cpp.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.s
+.PHONY : caffe2ncnn.cpp.s
 
 # Help Target
 help:
@@ -163,11 +232,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... caffe2ncnn"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... caffe.pb.o"
+	@echo "... caffe.pb.i"
+	@echo "... caffe.pb.s"
+	@echo "... caffe2ncnn.o"
+	@echo "... caffe2ncnn.i"
+	@echo "... caffe2ncnn.s"
 .PHONY : help
 
 
@@ -179,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

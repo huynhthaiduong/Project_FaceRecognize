@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV
+# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/SPIRV/libSPIRV.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/libSPIRV.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets.cmake"
-         "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
+         "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,32 +54,32 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/SPIRV" TYPE FILE FILES
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/bitutils.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/spirv.hpp"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GLSL.std.450.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GLSL.ext.EXT.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GLSL.ext.KHR.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GlslangToSpv.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/hex_float.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/Logger.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/SpvBuilder.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/spvIR.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/doc.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/SpvTools.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/disassemble.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GLSL.ext.AMD.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/GLSL.ext.NV.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/SPVRemapper.h"
-    "/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/glslang/SPIRV/doc.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/bitutils.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/hex_float.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SPVRemapper.h"
+    "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h"
     )
 endif()
 

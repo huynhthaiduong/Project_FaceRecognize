@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/tools/caffe
+# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/caffe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

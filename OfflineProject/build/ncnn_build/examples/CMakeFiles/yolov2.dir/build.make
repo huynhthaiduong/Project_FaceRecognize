@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject
+CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build
+CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/examples/CMakeFiles/yolov2.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/examples/CMakeFiles/yolov2.dir/progress.make
 include ncnn_build/examples/CMakeFiles/yolov2.dir/flags.make
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o: ncnn_build/examples/CMakeFiles/yolov2.dir/flags.make
-ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o: /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/examples/yolov2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yolov2.dir/yolov2.cpp.o -c /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/examples/yolov2.cpp
+ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/yolov2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yolov2.dir/yolov2.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/yolov2.cpp
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yolov2.dir/yolov2.cpp.i"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/examples/yolov2.cpp > CMakeFiles/yolov2.dir/yolov2.cpp.i
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/yolov2.cpp > CMakeFiles/yolov2.dir/yolov2.cpp.i
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yolov2.dir/yolov2.cpp.s"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/examples/yolov2.cpp -o CMakeFiles/yolov2.dir/yolov2.cpp.s
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/yolov2.cpp -o CMakeFiles/yolov2.dir/yolov2.cpp.s
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o.requires:
 
@@ -106,8 +106,8 @@ ncnn_build/examples/yolov2: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.
 ncnn_build/examples/yolov2: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.1.1
 ncnn_build/examples/yolov2: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.1.1
 ncnn_build/examples/yolov2: ncnn_build/examples/CMakeFiles/yolov2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolov2"
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolov2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolov2"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolov2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/examples/CMakeFiles/yolov2.dir/build: ncnn_build/examples/yolov2
@@ -119,10 +119,10 @@ ncnn_build/examples/CMakeFiles/yolov2.dir/requires: ncnn_build/examples/CMakeFil
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/requires
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/clean:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/yolov2.dir/cmake_clean.cmake
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/yolov2.dir/cmake_clean.cmake
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/clean
 
 ncnn_build/examples/CMakeFiles/yolov2.dir/depend:
-	cd /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/examples /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples /home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/examples/CMakeFiles/yolov2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/yolov2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wmaybe-uninitialized -Wuninitialized -Wu
 
 CXX_DEFINES = -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX
 
-CXX_INCLUDES = -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/include 
+CXX_INCLUDES = -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/include 
 

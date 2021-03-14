@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIE   -fopenmp -pthread -std=gnu++11
 
 CXX_DEFINES = -DOpenCV_VERSION_MAJOR=4
 
-CXX_INCLUDES = -isystem /usr/include/opencv4 -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/ncnn/src -I/home/kyo/Desktop/Project_FaceRecognize-master1/Project_FaceRecognize-master/OfflineProject/build/ncnn_build/src 
+CXX_INCLUDES = -isystem /usr/include/opencv4 -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src 
 
