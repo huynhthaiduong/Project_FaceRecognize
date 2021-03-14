@@ -59,6 +59,7 @@ struct Match_object
 {
     std::string Name_detected;
     double Avg_value;
+    double m_checkAvgValue_d;
     cv::Scalar Bound_style;
     int check_index;
 };
@@ -173,9 +174,11 @@ int main()
 	/************************************************/
 //		ncnn::create_gpu_instance();
 	/************************************************/
-                if ((length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features)) < temp_obj.Avg_value)
+                temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
+                if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
                 {
-                    temp_obj.Avg_value = length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features);
+                    //temp_obj.Avg_value = length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features);
+                    temp_obj.Avg_value = temp_obj.m_checkAvgValue_d;
                     temp_obj.Name_detected = temp_lst[j].student_name;
                     temp_obj.Bound_style = cv::Scalar(0, 255, 0);
                     temp_obj.check_index = j;
