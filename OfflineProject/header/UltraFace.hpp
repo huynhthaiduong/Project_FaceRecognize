@@ -17,6 +17,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "student.hpp"
 
 #define num_featuremap 4
 #define hard_nms 1
@@ -40,6 +41,9 @@ public:
     ~UltraFace();
 
     int detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list);
+ 
+    // subtract 2 vector 
+    double SubVector(dlib::matrix<float, 0, 1> face_descriptors, dlib::matrix<float, 0, 1> student_features);
 
 private:
     void generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors);

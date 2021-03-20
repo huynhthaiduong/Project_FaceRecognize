@@ -784,7 +784,6 @@ CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecog
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/xml_parser/xml_parser_kernel_abstract.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/xml_parser/xml_parser_kernel_interfaces.h
 CMakeFiles/detect.dir/src/detect.cpp.o: ../header/UltraFace.hpp
-CMakeFiles/detect.dir/src/detect.cpp.o: ../header/student.hpp
 CMakeFiles/detect.dir/src/detect.cpp.o: ../src/detect.cpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/core.hpp

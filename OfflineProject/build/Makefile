@@ -80,6 +80,18 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -111,18 +123,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -170,17 +170,17 @@ detect/fast:
 .PHONY : detect/fast
 
 #=============================================================================
-# Target rules for targets named train_model_v2
+# Target rules for targets named Traing
 
 # Build rule for target.
-train_model_v2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 train_model_v2
-.PHONY : train_model_v2
+Traing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Traing
+.PHONY : Traing
 
 # fast build rule for target.
-train_model_v2/fast:
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/build
-.PHONY : train_model_v2/fast
+Traing/fast:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/build
+.PHONY : Traing/fast
 
 #=============================================================================
 # Target rules for targets named dlib
@@ -650,6 +650,60 @@ ncnn2table/fast:
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build
 .PHONY : ncnn2table/fast
 
+src/TrainModel.o: src/TrainModel.cpp.o
+
+.PHONY : src/TrainModel.o
+
+# target to build an object file
+src/TrainModel.cpp.o:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/TrainModel.cpp.o
+.PHONY : src/TrainModel.cpp.o
+
+src/TrainModel.i: src/TrainModel.cpp.i
+
+.PHONY : src/TrainModel.i
+
+# target to preprocess a source file
+src/TrainModel.cpp.i:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/TrainModel.cpp.i
+.PHONY : src/TrainModel.cpp.i
+
+src/TrainModel.s: src/TrainModel.cpp.s
+
+.PHONY : src/TrainModel.s
+
+# target to generate assembly for a file
+src/TrainModel.cpp.s:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/TrainModel.cpp.s
+.PHONY : src/TrainModel.cpp.s
+
+src/Traing.o: src/Traing.cpp.o
+
+.PHONY : src/Traing.o
+
+# target to build an object file
+src/Traing.cpp.o:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/Traing.cpp.o
+.PHONY : src/Traing.cpp.o
+
+src/Traing.i: src/Traing.cpp.i
+
+.PHONY : src/Traing.i
+
+# target to preprocess a source file
+src/Traing.cpp.i:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/Traing.cpp.i
+.PHONY : src/Traing.cpp.i
+
+src/Traing.s: src/Traing.cpp.s
+
+.PHONY : src/Traing.s
+
+# target to generate assembly for a file
+src/Traing.cpp.s:
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/Traing.cpp.s
+.PHONY : src/Traing.cpp.s
+
 src/UltraFace.o: src/UltraFace.cpp.o
 
 .PHONY : src/UltraFace.o
@@ -711,7 +765,7 @@ src/student.o: src/student.cpp.o
 # target to build an object file
 src/student.cpp.o:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/student.cpp.o
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/student.cpp.o
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/student.cpp.o
 .PHONY : src/student.cpp.o
 
 src/student.i: src/student.cpp.i
@@ -721,7 +775,7 @@ src/student.i: src/student.cpp.i
 # target to preprocess a source file
 src/student.cpp.i:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/student.cpp.i
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/student.cpp.i
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/student.cpp.i
 .PHONY : src/student.cpp.i
 
 src/student.s: src/student.cpp.s
@@ -731,35 +785,8 @@ src/student.s: src/student.cpp.s
 # target to generate assembly for a file
 src/student.cpp.s:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/student.cpp.s
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/student.cpp.s
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/student.cpp.s
 .PHONY : src/student.cpp.s
-
-src/train_model2.o: src/train_model2.cpp.o
-
-.PHONY : src/train_model2.o
-
-# target to build an object file
-src/train_model2.cpp.o:
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/train_model2.cpp.o
-.PHONY : src/train_model2.cpp.o
-
-src/train_model2.i: src/train_model2.cpp.i
-
-.PHONY : src/train_model2.i
-
-# target to preprocess a source file
-src/train_model2.cpp.i:
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/train_model2.cpp.i
-.PHONY : src/train_model2.cpp.i
-
-src/train_model2.s: src/train_model2.cpp.s
-
-.PHONY : src/train_model2.s
-
-# target to generate assembly for a file
-src/train_model2.cpp.s:
-	$(MAKE) -f CMakeFiles/train_model_v2.dir/build.make CMakeFiles/train_model_v2.dir/src/train_model2.cpp.s
-.PHONY : src/train_model2.cpp.s
 
 # Help Target
 help:
@@ -770,11 +797,11 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... detect"
-	@echo "... train_model_v2"
+	@echo "... install"
+	@echo "... Traing"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
-	@echo "... install"
 	@echo "... dlib"
 	@echo "... MachineIndependent"
 	@echo "... GenericCodeGen"
@@ -811,6 +838,12 @@ help:
 	@echo "... darknet2ncnn"
 	@echo "... ncnn2int8"
 	@echo "... ncnn2table"
+	@echo "... src/TrainModel.o"
+	@echo "... src/TrainModel.i"
+	@echo "... src/TrainModel.s"
+	@echo "... src/Traing.o"
+	@echo "... src/Traing.i"
+	@echo "... src/Traing.s"
 	@echo "... src/UltraFace.o"
 	@echo "... src/UltraFace.i"
 	@echo "... src/UltraFace.s"
@@ -820,9 +853,6 @@ help:
 	@echo "... src/student.o"
 	@echo "... src/student.i"
 	@echo "... src/student.s"
-	@echo "... src/train_model2.o"
-	@echo "... src/train_model2.i"
-	@echo "... src/train_model2.s"
 .PHONY : help
 
 

@@ -8515,8 +8515,6 @@ fstream
 -
 experimental/filesystem
 -
-../header/student.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/student.hpp
 ../header/UltraFace.hpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
 math.h

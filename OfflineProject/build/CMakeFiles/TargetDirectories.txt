@@ -1,11 +1,11 @@
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/install/strip.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/install/local.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/detect.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/train_model_v2.dir
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/install.dir
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/Traing.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/edit_cache.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/rebuild_cache.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/list_install_components.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/install.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/install/strip.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/edit_cache.dir
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir
