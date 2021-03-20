@@ -13,6 +13,7 @@
 #include <string>
 #include <fstream>
 #include <experimental/filesystem>
+#include "../header/student.hpp"
 #include "../header/UltraFace.hpp"
 #include <math.h>
 
@@ -117,7 +118,7 @@ int main()
     anet_type net;
     deserialize("../Model/dlib_face_recognition_resnet_model_v1.dat") >> net;
     student temp_std;
-    UltraFace ultraface("../Model/RFB-320.bin", "../Model/RFB-320.param", 426, 240, 128, 0.82);
+    UltraFace ultraface("../Model/RFB-320.bin", "../Model/RFB-320.param", 426, 240, 4, 0.82);
     std::vector<matrix<rgb_pixel>> faces;
     cv::Mat img;
     cv::namedWindow("Detect", cv::WINDOW_AUTOSIZE);
@@ -132,11 +133,7 @@ int main()
             std::cout << "Capture read error" << std::endl;
             break;
         }
-  
-        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
-	m_StartTime = std::chrono::system_clock::now();
-	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
-
+        m_StartTime = std::chrono::system_clock::now();
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
 /************************************************/
@@ -165,8 +162,7 @@ int main()
             temp_obj.check_index = -1;
             for (int j = 0; j < temp_lst.size(); j++)
             {
-                //temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
-		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], temp_lst[j].student_features);
+                temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
                 if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
                 {
                     //temp_obj.Avg_value = length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features);
@@ -180,6 +176,7 @@ int main()
             {
                 temp_lst[temp_obj.check_index].checked = 1;
             }
+            m_EndTime = std::chrono::system_clock::now();
             cv::rectangle(img, cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2), temp_obj.Bound_style, 1);
             cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
             faces.clear();
@@ -189,6 +186,9 @@ int main()
 	    cv::destroyAllWindows();
 	    break;
 	}
+        m_EndTime = std::chrono::system_clock::now();
+        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(m_EndTime - m_StartTime).count();
+	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
 	cv::imshow("Detect", img);
     }
     for (int i = 0; i < temp_lst.size(); i++)

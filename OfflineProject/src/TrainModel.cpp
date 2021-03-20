@@ -1,17 +1,13 @@
-//
-//  UltraFace.cpp
-//  UltraFaceTest
-//
-//  Created by vealocia on 2019/10/17.
-//  Copyright © 2019 vealocia. All rights reserved.
-//
+/************************************************/
+/*Created by KYO on 2021/03/20.		        */
+/************************************************/
 
 #define clip(x, y) (x < 0 ? 0 : (x > y ? y : x))
 
-#include "../header/UltraFace.hpp"
+#include "../header/TrainModel.hpp"
 #include "mat.h"
 
-UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
+TrainModel::TrainModel(const std::string &bin_path, const std::string &param_path,
                      int input_width, int input_length, int num_thread_,
                      float score_threshold_, float iou_threshold_, int topk_) {
     num_thread = num_thread_;
@@ -55,24 +51,24 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
     /* generate prior anchors finished */
     ncnn::create_gpu_instance();
     /* --> Set the params you need for the ncnn inference <-- */
-    ultraface.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
-    ultraface.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
-    ultraface.opt.use_winograd_convolution = true;
-    ultraface.opt.use_sgemm_convolution = true;
-    ultraface.opt.use_fp16_packed = true;
-    ultraface.opt.use_fp16_storage = true;
-    ultraface.opt.use_fp16_arithmetic = true;
-    ultraface.opt.use_packing_layout = true;
-    ultraface.opt.use_shader_pack8 = false;
-    ultraface.opt.use_image_storage = false;
+    trainmodel.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
+    trainmodel.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
+    trainmodel.opt.use_winograd_convolution = true;
+    trainmodel.opt.use_sgemm_convolution = true;
+    trainmodel.opt.use_fp16_packed = true;
+    trainmodel.opt.use_fp16_storage = true;
+    trainmodel.opt.use_fp16_arithmetic = true;
+    trainmodel.opt.use_packing_layout = true;
+    trainmodel.opt.use_shader_pack8 = false;
+    trainmodel.opt.use_image_storage = false;
     /* --> End of setting params <-- */
-    ultraface.load_param(param_path.data());
-    ultraface.load_model(bin_path.data());
+    trainmodel.load_param(param_path.data());
+    trainmodel.load_model(bin_path.data());
 }
 
-UltraFace::~UltraFace() {ncnn::destroy_gpu_instance(); ultraface.clear(); }
+TrainModel::~TrainModel() {ncnn::destroy_gpu_instance(); trainmodel.clear(); }
 
-int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
+int TrainModel::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     if (img.empty()) {
         std::cout << "image is empty ,please check!" << std::endl;
         return -1;
@@ -89,7 +85,7 @@ int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     std::vector<FaceInfo> bbox_collection;
     std::vector<FaceInfo> valid_input;
 
-    ncnn::Extractor ex = ultraface.create_extractor();
+    ncnn::Extractor ex = trainmodel.create_extractor();
     ex.set_num_threads(num_thread);
     ex.input("input", ncnn_img);
 
@@ -102,7 +98,7 @@ int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     return 0;
 }
 
-void UltraFace::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors) {
+void TrainModel::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors) {
     for (int i = 0; i < num_anchors; i++) {
         if (scores.channel(0)[i * 2 + 1] > score_threshold) {
             FaceInfo rects;
@@ -121,7 +117,7 @@ void UltraFace::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat s
     }
 }
 
-void UltraFace::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output, int type) {
+void TrainModel::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output, int type) {
     std::sort(input.begin(), input.end(), [](const FaceInfo &a, const FaceInfo &b) { return a.score > b.score; });
 
     int box_num = input.size();
@@ -202,10 +198,4 @@ void UltraFace::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output,
             }
         }
     }
-}
-
-double UltraFace::SubVector(dlib::matrix<float, 0, 1> face_descriptors, dlib::matrix<float, 0, 1> student_features)
-{
-    double m_checkAvgValue_d = (length(face_descriptors - student_features) * length(face_descriptors - student_features));
-    return m_checkAvgValue_d;
 }

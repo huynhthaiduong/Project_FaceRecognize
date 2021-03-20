@@ -55,7 +55,7 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
     /* generate prior anchors finished */
     ncnn::create_gpu_instance();
     /* --> Set the params you need for the ncnn inference <-- */
-    ultraface.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
+    ultraface.opt.num_threads = 4;//You need to compile with libgomp for multi thread support
     ultraface.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
     ultraface.opt.use_winograd_convolution = true;
     ultraface.opt.use_sgemm_convolution = true;
@@ -202,10 +202,4 @@ void UltraFace::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output,
             }
         }
     }
-}
-
-double UltraFace::SubVector(dlib::matrix<float, 0, 1> face_descriptors, dlib::matrix<float, 0, 1> student_features)
-{
-    double m_checkAvgValue_d = (length(face_descriptors - student_features) * length(face_descriptors - student_features));
-    return m_checkAvgValue_d;
 }

@@ -43,4 +43,19 @@ SHOW ALL DEVICE INFORMATION \
 gst-device-monitor-1.0 \
 "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, \
 framerate=30/1 ! jpegdec ! videoconvert ! appsink" \
+
+kyo@kyo:~$ export PATH=${PATH}:/usr/local/cuda/bin
+kyo@kyo:~$ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
+kyo@kyo:~$ sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda
+[sudo] password for kyo: 
+kyo@kyo:~$ 
+kyo@kyo:~$ sudo ln -s /usr/local/cuda-10.2.89/usr/local/cuda
+kyo@kyo:~$ export CPATH=/usr/local/cuda-10.2.89/targets/x86_64-linux/include:$CPATH
+kyo@kyo:~$ export LD_LIBRARY_PATH=/usr/local/cuda-10.2.89/targets/x86_64-linux/lib:$LD_LIBRARY_PATH
+kyo@kyo:~$ export PATH=/usr/local/cuda-10.2.89/bin:$PATH
+kyo@kyo:~$ CUDA_INC_PATH=/usr/local/cuda/include
+kyo@kyo:~$ CUDA_LIB_PATH=/usr/local/cuda/lib
+kyo@kyo:~$ env | grep CUDA
+
+cmake -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc
 # Project_FaceRecognize \
