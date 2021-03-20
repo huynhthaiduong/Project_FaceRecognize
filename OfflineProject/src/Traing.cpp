@@ -216,67 +216,7 @@ int main()
 	    break;
 	}
 	cv::imshow("Detect", img);
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//	m_StartTime = std::chrono::system_clock::now();
-//	cv::resize(img,img,cv::Size(800,600));
-//	cv::circle(img, cv::Point(400, 300), 160, cv::Scalar(0, 255, 0), 5);
-//	cv::putText(img,to_string(cout_percent) + "%", cv::Point(375, 135), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, cout_color, 0), 2);
-//        cv_image<bgr_pixel> cimg(img);
-//        matrix<rgb_pixel> matrix;
-//        assign_image(matrix, cimg);
-//	dlib::vector<double, 2> a = {355,115};
-//	dlib::vector<double, 2> b = {395,115};
-//	dlib::vector<double, 2> c = {355,155};
-//	dlib::vector<double, 2> d = {355,155};
-//	dlib::array<dlib::vector<double, 2>> pts;
-//	pts.set_size(4);
-//	pts.push_back(a);
-//	pts.push_back(b);
-//	pts.push_back(c);
-//	pts.push_back(d);
-//	extract_image_4points<rgb_pixel>(matrix,matrix,pts);
-//        win.clear_overlay();
-//        win.set_image(matrix);
-//        faces.clear();
-//        for (auto face : detector(matrix))
-//        {
-            //auto shape = sp(matrix, face);
-            //dlib::matrix<rgb_pixel> face_chip;
-            //extract_image_chip(matrix, get_face_chip_details(shape,150,0.25), face_chip);
-            //faces.push_back(move(face_chip));
-            //win.add_overlay(face);
-            //m_EndTime = std::chrono::system_clock::now();
-//	    if (cv::waitKey(1) >= 0)
-//	    {
-//	        cv::destroyAllWindows();
-//	        break;
-//	    }
-//        }
-//        if (faces.size() == 0)
-//        {
-//            /*cout << "No faces found in image!" << endl;*/
-//	    cv::circle(img, cv::Point(400, 300), 160, cv::Scalar(0, 0, 255), 5);
-//	    cv::putText(img,to_string(cout_percent) + "%", cv::Point(380, 135), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 2);
-//            continue;
-//        }
-//        cout_img++;
-//	cout_color+=2;
-//	cout_percent++;
-//        cout << cout_img <<endl;
-//        if (cout_img == 100)
-//            break;
-//        array_face.push_back(faces[0]);
-//	if (cv::waitKey(1) >= 0)
-//	{
-//	    cv::destroyAllWindows();
-//	    break;
-//	}
-//        m_EndTime = std::chrono::system_clock::now();
-//        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(m_EndTime - m_StartTime).count();
-//	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
-//	cv::imshow("Detect", img);
     }
     cap.release();
     cv::destroyAllWindows() ;
