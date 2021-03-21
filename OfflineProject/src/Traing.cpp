@@ -29,8 +29,8 @@ int main()
     const std::string gst_pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";    
     cv::VideoCapture cap(gst_pipeline, cv::CAP_GSTREAMER);
     if(!cap.isOpened()) {
-	std::cout<<"Failed to open camera."<<std::endl;
-	return (-1);
+	    std::cout<<"Failed to open camera."<<std::endl;
+	    return (-1);
     }
     cv::Mat img;
     frontal_face_detector detector = get_frontal_face_detector();
@@ -55,21 +55,21 @@ int main()
 		break;
 	    }
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
-	m_StartTime = std::chrono::system_clock::now();
-	cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 255, 0), 5);
-	cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, cout_color, 0), 2);
-	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
+	    m_StartTime = std::chrono::system_clock::now();
+	    cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 255, 0), 5);
+	    cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, cout_color, 0), 2);
+	    cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
-	/************************************************/
-	/*		      DETECT		        */
-	/************************************************/
+        /************************************************/
+        /*		      DETECT		                    */
+        /************************************************/
         std::vector<TrainInfo> face_info;
         trainmodel.detect(inmat, face_info);
 
         cv_image<bgr_pixel> cimg(img);
         matrix<rgb_pixel> matrix;
-	win.clear_overlay();
+	    win.clear_overlay();
         assign_image(matrix, cimg);
         faces.clear();
         for (int i = 0; i < face_info.size(); i++)
@@ -80,29 +80,29 @@ int main()
             dlib::matrix<rgb_pixel> face_chip;
             extract_image_chip(matrix, get_face_chip_details(shape, 150, 0.25), face_chip);
             faces.push_back(move(face_chip));
-	    win.add_overlay(rect);
+	        win.add_overlay(rect);
         }
         if (faces.size() == 0)
         {
             /*cout << "No faces found in image!" << endl;*/
-	    cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 0, 255), 5);
-	    cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 2);
+	        cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 0, 255), 5);
+	        cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 2);
             continue;
         }
         cout_img++;
-	cout_color+=2;
-	//if ((cout_img % 2) ==0)
-	cout_percent++;
+	    cout_color+=2;
+	    //if ((cout_img % 2) ==0)
+	    cout_percent++;
         cout << cout_img <<endl;
         if (cout_img == 100)
             break;
         array_face.push_back(faces[0]);
-	if (cv::waitKey(1) >= 0)
-	{
-	    cv::destroyAllWindows();
-	    break;
-	}
-	cv::imshow("Detect", img);
+        if (cv::waitKey(1) >= 0)
+        {
+            cv::destroyAllWindows();
+            break;
+        }
+        cv::imshow("Detect", img);
     }
     cap.release();
     cv::destroyAllWindows() ;

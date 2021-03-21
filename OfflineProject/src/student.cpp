@@ -118,7 +118,7 @@ int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst)
     }
     else
     {
-	std::cout << "Data couldn't be found. Please check list and dat folder" << std::endl;
+	    std::cout << "Data couldn't be found. Please check list and dat folder" << std::endl;
         return 0;
     }
     return 1;

@@ -45,14 +45,14 @@ int main()
         }
   
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
-	m_StartTime = std::chrono::system_clock::now();
-	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
+	    m_StartTime = std::chrono::system_clock::now();
+	    cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
 
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
-	/************************************************/
-	/*		      DETECT		        */
-	/************************************************/
+        /************************************************/
+        /*		      DETECT		                    */
+        /************************************************/
         std::vector<FaceInfo> face_info;
         ultraface.detect(inmat, face_info);
 
@@ -77,7 +77,7 @@ int main()
             for (int j = 0; j < temp_lst.size(); j++)
             {
                 //temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
-		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], temp_lst[j].student_features);
+		        temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], temp_lst[j].student_features);
                 if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
                 {
                     //temp_obj.Avg_value = length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features);
@@ -95,12 +95,12 @@ int main()
             cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
             faces.clear();
         }
-	if (cv::waitKey(1) >= 0)
-	{
-	    cv::destroyAllWindows();
-	    break;
-	}
-	cv::imshow("Detect", img);
+        if (cv::waitKey(1) >= 0)
+        {
+            cv::destroyAllWindows();
+            break;
+        }
+        cv::imshow("Detect", img);
     }
     for (int i = 0; i < temp_lst.size(); i++)
     {
