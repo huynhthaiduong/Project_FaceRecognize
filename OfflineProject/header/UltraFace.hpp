@@ -17,7 +17,15 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "student.hpp"
+#include <dlib/dnn.h>
+#include <dlib/gui_widgets.h>
+#include <dlib/clustering.h>
+#include <dlib/string.h>
+#include <dlib/image_io.h>
+#include <dlib/image_processing/frontal_face_detector.h>
+#include <dlib/opencv.h>
+#include <dlib/image_transforms.h>
+#include <dlib/image_processing.h>
 
 #define num_featuremap 4
 #define hard_nms 1

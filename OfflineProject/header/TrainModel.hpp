@@ -18,7 +18,7 @@
 #define hard_nms 1
 #define blending_nms 2 /* mix nms was been proposaled in paper blaze face, aims to minimize the temporal jitter*/
 
-typedef struct FaceInfo {
+typedef struct TrainInfo {
     float x1;
     float y1;
     float x2;
@@ -26,7 +26,7 @@ typedef struct FaceInfo {
     float score;
 
     float *landmarks;
-} FaceInfo;
+} TrainInfo;
 
 class TrainModel {
 public:
@@ -35,12 +35,12 @@ public:
 
     ~TrainModel();
 
-    int detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list);
+    int detect(ncnn::Mat &img, std::vector<TrainInfo> &face_list);
 
 private:
-    void generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors);
+    void generateBBox(std::vector<TrainInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors);
 
-    void nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output, int type = blending_nms);
+    void nms(std::vector<TrainInfo> &input, std::vector<TrainInfo> &output, int type = blending_nms);
 
 private:
     ncnn::Net trainmodel;

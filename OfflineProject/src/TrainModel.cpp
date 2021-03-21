@@ -68,7 +68,7 @@ TrainModel::TrainModel(const std::string &bin_path, const std::string &param_pat
 
 TrainModel::~TrainModel() {ncnn::destroy_gpu_instance(); trainmodel.clear(); }
 
-int TrainModel::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
+int TrainModel::detect(ncnn::Mat &img, std::vector<TrainInfo> &face_list) {
     if (img.empty()) {
         std::cout << "image is empty ,please check!" << std::endl;
         return -1;
@@ -82,8 +82,8 @@ int TrainModel::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     ncnn::Mat ncnn_img = in;
     ncnn_img.substract_mean_normalize(mean_vals, norm_vals);
 
-    std::vector<FaceInfo> bbox_collection;
-    std::vector<FaceInfo> valid_input;
+    std::vector<TrainInfo> bbox_collection;
+    std::vector<TrainInfo> valid_input;
 
     ncnn::Extractor ex = trainmodel.create_extractor();
     ex.set_num_threads(num_thread);
@@ -98,10 +98,10 @@ int TrainModel::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     return 0;
 }
 
-void TrainModel::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors) {
+void TrainModel::generateBBox(std::vector<TrainInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors) {
     for (int i = 0; i < num_anchors; i++) {
         if (scores.channel(0)[i * 2 + 1] > score_threshold) {
-            FaceInfo rects;
+            TrainInfo rects;
             float x_center = boxes.channel(0)[i * 4] * center_variance * priors[i][2] + priors[i][0];
             float y_center = boxes.channel(0)[i * 4 + 1] * center_variance * priors[i][3] + priors[i][1];
             float w = exp(boxes.channel(0)[i * 4 + 2] * size_variance) * priors[i][2];
@@ -117,8 +117,8 @@ void TrainModel::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat 
     }
 }
 
-void TrainModel::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output, int type) {
-    std::sort(input.begin(), input.end(), [](const FaceInfo &a, const FaceInfo &b) { return a.score > b.score; });
+void TrainModel::nms(std::vector<TrainInfo> &input, std::vector<TrainInfo> &output, int type) {
+    std::sort(input.begin(), input.end(), [](const TrainInfo &a, const TrainInfo &b) { return a.score > b.score; });
 
     int box_num = input.size();
 
@@ -127,7 +127,7 @@ void TrainModel::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output
     for (int i = 0; i < box_num; i++) {
         if (merged[i])
             continue;
-        std::vector<FaceInfo> buf;
+        std::vector<TrainInfo> buf;
 
         buf.push_back(input[i]);
         merged[i] = 1;
@@ -179,7 +179,7 @@ void TrainModel::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output
                 for (int i = 0; i < buf.size(); i++) {
                     total += exp(buf[i].score);
                 }
-                FaceInfo rects;
+                TrainInfo rects;
                 memset(&rects, 0, sizeof(rects));
                 for (int i = 0; i < buf.size(); i++) {
                     float rate = exp(buf[i].score) / total;
