@@ -82,4 +82,5 @@ LayerNorm = 76,
 Softplus = 77,
 GRU = 78,
 MultiHeadAttention = 79,
+GELU = 80,
 

@@ -1510,6 +1510,26 @@ jpegint.h
 jerror.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.h
 
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.h
+pnglibconf.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pnglibconf.h
+pngconf.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngconf.h
+
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngconf.h
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+setjmp.h
+-
+time.h
+-
+
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pnglibconf.h
+
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/filtering/kalman_filter.cpp
 kalman_filter.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/filtering/kalman_filter.h

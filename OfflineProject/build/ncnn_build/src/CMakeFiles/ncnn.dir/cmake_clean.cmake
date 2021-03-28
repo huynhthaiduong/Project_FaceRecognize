@@ -309,6 +309,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o"
   "CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o"
   "CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o"
+  "CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
   "libncnn.pdb"
   "libncnn.a"
 )

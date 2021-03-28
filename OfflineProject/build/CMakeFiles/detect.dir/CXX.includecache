@@ -8473,6 +8473,8 @@ dlib/image_transforms.h
 -
 dlib/image_processing.h
 -
+opencv2/opencv.hpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/opencv2/opencv.hpp
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/student.hpp
 experimental/filesystem
@@ -8529,6 +8531,12 @@ mat.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
 ../header/student.hpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/student.hpp
+time.h
+-
+thread
+-
+libxl.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/libxl.h
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
 ../header/student.hpp

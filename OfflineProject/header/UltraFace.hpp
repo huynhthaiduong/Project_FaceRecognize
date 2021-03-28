@@ -26,6 +26,7 @@
 #include <dlib/opencv.h>
 #include <dlib/image_transforms.h>
 #include <dlib/image_processing.h>
+#include "opencv2/opencv.hpp"
 
 #define num_featuremap 4
 #define hard_nms 1

@@ -2505,4 +2505,21 @@ public:
 DEFINE_LAYER_CREATOR(MultiHeadAttention_final)
 } // namespace ncnn
 
+#include "layer/gelu.h"
+namespace ncnn {
+class GELU_final : virtual public GELU
+{
+public:
+    virtual int create_pipeline(const Option& opt) {
+        { int ret = GELU::create_pipeline(opt); if (ret) return ret; }
+        return 0;
+    }
+    virtual int destroy_pipeline(const Option& opt) {
+        { int ret = GELU::destroy_pipeline(opt); if (ret) return ret; }
+        return 0;
+    }
+};
+DEFINE_LAYER_CREATOR(GELU_final)
+} // namespace ncnn
+
 

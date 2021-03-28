@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3714e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3714e.dir/build.make CMakeFiles/cmTC_3714e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f901/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f901.dir/build.make CMakeFiles/cmTC_6f901.dir/build
 make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3714e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3714e.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3714e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3714e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3714e.dir/CheckSymbolExists.c.o  -o cmTC_3714e 
-CMakeFiles/cmTC_3714e.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_6f901.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6f901.dir/CheckSymbolExists.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6f901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f901.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6f901.dir/CheckSymbolExists.c.o  -o cmTC_6f901 
+CMakeFiles/cmTC_6f901.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3714e.dir/build.make:97: recipe for target 'cmTC_3714e' failed
-make[1]: *** [cmTC_3714e] Error 1
+CMakeFiles/cmTC_6f901.dir/build.make:97: recipe for target 'cmTC_6f901' failed
+make[1]: *** [cmTC_6f901] Error 1
 make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3714e/fast' failed
-make: *** [cmTC_3714e/fast] Error 2
+Makefile:126: recipe for target 'cmTC_6f901/fast' failed
+make: *** [cmTC_6f901/fast] Error 2
 
 File /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -37,83 +37,83 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e716/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e716.dir/build.make CMakeFiles/cmTC_5e716.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1d215/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d215.dir/build.make CMakeFiles/cmTC_1d215.dir/build
 make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5e716.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5e716.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5e716
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e716.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5e716.dir/CheckFunctionExists.c.o  -o cmTC_5e716 -lpthreads 
+Building C object CMakeFiles/cmTC_1d215.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1d215.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d215.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1d215.dir/CheckFunctionExists.c.o  -o cmTC_1d215 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5e716.dir/build.make:97: recipe for target 'cmTC_5e716' failed
-make[1]: *** [cmTC_5e716] Error 1
+CMakeFiles/cmTC_1d215.dir/build.make:97: recipe for target 'cmTC_1d215' failed
+make[1]: *** [cmTC_1d215] Error 1
 make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_5e716/fast' failed
-make: *** [cmTC_5e716/fast] Error 2
+Makefile:126: recipe for target 'cmTC_1d215/fast' failed
+make: *** [cmTC_1d215/fast] Error 2
 
 
 Determining if the function cblas_ddot exists failed with the following output:
 Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d3d05/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d3d05.dir/build.make CMakeFiles/cmTC_d3d05.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de118/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de118.dir/build.make CMakeFiles/cmTC_de118.dir/build
 make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d3d05.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTC_d3d05.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d3d05
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3d05.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot    -rdynamic CMakeFiles/cmTC_d3d05.dir/CheckFunctionExists.c.o  -o cmTC_d3d05 
-CMakeFiles/cmTC_d3d05.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_de118.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTC_de118.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de118.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot    -rdynamic CMakeFiles/cmTC_de118.dir/CheckFunctionExists.c.o  -o cmTC_de118 
+CMakeFiles/cmTC_de118.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `cblas_ddot'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d3d05.dir/build.make:97: recipe for target 'cmTC_d3d05' failed
-make[1]: *** [cmTC_d3d05] Error 1
+CMakeFiles/cmTC_de118.dir/build.make:97: recipe for target 'cmTC_de118' failed
+make[1]: *** [cmTC_de118] Error 1
 make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d3d05/fast' failed
-make: *** [cmTC_d3d05/fast] Error 2
+Makefile:126: recipe for target 'cmTC_de118/fast' failed
+make: *** [cmTC_de118/fast] Error 2
 
 
 Determining if the function sgesv exists failed with the following output:
 Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c06a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c06a3.dir/build.make CMakeFiles/cmTC_c06a3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4e082/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e082.dir/build.make CMakeFiles/cmTC_4e082.dir/build
 make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c06a3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_c06a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c06a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c06a3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_c06a3.dir/CheckFunctionExists.c.o  -o cmTC_c06a3 
-CMakeFiles/cmTC_c06a3.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_4e082.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_4e082.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e082.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_4e082.dir/CheckFunctionExists.c.o  -o cmTC_4e082 
+CMakeFiles/cmTC_4e082.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c06a3.dir/build.make:97: recipe for target 'cmTC_c06a3' failed
-make[1]: *** [cmTC_c06a3] Error 1
+CMakeFiles/cmTC_4e082.dir/build.make:97: recipe for target 'cmTC_4e082' failed
+make[1]: *** [cmTC_4e082] Error 1
 make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c06a3/fast' failed
-make: *** [cmTC_c06a3/fast] Error 2
+Makefile:126: recipe for target 'cmTC_4e082/fast' failed
+make: *** [cmTC_4e082/fast] Error 2
 
 
 Determining if the function sgesv_ exists failed with the following output:
 Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ac871/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ac871.dir/build.make CMakeFiles/cmTC_ac871.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a179e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a179e.dir/build.make CMakeFiles/cmTC_a179e.dir/build
 make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ac871.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTC_ac871.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ac871
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac871.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_ac871.dir/CheckFunctionExists.c.o  -o cmTC_ac871 
-CMakeFiles/cmTC_ac871.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_a179e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTC_a179e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a179e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a179e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_a179e.dir/CheckFunctionExists.c.o  -o cmTC_a179e 
+CMakeFiles/cmTC_a179e.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv_'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ac871.dir/build.make:97: recipe for target 'cmTC_ac871' failed
-make[1]: *** [cmTC_ac871] Error 1
+CMakeFiles/cmTC_a179e.dir/build.make:97: recipe for target 'cmTC_a179e' failed
+make[1]: *** [cmTC_a179e] Error 1
 make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ac871/fast' failed
-make: *** [cmTC_ac871/fast] Error 2
+Makefile:126: recipe for target 'cmTC_a179e/fast' failed
+make: *** [cmTC_a179e/fast] Error 2
 
 

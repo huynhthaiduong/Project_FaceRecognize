@@ -830,6 +830,7 @@ CMakeFiles/detect.dir/src/UltraFace.cpp.o
  /usr/include/opencv4/opencv2/flann/logger.h
  /usr/include/opencv4/opencv2/flann/lsh_index.h
  /usr/include/opencv4/opencv2/flann/lsh_table.h
+ /usr/include/opencv4/opencv2/flann/matrix.h
  /usr/include/opencv4/opencv2/flann/miniflann.hpp
  /usr/include/opencv4/opencv2/flann/nn_index.h
  /usr/include/opencv4/opencv2/flann/params.h

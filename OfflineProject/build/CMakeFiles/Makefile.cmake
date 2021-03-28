@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/CMakeLists.txt"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/check_if_neon_available.cmake"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/find_blas.cmake"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/find_libjpeg.cmake"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/find_libpng.cmake"

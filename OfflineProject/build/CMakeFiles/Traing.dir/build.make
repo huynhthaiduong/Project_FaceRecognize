@@ -165,9 +165,6 @@ Traing: /usr/lib/aarch64-linux-gnu/libSM.so
 Traing: /usr/lib/aarch64-linux-gnu/libICE.so
 Traing: /usr/lib/aarch64-linux-gnu/libX11.so
 Traing: /usr/lib/aarch64-linux-gnu/libXext.so
-Traing: /usr/lib/aarch64-linux-gnu/libpng.so
-Traing: /usr/lib/aarch64-linux-gnu/libz.so
-Traing: /usr/lib/aarch64-linux-gnu/libjpeg.so
 Traing: /usr/lib/aarch64-linux-gnu/libopenblas.so
 Traing: /usr/lib/aarch64-linux-gnu/libcublas.so
 Traing: /usr/lib/aarch64-linux-gnu/libcudnn.so

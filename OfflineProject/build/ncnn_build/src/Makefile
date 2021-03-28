@@ -3318,6 +3318,33 @@ layer/flatten.cpp.s:
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 .PHONY : layer/flatten.cpp.s
 
+layer/gelu.o: layer/gelu.cpp.o
+
+.PHONY : layer/gelu.o
+
+# target to build an object file
+layer/gelu.cpp.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+.PHONY : layer/gelu.cpp.o
+
+layer/gelu.i: layer/gelu.cpp.i
+
+.PHONY : layer/gelu.i
+
+# target to preprocess a source file
+layer/gelu.cpp.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i
+.PHONY : layer/gelu.cpp.i
+
+layer/gelu.s: layer/gelu.cpp.s
+
+.PHONY : layer/gelu.s
+
+# target to generate assembly for a file
+layer/gelu.cpp.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s
+.PHONY : layer/gelu.cpp.s
+
 layer/gemm.o: layer/gemm.cpp.o
 
 .PHONY : layer/gemm.o
@@ -6650,6 +6677,9 @@ help:
 	@echo "... layer/flatten.o"
 	@echo "... layer/flatten.i"
 	@echo "... layer/flatten.s"
+	@echo "... layer/gelu.o"
+	@echo "... layer/gelu.i"
+	@echo "... layer/gelu.s"
 	@echo "... layer/gemm.o"
 	@echo "... layer/gemm.i"
 	@echo "... layer/gemm.s"

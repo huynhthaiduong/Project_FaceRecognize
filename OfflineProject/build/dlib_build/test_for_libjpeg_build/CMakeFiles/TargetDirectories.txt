@@ -1,3 +1,0 @@
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/rebuild_cache.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/edit_cache.dir

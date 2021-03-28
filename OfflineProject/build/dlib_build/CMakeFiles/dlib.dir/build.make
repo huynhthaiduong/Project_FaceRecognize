@@ -2515,9 +2515,777 @@ dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o.provides: dlib_b
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
 
 
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/arm_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/arm_init.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/arm_init.c > CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/arm_init.c -o CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/filter_neon_intrinsics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/filter_neon_intrinsics.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/filter_neon_intrinsics.c > CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/filter_neon_intrinsics.c -o CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/png.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/png.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.c > CMakeFiles/dlib.dir/external/libpng/png.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/png.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.c -o CMakeFiles/dlib.dir/external/libpng/png.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngerror.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngerror.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngerror.c > CMakeFiles/dlib.dir/external/libpng/pngerror.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngerror.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngerror.c -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngget.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngget.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngget.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngget.c > CMakeFiles/dlib.dir/external/libpng/pngget.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngget.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngget.c -o CMakeFiles/dlib.dir/external/libpng/pngget.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngmem.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngmem.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngmem.c > CMakeFiles/dlib.dir/external/libpng/pngmem.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngmem.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngmem.c -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngpread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngpread.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngpread.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngpread.c > CMakeFiles/dlib.dir/external/libpng/pngpread.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngpread.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngpread.c -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngread.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngread.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngread.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngread.c > CMakeFiles/dlib.dir/external/libpng/pngread.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngread.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngread.c -o CMakeFiles/dlib.dir/external/libpng/pngread.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrio.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrio.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrio.c > CMakeFiles/dlib.dir/external/libpng/pngrio.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrio.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrio.c -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrtran.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrtran.c > CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrtran.c -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrutil.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrutil.c > CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrutil.c -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngset.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngset.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngset.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngset.c > CMakeFiles/dlib.dir/external/libpng/pngset.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngset.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngset.c -o CMakeFiles/dlib.dir/external/libpng/pngset.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngtrans.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngtrans.c > CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngtrans.c -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwio.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwio.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwio.c > CMakeFiles/dlib.dir/external/libpng/pngwio.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwio.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwio.c -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwrite.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwrite.c > CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwrite.c -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwtran.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwtran.c > CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwtran.c -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwutil.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwutil.c > CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwutil.c -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/adler32.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/adler32.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/adler32.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/adler32.c > CMakeFiles/dlib.dir/external/zlib/adler32.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/adler32.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/adler32.c -o CMakeFiles/dlib.dir/external/zlib/adler32.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/compress.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/compress.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/compress.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/compress.c > CMakeFiles/dlib.dir/external/zlib/compress.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/compress.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/compress.c -o CMakeFiles/dlib.dir/external/zlib/compress.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/crc32.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/crc32.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/crc32.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/crc32.c > CMakeFiles/dlib.dir/external/zlib/crc32.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/crc32.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/crc32.c -o CMakeFiles/dlib.dir/external/zlib/crc32.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/deflate.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/deflate.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/deflate.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/deflate.c > CMakeFiles/dlib.dir/external/zlib/deflate.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/deflate.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/deflate.c -o CMakeFiles/dlib.dir/external/zlib/deflate.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzclose.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzclose.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzclose.c > CMakeFiles/dlib.dir/external/zlib/gzclose.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzclose.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzclose.c -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzlib.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzlib.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzlib.c > CMakeFiles/dlib.dir/external/zlib/gzlib.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzlib.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzlib.c -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzread.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzread.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzread.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzread.c > CMakeFiles/dlib.dir/external/zlib/gzread.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzread.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzread.c -o CMakeFiles/dlib.dir/external/zlib/gzread.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzwrite.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzwrite.c > CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzwrite.c -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/infback.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/infback.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/infback.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/infback.c > CMakeFiles/dlib.dir/external/zlib/infback.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/infback.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/infback.c -o CMakeFiles/dlib.dir/external/zlib/infback.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inffast.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inffast.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inffast.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inffast.c > CMakeFiles/dlib.dir/external/zlib/inffast.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inffast.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inffast.c -o CMakeFiles/dlib.dir/external/zlib/inffast.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inflate.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inflate.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inflate.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inflate.c > CMakeFiles/dlib.dir/external/zlib/inflate.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inflate.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inflate.c -o CMakeFiles/dlib.dir/external/zlib/inflate.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inftrees.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inftrees.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inftrees.c > CMakeFiles/dlib.dir/external/zlib/inftrees.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inftrees.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inftrees.c -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/trees.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/trees.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/trees.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/trees.c > CMakeFiles/dlib.dir/external/zlib/trees.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/trees.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/trees.c -o CMakeFiles/dlib.dir/external/zlib/trees.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/uncompr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/uncompr.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/uncompr.c > CMakeFiles/dlib.dir/external/zlib/uncompr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/uncompr.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/uncompr.c -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/zutil.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/zutil.c
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/zutil.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/zutil.c > CMakeFiles/dlib.dir/external/zlib/zutil.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/zutil.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/zutil.c -o CMakeFiles/dlib.dir/external/zlib/zutil.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o
+
+
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_loader/png_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_loader/png_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i: cmake_force
@@ -2541,7 +3309,7 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o.provides.build: dli
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_saver/save_png.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_saver/save_png.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i: cmake_force
@@ -2563,9 +3331,1065 @@ dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o.provides.build: dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
 
 
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jaricom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jaricom.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jaricom.c > CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jaricom.c -o CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapimin.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapimin.c > CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapimin.c -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapistd.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapistd.c > CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapistd.c -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcarith.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcarith.c > CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcarith.c -o CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccoefct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccoefct.c > CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccoefct.c -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccolor.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccolor.c > CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccolor.c -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcdctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcdctmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcdctmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcdctmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jchuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jchuff.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jchuff.c > CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jchuff.c -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcinit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcinit.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcinit.c > CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcinit.c -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmainct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmainct.c > CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmainct.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmarker.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmarker.c > CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmarker.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmaster.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmaster.c > CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmaster.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcomapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcomapi.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcomapi.c > CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcomapi.c -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcparam.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcparam.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcparam.c > CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcparam.c -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcprepct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcprepct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcprepct.c > CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcprepct.c -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcsample.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcsample.c > CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcsample.c -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapimin.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapimin.c > CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapimin.c -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapistd.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapistd.c > CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapistd.c -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdarith.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdarith.c > CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdarith.c -o CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatadst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatadst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatadst.c > CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatadst.c -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatasrc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatasrc.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatasrc.c > CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatasrc.c -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcoefct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcoefct.c > CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcoefct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcolor.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcolor.c > CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcolor.c -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jddctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jddctmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jddctmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jddctmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdhuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdhuff.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdhuff.c > CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdhuff.c -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdinput.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdinput.c > CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdinput.c -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmainct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmainct.c > CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmainct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmarker.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmarker.c > CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmarker.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmaster.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmaster.c > CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmaster.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmerge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmerge.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmerge.c > CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmerge.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdpostct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdpostct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdpostct.c > CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdpostct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdsample.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdsample.c > CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdsample.c -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.c > CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.c -o CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctflt.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctflt.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctflt.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctfst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctfst.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctfst.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctint.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctint.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctint.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctflt.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctflt.c > CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctflt.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctfst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctfst.c > CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctfst.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctint.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctint.c > CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctint.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemnobs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemnobs.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemnobs.c > CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemnobs.c -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant1.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant1.c > CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant1.c -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant2.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant2.c > CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant2.c -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jutils.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jutils.c > CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jutils.c -o CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.requires:
+
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.requires
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.provides: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.requires
+	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.provides.build
+.PHONY : dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.provides
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.provides.build: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
+
+
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_loader/jpeg_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_loader/jpeg_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i: cmake_force
@@ -2589,7 +4413,7 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_saver/save_jpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/image_saver/save_jpeg.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i: cmake_force
@@ -2613,7 +4437,7 @@ dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o.provides.build: dlib_
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.i: cmake_force
@@ -2637,7 +4461,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o.provides.build: dlib_bui
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cublas_dlibapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cublas_dlibapi.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.i: cmake_force
@@ -2661,7 +4485,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o.provides.build: dlib_bu
 
 dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/curand_dlibapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/curand_dlibapi.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.i: cmake_force
@@ -2685,7 +4509,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o.provides.build: dlib_bu
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cuda_data_ptr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cuda_data_ptr.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.i: cmake_force
@@ -2709,7 +4533,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o.provides.build: dlib_bui
 
 dlib_build/CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/gpu_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/gpu_data.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/gpu_data.cpp.i: cmake_force
@@ -2788,8 +4612,84 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" \
 "CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" \
+"CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/png.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngerror.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngget.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngmem.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngpread.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngread.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngrio.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngset.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngwio.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/adler32.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/compress.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/crc32.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/deflate.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/gzclose.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/gzlib.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/gzread.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/infback.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/inffast.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/inflate.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/inftrees.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/trees.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/uncompr.c.o" \
+"CMakeFiles/dlib.dir/external/zlib/zutil.c.o" \
 "CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" \
 "CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o" \
 "CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" \
 "CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" \
 "CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o" \
@@ -2858,8 +4758,84 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o
@@ -2871,7 +4847,7 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/cuda/dlib_generated_cuda_dl
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/cuda/dlib_generated_cusolver_dlibapi.cu.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/build.make
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX static library libdlib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Linking CXX static library libdlib.a"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -2935,8 +4911,84 @@ dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/gui_widg
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o.requires
+dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o.requires

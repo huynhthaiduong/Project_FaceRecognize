@@ -402,4 +402,9 @@
 #else
 {MultiHeadAttention_final_layer_creator},
 #endif
+#if NCNN_STRING
+{"GELU", GELU_final_layer_creator},
+#else
+{GELU_final_layer_creator},
+#endif
 

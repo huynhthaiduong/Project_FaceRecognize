@@ -8473,6 +8473,8 @@ dlib/image_transforms.h
 -
 dlib/image_processing.h
 -
+opencv2/opencv.hpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/opencv2/opencv.hpp
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/student.hpp
 experimental/filesystem

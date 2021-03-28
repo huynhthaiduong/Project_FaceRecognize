@@ -1,8 +1,100 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jaricom.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapimin.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcapistd.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcarith.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccoefct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jccolor.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcdctmgr.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jchuff.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcinit.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmainct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmarker.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcmaster.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcomapi.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcparam.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcprepct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jcsample.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapimin.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdapistd.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdarith.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatadst.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdatasrc.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcoefct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdcolor.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jddctmgr.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdhuff.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdinput.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmainct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmarker.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmaster.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdmerge.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdpostct.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jdsample.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jerror.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctflt.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctfst.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jfdctint.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctflt.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctfst.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jidctint.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemmgr.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jmemnobs.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant1.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jquant2.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libjpeg/jutils.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/arm_init.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/arm/filter_neon_intrinsics.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/png.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngerror.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngget.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngmem.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngpread.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngread.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrio.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrtran.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngrutil.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngset.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngtrans.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwio.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwrite.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwtran.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng/pngwutil.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/adler32.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/compress.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/crc32.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/deflate.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzclose.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzlib.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzread.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/gzwrite.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/infback.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inffast.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inflate.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/inftrees.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/trees.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/uncompr.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib/zutil.c" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "DLIB_JPEG_STATIC"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib"
+  "/usr/local/cuda/include"
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/base64/base64_kernel_1.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/bigint/bigint_kernel_1.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o"
@@ -71,8 +163,15 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DLIB_JPEG_STATIC"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib"
   "/usr/local/cuda/include"
   )
 

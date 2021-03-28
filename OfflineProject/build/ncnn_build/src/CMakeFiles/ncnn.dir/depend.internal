@@ -495,6 +495,7 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.h
@@ -2769,6 +2770,22 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
+ ncnn_build/src/ncnn_export.h
+ ncnn_build/src/platform.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+ /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.h
  /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h

@@ -27,12 +27,17 @@ Step 4 \
 sudo apt-get update -y \
 Step 5 \
 sudo apt-get install -y libvulkan-dev \
+Step 6
+sudo apt-get install libopenblas-dev liblapack-dev
+sudo apt-get install protobuf-compiler libprotobuf-dev
+apt-get install libatlas-base-dev 
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
  \
 /============/ \
 RUN WITH GPU \
 /============/ \
 Step 1 
-cmake -DCMAKE_BUILD_TYPE=Release -DNCNN_VULKAN=ON -DNCNN_SYSTEM_GLSLANG=ON \
+cmake -DCMAKE_BUILD_TYPE=Release -DNCNN_VULKAN=ON -DGLSLANG_TARGET_DIR=ON \
 -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1 .. \
 Step 2 \
 make -j$(nproc) \
@@ -58,4 +63,9 @@ kyo@kyo:~$ CUDA_LIB_PATH=/usr/local/cuda/lib
 kyo@kyo:~$ env | grep CUDA
 
 cmake -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc
+
+https://kezunlin.me/post/4eb7fcec/
 # Project_FaceRecognize \
+
+
+

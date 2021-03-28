@@ -19,7 +19,7 @@ if(NCNN_VULKAN)
 
     if(NOT NCNN_SHARED_LIB)
         if(NCNN_SYSTEM_GLSLANG)
-            set(GLSLANG_TARGET_DIR "GLSLANG-NOTFOUND")
+            set(GLSLANG_TARGET_DIR "ON")
         else()
             set(GLSLANG_TARGET_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../lib/cmake")
         endif(NCNN_SYSTEM_GLSLANG)

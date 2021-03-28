@@ -494,6 +494,7 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_F
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.h
@@ -2777,6 +2778,22 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: /home/kyo/Desktop/KLTN/P
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: ncnn_build/src/ncnn_export.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: ncnn_build/src/platform.h
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: ncnn_build/src/ncnn_export.h
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: ncnn_build/src/platform.h
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.h
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.h

@@ -5817,6 +5817,30 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o.provides: ncnn
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
 
 
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gelu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/gelu.cpp.i"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp > CMakeFiles/ncnn.dir/layer/gelu.cpp.i
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/gelu.cpp.s"
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp -o CMakeFiles/ncnn.dir/layer/gelu.cpp.s
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.requires:
+
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.requires
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.provides: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.requires
+	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.provides.build
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.provides
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+
+
 # Object files for target ncnn
 ncnn_OBJECTS = \
 "CMakeFiles/ncnn.dir/allocator.cpp.o" \
@@ -6044,7 +6068,8 @@ ncnn_OBJECTS = \
 "CMakeFiles/ncnn.dir/layer/gru.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o" \
-"CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o"
+"CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o" \
+"CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
 
 # External object files for target ncnn
 ncnn_EXTERNAL_OBJECTS =
@@ -6275,9 +6300,10 @@ ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
+ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/build.make
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Linking CXX static library libncnn.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Linking CXX static library libncnn.a"
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean_target.cmake
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn.dir/link.txt --verbose=$(VERBOSE)
 
@@ -6512,6 +6538,7 @@ ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o.requires
+ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.requires
 
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/requires
 

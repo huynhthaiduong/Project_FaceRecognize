@@ -120,6 +120,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
+  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o"
   "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o"

@@ -165,9 +165,6 @@ detect: /usr/lib/aarch64-linux-gnu/libSM.so
 detect: /usr/lib/aarch64-linux-gnu/libICE.so
 detect: /usr/lib/aarch64-linux-gnu/libX11.so
 detect: /usr/lib/aarch64-linux-gnu/libXext.so
-detect: /usr/lib/aarch64-linux-gnu/libpng.so
-detect: /usr/lib/aarch64-linux-gnu/libz.so
-detect: /usr/lib/aarch64-linux-gnu/libjpeg.so
 detect: /usr/lib/aarch64-linux-gnu/libopenblas.so
 detect: /usr/lib/aarch64-linux-gnu/libcublas.so
 detect: /usr/lib/aarch64-linux-gnu/libcudnn.so

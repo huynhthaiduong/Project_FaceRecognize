@@ -26,13 +26,14 @@ int main()
     temp_student.CreateListStu(temp_student, data_faces);
     /*v4l2-ctl -d /dev/video0 --list-formats-ext*/
     //const std::string gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640, height=480, framerate=30/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";
-    const std::string gst_pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";    
+    const std::string gst_pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";    
     cv::VideoCapture cap(gst_pipeline, cv::CAP_GSTREAMER);
     if(!cap.isOpened()) {
 	    std::cout<<"Failed to open camera."<<std::endl;
 	    return (-1);
     }
     cv::Mat img;
+    cv::Mat grayscale_img;
     frontal_face_detector detector = get_frontal_face_detector();
     shape_predictor sp;
     deserialize("../Model/shape_predictor_68_face_landmarks.dat") >> sp;
@@ -43,11 +44,12 @@ int main()
     int cout_img = 0;
     int cout_color = 0;
     int cout_percent = 1;
+    int filenumber = 0;
     std::vector<matrix<rgb_pixel>> array_face;
     auto m_StartTime = std::chrono::system_clock::now();
     double FPS = cap.get(cv::CAP_PROP_FPS);
     std::cout << "Capture " << FPS << " FPS " <<std::endl;
-    TrainModel trainmodel("../Model/RFB-320.bin", "../Model/RFB-320.param", 426, 240, 128, 0.82);
+    TrainModel trainmodel("../Model/RFB-320.bin", "../Model/RFB-320.param", 432, 240, 128, 0.82);
     while(true)
     {
     	if (!cap.read(img)) {
@@ -56,8 +58,8 @@ int main()
 	    }
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
 	    m_StartTime = std::chrono::system_clock::now();
-	    cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 255, 0), 5);
-	    cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, cout_color, 0), 2);
+	    cv::circle(img, cv::Point(800/2, 600/2), 200, cv::Scalar(0, 255, 0), 5);
+	    cv::putText(img,to_string(cout_percent) + "%", cv::Point((800/2)-20, (600/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, cout_color, 0), 2);
 	    cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
         cv::Mat image_clone = img.clone();
         ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
@@ -69,7 +71,7 @@ int main()
 
         cv_image<bgr_pixel> cimg(img);
         matrix<rgb_pixel> matrix;
-	    win.clear_overlay();
+	win.clear_overlay();
         assign_image(matrix, cimg);
         faces.clear();
         for (int i = 0; i < face_info.size(); i++)
@@ -80,13 +82,25 @@ int main()
             dlib::matrix<rgb_pixel> face_chip;
             extract_image_chip(matrix, get_face_chip_details(shape, 150, 0.25), face_chip);
             faces.push_back(move(face_chip));
-	        win.add_overlay(rect);
+
+	    //cv::Mat ROI(grayscale_img, cv::Rect(cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2)));
+	    //cv::Mat croppedImage;
+	    // Copy the data into new matrix
+	    //ROI.copyTo(croppedImage);
+	    //stringstream ssfn;
+	    //string filename = "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/dataFacesImg/";
+	    //ssfn << filename.c_str() << temp_student.student_id << "_" << filenumber << ".jpg";
+	    //filename = ssfn.str();
+	    //imwrite(filename, croppedImage);
+	    //filenumber++;
+
+	    win.add_overlay(rect);
         }
         if (faces.size() == 0)
         {
             /*cout << "No faces found in image!" << endl;*/
-	        cv::circle(img, cv::Point(1280/2, 720/2), 200, cv::Scalar(0, 0, 255), 5);
-	        cv::putText(img,to_string(cout_percent) + "%", cv::Point((1280/2)-20, (720/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 2);
+	        cv::circle(img, cv::Point(800/2, 600/2), 200, cv::Scalar(0, 0, 255), 5);
+	        cv::putText(img,to_string(cout_percent) + "%", cv::Point((800/2)-20, (600/2)-215), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 2);
             continue;
         }
         cout_img++;

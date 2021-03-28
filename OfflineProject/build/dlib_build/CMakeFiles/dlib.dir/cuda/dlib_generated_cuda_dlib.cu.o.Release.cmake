@@ -79,8 +79,8 @@ set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64) # list
-set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/local/cuda/include;") # list (needs to be in quotes to handle spaces properly).
-set(CUDA_NVCC_COMPILE_DEFINITIONS [==[]==]) # list (needs to be in lua quotes see #16510 ).
+set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda/include;/usr/include;/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/libpng;/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/external/zlib;/usr/include;/usr/local/cuda/include;") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_COMPILE_DEFINITIONS [==[DLIB_JPEG_STATIC]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list
 

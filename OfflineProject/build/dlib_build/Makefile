@@ -765,6 +765,2058 @@ entropy_encoder/entropy_encoder_kernel_2.cpp.s:
 	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.s
 
+external/libjpeg/jaricom.o: external/libjpeg/jaricom.c.o
+
+.PHONY : external/libjpeg/jaricom.o
+
+# target to build an object file
+external/libjpeg/jaricom.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+.PHONY : external/libjpeg/jaricom.c.o
+
+external/libjpeg/jaricom.i: external/libjpeg/jaricom.c.i
+
+.PHONY : external/libjpeg/jaricom.i
+
+# target to preprocess a source file
+external/libjpeg/jaricom.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i
+.PHONY : external/libjpeg/jaricom.c.i
+
+external/libjpeg/jaricom.s: external/libjpeg/jaricom.c.s
+
+.PHONY : external/libjpeg/jaricom.s
+
+# target to generate assembly for a file
+external/libjpeg/jaricom.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s
+.PHONY : external/libjpeg/jaricom.c.s
+
+external/libjpeg/jcapimin.o: external/libjpeg/jcapimin.c.o
+
+.PHONY : external/libjpeg/jcapimin.o
+
+# target to build an object file
+external/libjpeg/jcapimin.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+.PHONY : external/libjpeg/jcapimin.c.o
+
+external/libjpeg/jcapimin.i: external/libjpeg/jcapimin.c.i
+
+.PHONY : external/libjpeg/jcapimin.i
+
+# target to preprocess a source file
+external/libjpeg/jcapimin.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i
+.PHONY : external/libjpeg/jcapimin.c.i
+
+external/libjpeg/jcapimin.s: external/libjpeg/jcapimin.c.s
+
+.PHONY : external/libjpeg/jcapimin.s
+
+# target to generate assembly for a file
+external/libjpeg/jcapimin.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s
+.PHONY : external/libjpeg/jcapimin.c.s
+
+external/libjpeg/jcapistd.o: external/libjpeg/jcapistd.c.o
+
+.PHONY : external/libjpeg/jcapistd.o
+
+# target to build an object file
+external/libjpeg/jcapistd.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+.PHONY : external/libjpeg/jcapistd.c.o
+
+external/libjpeg/jcapistd.i: external/libjpeg/jcapistd.c.i
+
+.PHONY : external/libjpeg/jcapistd.i
+
+# target to preprocess a source file
+external/libjpeg/jcapistd.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i
+.PHONY : external/libjpeg/jcapistd.c.i
+
+external/libjpeg/jcapistd.s: external/libjpeg/jcapistd.c.s
+
+.PHONY : external/libjpeg/jcapistd.s
+
+# target to generate assembly for a file
+external/libjpeg/jcapistd.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s
+.PHONY : external/libjpeg/jcapistd.c.s
+
+external/libjpeg/jcarith.o: external/libjpeg/jcarith.c.o
+
+.PHONY : external/libjpeg/jcarith.o
+
+# target to build an object file
+external/libjpeg/jcarith.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+.PHONY : external/libjpeg/jcarith.c.o
+
+external/libjpeg/jcarith.i: external/libjpeg/jcarith.c.i
+
+.PHONY : external/libjpeg/jcarith.i
+
+# target to preprocess a source file
+external/libjpeg/jcarith.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i
+.PHONY : external/libjpeg/jcarith.c.i
+
+external/libjpeg/jcarith.s: external/libjpeg/jcarith.c.s
+
+.PHONY : external/libjpeg/jcarith.s
+
+# target to generate assembly for a file
+external/libjpeg/jcarith.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s
+.PHONY : external/libjpeg/jcarith.c.s
+
+external/libjpeg/jccoefct.o: external/libjpeg/jccoefct.c.o
+
+.PHONY : external/libjpeg/jccoefct.o
+
+# target to build an object file
+external/libjpeg/jccoefct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+.PHONY : external/libjpeg/jccoefct.c.o
+
+external/libjpeg/jccoefct.i: external/libjpeg/jccoefct.c.i
+
+.PHONY : external/libjpeg/jccoefct.i
+
+# target to preprocess a source file
+external/libjpeg/jccoefct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i
+.PHONY : external/libjpeg/jccoefct.c.i
+
+external/libjpeg/jccoefct.s: external/libjpeg/jccoefct.c.s
+
+.PHONY : external/libjpeg/jccoefct.s
+
+# target to generate assembly for a file
+external/libjpeg/jccoefct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s
+.PHONY : external/libjpeg/jccoefct.c.s
+
+external/libjpeg/jccolor.o: external/libjpeg/jccolor.c.o
+
+.PHONY : external/libjpeg/jccolor.o
+
+# target to build an object file
+external/libjpeg/jccolor.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+.PHONY : external/libjpeg/jccolor.c.o
+
+external/libjpeg/jccolor.i: external/libjpeg/jccolor.c.i
+
+.PHONY : external/libjpeg/jccolor.i
+
+# target to preprocess a source file
+external/libjpeg/jccolor.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i
+.PHONY : external/libjpeg/jccolor.c.i
+
+external/libjpeg/jccolor.s: external/libjpeg/jccolor.c.s
+
+.PHONY : external/libjpeg/jccolor.s
+
+# target to generate assembly for a file
+external/libjpeg/jccolor.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s
+.PHONY : external/libjpeg/jccolor.c.s
+
+external/libjpeg/jcdctmgr.o: external/libjpeg/jcdctmgr.c.o
+
+.PHONY : external/libjpeg/jcdctmgr.o
+
+# target to build an object file
+external/libjpeg/jcdctmgr.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+.PHONY : external/libjpeg/jcdctmgr.c.o
+
+external/libjpeg/jcdctmgr.i: external/libjpeg/jcdctmgr.c.i
+
+.PHONY : external/libjpeg/jcdctmgr.i
+
+# target to preprocess a source file
+external/libjpeg/jcdctmgr.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i
+.PHONY : external/libjpeg/jcdctmgr.c.i
+
+external/libjpeg/jcdctmgr.s: external/libjpeg/jcdctmgr.c.s
+
+.PHONY : external/libjpeg/jcdctmgr.s
+
+# target to generate assembly for a file
+external/libjpeg/jcdctmgr.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s
+.PHONY : external/libjpeg/jcdctmgr.c.s
+
+external/libjpeg/jchuff.o: external/libjpeg/jchuff.c.o
+
+.PHONY : external/libjpeg/jchuff.o
+
+# target to build an object file
+external/libjpeg/jchuff.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+.PHONY : external/libjpeg/jchuff.c.o
+
+external/libjpeg/jchuff.i: external/libjpeg/jchuff.c.i
+
+.PHONY : external/libjpeg/jchuff.i
+
+# target to preprocess a source file
+external/libjpeg/jchuff.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i
+.PHONY : external/libjpeg/jchuff.c.i
+
+external/libjpeg/jchuff.s: external/libjpeg/jchuff.c.s
+
+.PHONY : external/libjpeg/jchuff.s
+
+# target to generate assembly for a file
+external/libjpeg/jchuff.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s
+.PHONY : external/libjpeg/jchuff.c.s
+
+external/libjpeg/jcinit.o: external/libjpeg/jcinit.c.o
+
+.PHONY : external/libjpeg/jcinit.o
+
+# target to build an object file
+external/libjpeg/jcinit.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+.PHONY : external/libjpeg/jcinit.c.o
+
+external/libjpeg/jcinit.i: external/libjpeg/jcinit.c.i
+
+.PHONY : external/libjpeg/jcinit.i
+
+# target to preprocess a source file
+external/libjpeg/jcinit.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i
+.PHONY : external/libjpeg/jcinit.c.i
+
+external/libjpeg/jcinit.s: external/libjpeg/jcinit.c.s
+
+.PHONY : external/libjpeg/jcinit.s
+
+# target to generate assembly for a file
+external/libjpeg/jcinit.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s
+.PHONY : external/libjpeg/jcinit.c.s
+
+external/libjpeg/jcmainct.o: external/libjpeg/jcmainct.c.o
+
+.PHONY : external/libjpeg/jcmainct.o
+
+# target to build an object file
+external/libjpeg/jcmainct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+.PHONY : external/libjpeg/jcmainct.c.o
+
+external/libjpeg/jcmainct.i: external/libjpeg/jcmainct.c.i
+
+.PHONY : external/libjpeg/jcmainct.i
+
+# target to preprocess a source file
+external/libjpeg/jcmainct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i
+.PHONY : external/libjpeg/jcmainct.c.i
+
+external/libjpeg/jcmainct.s: external/libjpeg/jcmainct.c.s
+
+.PHONY : external/libjpeg/jcmainct.s
+
+# target to generate assembly for a file
+external/libjpeg/jcmainct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s
+.PHONY : external/libjpeg/jcmainct.c.s
+
+external/libjpeg/jcmarker.o: external/libjpeg/jcmarker.c.o
+
+.PHONY : external/libjpeg/jcmarker.o
+
+# target to build an object file
+external/libjpeg/jcmarker.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+.PHONY : external/libjpeg/jcmarker.c.o
+
+external/libjpeg/jcmarker.i: external/libjpeg/jcmarker.c.i
+
+.PHONY : external/libjpeg/jcmarker.i
+
+# target to preprocess a source file
+external/libjpeg/jcmarker.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i
+.PHONY : external/libjpeg/jcmarker.c.i
+
+external/libjpeg/jcmarker.s: external/libjpeg/jcmarker.c.s
+
+.PHONY : external/libjpeg/jcmarker.s
+
+# target to generate assembly for a file
+external/libjpeg/jcmarker.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s
+.PHONY : external/libjpeg/jcmarker.c.s
+
+external/libjpeg/jcmaster.o: external/libjpeg/jcmaster.c.o
+
+.PHONY : external/libjpeg/jcmaster.o
+
+# target to build an object file
+external/libjpeg/jcmaster.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+.PHONY : external/libjpeg/jcmaster.c.o
+
+external/libjpeg/jcmaster.i: external/libjpeg/jcmaster.c.i
+
+.PHONY : external/libjpeg/jcmaster.i
+
+# target to preprocess a source file
+external/libjpeg/jcmaster.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i
+.PHONY : external/libjpeg/jcmaster.c.i
+
+external/libjpeg/jcmaster.s: external/libjpeg/jcmaster.c.s
+
+.PHONY : external/libjpeg/jcmaster.s
+
+# target to generate assembly for a file
+external/libjpeg/jcmaster.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s
+.PHONY : external/libjpeg/jcmaster.c.s
+
+external/libjpeg/jcomapi.o: external/libjpeg/jcomapi.c.o
+
+.PHONY : external/libjpeg/jcomapi.o
+
+# target to build an object file
+external/libjpeg/jcomapi.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+.PHONY : external/libjpeg/jcomapi.c.o
+
+external/libjpeg/jcomapi.i: external/libjpeg/jcomapi.c.i
+
+.PHONY : external/libjpeg/jcomapi.i
+
+# target to preprocess a source file
+external/libjpeg/jcomapi.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i
+.PHONY : external/libjpeg/jcomapi.c.i
+
+external/libjpeg/jcomapi.s: external/libjpeg/jcomapi.c.s
+
+.PHONY : external/libjpeg/jcomapi.s
+
+# target to generate assembly for a file
+external/libjpeg/jcomapi.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s
+.PHONY : external/libjpeg/jcomapi.c.s
+
+external/libjpeg/jcparam.o: external/libjpeg/jcparam.c.o
+
+.PHONY : external/libjpeg/jcparam.o
+
+# target to build an object file
+external/libjpeg/jcparam.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+.PHONY : external/libjpeg/jcparam.c.o
+
+external/libjpeg/jcparam.i: external/libjpeg/jcparam.c.i
+
+.PHONY : external/libjpeg/jcparam.i
+
+# target to preprocess a source file
+external/libjpeg/jcparam.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i
+.PHONY : external/libjpeg/jcparam.c.i
+
+external/libjpeg/jcparam.s: external/libjpeg/jcparam.c.s
+
+.PHONY : external/libjpeg/jcparam.s
+
+# target to generate assembly for a file
+external/libjpeg/jcparam.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s
+.PHONY : external/libjpeg/jcparam.c.s
+
+external/libjpeg/jcprepct.o: external/libjpeg/jcprepct.c.o
+
+.PHONY : external/libjpeg/jcprepct.o
+
+# target to build an object file
+external/libjpeg/jcprepct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+.PHONY : external/libjpeg/jcprepct.c.o
+
+external/libjpeg/jcprepct.i: external/libjpeg/jcprepct.c.i
+
+.PHONY : external/libjpeg/jcprepct.i
+
+# target to preprocess a source file
+external/libjpeg/jcprepct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i
+.PHONY : external/libjpeg/jcprepct.c.i
+
+external/libjpeg/jcprepct.s: external/libjpeg/jcprepct.c.s
+
+.PHONY : external/libjpeg/jcprepct.s
+
+# target to generate assembly for a file
+external/libjpeg/jcprepct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s
+.PHONY : external/libjpeg/jcprepct.c.s
+
+external/libjpeg/jcsample.o: external/libjpeg/jcsample.c.o
+
+.PHONY : external/libjpeg/jcsample.o
+
+# target to build an object file
+external/libjpeg/jcsample.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+.PHONY : external/libjpeg/jcsample.c.o
+
+external/libjpeg/jcsample.i: external/libjpeg/jcsample.c.i
+
+.PHONY : external/libjpeg/jcsample.i
+
+# target to preprocess a source file
+external/libjpeg/jcsample.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i
+.PHONY : external/libjpeg/jcsample.c.i
+
+external/libjpeg/jcsample.s: external/libjpeg/jcsample.c.s
+
+.PHONY : external/libjpeg/jcsample.s
+
+# target to generate assembly for a file
+external/libjpeg/jcsample.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s
+.PHONY : external/libjpeg/jcsample.c.s
+
+external/libjpeg/jdapimin.o: external/libjpeg/jdapimin.c.o
+
+.PHONY : external/libjpeg/jdapimin.o
+
+# target to build an object file
+external/libjpeg/jdapimin.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+.PHONY : external/libjpeg/jdapimin.c.o
+
+external/libjpeg/jdapimin.i: external/libjpeg/jdapimin.c.i
+
+.PHONY : external/libjpeg/jdapimin.i
+
+# target to preprocess a source file
+external/libjpeg/jdapimin.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i
+.PHONY : external/libjpeg/jdapimin.c.i
+
+external/libjpeg/jdapimin.s: external/libjpeg/jdapimin.c.s
+
+.PHONY : external/libjpeg/jdapimin.s
+
+# target to generate assembly for a file
+external/libjpeg/jdapimin.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s
+.PHONY : external/libjpeg/jdapimin.c.s
+
+external/libjpeg/jdapistd.o: external/libjpeg/jdapistd.c.o
+
+.PHONY : external/libjpeg/jdapistd.o
+
+# target to build an object file
+external/libjpeg/jdapistd.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+.PHONY : external/libjpeg/jdapistd.c.o
+
+external/libjpeg/jdapistd.i: external/libjpeg/jdapistd.c.i
+
+.PHONY : external/libjpeg/jdapistd.i
+
+# target to preprocess a source file
+external/libjpeg/jdapistd.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i
+.PHONY : external/libjpeg/jdapistd.c.i
+
+external/libjpeg/jdapistd.s: external/libjpeg/jdapistd.c.s
+
+.PHONY : external/libjpeg/jdapistd.s
+
+# target to generate assembly for a file
+external/libjpeg/jdapistd.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s
+.PHONY : external/libjpeg/jdapistd.c.s
+
+external/libjpeg/jdarith.o: external/libjpeg/jdarith.c.o
+
+.PHONY : external/libjpeg/jdarith.o
+
+# target to build an object file
+external/libjpeg/jdarith.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+.PHONY : external/libjpeg/jdarith.c.o
+
+external/libjpeg/jdarith.i: external/libjpeg/jdarith.c.i
+
+.PHONY : external/libjpeg/jdarith.i
+
+# target to preprocess a source file
+external/libjpeg/jdarith.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i
+.PHONY : external/libjpeg/jdarith.c.i
+
+external/libjpeg/jdarith.s: external/libjpeg/jdarith.c.s
+
+.PHONY : external/libjpeg/jdarith.s
+
+# target to generate assembly for a file
+external/libjpeg/jdarith.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s
+.PHONY : external/libjpeg/jdarith.c.s
+
+external/libjpeg/jdatadst.o: external/libjpeg/jdatadst.c.o
+
+.PHONY : external/libjpeg/jdatadst.o
+
+# target to build an object file
+external/libjpeg/jdatadst.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+.PHONY : external/libjpeg/jdatadst.c.o
+
+external/libjpeg/jdatadst.i: external/libjpeg/jdatadst.c.i
+
+.PHONY : external/libjpeg/jdatadst.i
+
+# target to preprocess a source file
+external/libjpeg/jdatadst.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i
+.PHONY : external/libjpeg/jdatadst.c.i
+
+external/libjpeg/jdatadst.s: external/libjpeg/jdatadst.c.s
+
+.PHONY : external/libjpeg/jdatadst.s
+
+# target to generate assembly for a file
+external/libjpeg/jdatadst.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s
+.PHONY : external/libjpeg/jdatadst.c.s
+
+external/libjpeg/jdatasrc.o: external/libjpeg/jdatasrc.c.o
+
+.PHONY : external/libjpeg/jdatasrc.o
+
+# target to build an object file
+external/libjpeg/jdatasrc.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+.PHONY : external/libjpeg/jdatasrc.c.o
+
+external/libjpeg/jdatasrc.i: external/libjpeg/jdatasrc.c.i
+
+.PHONY : external/libjpeg/jdatasrc.i
+
+# target to preprocess a source file
+external/libjpeg/jdatasrc.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i
+.PHONY : external/libjpeg/jdatasrc.c.i
+
+external/libjpeg/jdatasrc.s: external/libjpeg/jdatasrc.c.s
+
+.PHONY : external/libjpeg/jdatasrc.s
+
+# target to generate assembly for a file
+external/libjpeg/jdatasrc.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s
+.PHONY : external/libjpeg/jdatasrc.c.s
+
+external/libjpeg/jdcoefct.o: external/libjpeg/jdcoefct.c.o
+
+.PHONY : external/libjpeg/jdcoefct.o
+
+# target to build an object file
+external/libjpeg/jdcoefct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+.PHONY : external/libjpeg/jdcoefct.c.o
+
+external/libjpeg/jdcoefct.i: external/libjpeg/jdcoefct.c.i
+
+.PHONY : external/libjpeg/jdcoefct.i
+
+# target to preprocess a source file
+external/libjpeg/jdcoefct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i
+.PHONY : external/libjpeg/jdcoefct.c.i
+
+external/libjpeg/jdcoefct.s: external/libjpeg/jdcoefct.c.s
+
+.PHONY : external/libjpeg/jdcoefct.s
+
+# target to generate assembly for a file
+external/libjpeg/jdcoefct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s
+.PHONY : external/libjpeg/jdcoefct.c.s
+
+external/libjpeg/jdcolor.o: external/libjpeg/jdcolor.c.o
+
+.PHONY : external/libjpeg/jdcolor.o
+
+# target to build an object file
+external/libjpeg/jdcolor.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+.PHONY : external/libjpeg/jdcolor.c.o
+
+external/libjpeg/jdcolor.i: external/libjpeg/jdcolor.c.i
+
+.PHONY : external/libjpeg/jdcolor.i
+
+# target to preprocess a source file
+external/libjpeg/jdcolor.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i
+.PHONY : external/libjpeg/jdcolor.c.i
+
+external/libjpeg/jdcolor.s: external/libjpeg/jdcolor.c.s
+
+.PHONY : external/libjpeg/jdcolor.s
+
+# target to generate assembly for a file
+external/libjpeg/jdcolor.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s
+.PHONY : external/libjpeg/jdcolor.c.s
+
+external/libjpeg/jddctmgr.o: external/libjpeg/jddctmgr.c.o
+
+.PHONY : external/libjpeg/jddctmgr.o
+
+# target to build an object file
+external/libjpeg/jddctmgr.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+.PHONY : external/libjpeg/jddctmgr.c.o
+
+external/libjpeg/jddctmgr.i: external/libjpeg/jddctmgr.c.i
+
+.PHONY : external/libjpeg/jddctmgr.i
+
+# target to preprocess a source file
+external/libjpeg/jddctmgr.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i
+.PHONY : external/libjpeg/jddctmgr.c.i
+
+external/libjpeg/jddctmgr.s: external/libjpeg/jddctmgr.c.s
+
+.PHONY : external/libjpeg/jddctmgr.s
+
+# target to generate assembly for a file
+external/libjpeg/jddctmgr.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s
+.PHONY : external/libjpeg/jddctmgr.c.s
+
+external/libjpeg/jdhuff.o: external/libjpeg/jdhuff.c.o
+
+.PHONY : external/libjpeg/jdhuff.o
+
+# target to build an object file
+external/libjpeg/jdhuff.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+.PHONY : external/libjpeg/jdhuff.c.o
+
+external/libjpeg/jdhuff.i: external/libjpeg/jdhuff.c.i
+
+.PHONY : external/libjpeg/jdhuff.i
+
+# target to preprocess a source file
+external/libjpeg/jdhuff.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i
+.PHONY : external/libjpeg/jdhuff.c.i
+
+external/libjpeg/jdhuff.s: external/libjpeg/jdhuff.c.s
+
+.PHONY : external/libjpeg/jdhuff.s
+
+# target to generate assembly for a file
+external/libjpeg/jdhuff.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s
+.PHONY : external/libjpeg/jdhuff.c.s
+
+external/libjpeg/jdinput.o: external/libjpeg/jdinput.c.o
+
+.PHONY : external/libjpeg/jdinput.o
+
+# target to build an object file
+external/libjpeg/jdinput.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+.PHONY : external/libjpeg/jdinput.c.o
+
+external/libjpeg/jdinput.i: external/libjpeg/jdinput.c.i
+
+.PHONY : external/libjpeg/jdinput.i
+
+# target to preprocess a source file
+external/libjpeg/jdinput.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i
+.PHONY : external/libjpeg/jdinput.c.i
+
+external/libjpeg/jdinput.s: external/libjpeg/jdinput.c.s
+
+.PHONY : external/libjpeg/jdinput.s
+
+# target to generate assembly for a file
+external/libjpeg/jdinput.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s
+.PHONY : external/libjpeg/jdinput.c.s
+
+external/libjpeg/jdmainct.o: external/libjpeg/jdmainct.c.o
+
+.PHONY : external/libjpeg/jdmainct.o
+
+# target to build an object file
+external/libjpeg/jdmainct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+.PHONY : external/libjpeg/jdmainct.c.o
+
+external/libjpeg/jdmainct.i: external/libjpeg/jdmainct.c.i
+
+.PHONY : external/libjpeg/jdmainct.i
+
+# target to preprocess a source file
+external/libjpeg/jdmainct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i
+.PHONY : external/libjpeg/jdmainct.c.i
+
+external/libjpeg/jdmainct.s: external/libjpeg/jdmainct.c.s
+
+.PHONY : external/libjpeg/jdmainct.s
+
+# target to generate assembly for a file
+external/libjpeg/jdmainct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s
+.PHONY : external/libjpeg/jdmainct.c.s
+
+external/libjpeg/jdmarker.o: external/libjpeg/jdmarker.c.o
+
+.PHONY : external/libjpeg/jdmarker.o
+
+# target to build an object file
+external/libjpeg/jdmarker.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+.PHONY : external/libjpeg/jdmarker.c.o
+
+external/libjpeg/jdmarker.i: external/libjpeg/jdmarker.c.i
+
+.PHONY : external/libjpeg/jdmarker.i
+
+# target to preprocess a source file
+external/libjpeg/jdmarker.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i
+.PHONY : external/libjpeg/jdmarker.c.i
+
+external/libjpeg/jdmarker.s: external/libjpeg/jdmarker.c.s
+
+.PHONY : external/libjpeg/jdmarker.s
+
+# target to generate assembly for a file
+external/libjpeg/jdmarker.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s
+.PHONY : external/libjpeg/jdmarker.c.s
+
+external/libjpeg/jdmaster.o: external/libjpeg/jdmaster.c.o
+
+.PHONY : external/libjpeg/jdmaster.o
+
+# target to build an object file
+external/libjpeg/jdmaster.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+.PHONY : external/libjpeg/jdmaster.c.o
+
+external/libjpeg/jdmaster.i: external/libjpeg/jdmaster.c.i
+
+.PHONY : external/libjpeg/jdmaster.i
+
+# target to preprocess a source file
+external/libjpeg/jdmaster.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i
+.PHONY : external/libjpeg/jdmaster.c.i
+
+external/libjpeg/jdmaster.s: external/libjpeg/jdmaster.c.s
+
+.PHONY : external/libjpeg/jdmaster.s
+
+# target to generate assembly for a file
+external/libjpeg/jdmaster.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s
+.PHONY : external/libjpeg/jdmaster.c.s
+
+external/libjpeg/jdmerge.o: external/libjpeg/jdmerge.c.o
+
+.PHONY : external/libjpeg/jdmerge.o
+
+# target to build an object file
+external/libjpeg/jdmerge.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+.PHONY : external/libjpeg/jdmerge.c.o
+
+external/libjpeg/jdmerge.i: external/libjpeg/jdmerge.c.i
+
+.PHONY : external/libjpeg/jdmerge.i
+
+# target to preprocess a source file
+external/libjpeg/jdmerge.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i
+.PHONY : external/libjpeg/jdmerge.c.i
+
+external/libjpeg/jdmerge.s: external/libjpeg/jdmerge.c.s
+
+.PHONY : external/libjpeg/jdmerge.s
+
+# target to generate assembly for a file
+external/libjpeg/jdmerge.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s
+.PHONY : external/libjpeg/jdmerge.c.s
+
+external/libjpeg/jdpostct.o: external/libjpeg/jdpostct.c.o
+
+.PHONY : external/libjpeg/jdpostct.o
+
+# target to build an object file
+external/libjpeg/jdpostct.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+.PHONY : external/libjpeg/jdpostct.c.o
+
+external/libjpeg/jdpostct.i: external/libjpeg/jdpostct.c.i
+
+.PHONY : external/libjpeg/jdpostct.i
+
+# target to preprocess a source file
+external/libjpeg/jdpostct.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i
+.PHONY : external/libjpeg/jdpostct.c.i
+
+external/libjpeg/jdpostct.s: external/libjpeg/jdpostct.c.s
+
+.PHONY : external/libjpeg/jdpostct.s
+
+# target to generate assembly for a file
+external/libjpeg/jdpostct.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s
+.PHONY : external/libjpeg/jdpostct.c.s
+
+external/libjpeg/jdsample.o: external/libjpeg/jdsample.c.o
+
+.PHONY : external/libjpeg/jdsample.o
+
+# target to build an object file
+external/libjpeg/jdsample.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+.PHONY : external/libjpeg/jdsample.c.o
+
+external/libjpeg/jdsample.i: external/libjpeg/jdsample.c.i
+
+.PHONY : external/libjpeg/jdsample.i
+
+# target to preprocess a source file
+external/libjpeg/jdsample.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i
+.PHONY : external/libjpeg/jdsample.c.i
+
+external/libjpeg/jdsample.s: external/libjpeg/jdsample.c.s
+
+.PHONY : external/libjpeg/jdsample.s
+
+# target to generate assembly for a file
+external/libjpeg/jdsample.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s
+.PHONY : external/libjpeg/jdsample.c.s
+
+external/libjpeg/jerror.o: external/libjpeg/jerror.c.o
+
+.PHONY : external/libjpeg/jerror.o
+
+# target to build an object file
+external/libjpeg/jerror.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+.PHONY : external/libjpeg/jerror.c.o
+
+external/libjpeg/jerror.i: external/libjpeg/jerror.c.i
+
+.PHONY : external/libjpeg/jerror.i
+
+# target to preprocess a source file
+external/libjpeg/jerror.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i
+.PHONY : external/libjpeg/jerror.c.i
+
+external/libjpeg/jerror.s: external/libjpeg/jerror.c.s
+
+.PHONY : external/libjpeg/jerror.s
+
+# target to generate assembly for a file
+external/libjpeg/jerror.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s
+.PHONY : external/libjpeg/jerror.c.s
+
+external/libjpeg/jfdctflt.o: external/libjpeg/jfdctflt.c.o
+
+.PHONY : external/libjpeg/jfdctflt.o
+
+# target to build an object file
+external/libjpeg/jfdctflt.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+.PHONY : external/libjpeg/jfdctflt.c.o
+
+external/libjpeg/jfdctflt.i: external/libjpeg/jfdctflt.c.i
+
+.PHONY : external/libjpeg/jfdctflt.i
+
+# target to preprocess a source file
+external/libjpeg/jfdctflt.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i
+.PHONY : external/libjpeg/jfdctflt.c.i
+
+external/libjpeg/jfdctflt.s: external/libjpeg/jfdctflt.c.s
+
+.PHONY : external/libjpeg/jfdctflt.s
+
+# target to generate assembly for a file
+external/libjpeg/jfdctflt.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s
+.PHONY : external/libjpeg/jfdctflt.c.s
+
+external/libjpeg/jfdctfst.o: external/libjpeg/jfdctfst.c.o
+
+.PHONY : external/libjpeg/jfdctfst.o
+
+# target to build an object file
+external/libjpeg/jfdctfst.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+.PHONY : external/libjpeg/jfdctfst.c.o
+
+external/libjpeg/jfdctfst.i: external/libjpeg/jfdctfst.c.i
+
+.PHONY : external/libjpeg/jfdctfst.i
+
+# target to preprocess a source file
+external/libjpeg/jfdctfst.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i
+.PHONY : external/libjpeg/jfdctfst.c.i
+
+external/libjpeg/jfdctfst.s: external/libjpeg/jfdctfst.c.s
+
+.PHONY : external/libjpeg/jfdctfst.s
+
+# target to generate assembly for a file
+external/libjpeg/jfdctfst.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s
+.PHONY : external/libjpeg/jfdctfst.c.s
+
+external/libjpeg/jfdctint.o: external/libjpeg/jfdctint.c.o
+
+.PHONY : external/libjpeg/jfdctint.o
+
+# target to build an object file
+external/libjpeg/jfdctint.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+.PHONY : external/libjpeg/jfdctint.c.o
+
+external/libjpeg/jfdctint.i: external/libjpeg/jfdctint.c.i
+
+.PHONY : external/libjpeg/jfdctint.i
+
+# target to preprocess a source file
+external/libjpeg/jfdctint.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i
+.PHONY : external/libjpeg/jfdctint.c.i
+
+external/libjpeg/jfdctint.s: external/libjpeg/jfdctint.c.s
+
+.PHONY : external/libjpeg/jfdctint.s
+
+# target to generate assembly for a file
+external/libjpeg/jfdctint.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s
+.PHONY : external/libjpeg/jfdctint.c.s
+
+external/libjpeg/jidctflt.o: external/libjpeg/jidctflt.c.o
+
+.PHONY : external/libjpeg/jidctflt.o
+
+# target to build an object file
+external/libjpeg/jidctflt.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+.PHONY : external/libjpeg/jidctflt.c.o
+
+external/libjpeg/jidctflt.i: external/libjpeg/jidctflt.c.i
+
+.PHONY : external/libjpeg/jidctflt.i
+
+# target to preprocess a source file
+external/libjpeg/jidctflt.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i
+.PHONY : external/libjpeg/jidctflt.c.i
+
+external/libjpeg/jidctflt.s: external/libjpeg/jidctflt.c.s
+
+.PHONY : external/libjpeg/jidctflt.s
+
+# target to generate assembly for a file
+external/libjpeg/jidctflt.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s
+.PHONY : external/libjpeg/jidctflt.c.s
+
+external/libjpeg/jidctfst.o: external/libjpeg/jidctfst.c.o
+
+.PHONY : external/libjpeg/jidctfst.o
+
+# target to build an object file
+external/libjpeg/jidctfst.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+.PHONY : external/libjpeg/jidctfst.c.o
+
+external/libjpeg/jidctfst.i: external/libjpeg/jidctfst.c.i
+
+.PHONY : external/libjpeg/jidctfst.i
+
+# target to preprocess a source file
+external/libjpeg/jidctfst.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i
+.PHONY : external/libjpeg/jidctfst.c.i
+
+external/libjpeg/jidctfst.s: external/libjpeg/jidctfst.c.s
+
+.PHONY : external/libjpeg/jidctfst.s
+
+# target to generate assembly for a file
+external/libjpeg/jidctfst.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s
+.PHONY : external/libjpeg/jidctfst.c.s
+
+external/libjpeg/jidctint.o: external/libjpeg/jidctint.c.o
+
+.PHONY : external/libjpeg/jidctint.o
+
+# target to build an object file
+external/libjpeg/jidctint.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+.PHONY : external/libjpeg/jidctint.c.o
+
+external/libjpeg/jidctint.i: external/libjpeg/jidctint.c.i
+
+.PHONY : external/libjpeg/jidctint.i
+
+# target to preprocess a source file
+external/libjpeg/jidctint.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i
+.PHONY : external/libjpeg/jidctint.c.i
+
+external/libjpeg/jidctint.s: external/libjpeg/jidctint.c.s
+
+.PHONY : external/libjpeg/jidctint.s
+
+# target to generate assembly for a file
+external/libjpeg/jidctint.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s
+.PHONY : external/libjpeg/jidctint.c.s
+
+external/libjpeg/jmemmgr.o: external/libjpeg/jmemmgr.c.o
+
+.PHONY : external/libjpeg/jmemmgr.o
+
+# target to build an object file
+external/libjpeg/jmemmgr.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+.PHONY : external/libjpeg/jmemmgr.c.o
+
+external/libjpeg/jmemmgr.i: external/libjpeg/jmemmgr.c.i
+
+.PHONY : external/libjpeg/jmemmgr.i
+
+# target to preprocess a source file
+external/libjpeg/jmemmgr.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i
+.PHONY : external/libjpeg/jmemmgr.c.i
+
+external/libjpeg/jmemmgr.s: external/libjpeg/jmemmgr.c.s
+
+.PHONY : external/libjpeg/jmemmgr.s
+
+# target to generate assembly for a file
+external/libjpeg/jmemmgr.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s
+.PHONY : external/libjpeg/jmemmgr.c.s
+
+external/libjpeg/jmemnobs.o: external/libjpeg/jmemnobs.c.o
+
+.PHONY : external/libjpeg/jmemnobs.o
+
+# target to build an object file
+external/libjpeg/jmemnobs.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+.PHONY : external/libjpeg/jmemnobs.c.o
+
+external/libjpeg/jmemnobs.i: external/libjpeg/jmemnobs.c.i
+
+.PHONY : external/libjpeg/jmemnobs.i
+
+# target to preprocess a source file
+external/libjpeg/jmemnobs.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i
+.PHONY : external/libjpeg/jmemnobs.c.i
+
+external/libjpeg/jmemnobs.s: external/libjpeg/jmemnobs.c.s
+
+.PHONY : external/libjpeg/jmemnobs.s
+
+# target to generate assembly for a file
+external/libjpeg/jmemnobs.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s
+.PHONY : external/libjpeg/jmemnobs.c.s
+
+external/libjpeg/jquant1.o: external/libjpeg/jquant1.c.o
+
+.PHONY : external/libjpeg/jquant1.o
+
+# target to build an object file
+external/libjpeg/jquant1.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+.PHONY : external/libjpeg/jquant1.c.o
+
+external/libjpeg/jquant1.i: external/libjpeg/jquant1.c.i
+
+.PHONY : external/libjpeg/jquant1.i
+
+# target to preprocess a source file
+external/libjpeg/jquant1.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i
+.PHONY : external/libjpeg/jquant1.c.i
+
+external/libjpeg/jquant1.s: external/libjpeg/jquant1.c.s
+
+.PHONY : external/libjpeg/jquant1.s
+
+# target to generate assembly for a file
+external/libjpeg/jquant1.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s
+.PHONY : external/libjpeg/jquant1.c.s
+
+external/libjpeg/jquant2.o: external/libjpeg/jquant2.c.o
+
+.PHONY : external/libjpeg/jquant2.o
+
+# target to build an object file
+external/libjpeg/jquant2.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+.PHONY : external/libjpeg/jquant2.c.o
+
+external/libjpeg/jquant2.i: external/libjpeg/jquant2.c.i
+
+.PHONY : external/libjpeg/jquant2.i
+
+# target to preprocess a source file
+external/libjpeg/jquant2.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i
+.PHONY : external/libjpeg/jquant2.c.i
+
+external/libjpeg/jquant2.s: external/libjpeg/jquant2.c.s
+
+.PHONY : external/libjpeg/jquant2.s
+
+# target to generate assembly for a file
+external/libjpeg/jquant2.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s
+.PHONY : external/libjpeg/jquant2.c.s
+
+external/libjpeg/jutils.o: external/libjpeg/jutils.c.o
+
+.PHONY : external/libjpeg/jutils.o
+
+# target to build an object file
+external/libjpeg/jutils.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
+.PHONY : external/libjpeg/jutils.c.o
+
+external/libjpeg/jutils.i: external/libjpeg/jutils.c.i
+
+.PHONY : external/libjpeg/jutils.i
+
+# target to preprocess a source file
+external/libjpeg/jutils.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i
+.PHONY : external/libjpeg/jutils.c.i
+
+external/libjpeg/jutils.s: external/libjpeg/jutils.c.s
+
+.PHONY : external/libjpeg/jutils.s
+
+# target to generate assembly for a file
+external/libjpeg/jutils.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s
+.PHONY : external/libjpeg/jutils.c.s
+
+external/libpng/arm/arm_init.o: external/libpng/arm/arm_init.c.o
+
+.PHONY : external/libpng/arm/arm_init.o
+
+# target to build an object file
+external/libpng/arm/arm_init.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o
+.PHONY : external/libpng/arm/arm_init.c.o
+
+external/libpng/arm/arm_init.i: external/libpng/arm/arm_init.c.i
+
+.PHONY : external/libpng/arm/arm_init.i
+
+# target to preprocess a source file
+external/libpng/arm/arm_init.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i
+.PHONY : external/libpng/arm/arm_init.c.i
+
+external/libpng/arm/arm_init.s: external/libpng/arm/arm_init.c.s
+
+.PHONY : external/libpng/arm/arm_init.s
+
+# target to generate assembly for a file
+external/libpng/arm/arm_init.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s
+.PHONY : external/libpng/arm/arm_init.c.s
+
+external/libpng/arm/filter_neon_intrinsics.o: external/libpng/arm/filter_neon_intrinsics.c.o
+
+.PHONY : external/libpng/arm/filter_neon_intrinsics.o
+
+# target to build an object file
+external/libpng/arm/filter_neon_intrinsics.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o
+.PHONY : external/libpng/arm/filter_neon_intrinsics.c.o
+
+external/libpng/arm/filter_neon_intrinsics.i: external/libpng/arm/filter_neon_intrinsics.c.i
+
+.PHONY : external/libpng/arm/filter_neon_intrinsics.i
+
+# target to preprocess a source file
+external/libpng/arm/filter_neon_intrinsics.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i
+.PHONY : external/libpng/arm/filter_neon_intrinsics.c.i
+
+external/libpng/arm/filter_neon_intrinsics.s: external/libpng/arm/filter_neon_intrinsics.c.s
+
+.PHONY : external/libpng/arm/filter_neon_intrinsics.s
+
+# target to generate assembly for a file
+external/libpng/arm/filter_neon_intrinsics.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s
+.PHONY : external/libpng/arm/filter_neon_intrinsics.c.s
+
+external/libpng/png.o: external/libpng/png.c.o
+
+.PHONY : external/libpng/png.o
+
+# target to build an object file
+external/libpng/png.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o
+.PHONY : external/libpng/png.c.o
+
+external/libpng/png.i: external/libpng/png.c.i
+
+.PHONY : external/libpng/png.i
+
+# target to preprocess a source file
+external/libpng/png.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.i
+.PHONY : external/libpng/png.c.i
+
+external/libpng/png.s: external/libpng/png.c.s
+
+.PHONY : external/libpng/png.s
+
+# target to generate assembly for a file
+external/libpng/png.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.s
+.PHONY : external/libpng/png.c.s
+
+external/libpng/pngerror.o: external/libpng/pngerror.c.o
+
+.PHONY : external/libpng/pngerror.o
+
+# target to build an object file
+external/libpng/pngerror.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o
+.PHONY : external/libpng/pngerror.c.o
+
+external/libpng/pngerror.i: external/libpng/pngerror.c.i
+
+.PHONY : external/libpng/pngerror.i
+
+# target to preprocess a source file
+external/libpng/pngerror.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.i
+.PHONY : external/libpng/pngerror.c.i
+
+external/libpng/pngerror.s: external/libpng/pngerror.c.s
+
+.PHONY : external/libpng/pngerror.s
+
+# target to generate assembly for a file
+external/libpng/pngerror.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.s
+.PHONY : external/libpng/pngerror.c.s
+
+external/libpng/pngget.o: external/libpng/pngget.c.o
+
+.PHONY : external/libpng/pngget.o
+
+# target to build an object file
+external/libpng/pngget.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o
+.PHONY : external/libpng/pngget.c.o
+
+external/libpng/pngget.i: external/libpng/pngget.c.i
+
+.PHONY : external/libpng/pngget.i
+
+# target to preprocess a source file
+external/libpng/pngget.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.i
+.PHONY : external/libpng/pngget.c.i
+
+external/libpng/pngget.s: external/libpng/pngget.c.s
+
+.PHONY : external/libpng/pngget.s
+
+# target to generate assembly for a file
+external/libpng/pngget.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.s
+.PHONY : external/libpng/pngget.c.s
+
+external/libpng/pngmem.o: external/libpng/pngmem.c.o
+
+.PHONY : external/libpng/pngmem.o
+
+# target to build an object file
+external/libpng/pngmem.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o
+.PHONY : external/libpng/pngmem.c.o
+
+external/libpng/pngmem.i: external/libpng/pngmem.c.i
+
+.PHONY : external/libpng/pngmem.i
+
+# target to preprocess a source file
+external/libpng/pngmem.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.i
+.PHONY : external/libpng/pngmem.c.i
+
+external/libpng/pngmem.s: external/libpng/pngmem.c.s
+
+.PHONY : external/libpng/pngmem.s
+
+# target to generate assembly for a file
+external/libpng/pngmem.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.s
+.PHONY : external/libpng/pngmem.c.s
+
+external/libpng/pngpread.o: external/libpng/pngpread.c.o
+
+.PHONY : external/libpng/pngpread.o
+
+# target to build an object file
+external/libpng/pngpread.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o
+.PHONY : external/libpng/pngpread.c.o
+
+external/libpng/pngpread.i: external/libpng/pngpread.c.i
+
+.PHONY : external/libpng/pngpread.i
+
+# target to preprocess a source file
+external/libpng/pngpread.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.i
+.PHONY : external/libpng/pngpread.c.i
+
+external/libpng/pngpread.s: external/libpng/pngpread.c.s
+
+.PHONY : external/libpng/pngpread.s
+
+# target to generate assembly for a file
+external/libpng/pngpread.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.s
+.PHONY : external/libpng/pngpread.c.s
+
+external/libpng/pngread.o: external/libpng/pngread.c.o
+
+.PHONY : external/libpng/pngread.o
+
+# target to build an object file
+external/libpng/pngread.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o
+.PHONY : external/libpng/pngread.c.o
+
+external/libpng/pngread.i: external/libpng/pngread.c.i
+
+.PHONY : external/libpng/pngread.i
+
+# target to preprocess a source file
+external/libpng/pngread.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.i
+.PHONY : external/libpng/pngread.c.i
+
+external/libpng/pngread.s: external/libpng/pngread.c.s
+
+.PHONY : external/libpng/pngread.s
+
+# target to generate assembly for a file
+external/libpng/pngread.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.s
+.PHONY : external/libpng/pngread.c.s
+
+external/libpng/pngrio.o: external/libpng/pngrio.c.o
+
+.PHONY : external/libpng/pngrio.o
+
+# target to build an object file
+external/libpng/pngrio.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o
+.PHONY : external/libpng/pngrio.c.o
+
+external/libpng/pngrio.i: external/libpng/pngrio.c.i
+
+.PHONY : external/libpng/pngrio.i
+
+# target to preprocess a source file
+external/libpng/pngrio.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.i
+.PHONY : external/libpng/pngrio.c.i
+
+external/libpng/pngrio.s: external/libpng/pngrio.c.s
+
+.PHONY : external/libpng/pngrio.s
+
+# target to generate assembly for a file
+external/libpng/pngrio.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.s
+.PHONY : external/libpng/pngrio.c.s
+
+external/libpng/pngrtran.o: external/libpng/pngrtran.c.o
+
+.PHONY : external/libpng/pngrtran.o
+
+# target to build an object file
+external/libpng/pngrtran.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o
+.PHONY : external/libpng/pngrtran.c.o
+
+external/libpng/pngrtran.i: external/libpng/pngrtran.c.i
+
+.PHONY : external/libpng/pngrtran.i
+
+# target to preprocess a source file
+external/libpng/pngrtran.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i
+.PHONY : external/libpng/pngrtran.c.i
+
+external/libpng/pngrtran.s: external/libpng/pngrtran.c.s
+
+.PHONY : external/libpng/pngrtran.s
+
+# target to generate assembly for a file
+external/libpng/pngrtran.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s
+.PHONY : external/libpng/pngrtran.c.s
+
+external/libpng/pngrutil.o: external/libpng/pngrutil.c.o
+
+.PHONY : external/libpng/pngrutil.o
+
+# target to build an object file
+external/libpng/pngrutil.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o
+.PHONY : external/libpng/pngrutil.c.o
+
+external/libpng/pngrutil.i: external/libpng/pngrutil.c.i
+
+.PHONY : external/libpng/pngrutil.i
+
+# target to preprocess a source file
+external/libpng/pngrutil.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i
+.PHONY : external/libpng/pngrutil.c.i
+
+external/libpng/pngrutil.s: external/libpng/pngrutil.c.s
+
+.PHONY : external/libpng/pngrutil.s
+
+# target to generate assembly for a file
+external/libpng/pngrutil.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s
+.PHONY : external/libpng/pngrutil.c.s
+
+external/libpng/pngset.o: external/libpng/pngset.c.o
+
+.PHONY : external/libpng/pngset.o
+
+# target to build an object file
+external/libpng/pngset.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o
+.PHONY : external/libpng/pngset.c.o
+
+external/libpng/pngset.i: external/libpng/pngset.c.i
+
+.PHONY : external/libpng/pngset.i
+
+# target to preprocess a source file
+external/libpng/pngset.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.i
+.PHONY : external/libpng/pngset.c.i
+
+external/libpng/pngset.s: external/libpng/pngset.c.s
+
+.PHONY : external/libpng/pngset.s
+
+# target to generate assembly for a file
+external/libpng/pngset.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.s
+.PHONY : external/libpng/pngset.c.s
+
+external/libpng/pngtrans.o: external/libpng/pngtrans.c.o
+
+.PHONY : external/libpng/pngtrans.o
+
+# target to build an object file
+external/libpng/pngtrans.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o
+.PHONY : external/libpng/pngtrans.c.o
+
+external/libpng/pngtrans.i: external/libpng/pngtrans.c.i
+
+.PHONY : external/libpng/pngtrans.i
+
+# target to preprocess a source file
+external/libpng/pngtrans.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i
+.PHONY : external/libpng/pngtrans.c.i
+
+external/libpng/pngtrans.s: external/libpng/pngtrans.c.s
+
+.PHONY : external/libpng/pngtrans.s
+
+# target to generate assembly for a file
+external/libpng/pngtrans.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s
+.PHONY : external/libpng/pngtrans.c.s
+
+external/libpng/pngwio.o: external/libpng/pngwio.c.o
+
+.PHONY : external/libpng/pngwio.o
+
+# target to build an object file
+external/libpng/pngwio.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o
+.PHONY : external/libpng/pngwio.c.o
+
+external/libpng/pngwio.i: external/libpng/pngwio.c.i
+
+.PHONY : external/libpng/pngwio.i
+
+# target to preprocess a source file
+external/libpng/pngwio.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.i
+.PHONY : external/libpng/pngwio.c.i
+
+external/libpng/pngwio.s: external/libpng/pngwio.c.s
+
+.PHONY : external/libpng/pngwio.s
+
+# target to generate assembly for a file
+external/libpng/pngwio.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.s
+.PHONY : external/libpng/pngwio.c.s
+
+external/libpng/pngwrite.o: external/libpng/pngwrite.c.o
+
+.PHONY : external/libpng/pngwrite.o
+
+# target to build an object file
+external/libpng/pngwrite.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o
+.PHONY : external/libpng/pngwrite.c.o
+
+external/libpng/pngwrite.i: external/libpng/pngwrite.c.i
+
+.PHONY : external/libpng/pngwrite.i
+
+# target to preprocess a source file
+external/libpng/pngwrite.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i
+.PHONY : external/libpng/pngwrite.c.i
+
+external/libpng/pngwrite.s: external/libpng/pngwrite.c.s
+
+.PHONY : external/libpng/pngwrite.s
+
+# target to generate assembly for a file
+external/libpng/pngwrite.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s
+.PHONY : external/libpng/pngwrite.c.s
+
+external/libpng/pngwtran.o: external/libpng/pngwtran.c.o
+
+.PHONY : external/libpng/pngwtran.o
+
+# target to build an object file
+external/libpng/pngwtran.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o
+.PHONY : external/libpng/pngwtran.c.o
+
+external/libpng/pngwtran.i: external/libpng/pngwtran.c.i
+
+.PHONY : external/libpng/pngwtran.i
+
+# target to preprocess a source file
+external/libpng/pngwtran.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i
+.PHONY : external/libpng/pngwtran.c.i
+
+external/libpng/pngwtran.s: external/libpng/pngwtran.c.s
+
+.PHONY : external/libpng/pngwtran.s
+
+# target to generate assembly for a file
+external/libpng/pngwtran.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s
+.PHONY : external/libpng/pngwtran.c.s
+
+external/libpng/pngwutil.o: external/libpng/pngwutil.c.o
+
+.PHONY : external/libpng/pngwutil.o
+
+# target to build an object file
+external/libpng/pngwutil.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o
+.PHONY : external/libpng/pngwutil.c.o
+
+external/libpng/pngwutil.i: external/libpng/pngwutil.c.i
+
+.PHONY : external/libpng/pngwutil.i
+
+# target to preprocess a source file
+external/libpng/pngwutil.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i
+.PHONY : external/libpng/pngwutil.c.i
+
+external/libpng/pngwutil.s: external/libpng/pngwutil.c.s
+
+.PHONY : external/libpng/pngwutil.s
+
+# target to generate assembly for a file
+external/libpng/pngwutil.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s
+.PHONY : external/libpng/pngwutil.c.s
+
+external/zlib/adler32.o: external/zlib/adler32.c.o
+
+.PHONY : external/zlib/adler32.o
+
+# target to build an object file
+external/zlib/adler32.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o
+.PHONY : external/zlib/adler32.c.o
+
+external/zlib/adler32.i: external/zlib/adler32.c.i
+
+.PHONY : external/zlib/adler32.i
+
+# target to preprocess a source file
+external/zlib/adler32.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.i
+.PHONY : external/zlib/adler32.c.i
+
+external/zlib/adler32.s: external/zlib/adler32.c.s
+
+.PHONY : external/zlib/adler32.s
+
+# target to generate assembly for a file
+external/zlib/adler32.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.s
+.PHONY : external/zlib/adler32.c.s
+
+external/zlib/compress.o: external/zlib/compress.c.o
+
+.PHONY : external/zlib/compress.o
+
+# target to build an object file
+external/zlib/compress.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o
+.PHONY : external/zlib/compress.c.o
+
+external/zlib/compress.i: external/zlib/compress.c.i
+
+.PHONY : external/zlib/compress.i
+
+# target to preprocess a source file
+external/zlib/compress.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.i
+.PHONY : external/zlib/compress.c.i
+
+external/zlib/compress.s: external/zlib/compress.c.s
+
+.PHONY : external/zlib/compress.s
+
+# target to generate assembly for a file
+external/zlib/compress.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.s
+.PHONY : external/zlib/compress.c.s
+
+external/zlib/crc32.o: external/zlib/crc32.c.o
+
+.PHONY : external/zlib/crc32.o
+
+# target to build an object file
+external/zlib/crc32.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o
+.PHONY : external/zlib/crc32.c.o
+
+external/zlib/crc32.i: external/zlib/crc32.c.i
+
+.PHONY : external/zlib/crc32.i
+
+# target to preprocess a source file
+external/zlib/crc32.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.i
+.PHONY : external/zlib/crc32.c.i
+
+external/zlib/crc32.s: external/zlib/crc32.c.s
+
+.PHONY : external/zlib/crc32.s
+
+# target to generate assembly for a file
+external/zlib/crc32.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.s
+.PHONY : external/zlib/crc32.c.s
+
+external/zlib/deflate.o: external/zlib/deflate.c.o
+
+.PHONY : external/zlib/deflate.o
+
+# target to build an object file
+external/zlib/deflate.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o
+.PHONY : external/zlib/deflate.c.o
+
+external/zlib/deflate.i: external/zlib/deflate.c.i
+
+.PHONY : external/zlib/deflate.i
+
+# target to preprocess a source file
+external/zlib/deflate.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.i
+.PHONY : external/zlib/deflate.c.i
+
+external/zlib/deflate.s: external/zlib/deflate.c.s
+
+.PHONY : external/zlib/deflate.s
+
+# target to generate assembly for a file
+external/zlib/deflate.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.s
+.PHONY : external/zlib/deflate.c.s
+
+external/zlib/gzclose.o: external/zlib/gzclose.c.o
+
+.PHONY : external/zlib/gzclose.o
+
+# target to build an object file
+external/zlib/gzclose.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o
+.PHONY : external/zlib/gzclose.c.o
+
+external/zlib/gzclose.i: external/zlib/gzclose.c.i
+
+.PHONY : external/zlib/gzclose.i
+
+# target to preprocess a source file
+external/zlib/gzclose.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.i
+.PHONY : external/zlib/gzclose.c.i
+
+external/zlib/gzclose.s: external/zlib/gzclose.c.s
+
+.PHONY : external/zlib/gzclose.s
+
+# target to generate assembly for a file
+external/zlib/gzclose.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.s
+.PHONY : external/zlib/gzclose.c.s
+
+external/zlib/gzlib.o: external/zlib/gzlib.c.o
+
+.PHONY : external/zlib/gzlib.o
+
+# target to build an object file
+external/zlib/gzlib.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o
+.PHONY : external/zlib/gzlib.c.o
+
+external/zlib/gzlib.i: external/zlib/gzlib.c.i
+
+.PHONY : external/zlib/gzlib.i
+
+# target to preprocess a source file
+external/zlib/gzlib.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.i
+.PHONY : external/zlib/gzlib.c.i
+
+external/zlib/gzlib.s: external/zlib/gzlib.c.s
+
+.PHONY : external/zlib/gzlib.s
+
+# target to generate assembly for a file
+external/zlib/gzlib.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.s
+.PHONY : external/zlib/gzlib.c.s
+
+external/zlib/gzread.o: external/zlib/gzread.c.o
+
+.PHONY : external/zlib/gzread.o
+
+# target to build an object file
+external/zlib/gzread.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o
+.PHONY : external/zlib/gzread.c.o
+
+external/zlib/gzread.i: external/zlib/gzread.c.i
+
+.PHONY : external/zlib/gzread.i
+
+# target to preprocess a source file
+external/zlib/gzread.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.i
+.PHONY : external/zlib/gzread.c.i
+
+external/zlib/gzread.s: external/zlib/gzread.c.s
+
+.PHONY : external/zlib/gzread.s
+
+# target to generate assembly for a file
+external/zlib/gzread.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.s
+.PHONY : external/zlib/gzread.c.s
+
+external/zlib/gzwrite.o: external/zlib/gzwrite.c.o
+
+.PHONY : external/zlib/gzwrite.o
+
+# target to build an object file
+external/zlib/gzwrite.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o
+.PHONY : external/zlib/gzwrite.c.o
+
+external/zlib/gzwrite.i: external/zlib/gzwrite.c.i
+
+.PHONY : external/zlib/gzwrite.i
+
+# target to preprocess a source file
+external/zlib/gzwrite.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i
+.PHONY : external/zlib/gzwrite.c.i
+
+external/zlib/gzwrite.s: external/zlib/gzwrite.c.s
+
+.PHONY : external/zlib/gzwrite.s
+
+# target to generate assembly for a file
+external/zlib/gzwrite.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s
+.PHONY : external/zlib/gzwrite.c.s
+
+external/zlib/infback.o: external/zlib/infback.c.o
+
+.PHONY : external/zlib/infback.o
+
+# target to build an object file
+external/zlib/infback.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o
+.PHONY : external/zlib/infback.c.o
+
+external/zlib/infback.i: external/zlib/infback.c.i
+
+.PHONY : external/zlib/infback.i
+
+# target to preprocess a source file
+external/zlib/infback.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.i
+.PHONY : external/zlib/infback.c.i
+
+external/zlib/infback.s: external/zlib/infback.c.s
+
+.PHONY : external/zlib/infback.s
+
+# target to generate assembly for a file
+external/zlib/infback.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.s
+.PHONY : external/zlib/infback.c.s
+
+external/zlib/inffast.o: external/zlib/inffast.c.o
+
+.PHONY : external/zlib/inffast.o
+
+# target to build an object file
+external/zlib/inffast.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o
+.PHONY : external/zlib/inffast.c.o
+
+external/zlib/inffast.i: external/zlib/inffast.c.i
+
+.PHONY : external/zlib/inffast.i
+
+# target to preprocess a source file
+external/zlib/inffast.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.i
+.PHONY : external/zlib/inffast.c.i
+
+external/zlib/inffast.s: external/zlib/inffast.c.s
+
+.PHONY : external/zlib/inffast.s
+
+# target to generate assembly for a file
+external/zlib/inffast.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.s
+.PHONY : external/zlib/inffast.c.s
+
+external/zlib/inflate.o: external/zlib/inflate.c.o
+
+.PHONY : external/zlib/inflate.o
+
+# target to build an object file
+external/zlib/inflate.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o
+.PHONY : external/zlib/inflate.c.o
+
+external/zlib/inflate.i: external/zlib/inflate.c.i
+
+.PHONY : external/zlib/inflate.i
+
+# target to preprocess a source file
+external/zlib/inflate.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.i
+.PHONY : external/zlib/inflate.c.i
+
+external/zlib/inflate.s: external/zlib/inflate.c.s
+
+.PHONY : external/zlib/inflate.s
+
+# target to generate assembly for a file
+external/zlib/inflate.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.s
+.PHONY : external/zlib/inflate.c.s
+
+external/zlib/inftrees.o: external/zlib/inftrees.c.o
+
+.PHONY : external/zlib/inftrees.o
+
+# target to build an object file
+external/zlib/inftrees.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o
+.PHONY : external/zlib/inftrees.c.o
+
+external/zlib/inftrees.i: external/zlib/inftrees.c.i
+
+.PHONY : external/zlib/inftrees.i
+
+# target to preprocess a source file
+external/zlib/inftrees.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.i
+.PHONY : external/zlib/inftrees.c.i
+
+external/zlib/inftrees.s: external/zlib/inftrees.c.s
+
+.PHONY : external/zlib/inftrees.s
+
+# target to generate assembly for a file
+external/zlib/inftrees.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.s
+.PHONY : external/zlib/inftrees.c.s
+
+external/zlib/trees.o: external/zlib/trees.c.o
+
+.PHONY : external/zlib/trees.o
+
+# target to build an object file
+external/zlib/trees.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o
+.PHONY : external/zlib/trees.c.o
+
+external/zlib/trees.i: external/zlib/trees.c.i
+
+.PHONY : external/zlib/trees.i
+
+# target to preprocess a source file
+external/zlib/trees.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.i
+.PHONY : external/zlib/trees.c.i
+
+external/zlib/trees.s: external/zlib/trees.c.s
+
+.PHONY : external/zlib/trees.s
+
+# target to generate assembly for a file
+external/zlib/trees.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.s
+.PHONY : external/zlib/trees.c.s
+
+external/zlib/uncompr.o: external/zlib/uncompr.c.o
+
+.PHONY : external/zlib/uncompr.o
+
+# target to build an object file
+external/zlib/uncompr.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o
+.PHONY : external/zlib/uncompr.c.o
+
+external/zlib/uncompr.i: external/zlib/uncompr.c.i
+
+.PHONY : external/zlib/uncompr.i
+
+# target to preprocess a source file
+external/zlib/uncompr.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.i
+.PHONY : external/zlib/uncompr.c.i
+
+external/zlib/uncompr.s: external/zlib/uncompr.c.s
+
+.PHONY : external/zlib/uncompr.s
+
+# target to generate assembly for a file
+external/zlib/uncompr.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.s
+.PHONY : external/zlib/uncompr.c.s
+
+external/zlib/zutil.o: external/zlib/zutil.c.o
+
+.PHONY : external/zlib/zutil.o
+
+# target to build an object file
+external/zlib/zutil.c.o:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o
+.PHONY : external/zlib/zutil.c.o
+
+external/zlib/zutil.i: external/zlib/zutil.c.i
+
+.PHONY : external/zlib/zutil.i
+
+# target to preprocess a source file
+external/zlib/zutil.c.i:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.i
+.PHONY : external/zlib/zutil.c.i
+
+external/zlib/zutil.s: external/zlib/zutil.c.s
+
+.PHONY : external/zlib/zutil.s
+
+# target to generate assembly for a file
+external/zlib/zutil.c.s:
+	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.s
+.PHONY : external/zlib/zutil.c.s
+
 filtering/kalman_filter.o: filtering/kalman_filter.cpp.o
 
 .PHONY : filtering/kalman_filter.o
@@ -1978,6 +4030,234 @@ help:
 	@echo "... entropy_encoder/entropy_encoder_kernel_2.o"
 	@echo "... entropy_encoder/entropy_encoder_kernel_2.i"
 	@echo "... entropy_encoder/entropy_encoder_kernel_2.s"
+	@echo "... external/libjpeg/jaricom.o"
+	@echo "... external/libjpeg/jaricom.i"
+	@echo "... external/libjpeg/jaricom.s"
+	@echo "... external/libjpeg/jcapimin.o"
+	@echo "... external/libjpeg/jcapimin.i"
+	@echo "... external/libjpeg/jcapimin.s"
+	@echo "... external/libjpeg/jcapistd.o"
+	@echo "... external/libjpeg/jcapistd.i"
+	@echo "... external/libjpeg/jcapistd.s"
+	@echo "... external/libjpeg/jcarith.o"
+	@echo "... external/libjpeg/jcarith.i"
+	@echo "... external/libjpeg/jcarith.s"
+	@echo "... external/libjpeg/jccoefct.o"
+	@echo "... external/libjpeg/jccoefct.i"
+	@echo "... external/libjpeg/jccoefct.s"
+	@echo "... external/libjpeg/jccolor.o"
+	@echo "... external/libjpeg/jccolor.i"
+	@echo "... external/libjpeg/jccolor.s"
+	@echo "... external/libjpeg/jcdctmgr.o"
+	@echo "... external/libjpeg/jcdctmgr.i"
+	@echo "... external/libjpeg/jcdctmgr.s"
+	@echo "... external/libjpeg/jchuff.o"
+	@echo "... external/libjpeg/jchuff.i"
+	@echo "... external/libjpeg/jchuff.s"
+	@echo "... external/libjpeg/jcinit.o"
+	@echo "... external/libjpeg/jcinit.i"
+	@echo "... external/libjpeg/jcinit.s"
+	@echo "... external/libjpeg/jcmainct.o"
+	@echo "... external/libjpeg/jcmainct.i"
+	@echo "... external/libjpeg/jcmainct.s"
+	@echo "... external/libjpeg/jcmarker.o"
+	@echo "... external/libjpeg/jcmarker.i"
+	@echo "... external/libjpeg/jcmarker.s"
+	@echo "... external/libjpeg/jcmaster.o"
+	@echo "... external/libjpeg/jcmaster.i"
+	@echo "... external/libjpeg/jcmaster.s"
+	@echo "... external/libjpeg/jcomapi.o"
+	@echo "... external/libjpeg/jcomapi.i"
+	@echo "... external/libjpeg/jcomapi.s"
+	@echo "... external/libjpeg/jcparam.o"
+	@echo "... external/libjpeg/jcparam.i"
+	@echo "... external/libjpeg/jcparam.s"
+	@echo "... external/libjpeg/jcprepct.o"
+	@echo "... external/libjpeg/jcprepct.i"
+	@echo "... external/libjpeg/jcprepct.s"
+	@echo "... external/libjpeg/jcsample.o"
+	@echo "... external/libjpeg/jcsample.i"
+	@echo "... external/libjpeg/jcsample.s"
+	@echo "... external/libjpeg/jdapimin.o"
+	@echo "... external/libjpeg/jdapimin.i"
+	@echo "... external/libjpeg/jdapimin.s"
+	@echo "... external/libjpeg/jdapistd.o"
+	@echo "... external/libjpeg/jdapistd.i"
+	@echo "... external/libjpeg/jdapistd.s"
+	@echo "... external/libjpeg/jdarith.o"
+	@echo "... external/libjpeg/jdarith.i"
+	@echo "... external/libjpeg/jdarith.s"
+	@echo "... external/libjpeg/jdatadst.o"
+	@echo "... external/libjpeg/jdatadst.i"
+	@echo "... external/libjpeg/jdatadst.s"
+	@echo "... external/libjpeg/jdatasrc.o"
+	@echo "... external/libjpeg/jdatasrc.i"
+	@echo "... external/libjpeg/jdatasrc.s"
+	@echo "... external/libjpeg/jdcoefct.o"
+	@echo "... external/libjpeg/jdcoefct.i"
+	@echo "... external/libjpeg/jdcoefct.s"
+	@echo "... external/libjpeg/jdcolor.o"
+	@echo "... external/libjpeg/jdcolor.i"
+	@echo "... external/libjpeg/jdcolor.s"
+	@echo "... external/libjpeg/jddctmgr.o"
+	@echo "... external/libjpeg/jddctmgr.i"
+	@echo "... external/libjpeg/jddctmgr.s"
+	@echo "... external/libjpeg/jdhuff.o"
+	@echo "... external/libjpeg/jdhuff.i"
+	@echo "... external/libjpeg/jdhuff.s"
+	@echo "... external/libjpeg/jdinput.o"
+	@echo "... external/libjpeg/jdinput.i"
+	@echo "... external/libjpeg/jdinput.s"
+	@echo "... external/libjpeg/jdmainct.o"
+	@echo "... external/libjpeg/jdmainct.i"
+	@echo "... external/libjpeg/jdmainct.s"
+	@echo "... external/libjpeg/jdmarker.o"
+	@echo "... external/libjpeg/jdmarker.i"
+	@echo "... external/libjpeg/jdmarker.s"
+	@echo "... external/libjpeg/jdmaster.o"
+	@echo "... external/libjpeg/jdmaster.i"
+	@echo "... external/libjpeg/jdmaster.s"
+	@echo "... external/libjpeg/jdmerge.o"
+	@echo "... external/libjpeg/jdmerge.i"
+	@echo "... external/libjpeg/jdmerge.s"
+	@echo "... external/libjpeg/jdpostct.o"
+	@echo "... external/libjpeg/jdpostct.i"
+	@echo "... external/libjpeg/jdpostct.s"
+	@echo "... external/libjpeg/jdsample.o"
+	@echo "... external/libjpeg/jdsample.i"
+	@echo "... external/libjpeg/jdsample.s"
+	@echo "... external/libjpeg/jerror.o"
+	@echo "... external/libjpeg/jerror.i"
+	@echo "... external/libjpeg/jerror.s"
+	@echo "... external/libjpeg/jfdctflt.o"
+	@echo "... external/libjpeg/jfdctflt.i"
+	@echo "... external/libjpeg/jfdctflt.s"
+	@echo "... external/libjpeg/jfdctfst.o"
+	@echo "... external/libjpeg/jfdctfst.i"
+	@echo "... external/libjpeg/jfdctfst.s"
+	@echo "... external/libjpeg/jfdctint.o"
+	@echo "... external/libjpeg/jfdctint.i"
+	@echo "... external/libjpeg/jfdctint.s"
+	@echo "... external/libjpeg/jidctflt.o"
+	@echo "... external/libjpeg/jidctflt.i"
+	@echo "... external/libjpeg/jidctflt.s"
+	@echo "... external/libjpeg/jidctfst.o"
+	@echo "... external/libjpeg/jidctfst.i"
+	@echo "... external/libjpeg/jidctfst.s"
+	@echo "... external/libjpeg/jidctint.o"
+	@echo "... external/libjpeg/jidctint.i"
+	@echo "... external/libjpeg/jidctint.s"
+	@echo "... external/libjpeg/jmemmgr.o"
+	@echo "... external/libjpeg/jmemmgr.i"
+	@echo "... external/libjpeg/jmemmgr.s"
+	@echo "... external/libjpeg/jmemnobs.o"
+	@echo "... external/libjpeg/jmemnobs.i"
+	@echo "... external/libjpeg/jmemnobs.s"
+	@echo "... external/libjpeg/jquant1.o"
+	@echo "... external/libjpeg/jquant1.i"
+	@echo "... external/libjpeg/jquant1.s"
+	@echo "... external/libjpeg/jquant2.o"
+	@echo "... external/libjpeg/jquant2.i"
+	@echo "... external/libjpeg/jquant2.s"
+	@echo "... external/libjpeg/jutils.o"
+	@echo "... external/libjpeg/jutils.i"
+	@echo "... external/libjpeg/jutils.s"
+	@echo "... external/libpng/arm/arm_init.o"
+	@echo "... external/libpng/arm/arm_init.i"
+	@echo "... external/libpng/arm/arm_init.s"
+	@echo "... external/libpng/arm/filter_neon_intrinsics.o"
+	@echo "... external/libpng/arm/filter_neon_intrinsics.i"
+	@echo "... external/libpng/arm/filter_neon_intrinsics.s"
+	@echo "... external/libpng/png.o"
+	@echo "... external/libpng/png.i"
+	@echo "... external/libpng/png.s"
+	@echo "... external/libpng/pngerror.o"
+	@echo "... external/libpng/pngerror.i"
+	@echo "... external/libpng/pngerror.s"
+	@echo "... external/libpng/pngget.o"
+	@echo "... external/libpng/pngget.i"
+	@echo "... external/libpng/pngget.s"
+	@echo "... external/libpng/pngmem.o"
+	@echo "... external/libpng/pngmem.i"
+	@echo "... external/libpng/pngmem.s"
+	@echo "... external/libpng/pngpread.o"
+	@echo "... external/libpng/pngpread.i"
+	@echo "... external/libpng/pngpread.s"
+	@echo "... external/libpng/pngread.o"
+	@echo "... external/libpng/pngread.i"
+	@echo "... external/libpng/pngread.s"
+	@echo "... external/libpng/pngrio.o"
+	@echo "... external/libpng/pngrio.i"
+	@echo "... external/libpng/pngrio.s"
+	@echo "... external/libpng/pngrtran.o"
+	@echo "... external/libpng/pngrtran.i"
+	@echo "... external/libpng/pngrtran.s"
+	@echo "... external/libpng/pngrutil.o"
+	@echo "... external/libpng/pngrutil.i"
+	@echo "... external/libpng/pngrutil.s"
+	@echo "... external/libpng/pngset.o"
+	@echo "... external/libpng/pngset.i"
+	@echo "... external/libpng/pngset.s"
+	@echo "... external/libpng/pngtrans.o"
+	@echo "... external/libpng/pngtrans.i"
+	@echo "... external/libpng/pngtrans.s"
+	@echo "... external/libpng/pngwio.o"
+	@echo "... external/libpng/pngwio.i"
+	@echo "... external/libpng/pngwio.s"
+	@echo "... external/libpng/pngwrite.o"
+	@echo "... external/libpng/pngwrite.i"
+	@echo "... external/libpng/pngwrite.s"
+	@echo "... external/libpng/pngwtran.o"
+	@echo "... external/libpng/pngwtran.i"
+	@echo "... external/libpng/pngwtran.s"
+	@echo "... external/libpng/pngwutil.o"
+	@echo "... external/libpng/pngwutil.i"
+	@echo "... external/libpng/pngwutil.s"
+	@echo "... external/zlib/adler32.o"
+	@echo "... external/zlib/adler32.i"
+	@echo "... external/zlib/adler32.s"
+	@echo "... external/zlib/compress.o"
+	@echo "... external/zlib/compress.i"
+	@echo "... external/zlib/compress.s"
+	@echo "... external/zlib/crc32.o"
+	@echo "... external/zlib/crc32.i"
+	@echo "... external/zlib/crc32.s"
+	@echo "... external/zlib/deflate.o"
+	@echo "... external/zlib/deflate.i"
+	@echo "... external/zlib/deflate.s"
+	@echo "... external/zlib/gzclose.o"
+	@echo "... external/zlib/gzclose.i"
+	@echo "... external/zlib/gzclose.s"
+	@echo "... external/zlib/gzlib.o"
+	@echo "... external/zlib/gzlib.i"
+	@echo "... external/zlib/gzlib.s"
+	@echo "... external/zlib/gzread.o"
+	@echo "... external/zlib/gzread.i"
+	@echo "... external/zlib/gzread.s"
+	@echo "... external/zlib/gzwrite.o"
+	@echo "... external/zlib/gzwrite.i"
+	@echo "... external/zlib/gzwrite.s"
+	@echo "... external/zlib/infback.o"
+	@echo "... external/zlib/infback.i"
+	@echo "... external/zlib/infback.s"
+	@echo "... external/zlib/inffast.o"
+	@echo "... external/zlib/inffast.i"
+	@echo "... external/zlib/inffast.s"
+	@echo "... external/zlib/inflate.o"
+	@echo "... external/zlib/inflate.i"
+	@echo "... external/zlib/inflate.s"
+	@echo "... external/zlib/inftrees.o"
+	@echo "... external/zlib/inftrees.i"
+	@echo "... external/zlib/inftrees.s"
+	@echo "... external/zlib/trees.o"
+	@echo "... external/zlib/trees.i"
+	@echo "... external/zlib/trees.s"
+	@echo "... external/zlib/uncompr.o"
+	@echo "... external/zlib/uncompr.i"
+	@echo "... external/zlib/uncompr.s"
+	@echo "... external/zlib/zutil.o"
+	@echo "... external/zlib/zutil.i"
+	@echo "... external/zlib/zutil.s"
 	@echo "... filtering/kalman_filter.o"
 	@echo "... filtering/kalman_filter.i"
 	@echo "... filtering/kalman_filter.s"

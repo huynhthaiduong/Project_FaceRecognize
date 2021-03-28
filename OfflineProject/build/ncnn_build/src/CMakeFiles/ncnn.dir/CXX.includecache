@@ -2288,6 +2288,16 @@ string.h
 layer.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+gelu.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
+math.h
+-
+
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.h
+layer.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layer.h
+
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp
 gemm.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.h
@@ -4571,6 +4581,8 @@ layer/arm/gru_arm_arm82.h
 ncnn_build/src/layer/arm/gru_arm_arm82.h
 layer/multiheadattention.h
 ncnn_build/src/layer/multiheadattention.h
+layer/gelu.h
+ncnn_build/src/layer/gelu.h
 
 ncnn_build/src/layer_registry.h
 
