@@ -50,6 +50,12 @@ int main()
     double FPS = cap.get(cv::CAP_PROP_FPS);
     std::cout << "Capture " << FPS << " FPS " <<std::endl;
     TrainModel trainmodel("../Model/RFB-320.bin", "../Model/RFB-320.param", 432, 240, 128, 0.82);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+    std::vector<matrix<rgb_pixel>> images_train;
+    std::vector<std::vector<rectangle>> boxes_train;
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
     while(true)
     {
     	if (!cap.read(img)) {
@@ -71,7 +77,7 @@ int main()
 
         cv_image<bgr_pixel> cimg(img);
         matrix<rgb_pixel> matrix;
-	win.clear_overlay();
+	    win.clear_overlay();
         assign_image(matrix, cimg);
         faces.clear();
         for (int i = 0; i < face_info.size(); i++)
@@ -81,7 +87,31 @@ int main()
             auto shape = sp(matrix, rect);
             dlib::matrix<rgb_pixel> face_chip;
             extract_image_chip(matrix, get_face_chip_details(shape, 150, 0.25), face_chip);
-            faces.push_back(move(face_chip));
+            //faces.push_back(move(face_chip));
+            //////////////////////////////////////////////////////////////////////////////////////////////////
+            images_train.push_back(move(face_chip));
+            boxes_train.push_back(rect);
+
+            upsample_image_dataset<pyramid_down<2> >(images_train, face_boxes_train);
+            add_image_left_right_flips(images_train, face_boxes_train);
+            typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type; 
+            image_scanner_type scanner;
+            scanner.set_detection_window_size(80, 80); 
+            structural_object_detection_trainer<image_scanner_type> trainer(scanner);
+            trainer.set_num_threads(4);  
+            trainer.set_c(1);
+            // We can tell the trainer to print it's progress to the console if we want.  
+            trainer.be_verbose();
+            trainer.set_epsilon(0.01);
+            // Now we run the trainer.  For this example, it should take on the order of 10
+            // seconds to train.
+            object_detector<image_scanner_type> detector = trainer.train(images_train, face_boxes_train);
+
+            // Now that we have a face detector we can test it.  The first statement tests it
+            // on the training data.  It will print the precision, recall, and then average precision.
+            cout << "training results: " << test_object_detection_function(detector, images_train, face_boxes_train) << endl;
+            serialize("face_detector.svm") << detector;
+            //////////////////////////////////////////////////////////////////////////////////////////////////
 
 	    //cv::Mat ROI(grayscale_img, cv::Rect(cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2)));
 	    //cv::Mat croppedImage;
