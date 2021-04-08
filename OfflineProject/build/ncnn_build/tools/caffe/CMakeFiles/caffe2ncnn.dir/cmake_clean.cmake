@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.o"
+  "CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.o"
   "caffe.pb.cc"
   "caffe.pb.h"
-  "CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.o"
-  "CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.o"
-  "caffe2ncnn.pdb"
   "caffe2ncnn"
+  "caffe2ncnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o"
-  "mobilenetssd.pdb"
   "mobilenetssd"
+  "mobilenetssd.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

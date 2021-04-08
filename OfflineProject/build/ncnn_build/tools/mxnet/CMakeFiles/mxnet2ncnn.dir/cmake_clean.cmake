@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o"
-  "mxnet2ncnn.pdb"
   "mxnet2ncnn"
+  "mxnet2ncnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

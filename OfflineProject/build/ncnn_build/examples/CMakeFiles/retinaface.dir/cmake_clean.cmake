@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/retinaface.dir/retinaface.cpp.o"
-  "retinaface.pdb"
   "retinaface"
+  "retinaface.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

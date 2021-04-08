@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nanodet.dir/nanodet.cpp.o"
-  "nanodet.pdb"
   "nanodet"
+  "nanodet.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

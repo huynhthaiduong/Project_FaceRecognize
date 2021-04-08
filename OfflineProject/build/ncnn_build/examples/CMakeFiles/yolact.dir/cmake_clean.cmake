@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/yolact.dir/yolact.cpp.o"
-  "yolact.pdb"
   "yolact"
+  "yolact.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

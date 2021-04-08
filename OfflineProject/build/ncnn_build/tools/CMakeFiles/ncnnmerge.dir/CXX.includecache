@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnnmerge.cpp
+/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/ncnnmerge.cpp
 stdio.h
 -
 string.h

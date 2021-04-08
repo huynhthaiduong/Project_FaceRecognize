@@ -129,6 +129,6 @@ int main()
     data_faces.insert(std::pair<std::string, dlib::matrix<float,0,1>>(temp_student.student_id,mean(mat(net(array_face)))));
     cout << data_faces[temp_student.student_id];
     serialize(temp_student.dat_path) << data_faces;
-    ncnn::destroy_gpu_instance();
+    //ncnn::destroy_gpu_instance();
     return 0;
 }

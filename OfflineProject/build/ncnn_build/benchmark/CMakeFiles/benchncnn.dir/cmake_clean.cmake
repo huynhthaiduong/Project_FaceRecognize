@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/benchncnn.dir/benchncnn.cpp.o"
-  "benchncnn.pdb"
   "benchncnn"
+  "benchncnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

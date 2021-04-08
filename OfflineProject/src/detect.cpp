@@ -1,20 +1,6 @@
 #include "../header/UltraFace.hpp"
 #include "../header/student.hpp"
 #include <time.h>
-#include <thread>
-#include "libxl.h"
-
-//Mutex for thread synchronization
-static pthread_mutex_t foo_mutex = PTHREAD_MUTEX_INITIALIZER;
-
-struct thread_data 
-{
-  std::string gst_pipeline1;
-  int gst_pipeline;
-  std::vector<student>* temp_lst;
-  int  thread_id;
-  string window_title; //Unique window title for each thread
-};
 
 struct Match_object
 {
@@ -24,48 +10,58 @@ struct Match_object
     cv::Scalar Bound_style;
     int check_index;
 };
-
-/**************************************************************************************************************************************************************************/
-/*                                                                        Capture And Detec MULTITHREAD                                                                   */
-/**************************************************************************************************************************************************************************/
-void *CaptureAndDetec(void *threadarg)
+int main()
 {
-    struct thread_data *data;
-    data = (struct thread_data *) threadarg;
-
-    //Safely open video stream
-    pthread_mutex_lock(&foo_mutex);
-    cv::VideoCapture cap(data->gst_pipeline);//, cv::CAP_GSTREAMER);
-    pthread_mutex_unlock(&foo_mutex);
+    student temp_student;
+    std::vector<student> temp_lst;
+    temp_student.ReadListStu(temp_student, temp_lst);
+    /*v4l2-ctl -d /dev/video0 --list-formats-ext*/
+    /*gst-device-monitor-1.0*/
+    //const std::string gst_pipeline1 = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640, height=480, framerate=25/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";
+    //const std::string gst_pipeline1 = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
+    //cv::VideoCapture cap0(gst_pipeline0, cv::CAP_GSTREAMER);
+    //cv::VideoCapture cap1(gst_pipeline1, cv::CAP_GSTREAMER);
+    //cv::VideoCapture cap1("../videotest/60fps.mov");
+    cv::VideoCapture cap1(0);
     
-    if( !cap.isOpened())
+    if (!cap1.isOpened())//||!cap0.isOpened())
     {
-      std::cout<<"Not good, open camera failed"<<std::endl;
-      return 0;
+        std::cout << "Failed to open camera." << std::endl;
+        return (-1);
     }
-    std::cout<< "Opened camera successfully!"<<std::endl;
-
-    //Create window with unique title
-    cv::namedWindow(data->window_title, cv::WINDOW_AUTOSIZE);
-
     shape_predictor sp;
     deserialize("../Model/shape_predictor_68_face_landmarks.dat") >> sp;
     anet_type net;
     deserialize("../Model/dlib_face_recognition_resnet_model_v1.dat") >> net;
     student temp_std;
-    UltraFace ultraface("../Model/RFB-320.bin", "../Model/RFB-320.param", 432, 240, 64, 0.82);
+    UltraFace ultraface("../Model/RFB-320.bin", "../Model/RFB-320.param", 432, 240, 128, 0.7891011);
     std::vector<matrix<rgb_pixel>> faces;
     cv::Mat img;
+ //   cv::Mat frameL, frameR;
+//    cap0>>frameL;
+//    cap1>>frameR;
+//    cv::hconcat(frameL, frameR, img);
+    cv::namedWindow("Detect", cv::WINDOW_AUTOSIZE);
+    cv::resizeWindow("Detect", 1280, 720);
     auto m_StartTime = std::chrono::system_clock::now();
-    double FPS = cap.get(cv::CAP_PROP_FPS);
-    std::cout << "Capture  " << FPS << " FPS " <<std::endl;
+    auto m_EndTime = std::chrono::system_clock::now();
+    //clock_t start, end;
+    //double FPS0 = cap0.get(cv::CAP_PROP_FPS);
+    //std::cout << "Capture 0 " << FPS0 << " FPS " <<std::endl;
+    double FPS1 = cap1.get(cv::CAP_PROP_FPS);
+    std::cout << "Capture 1 " << FPS1 << " FPS " <<std::endl;
     while (true)
     {
-        if (!cap.read(img))
+	//start = clock();
+        if (!cap1.read(img))//||!cap1.read(frameR))
         {
             std::cout << "Capture read error" << std::endl;
             break;
         }
+
+        //cv::hconcat(frameL, frameR, img);
+
+	
 
         double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
 	m_StartTime = std::chrono::system_clock::now();
@@ -97,20 +93,22 @@ void *CaptureAndDetec(void *threadarg)
             temp_obj.Avg_value = 0.15f;
             temp_obj.Bound_style = cv::Scalar(0, 0, 255);
             temp_obj.check_index = -1;
-            for (int j = 0; j < (*(data->temp_lst)).size(); j++)
+            for (int j = 0; j < temp_lst.size(); j++)
             {
-		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], (*(data->temp_lst))[j].student_features);
+                //temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
+		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], temp_lst[j].student_features);
                 if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
                 {
+                    //temp_obj.Avg_value = length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features);
                     temp_obj.Avg_value = temp_obj.m_checkAvgValue_d;
-                    temp_obj.Name_detected = (*(data->temp_lst))[j].student_name;
+                    temp_obj.Name_detected = temp_lst[j].student_name;
                     temp_obj.Bound_style = cv::Scalar(0, 255, 0);
                     temp_obj.check_index = j;
                 }
             }
             if (temp_obj.check_index != -1)
             {
-                (*(data->temp_lst))[temp_obj.check_index].checked = 1;
+                temp_lst[temp_obj.check_index].checked = 1;
             }
             cv::rectangle(img, cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2), temp_obj.Bound_style, 1);
             cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
@@ -121,13 +119,16 @@ void *CaptureAndDetec(void *threadarg)
             cv::destroyAllWindows();
             break;
         }
-        cv::imshow(data->window_title, img);
+        //end = clock();
+	//double elapsed = ((double) (end - start)) / CLOCKS_PER_SEC;
+
+        cv::imshow("Detect", img);
     }
-    for (int i = 0; i < (*(data->temp_lst)).size(); i++)
+    for (int i = 0; i < temp_lst.size(); i++)
     {
-        std::cout << "Sinh vien: " << (*(data->temp_lst))[i].student_name << std::endl;
-        std::cout << "      MSSV: " << (*(data->temp_lst))[i].student_id << std::endl;
-        if ((*(data->temp_lst))[i].checked == 1)
+        std::cout << "Sinh vien: " << temp_lst[i].student_name << std::endl;
+        std::cout << "      MSSV: " << temp_lst[i].student_id << std::endl;
+        if (temp_lst[i].checked == 1)
         {
             std::cout << "      Co" << std::endl;
         }
@@ -136,64 +137,8 @@ void *CaptureAndDetec(void *threadarg)
             std::cout << "      Vang" << std::endl;
         }
     }
-    //Release VideoCapture object
-    cap.release();
-    //Destroy previously created window
-    cv::destroyWindow(data->window_title);
-
-  //Exit thread
-  pthread_exit(NULL);
-}
-
-
-/**************************************************************************************************************************************************************************/
-/*                                                                                   MAIN                                                                                 */
-/**************************************************************************************************************************************************************************/
-int main(void)
-{
-    const int thread_count = 2;
-
-    pthread_t threads[thread_count];
-    struct thread_data td[thread_count];
-
-    //Read list Student
-    student temp_student;
-    std::vector<student> m_temp_lst;
-    temp_student.ReadListStu(temp_student, m_temp_lst);
-
-    //Initialize thread data beforehand
-    td[0].gst_pipeline = 1;
-    //td[0].gst_pipeline = "v4l2src device=/dev/video1 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
-    td[0].window_title = "CAM 1 ";
-    td[0].temp_lst = &m_temp_lst;
-
-    td[1].gst_pipeline = 0;
-    //td[1].gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640, height=480, framerate=25/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";
-    td[1].window_title = "CAM 2 ";
-    td[1].temp_lst = &m_temp_lst;
-
-
-    int rc = 0;
-    for( int i = 0; i < thread_count; i++ ) 
-    {
-        cout <<"main() : creating thread, " << i << endl;
-        td[i].thread_id = i;
-
-        rc = pthread_create(&(threads[i]), NULL, CaptureAndDetec, (void *)& (td[i]));
-
-        if (rc) 
-        {
-            cout << "Error:unable to create thread," << rc << endl;
-            exit(-1);
-        }
-    }
-
-    //Wait for the previously spawned threads to complete execution
-    for( int i = 0; i < thread_count; i++ )
-        pthread_join(threads[i], NULL);
-
-    pthread_exit(NULL);
-
+    cap1.release();
+//    cap0.release();
     return 0;
 }
 

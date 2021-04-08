@@ -21,11 +21,11 @@ wget https://sdk.lunarg.com/sdk/download/1.2.154.0/linux/vulkansdk-linux-x86_64-
 vulkansdk-linux-x86_64-1.2.154.0.tar.gz \
 Step 2 \
 tar -xf vulkansdk-linux-x86_64-1.2.154.0.tar.gz \
-Step 3 \
+Step 3 \ set up env
 export VULKAN_SDK=$(pwd)/1.2.154.0/x86_64 \
-Step 4 \
+Step 4 \ 
 sudo apt-get update -y \
-Step 5 \
+Step 5 \ install sdk
 sudo apt-get install -y libvulkan-dev \
 Step 6
 sudo apt-get install libopenblas-dev liblapack-dev
@@ -67,5 +67,8 @@ cmake -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc
 https://kezunlin.me/post/4eb7fcec/
 # Project_FaceRecognize \
 
-
+/=============/ \
+OPENCV INSTALL
+/=============/ \
+https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o"
-  "ncnnoptimize.pdb"
   "ncnnoptimize"
+  "ncnnoptimize.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
   "CMakeFiles/Traing.dir/src/Traing.cpp.o"
   "CMakeFiles/Traing.dir/src/student.cpp.o"
-  "CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
-  "Traing.pdb"
   "Traing"
+  "Traing.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

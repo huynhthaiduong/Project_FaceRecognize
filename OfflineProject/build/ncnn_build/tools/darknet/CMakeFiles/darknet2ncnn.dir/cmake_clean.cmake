@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o"
-  "darknet2ncnn.pdb"
   "darknet2ncnn"
+  "darknet2ncnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simplepose.dir/simplepose.cpp.o"
-  "simplepose.pdb"
   "simplepose"
+  "simplepose.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

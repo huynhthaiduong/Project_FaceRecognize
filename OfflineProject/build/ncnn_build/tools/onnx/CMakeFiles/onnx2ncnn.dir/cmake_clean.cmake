@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o"
+  "CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o"
   "onnx.pb.cc"
   "onnx.pb.h"
-  "CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o"
-  "CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o"
-  "onnx2ncnn.pdb"
   "onnx2ncnn"
+  "onnx2ncnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

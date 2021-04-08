@@ -1,3 +1,0 @@
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/rebuild_cache.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/edit_cache.dir

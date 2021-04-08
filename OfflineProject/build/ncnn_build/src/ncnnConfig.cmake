@@ -1,6 +1,6 @@
 set(NCNN_OPENMP ON)
 set(NCNN_THREADS ON)
-set(NCNN_VULKAN ON)
+set(NCNN_VULKAN OFF)
 set(NCNN_SHARED_LIB OFF)
 set(NCNN_SYSTEM_GLSLANG OFF)
 
@@ -19,7 +19,7 @@ if(NCNN_VULKAN)
 
     if(NOT NCNN_SHARED_LIB)
         if(NCNN_SYSTEM_GLSLANG)
-            set(GLSLANG_TARGET_DIR "ON")
+            set(GLSLANG_TARGET_DIR "")
         else()
             set(GLSLANG_TARGET_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../lib/cmake")
         endif(NCNN_SYSTEM_GLSLANG)

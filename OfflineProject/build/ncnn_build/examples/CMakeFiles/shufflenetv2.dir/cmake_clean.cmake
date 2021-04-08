@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.o"
-  "shufflenetv2.pdb"
   "shufflenetv2"
+  "shufflenetv2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

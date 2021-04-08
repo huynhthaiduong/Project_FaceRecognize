@@ -26,13 +26,12 @@
 #define NCNN_PIXEL 1
 #define NCNN_PIXEL_ROTATE 1
 #define NCNN_PIXEL_AFFINE 1
-#define NCNN_VULKAN 1
-#define NCNN_REQUANT 0
+#define NCNN_VULKAN 0
 #define NCNN_RUNTIME_CPU 1
-#define NCNN_AVX2 0
-#define NCNN_ARM82 1
+#define NCNN_AVX2 1
+#define NCNN_ARM82 0
 
-#define NCNN_VERSION_STRING "1.0.20210328"
+#define NCNN_VERSION_STRING "1.0.20210405"
 
 #include "ncnn_export.h"
 

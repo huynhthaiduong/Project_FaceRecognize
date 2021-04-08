@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o"
-  "fasterrcnn.pdb"
   "fasterrcnn"
+  "fasterrcnn.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

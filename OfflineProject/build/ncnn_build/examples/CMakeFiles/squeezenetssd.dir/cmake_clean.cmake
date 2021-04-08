@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.o"
-  "squeezenetssd.pdb"
   "squeezenetssd"
+  "squeezenetssd.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

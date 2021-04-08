@@ -49,24 +49,24 @@ TrainModel::TrainModel(const std::string &bin_path, const std::string &param_pat
     }
     num_anchors = priors.size();
     /* generate prior anchors finished */
-    ncnn::create_gpu_instance();
-    /* --> Set the params you need for the ncnn inference <-- */
-    trainmodel.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
-    trainmodel.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
-    trainmodel.opt.use_winograd_convolution = true;
-    trainmodel.opt.use_sgemm_convolution = true;
-    trainmodel.opt.use_fp16_packed = true;
-    trainmodel.opt.use_fp16_storage = true;
-    trainmodel.opt.use_fp16_arithmetic = true;
-    trainmodel.opt.use_packing_layout = true;
-    trainmodel.opt.use_shader_pack8 = false;
-    trainmodel.opt.use_image_storage = false;
+//    ncnn::create_gpu_instance();
+//    /* --> Set the params you need for the ncnn inference <-- */
+//    trainmodel.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
+//    trainmodel.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
+//    trainmodel.opt.use_winograd_convolution = true;
+//    trainmodel.opt.use_sgemm_convolution = true;
+//    trainmodel.opt.use_fp16_packed = true;
+//    trainmodel.opt.use_fp16_storage = true;
+//    trainmodel.opt.use_fp16_arithmetic = true;
+//    trainmodel.opt.use_packing_layout = true;
+//    trainmodel.opt.use_shader_pack8 = false;
+//    trainmodel.opt.use_image_storage = false;
     /* --> End of setting params <-- */
     trainmodel.load_param(param_path.data());
     trainmodel.load_model(bin_path.data());
 }
 
-TrainModel::~TrainModel() {ncnn::destroy_gpu_instance(); trainmodel.clear(); }
+TrainModel::~TrainModel() {/*ncnn::destroy_gpu_instance();*/ trainmodel.clear(); }
 
 int TrainModel::detect(ncnn::Mat &img, std::vector<TrainInfo> &face_list) {
     if (img.empty()) {

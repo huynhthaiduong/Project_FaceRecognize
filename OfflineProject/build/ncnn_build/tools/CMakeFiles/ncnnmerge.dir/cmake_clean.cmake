@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o"
-  "ncnnmerge.pdb"
   "ncnnmerge"
+  "ncnnmerge.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

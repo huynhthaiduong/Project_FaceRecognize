@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnnmerge.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o"
+  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/ncnnmerge.cpp" "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
