@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

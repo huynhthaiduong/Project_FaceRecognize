@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -342,14 +342,14 @@ CMakeFiles/detect.dir/all: dlib_build/CMakeFiles/dlib.dir/all
 CMakeFiles/detect.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/depend
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=4 "Built target detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=4 "Built target detect"
 .PHONY : CMakeFiles/detect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : CMakeFiles/detect.dir/rule
 
 # Convenience name for target.
@@ -370,14 +370,14 @@ CMakeFiles/Traing.dir/all: dlib_build/CMakeFiles/dlib.dir/all
 CMakeFiles/Traing.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/depend
 	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=1 "Built target Traing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=1 "Built target Traing"
 .PHONY : CMakeFiles/Traing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Traing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Traing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : CMakeFiles/Traing.dir/rule
 
 # Convenience name for target.
@@ -397,14 +397,14 @@ CMakeFiles/Traing.dir/clean:
 dlib_build/CMakeFiles/dlib.dir/all:
 	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/depend
 	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target dlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target dlib"
 .PHONY : dlib_build/CMakeFiles/dlib.dir/all
 
 # Build rule for subdir invocation for target.
 dlib_build/CMakeFiles/dlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : dlib_build/CMakeFiles/dlib.dir/rule
 
 # Convenience name for target.
@@ -424,14 +424,14 @@ dlib_build/CMakeFiles/dlib.dir/clean:
 ncnn_build/src/CMakeFiles/ncnn.dir/all: ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/all
 	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/depend
 	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target ncnn"
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/src/CMakeFiles/ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/rule
 
 # Convenience name for target.
@@ -451,14 +451,14 @@ ncnn_build/src/CMakeFiles/ncnn.dir/clean:
 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/all:
 	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/depend
 	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn-generate-spirv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn-generate-spirv"
 .PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule
 
 # Convenience name for target.
@@ -478,14 +478,14 @@ ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/clean:
 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/depend
 	$(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target benchncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target benchncnn"
 .PHONY : ncnn_build/benchmark/CMakeFiles/benchncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
 
 # Convenience name for target.
@@ -505,14 +505,14 @@ ncnn_build/benchmark/CMakeFiles/benchncnn.dir/clean:
 ncnn_build/examples/CMakeFiles/nanodet.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target nanodet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target nanodet"
 .PHONY : ncnn_build/examples/CMakeFiles/nanodet.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/nanodet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/nanodet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/nanodet.dir/rule
 
 # Convenience name for target.
@@ -532,14 +532,14 @@ ncnn_build/examples/CMakeFiles/nanodet.dir/clean:
 ncnn_build/examples/CMakeFiles/yolact.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target yolact"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target yolact"
 .PHONY : ncnn_build/examples/CMakeFiles/yolact.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolact.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolact.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolact.dir/rule
 
 # Convenience name for target.
@@ -559,14 +559,14 @@ ncnn_build/examples/CMakeFiles/yolact.dir/clean:
 ncnn_build/examples/CMakeFiles/retinaface.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target retinaface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target retinaface"
 .PHONY : ncnn_build/examples/CMakeFiles/retinaface.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/retinaface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/retinaface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/retinaface.dir/rule
 
 # Convenience name for target.
@@ -586,14 +586,14 @@ ncnn_build/examples/CMakeFiles/retinaface.dir/clean:
 ncnn_build/examples/CMakeFiles/simplepose.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target simplepose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target simplepose"
 .PHONY : ncnn_build/examples/CMakeFiles/simplepose.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/simplepose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/simplepose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/simplepose.dir/rule
 
 # Convenience name for target.
@@ -613,14 +613,14 @@ ncnn_build/examples/CMakeFiles/simplepose.dir/clean:
 ncnn_build/examples/CMakeFiles/squeezenet.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=96 "Built target squeezenet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=96 "Built target squeezenet"
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
 
 # Convenience name for target.
@@ -640,14 +640,14 @@ ncnn_build/examples/CMakeFiles/squeezenet.dir/clean:
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target mobilenetssd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target mobilenetssd"
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule
 
 # Convenience name for target.
@@ -667,14 +667,14 @@ ncnn_build/examples/CMakeFiles/mobilenetssd.dir/clean:
 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=93 "Built target peleenetssd_seg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=93 "Built target peleenetssd_seg"
 .PHONY : ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
 
 # Convenience name for target.
@@ -694,14 +694,14 @@ ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/clean:
 ncnn_build/examples/CMakeFiles/rfcn.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=94 "Built target rfcn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=94 "Built target rfcn"
 .PHONY : ncnn_build/examples/CMakeFiles/rfcn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/rfcn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/rfcn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/rfcn.dir/rule
 
 # Convenience name for target.
@@ -721,14 +721,14 @@ ncnn_build/examples/CMakeFiles/rfcn.dir/clean:
 ncnn_build/examples/CMakeFiles/yolov2.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=98 "Built target yolov2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=98 "Built target yolov2"
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/rule
 
 # Convenience name for target.
@@ -748,14 +748,14 @@ ncnn_build/examples/CMakeFiles/yolov2.dir/clean:
 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=21 "Built target fasterrcnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=21 "Built target fasterrcnn"
 .PHONY : ncnn_build/examples/CMakeFiles/fasterrcnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
 
 # Convenience name for target.
@@ -775,14 +775,14 @@ ncnn_build/examples/CMakeFiles/fasterrcnn.dir/clean:
 ncnn_build/examples/CMakeFiles/yolov3.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target yolov3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target yolov3"
 .PHONY : ncnn_build/examples/CMakeFiles/yolov3.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov3.dir/rule
 
 # Convenience name for target.
@@ -802,14 +802,14 @@ ncnn_build/examples/CMakeFiles/yolov3.dir/clean:
 ncnn_build/examples/CMakeFiles/yolov4.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=99 "Built target yolov4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=99 "Built target yolov4"
 .PHONY : ncnn_build/examples/CMakeFiles/yolov4.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov4.dir/rule
 
 # Convenience name for target.
@@ -829,14 +829,14 @@ ncnn_build/examples/CMakeFiles/yolov4.dir/clean:
 ncnn_build/examples/CMakeFiles/yolov5.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=100 "Built target yolov5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=100 "Built target yolov5"
 .PHONY : ncnn_build/examples/CMakeFiles/yolov5.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov5.dir/rule
 
 # Convenience name for target.
@@ -856,14 +856,14 @@ ncnn_build/examples/CMakeFiles/yolov5.dir/clean:
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target squeezenet_c_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target squeezenet_c_api"
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
 
 # Convenience name for target.
@@ -883,14 +883,14 @@ ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/clean:
 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=22 "Built target mobilenetv2ssdlite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=22 "Built target mobilenetv2ssdlite"
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
 
 # Convenience name for target.
@@ -910,14 +910,14 @@ ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/clean:
 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=97 "Built target squeezenetssd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=97 "Built target squeezenetssd"
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenetssd.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
 
 # Convenience name for target.
@@ -937,14 +937,14 @@ ncnn_build/examples/CMakeFiles/squeezenetssd.dir/clean:
 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=95 "Built target shufflenetv2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=95 "Built target shufflenetv2"
 .PHONY : ncnn_build/examples/CMakeFiles/shufflenetv2.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
 
 # Convenience name for target.
@@ -964,14 +964,14 @@ ncnn_build/examples/CMakeFiles/shufflenetv2.dir/clean:
 ncnn_build/tools/CMakeFiles/ncnnmerge.dir/all:
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnmerge.dir/build.make ncnn_build/tools/CMakeFiles/ncnnmerge.dir/depend
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnmerge.dir/build.make ncnn_build/tools/CMakeFiles/ncnnmerge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=91 "Built target ncnnmerge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=91 "Built target ncnnmerge"
 .PHONY : ncnn_build/tools/CMakeFiles/ncnnmerge.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/CMakeFiles/ncnnmerge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/CMakeFiles/ncnnmerge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/CMakeFiles/ncnnmerge.dir/rule
 
 # Convenience name for target.
@@ -991,14 +991,14 @@ ncnn_build/tools/CMakeFiles/ncnnmerge.dir/clean:
 ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/build.make ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/depend
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/build.make ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnnoptimize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnnoptimize"
 .PHONY : ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/rule
 
 # Convenience name for target.
@@ -1018,14 +1018,14 @@ ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/clean:
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnn2mem.dir/build.make ncnn_build/tools/CMakeFiles/ncnn2mem.dir/depend
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnn2mem.dir/build.make ncnn_build/tools/CMakeFiles/ncnn2mem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=90 "Built target ncnn2mem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=90 "Built target ncnn2mem"
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/rule
 
 # Convenience name for target.
@@ -1045,14 +1045,14 @@ ncnn_build/tools/CMakeFiles/ncnn2mem.dir/clean:
 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=2 "Built target caffe2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=2 "Built target caffe2ncnn"
 .PHONY : ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule
 
 # Convenience name for target.
@@ -1072,14 +1072,14 @@ ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/clean:
 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=23 "Built target mxnet2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=23 "Built target mxnet2ncnn"
 .PHONY : ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
 
 # Convenience name for target.
@@ -1099,14 +1099,14 @@ ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/clean:
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=92 "Built target onnx2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=92 "Built target onnx2ncnn"
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule
 
 # Convenience name for target.
@@ -1126,14 +1126,14 @@ ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/clean:
 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=3 "Built target darknet2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=3 "Built target darknet2ncnn"
 .PHONY : ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
 
 # Convenience name for target.
@@ -1153,14 +1153,14 @@ ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/clean:
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/depend
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn2int8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn2int8"
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/rule
 
 # Convenience name for target.
@@ -1180,14 +1180,14 @@ ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/clean:
 ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/depend
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn2table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num= "Built target ncnn2table"
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/rule
 
 # Convenience name for target.

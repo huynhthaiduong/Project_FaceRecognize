@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 # Utility rule file for ncnn-generate-spirv.
 
@@ -63,10 +63,10 @@ ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build: ncnn-generate-spirv
 .PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build
 
 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/clean:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn-generate-spirv.dir/cmake_clean.cmake
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn-generate-spirv.dir/cmake_clean.cmake
 .PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/clean
 
 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/depend:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/src /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/depend
 

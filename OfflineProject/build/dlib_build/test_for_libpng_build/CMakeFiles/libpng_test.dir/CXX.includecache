@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
 png.h
 -
 setjmp.h

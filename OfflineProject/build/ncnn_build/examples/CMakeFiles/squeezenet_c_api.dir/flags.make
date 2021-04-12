@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIE   -fopenmp -pthread -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/../src -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/../src -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/src -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/../src -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/../src -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src -isystem /usr/local/include/opencv4 
 

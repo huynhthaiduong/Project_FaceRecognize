@@ -1,4 +1,4 @@
-# Install script for directory: /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/benchmark
+# Install script for directory: /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

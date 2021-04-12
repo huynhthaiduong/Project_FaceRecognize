@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/CMakeFiles/progress.marks
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/CMakeFiles/progress.marks
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/clean
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/preinstall
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/preinstall
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ onnx2ncnn: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/rule
 
 # fast build rule for target.
 onnx2ncnn/fast:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build
 .PHONY : onnx2ncnn/fast
 
 onnx.pb.o: onnx.pb.cc.o
@@ -177,7 +177,7 @@ onnx.pb.o: onnx.pb.cc.o
 
 # target to build an object file
 onnx.pb.cc.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o
 .PHONY : onnx.pb.cc.o
 
 onnx.pb.i: onnx.pb.cc.i
@@ -186,7 +186,7 @@ onnx.pb.i: onnx.pb.cc.i
 
 # target to preprocess a source file
 onnx.pb.cc.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i
 .PHONY : onnx.pb.cc.i
 
 onnx.pb.s: onnx.pb.cc.s
@@ -195,7 +195,7 @@ onnx.pb.s: onnx.pb.cc.s
 
 # target to generate assembly for a file
 onnx.pb.cc.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s
 .PHONY : onnx.pb.cc.s
 
 onnx2ncnn.o: onnx2ncnn.cpp.o
@@ -204,7 +204,7 @@ onnx2ncnn.o: onnx2ncnn.cpp.o
 
 # target to build an object file
 onnx2ncnn.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o
 .PHONY : onnx2ncnn.cpp.o
 
 onnx2ncnn.i: onnx2ncnn.cpp.i
@@ -213,7 +213,7 @@ onnx2ncnn.i: onnx2ncnn.cpp.i
 
 # target to preprocess a source file
 onnx2ncnn.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i
 .PHONY : onnx2ncnn.cpp.i
 
 onnx2ncnn.s: onnx2ncnn.cpp.s
@@ -222,7 +222,7 @@ onnx2ncnn.s: onnx2ncnn.cpp.s
 
 # target to generate assembly for a file
 onnx2ncnn.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s
 .PHONY : onnx2ncnn.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

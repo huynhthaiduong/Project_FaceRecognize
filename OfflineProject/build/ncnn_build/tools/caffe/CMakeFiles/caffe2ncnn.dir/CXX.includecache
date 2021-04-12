@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.cc
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.cc
 caffe.pb.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -28,9 +28,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/third_party/protobuf/version.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/third_party/protobuf/version.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/caffe/caffe.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -60,9 +60,9 @@ google/protobuf/generated_enum_reflection.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/caffe/caffe2ncnn.cpp
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/caffe/caffe2ncnn.cpp
 caffe.pb.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/caffe/caffe.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/caffe/caffe.pb.h
 algorithm
 -
 fstream

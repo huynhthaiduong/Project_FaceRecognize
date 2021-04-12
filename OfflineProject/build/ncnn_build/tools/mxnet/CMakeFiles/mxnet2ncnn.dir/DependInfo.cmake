@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/mxnet/mxnet2ncnn.cpp" "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/mxnet/mxnet2ncnn.cpp" "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

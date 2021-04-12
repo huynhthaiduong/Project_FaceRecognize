@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Traing.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Traing.dir/flags.make
 
 CMakeFiles/Traing.dir/src/Traing.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/Traing.cpp.o: ../src/Traing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Traing.dir/src/Traing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/Traing.cpp.o -c /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/Traing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Traing.dir/src/Traing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/Traing.cpp.o -c /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/Traing.cpp
 
 CMakeFiles/Traing.dir/src/Traing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/Traing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/Traing.cpp > CMakeFiles/Traing.dir/src/Traing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/Traing.cpp > CMakeFiles/Traing.dir/src/Traing.cpp.i
 
 CMakeFiles/Traing.dir/src/Traing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/Traing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/Traing.cpp -o CMakeFiles/Traing.dir/src/Traing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/Traing.cpp -o CMakeFiles/Traing.dir/src/Traing.cpp.s
 
 CMakeFiles/Traing.dir/src/student.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/student.cpp.o: ../src/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Traing.dir/src/student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/student.cpp.o -c /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Traing.dir/src/student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/student.cpp.o -c /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/student.cpp
 
 CMakeFiles/Traing.dir/src/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/Traing.dir/src/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/Traing.dir/src/student.cpp.i
 
 CMakeFiles/Traing.dir/src/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/Traing.dir/src/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/Traing.dir/src/student.cpp.s
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o: ../src/TrainModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/TrainModel.cpp.o -c /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/TrainModel.cpp.o -c /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/TrainModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp > CMakeFiles/Traing.dir/src/TrainModel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp > CMakeFiles/Traing.dir/src/TrainModel.cpp.i
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/TrainModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp -o CMakeFiles/Traing.dir/src/TrainModel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp -o CMakeFiles/Traing.dir/src/TrainModel.cpp.s
 
 # Object files for target Traing
 Traing_OBJECTS = \
@@ -170,11 +170,12 @@ Traing: /usr/lib/x86_64-linux-gnu/libXext.so
 Traing: /usr/lib/x86_64-linux-gnu/libpng.so
 Traing: /usr/lib/x86_64-linux-gnu/libz.so
 Traing: /usr/lib/x86_64-linux-gnu/libjpeg.so
-Traing: /usr/lib/x86_64-linux-gnu/libopenblas.so
+Traing: /usr/lib/x86_64-linux-gnu/libcblas.so
+Traing: /usr/lib/x86_64-linux-gnu/liblapack.so
 Traing: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
 Traing: /usr/lib/x86_64-linux-gnu/libpthread.so
 Traing: CMakeFiles/Traing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Traing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Traing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Traing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +188,6 @@ CMakeFiles/Traing.dir/clean:
 .PHONY : CMakeFiles/Traing.dir/clean
 
 CMakeFiles/Traing.dir/depend:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles/Traing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/Traing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Traing.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libjpeg/libjpeg_test.cpp" "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libjpeg/libjpeg_test.cpp" "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

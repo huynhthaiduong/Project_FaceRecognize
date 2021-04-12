@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libjpeg/CMakeLists.txt"
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
-  "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libjpeg/CMakeLists.txt"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

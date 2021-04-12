@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/progress.marks
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/CMakeFiles/progress.marks
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/clean
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dlib_build/CMakeFiles/dlib.dir/rule:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
 .PHONY : dlib_build/CMakeFiles/dlib.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ dlib: dlib_build/CMakeFiles/dlib.dir/rule
 
 # fast build rule for target.
 dlib/fast:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
 
 base64/base64_kernel_1.o: base64/base64_kernel_1.cpp.o
@@ -177,7 +177,7 @@ base64/base64_kernel_1.o: base64/base64_kernel_1.cpp.o
 
 # target to build an object file
 base64/base64_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o
 .PHONY : base64/base64_kernel_1.cpp.o
 
 base64/base64_kernel_1.i: base64/base64_kernel_1.cpp.i
@@ -186,7 +186,7 @@ base64/base64_kernel_1.i: base64/base64_kernel_1.cpp.i
 
 # target to preprocess a source file
 base64/base64_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
 .PHONY : base64/base64_kernel_1.cpp.i
 
 base64/base64_kernel_1.s: base64/base64_kernel_1.cpp.s
@@ -195,7 +195,7 @@ base64/base64_kernel_1.s: base64/base64_kernel_1.cpp.s
 
 # target to generate assembly for a file
 base64/base64_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
 .PHONY : base64/base64_kernel_1.cpp.s
 
 bigint/bigint_kernel_1.o: bigint/bigint_kernel_1.cpp.o
@@ -204,7 +204,7 @@ bigint/bigint_kernel_1.o: bigint/bigint_kernel_1.cpp.o
 
 # target to build an object file
 bigint/bigint_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o
 .PHONY : bigint/bigint_kernel_1.cpp.o
 
 bigint/bigint_kernel_1.i: bigint/bigint_kernel_1.cpp.i
@@ -213,7 +213,7 @@ bigint/bigint_kernel_1.i: bigint/bigint_kernel_1.cpp.i
 
 # target to preprocess a source file
 bigint/bigint_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
 .PHONY : bigint/bigint_kernel_1.cpp.i
 
 bigint/bigint_kernel_1.s: bigint/bigint_kernel_1.cpp.s
@@ -222,7 +222,7 @@ bigint/bigint_kernel_1.s: bigint/bigint_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bigint/bigint_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
 .PHONY : bigint/bigint_kernel_1.cpp.s
 
 bigint/bigint_kernel_2.o: bigint/bigint_kernel_2.cpp.o
@@ -231,7 +231,7 @@ bigint/bigint_kernel_2.o: bigint/bigint_kernel_2.cpp.o
 
 # target to build an object file
 bigint/bigint_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o
 .PHONY : bigint/bigint_kernel_2.cpp.o
 
 bigint/bigint_kernel_2.i: bigint/bigint_kernel_2.cpp.i
@@ -240,7 +240,7 @@ bigint/bigint_kernel_2.i: bigint/bigint_kernel_2.cpp.i
 
 # target to preprocess a source file
 bigint/bigint_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
 .PHONY : bigint/bigint_kernel_2.cpp.i
 
 bigint/bigint_kernel_2.s: bigint/bigint_kernel_2.cpp.s
@@ -249,7 +249,7 @@ bigint/bigint_kernel_2.s: bigint/bigint_kernel_2.cpp.s
 
 # target to generate assembly for a file
 bigint/bigint_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
 .PHONY : bigint/bigint_kernel_2.cpp.s
 
 bit_stream/bit_stream_kernel_1.o: bit_stream/bit_stream_kernel_1.cpp.o
@@ -258,7 +258,7 @@ bit_stream/bit_stream_kernel_1.o: bit_stream/bit_stream_kernel_1.cpp.o
 
 # target to build an object file
 bit_stream/bit_stream_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.o
 
 bit_stream/bit_stream_kernel_1.i: bit_stream/bit_stream_kernel_1.cpp.i
@@ -267,7 +267,7 @@ bit_stream/bit_stream_kernel_1.i: bit_stream/bit_stream_kernel_1.cpp.i
 
 # target to preprocess a source file
 bit_stream/bit_stream_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.i
 
 bit_stream/bit_stream_kernel_1.s: bit_stream/bit_stream_kernel_1.cpp.s
@@ -276,7 +276,7 @@ bit_stream/bit_stream_kernel_1.s: bit_stream/bit_stream_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bit_stream/bit_stream_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.s
 
 bsp/bsp.o: bsp/bsp.cpp.o
@@ -285,7 +285,7 @@ bsp/bsp.o: bsp/bsp.cpp.o
 
 # target to build an object file
 bsp/bsp.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
 .PHONY : bsp/bsp.cpp.o
 
 bsp/bsp.i: bsp/bsp.cpp.i
@@ -294,7 +294,7 @@ bsp/bsp.i: bsp/bsp.cpp.i
 
 # target to preprocess a source file
 bsp/bsp.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i
 .PHONY : bsp/bsp.cpp.i
 
 bsp/bsp.s: bsp/bsp.cpp.s
@@ -303,7 +303,7 @@ bsp/bsp.s: bsp/bsp.cpp.s
 
 # target to generate assembly for a file
 bsp/bsp.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.s
 .PHONY : bsp/bsp.cpp.s
 
 cuda/cpu_dlib.o: cuda/cpu_dlib.cpp.o
@@ -312,7 +312,7 @@ cuda/cpu_dlib.o: cuda/cpu_dlib.cpp.o
 
 # target to build an object file
 cuda/cpu_dlib.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
 .PHONY : cuda/cpu_dlib.cpp.o
 
 cuda/cpu_dlib.i: cuda/cpu_dlib.cpp.i
@@ -321,7 +321,7 @@ cuda/cpu_dlib.i: cuda/cpu_dlib.cpp.i
 
 # target to preprocess a source file
 cuda/cpu_dlib.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i
 .PHONY : cuda/cpu_dlib.cpp.i
 
 cuda/cpu_dlib.s: cuda/cpu_dlib.cpp.s
@@ -330,7 +330,7 @@ cuda/cpu_dlib.s: cuda/cpu_dlib.cpp.s
 
 # target to generate assembly for a file
 cuda/cpu_dlib.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s
 .PHONY : cuda/cpu_dlib.cpp.s
 
 cuda/tensor_tools.o: cuda/tensor_tools.cpp.o
@@ -339,7 +339,7 @@ cuda/tensor_tools.o: cuda/tensor_tools.cpp.o
 
 # target to build an object file
 cuda/tensor_tools.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
 .PHONY : cuda/tensor_tools.cpp.o
 
 cuda/tensor_tools.i: cuda/tensor_tools.cpp.i
@@ -348,7 +348,7 @@ cuda/tensor_tools.i: cuda/tensor_tools.cpp.i
 
 # target to preprocess a source file
 cuda/tensor_tools.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i
 .PHONY : cuda/tensor_tools.cpp.i
 
 cuda/tensor_tools.s: cuda/tensor_tools.cpp.s
@@ -357,7 +357,7 @@ cuda/tensor_tools.s: cuda/tensor_tools.cpp.s
 
 # target to generate assembly for a file
 cuda/tensor_tools.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s
 .PHONY : cuda/tensor_tools.cpp.s
 
 data_io/cifar.o: data_io/cifar.cpp.o
@@ -366,7 +366,7 @@ data_io/cifar.o: data_io/cifar.cpp.o
 
 # target to build an object file
 data_io/cifar.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o
 .PHONY : data_io/cifar.cpp.o
 
 data_io/cifar.i: data_io/cifar.cpp.i
@@ -375,7 +375,7 @@ data_io/cifar.i: data_io/cifar.cpp.i
 
 # target to preprocess a source file
 data_io/cifar.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.i
 .PHONY : data_io/cifar.cpp.i
 
 data_io/cifar.s: data_io/cifar.cpp.s
@@ -384,7 +384,7 @@ data_io/cifar.s: data_io/cifar.cpp.s
 
 # target to generate assembly for a file
 data_io/cifar.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.s
 .PHONY : data_io/cifar.cpp.s
 
 data_io/image_dataset_metadata.o: data_io/image_dataset_metadata.cpp.o
@@ -393,7 +393,7 @@ data_io/image_dataset_metadata.o: data_io/image_dataset_metadata.cpp.o
 
 # target to build an object file
 data_io/image_dataset_metadata.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
 .PHONY : data_io/image_dataset_metadata.cpp.o
 
 data_io/image_dataset_metadata.i: data_io/image_dataset_metadata.cpp.i
@@ -402,7 +402,7 @@ data_io/image_dataset_metadata.i: data_io/image_dataset_metadata.cpp.i
 
 # target to preprocess a source file
 data_io/image_dataset_metadata.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
 .PHONY : data_io/image_dataset_metadata.cpp.i
 
 data_io/image_dataset_metadata.s: data_io/image_dataset_metadata.cpp.s
@@ -411,7 +411,7 @@ data_io/image_dataset_metadata.s: data_io/image_dataset_metadata.cpp.s
 
 # target to generate assembly for a file
 data_io/image_dataset_metadata.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
 .PHONY : data_io/image_dataset_metadata.cpp.s
 
 data_io/mnist.o: data_io/mnist.cpp.o
@@ -420,7 +420,7 @@ data_io/mnist.o: data_io/mnist.cpp.o
 
 # target to build an object file
 data_io/mnist.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
 .PHONY : data_io/mnist.cpp.o
 
 data_io/mnist.i: data_io/mnist.cpp.i
@@ -429,7 +429,7 @@ data_io/mnist.i: data_io/mnist.cpp.i
 
 # target to preprocess a source file
 data_io/mnist.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i
 .PHONY : data_io/mnist.cpp.i
 
 data_io/mnist.s: data_io/mnist.cpp.s
@@ -438,7 +438,7 @@ data_io/mnist.s: data_io/mnist.cpp.s
 
 # target to generate assembly for a file
 data_io/mnist.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s
 .PHONY : data_io/mnist.cpp.s
 
 dir_nav/dir_nav_extensions.o: dir_nav/dir_nav_extensions.cpp.o
@@ -447,7 +447,7 @@ dir_nav/dir_nav_extensions.o: dir_nav/dir_nav_extensions.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_extensions.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
 .PHONY : dir_nav/dir_nav_extensions.cpp.o
 
 dir_nav/dir_nav_extensions.i: dir_nav/dir_nav_extensions.cpp.i
@@ -456,7 +456,7 @@ dir_nav/dir_nav_extensions.i: dir_nav/dir_nav_extensions.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_extensions.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
 .PHONY : dir_nav/dir_nav_extensions.cpp.i
 
 dir_nav/dir_nav_extensions.s: dir_nav/dir_nav_extensions.cpp.s
@@ -465,7 +465,7 @@ dir_nav/dir_nav_extensions.s: dir_nav/dir_nav_extensions.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_extensions.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
 .PHONY : dir_nav/dir_nav_extensions.cpp.s
 
 dir_nav/dir_nav_kernel_1.o: dir_nav/dir_nav_kernel_1.cpp.o
@@ -474,7 +474,7 @@ dir_nav/dir_nav_kernel_1.o: dir_nav/dir_nav_kernel_1.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.o
 
 dir_nav/dir_nav_kernel_1.i: dir_nav/dir_nav_kernel_1.cpp.i
@@ -483,7 +483,7 @@ dir_nav/dir_nav_kernel_1.i: dir_nav/dir_nav_kernel_1.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.i
 
 dir_nav/dir_nav_kernel_1.s: dir_nav/dir_nav_kernel_1.cpp.s
@@ -492,7 +492,7 @@ dir_nav/dir_nav_kernel_1.s: dir_nav/dir_nav_kernel_1.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.s
 
 dir_nav/dir_nav_kernel_2.o: dir_nav/dir_nav_kernel_2.cpp.o
@@ -501,7 +501,7 @@ dir_nav/dir_nav_kernel_2.o: dir_nav/dir_nav_kernel_2.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.o
 
 dir_nav/dir_nav_kernel_2.i: dir_nav/dir_nav_kernel_2.cpp.i
@@ -510,7 +510,7 @@ dir_nav/dir_nav_kernel_2.i: dir_nav/dir_nav_kernel_2.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.i
 
 dir_nav/dir_nav_kernel_2.s: dir_nav/dir_nav_kernel_2.cpp.s
@@ -519,7 +519,7 @@ dir_nav/dir_nav_kernel_2.s: dir_nav/dir_nav_kernel_2.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.s
 
 entropy_decoder/entropy_decoder_kernel_1.o: entropy_decoder/entropy_decoder_kernel_1.cpp.o
@@ -528,7 +528,7 @@ entropy_decoder/entropy_decoder_kernel_1.o: entropy_decoder/entropy_decoder_kern
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.o
 
 entropy_decoder/entropy_decoder_kernel_1.i: entropy_decoder/entropy_decoder_kernel_1.cpp.i
@@ -537,7 +537,7 @@ entropy_decoder/entropy_decoder_kernel_1.i: entropy_decoder/entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.i
 
 entropy_decoder/entropy_decoder_kernel_1.s: entropy_decoder/entropy_decoder_kernel_1.cpp.s
@@ -546,7 +546,7 @@ entropy_decoder/entropy_decoder_kernel_1.s: entropy_decoder/entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.s
 
 entropy_decoder/entropy_decoder_kernel_2.o: entropy_decoder/entropy_decoder_kernel_2.cpp.o
@@ -555,7 +555,7 @@ entropy_decoder/entropy_decoder_kernel_2.o: entropy_decoder/entropy_decoder_kern
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.o
 
 entropy_decoder/entropy_decoder_kernel_2.i: entropy_decoder/entropy_decoder_kernel_2.cpp.i
@@ -564,7 +564,7 @@ entropy_decoder/entropy_decoder_kernel_2.i: entropy_decoder/entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.i
 
 entropy_decoder/entropy_decoder_kernel_2.s: entropy_decoder/entropy_decoder_kernel_2.cpp.s
@@ -573,7 +573,7 @@ entropy_decoder/entropy_decoder_kernel_2.s: entropy_decoder/entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.s
 
 entropy_encoder/entropy_encoder_kernel_1.o: entropy_encoder/entropy_encoder_kernel_1.cpp.o
@@ -582,7 +582,7 @@ entropy_encoder/entropy_encoder_kernel_1.o: entropy_encoder/entropy_encoder_kern
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.o
 
 entropy_encoder/entropy_encoder_kernel_1.i: entropy_encoder/entropy_encoder_kernel_1.cpp.i
@@ -591,7 +591,7 @@ entropy_encoder/entropy_encoder_kernel_1.i: entropy_encoder/entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.i
 
 entropy_encoder/entropy_encoder_kernel_1.s: entropy_encoder/entropy_encoder_kernel_1.cpp.s
@@ -600,7 +600,7 @@ entropy_encoder/entropy_encoder_kernel_1.s: entropy_encoder/entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.s
 
 entropy_encoder/entropy_encoder_kernel_2.o: entropy_encoder/entropy_encoder_kernel_2.cpp.o
@@ -609,7 +609,7 @@ entropy_encoder/entropy_encoder_kernel_2.o: entropy_encoder/entropy_encoder_kern
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.o
 
 entropy_encoder/entropy_encoder_kernel_2.i: entropy_encoder/entropy_encoder_kernel_2.cpp.i
@@ -618,7 +618,7 @@ entropy_encoder/entropy_encoder_kernel_2.i: entropy_encoder/entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.i
 
 entropy_encoder/entropy_encoder_kernel_2.s: entropy_encoder/entropy_encoder_kernel_2.cpp.s
@@ -627,7 +627,7 @@ entropy_encoder/entropy_encoder_kernel_2.s: entropy_encoder/entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.s
 
 filtering/kalman_filter.o: filtering/kalman_filter.cpp.o
@@ -636,7 +636,7 @@ filtering/kalman_filter.o: filtering/kalman_filter.cpp.o
 
 # target to build an object file
 filtering/kalman_filter.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
 .PHONY : filtering/kalman_filter.cpp.o
 
 filtering/kalman_filter.i: filtering/kalman_filter.cpp.i
@@ -645,7 +645,7 @@ filtering/kalman_filter.i: filtering/kalman_filter.cpp.i
 
 # target to preprocess a source file
 filtering/kalman_filter.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i
 .PHONY : filtering/kalman_filter.cpp.i
 
 filtering/kalman_filter.s: filtering/kalman_filter.cpp.s
@@ -654,7 +654,7 @@ filtering/kalman_filter.s: filtering/kalman_filter.cpp.s
 
 # target to generate assembly for a file
 filtering/kalman_filter.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s
 .PHONY : filtering/kalman_filter.cpp.s
 
 global_optimization/global_function_search.o: global_optimization/global_function_search.cpp.o
@@ -663,7 +663,7 @@ global_optimization/global_function_search.o: global_optimization/global_functio
 
 # target to build an object file
 global_optimization/global_function_search.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
 .PHONY : global_optimization/global_function_search.cpp.o
 
 global_optimization/global_function_search.i: global_optimization/global_function_search.cpp.i
@@ -672,7 +672,7 @@ global_optimization/global_function_search.i: global_optimization/global_functio
 
 # target to preprocess a source file
 global_optimization/global_function_search.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i
 .PHONY : global_optimization/global_function_search.cpp.i
 
 global_optimization/global_function_search.s: global_optimization/global_function_search.cpp.s
@@ -681,7 +681,7 @@ global_optimization/global_function_search.s: global_optimization/global_functio
 
 # target to generate assembly for a file
 global_optimization/global_function_search.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s
 .PHONY : global_optimization/global_function_search.cpp.s
 
 gui_core/gui_core_kernel_1.o: gui_core/gui_core_kernel_1.cpp.o
@@ -690,7 +690,7 @@ gui_core/gui_core_kernel_1.o: gui_core/gui_core_kernel_1.cpp.o
 
 # target to build an object file
 gui_core/gui_core_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
 .PHONY : gui_core/gui_core_kernel_1.cpp.o
 
 gui_core/gui_core_kernel_1.i: gui_core/gui_core_kernel_1.cpp.i
@@ -699,7 +699,7 @@ gui_core/gui_core_kernel_1.i: gui_core/gui_core_kernel_1.cpp.i
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
 .PHONY : gui_core/gui_core_kernel_1.cpp.i
 
 gui_core/gui_core_kernel_1.s: gui_core/gui_core_kernel_1.cpp.s
@@ -708,7 +708,7 @@ gui_core/gui_core_kernel_1.s: gui_core/gui_core_kernel_1.cpp.s
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
 .PHONY : gui_core/gui_core_kernel_1.cpp.s
 
 gui_core/gui_core_kernel_2.o: gui_core/gui_core_kernel_2.cpp.o
@@ -717,7 +717,7 @@ gui_core/gui_core_kernel_2.o: gui_core/gui_core_kernel_2.cpp.o
 
 # target to build an object file
 gui_core/gui_core_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
 .PHONY : gui_core/gui_core_kernel_2.cpp.o
 
 gui_core/gui_core_kernel_2.i: gui_core/gui_core_kernel_2.cpp.i
@@ -726,7 +726,7 @@ gui_core/gui_core_kernel_2.i: gui_core/gui_core_kernel_2.cpp.i
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
 .PHONY : gui_core/gui_core_kernel_2.cpp.i
 
 gui_core/gui_core_kernel_2.s: gui_core/gui_core_kernel_2.cpp.s
@@ -735,7 +735,7 @@ gui_core/gui_core_kernel_2.s: gui_core/gui_core_kernel_2.cpp.s
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
 .PHONY : gui_core/gui_core_kernel_2.cpp.s
 
 gui_widgets/base_widgets.o: gui_widgets/base_widgets.cpp.o
@@ -744,7 +744,7 @@ gui_widgets/base_widgets.o: gui_widgets/base_widgets.cpp.o
 
 # target to build an object file
 gui_widgets/base_widgets.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
 .PHONY : gui_widgets/base_widgets.cpp.o
 
 gui_widgets/base_widgets.i: gui_widgets/base_widgets.cpp.i
@@ -753,7 +753,7 @@ gui_widgets/base_widgets.i: gui_widgets/base_widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets/base_widgets.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
 .PHONY : gui_widgets/base_widgets.cpp.i
 
 gui_widgets/base_widgets.s: gui_widgets/base_widgets.cpp.s
@@ -762,7 +762,7 @@ gui_widgets/base_widgets.s: gui_widgets/base_widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/base_widgets.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
 .PHONY : gui_widgets/base_widgets.cpp.s
 
 gui_widgets/canvas_drawing.o: gui_widgets/canvas_drawing.cpp.o
@@ -771,7 +771,7 @@ gui_widgets/canvas_drawing.o: gui_widgets/canvas_drawing.cpp.o
 
 # target to build an object file
 gui_widgets/canvas_drawing.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
 .PHONY : gui_widgets/canvas_drawing.cpp.o
 
 gui_widgets/canvas_drawing.i: gui_widgets/canvas_drawing.cpp.i
@@ -780,7 +780,7 @@ gui_widgets/canvas_drawing.i: gui_widgets/canvas_drawing.cpp.i
 
 # target to preprocess a source file
 gui_widgets/canvas_drawing.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
 .PHONY : gui_widgets/canvas_drawing.cpp.i
 
 gui_widgets/canvas_drawing.s: gui_widgets/canvas_drawing.cpp.s
@@ -789,7 +789,7 @@ gui_widgets/canvas_drawing.s: gui_widgets/canvas_drawing.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/canvas_drawing.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
 .PHONY : gui_widgets/canvas_drawing.cpp.s
 
 gui_widgets/drawable.o: gui_widgets/drawable.cpp.o
@@ -798,7 +798,7 @@ gui_widgets/drawable.o: gui_widgets/drawable.cpp.o
 
 # target to build an object file
 gui_widgets/drawable.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
 .PHONY : gui_widgets/drawable.cpp.o
 
 gui_widgets/drawable.i: gui_widgets/drawable.cpp.i
@@ -807,7 +807,7 @@ gui_widgets/drawable.i: gui_widgets/drawable.cpp.i
 
 # target to preprocess a source file
 gui_widgets/drawable.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
 .PHONY : gui_widgets/drawable.cpp.i
 
 gui_widgets/drawable.s: gui_widgets/drawable.cpp.s
@@ -816,7 +816,7 @@ gui_widgets/drawable.s: gui_widgets/drawable.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/drawable.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
 .PHONY : gui_widgets/drawable.cpp.s
 
 gui_widgets/fonts.o: gui_widgets/fonts.cpp.o
@@ -825,7 +825,7 @@ gui_widgets/fonts.o: gui_widgets/fonts.cpp.o
 
 # target to build an object file
 gui_widgets/fonts.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
 .PHONY : gui_widgets/fonts.cpp.o
 
 gui_widgets/fonts.i: gui_widgets/fonts.cpp.i
@@ -834,7 +834,7 @@ gui_widgets/fonts.i: gui_widgets/fonts.cpp.i
 
 # target to preprocess a source file
 gui_widgets/fonts.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
 .PHONY : gui_widgets/fonts.cpp.i
 
 gui_widgets/fonts.s: gui_widgets/fonts.cpp.s
@@ -843,7 +843,7 @@ gui_widgets/fonts.s: gui_widgets/fonts.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/fonts.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
 .PHONY : gui_widgets/fonts.cpp.s
 
 gui_widgets/style.o: gui_widgets/style.cpp.o
@@ -852,7 +852,7 @@ gui_widgets/style.o: gui_widgets/style.cpp.o
 
 # target to build an object file
 gui_widgets/style.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
 .PHONY : gui_widgets/style.cpp.o
 
 gui_widgets/style.i: gui_widgets/style.cpp.i
@@ -861,7 +861,7 @@ gui_widgets/style.i: gui_widgets/style.cpp.i
 
 # target to preprocess a source file
 gui_widgets/style.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
 .PHONY : gui_widgets/style.cpp.i
 
 gui_widgets/style.s: gui_widgets/style.cpp.s
@@ -870,7 +870,7 @@ gui_widgets/style.s: gui_widgets/style.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/style.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
 .PHONY : gui_widgets/style.cpp.s
 
 gui_widgets/widgets.o: gui_widgets/widgets.cpp.o
@@ -879,7 +879,7 @@ gui_widgets/widgets.o: gui_widgets/widgets.cpp.o
 
 # target to build an object file
 gui_widgets/widgets.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
 .PHONY : gui_widgets/widgets.cpp.o
 
 gui_widgets/widgets.i: gui_widgets/widgets.cpp.i
@@ -888,7 +888,7 @@ gui_widgets/widgets.i: gui_widgets/widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets/widgets.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
 .PHONY : gui_widgets/widgets.cpp.i
 
 gui_widgets/widgets.s: gui_widgets/widgets.cpp.s
@@ -897,7 +897,7 @@ gui_widgets/widgets.s: gui_widgets/widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/widgets.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
 .PHONY : gui_widgets/widgets.cpp.s
 
 image_loader/jpeg_loader.o: image_loader/jpeg_loader.cpp.o
@@ -906,7 +906,7 @@ image_loader/jpeg_loader.o: image_loader/jpeg_loader.cpp.o
 
 # target to build an object file
 image_loader/jpeg_loader.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
 .PHONY : image_loader/jpeg_loader.cpp.o
 
 image_loader/jpeg_loader.i: image_loader/jpeg_loader.cpp.i
@@ -915,7 +915,7 @@ image_loader/jpeg_loader.i: image_loader/jpeg_loader.cpp.i
 
 # target to preprocess a source file
 image_loader/jpeg_loader.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
 .PHONY : image_loader/jpeg_loader.cpp.i
 
 image_loader/jpeg_loader.s: image_loader/jpeg_loader.cpp.s
@@ -924,7 +924,7 @@ image_loader/jpeg_loader.s: image_loader/jpeg_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader/jpeg_loader.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
 .PHONY : image_loader/jpeg_loader.cpp.s
 
 image_loader/png_loader.o: image_loader/png_loader.cpp.o
@@ -933,7 +933,7 @@ image_loader/png_loader.o: image_loader/png_loader.cpp.o
 
 # target to build an object file
 image_loader/png_loader.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
 .PHONY : image_loader/png_loader.cpp.o
 
 image_loader/png_loader.i: image_loader/png_loader.cpp.i
@@ -942,7 +942,7 @@ image_loader/png_loader.i: image_loader/png_loader.cpp.i
 
 # target to preprocess a source file
 image_loader/png_loader.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
 .PHONY : image_loader/png_loader.cpp.i
 
 image_loader/png_loader.s: image_loader/png_loader.cpp.s
@@ -951,7 +951,7 @@ image_loader/png_loader.s: image_loader/png_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader/png_loader.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
 .PHONY : image_loader/png_loader.cpp.s
 
 image_saver/save_jpeg.o: image_saver/save_jpeg.cpp.o
@@ -960,7 +960,7 @@ image_saver/save_jpeg.o: image_saver/save_jpeg.cpp.o
 
 # target to build an object file
 image_saver/save_jpeg.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
 .PHONY : image_saver/save_jpeg.cpp.o
 
 image_saver/save_jpeg.i: image_saver/save_jpeg.cpp.i
@@ -969,7 +969,7 @@ image_saver/save_jpeg.i: image_saver/save_jpeg.cpp.i
 
 # target to preprocess a source file
 image_saver/save_jpeg.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
 .PHONY : image_saver/save_jpeg.cpp.i
 
 image_saver/save_jpeg.s: image_saver/save_jpeg.cpp.s
@@ -978,7 +978,7 @@ image_saver/save_jpeg.s: image_saver/save_jpeg.cpp.s
 
 # target to generate assembly for a file
 image_saver/save_jpeg.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
 .PHONY : image_saver/save_jpeg.cpp.s
 
 image_saver/save_png.o: image_saver/save_png.cpp.o
@@ -987,7 +987,7 @@ image_saver/save_png.o: image_saver/save_png.cpp.o
 
 # target to build an object file
 image_saver/save_png.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
 .PHONY : image_saver/save_png.cpp.o
 
 image_saver/save_png.i: image_saver/save_png.cpp.i
@@ -996,7 +996,7 @@ image_saver/save_png.i: image_saver/save_png.cpp.i
 
 # target to preprocess a source file
 image_saver/save_png.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
 .PHONY : image_saver/save_png.cpp.i
 
 image_saver/save_png.s: image_saver/save_png.cpp.s
@@ -1005,7 +1005,7 @@ image_saver/save_png.s: image_saver/save_png.cpp.s
 
 # target to generate assembly for a file
 image_saver/save_png.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
 .PHONY : image_saver/save_png.cpp.s
 
 linker/linker_kernel_1.o: linker/linker_kernel_1.cpp.o
@@ -1014,7 +1014,7 @@ linker/linker_kernel_1.o: linker/linker_kernel_1.cpp.o
 
 # target to build an object file
 linker/linker_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
 .PHONY : linker/linker_kernel_1.cpp.o
 
 linker/linker_kernel_1.i: linker/linker_kernel_1.cpp.i
@@ -1023,7 +1023,7 @@ linker/linker_kernel_1.i: linker/linker_kernel_1.cpp.i
 
 # target to preprocess a source file
 linker/linker_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
 .PHONY : linker/linker_kernel_1.cpp.i
 
 linker/linker_kernel_1.s: linker/linker_kernel_1.cpp.s
@@ -1032,7 +1032,7 @@ linker/linker_kernel_1.s: linker/linker_kernel_1.cpp.s
 
 # target to generate assembly for a file
 linker/linker_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
 .PHONY : linker/linker_kernel_1.cpp.s
 
 logger/extra_logger_headers.o: logger/extra_logger_headers.cpp.o
@@ -1041,7 +1041,7 @@ logger/extra_logger_headers.o: logger/extra_logger_headers.cpp.o
 
 # target to build an object file
 logger/extra_logger_headers.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
 .PHONY : logger/extra_logger_headers.cpp.o
 
 logger/extra_logger_headers.i: logger/extra_logger_headers.cpp.i
@@ -1050,7 +1050,7 @@ logger/extra_logger_headers.i: logger/extra_logger_headers.cpp.i
 
 # target to preprocess a source file
 logger/extra_logger_headers.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
 .PHONY : logger/extra_logger_headers.cpp.i
 
 logger/extra_logger_headers.s: logger/extra_logger_headers.cpp.s
@@ -1059,7 +1059,7 @@ logger/extra_logger_headers.s: logger/extra_logger_headers.cpp.s
 
 # target to generate assembly for a file
 logger/extra_logger_headers.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
 .PHONY : logger/extra_logger_headers.cpp.s
 
 logger/logger_config_file.o: logger/logger_config_file.cpp.o
@@ -1068,7 +1068,7 @@ logger/logger_config_file.o: logger/logger_config_file.cpp.o
 
 # target to build an object file
 logger/logger_config_file.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o
 .PHONY : logger/logger_config_file.cpp.o
 
 logger/logger_config_file.i: logger/logger_config_file.cpp.i
@@ -1077,7 +1077,7 @@ logger/logger_config_file.i: logger/logger_config_file.cpp.i
 
 # target to preprocess a source file
 logger/logger_config_file.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
 .PHONY : logger/logger_config_file.cpp.i
 
 logger/logger_config_file.s: logger/logger_config_file.cpp.s
@@ -1086,7 +1086,7 @@ logger/logger_config_file.s: logger/logger_config_file.cpp.s
 
 # target to generate assembly for a file
 logger/logger_config_file.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
 .PHONY : logger/logger_config_file.cpp.s
 
 logger/logger_kernel_1.o: logger/logger_kernel_1.cpp.o
@@ -1095,7 +1095,7 @@ logger/logger_kernel_1.o: logger/logger_kernel_1.cpp.o
 
 # target to build an object file
 logger/logger_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
 .PHONY : logger/logger_kernel_1.cpp.o
 
 logger/logger_kernel_1.i: logger/logger_kernel_1.cpp.i
@@ -1104,7 +1104,7 @@ logger/logger_kernel_1.i: logger/logger_kernel_1.cpp.i
 
 # target to preprocess a source file
 logger/logger_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
 .PHONY : logger/logger_kernel_1.cpp.i
 
 logger/logger_kernel_1.s: logger/logger_kernel_1.cpp.s
@@ -1113,7 +1113,7 @@ logger/logger_kernel_1.s: logger/logger_kernel_1.cpp.s
 
 # target to generate assembly for a file
 logger/logger_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
 .PHONY : logger/logger_kernel_1.cpp.s
 
 md5/md5_kernel_1.o: md5/md5_kernel_1.cpp.o
@@ -1122,7 +1122,7 @@ md5/md5_kernel_1.o: md5/md5_kernel_1.cpp.o
 
 # target to build an object file
 md5/md5_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
 .PHONY : md5/md5_kernel_1.cpp.o
 
 md5/md5_kernel_1.i: md5/md5_kernel_1.cpp.i
@@ -1131,7 +1131,7 @@ md5/md5_kernel_1.i: md5/md5_kernel_1.cpp.i
 
 # target to preprocess a source file
 md5/md5_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
 .PHONY : md5/md5_kernel_1.cpp.i
 
 md5/md5_kernel_1.s: md5/md5_kernel_1.cpp.s
@@ -1140,7 +1140,7 @@ md5/md5_kernel_1.s: md5/md5_kernel_1.cpp.s
 
 # target to generate assembly for a file
 md5/md5_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
 .PHONY : md5/md5_kernel_1.cpp.s
 
 misc_api/misc_api_kernel_1.o: misc_api/misc_api_kernel_1.cpp.o
@@ -1149,7 +1149,7 @@ misc_api/misc_api_kernel_1.o: misc_api/misc_api_kernel_1.cpp.o
 
 # target to build an object file
 misc_api/misc_api_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o
 .PHONY : misc_api/misc_api_kernel_1.cpp.o
 
 misc_api/misc_api_kernel_1.i: misc_api/misc_api_kernel_1.cpp.i
@@ -1158,7 +1158,7 @@ misc_api/misc_api_kernel_1.i: misc_api/misc_api_kernel_1.cpp.i
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
 .PHONY : misc_api/misc_api_kernel_1.cpp.i
 
 misc_api/misc_api_kernel_1.s: misc_api/misc_api_kernel_1.cpp.s
@@ -1167,7 +1167,7 @@ misc_api/misc_api_kernel_1.s: misc_api/misc_api_kernel_1.cpp.s
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
 .PHONY : misc_api/misc_api_kernel_1.cpp.s
 
 misc_api/misc_api_kernel_2.o: misc_api/misc_api_kernel_2.cpp.o
@@ -1176,7 +1176,7 @@ misc_api/misc_api_kernel_2.o: misc_api/misc_api_kernel_2.cpp.o
 
 # target to build an object file
 misc_api/misc_api_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o
 .PHONY : misc_api/misc_api_kernel_2.cpp.o
 
 misc_api/misc_api_kernel_2.i: misc_api/misc_api_kernel_2.cpp.i
@@ -1185,7 +1185,7 @@ misc_api/misc_api_kernel_2.i: misc_api/misc_api_kernel_2.cpp.i
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
 .PHONY : misc_api/misc_api_kernel_2.cpp.i
 
 misc_api/misc_api_kernel_2.s: misc_api/misc_api_kernel_2.cpp.s
@@ -1194,7 +1194,7 @@ misc_api/misc_api_kernel_2.s: misc_api/misc_api_kernel_2.cpp.s
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
 .PHONY : misc_api/misc_api_kernel_2.cpp.s
 
 server/server_http.o: server/server_http.cpp.o
@@ -1203,7 +1203,7 @@ server/server_http.o: server/server_http.cpp.o
 
 # target to build an object file
 server/server_http.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o
 .PHONY : server/server_http.cpp.o
 
 server/server_http.i: server/server_http.cpp.i
@@ -1212,7 +1212,7 @@ server/server_http.i: server/server_http.cpp.i
 
 # target to preprocess a source file
 server/server_http.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i
 .PHONY : server/server_http.cpp.i
 
 server/server_http.s: server/server_http.cpp.s
@@ -1221,7 +1221,7 @@ server/server_http.s: server/server_http.cpp.s
 
 # target to generate assembly for a file
 server/server_http.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s
 .PHONY : server/server_http.cpp.s
 
 server/server_iostream.o: server/server_iostream.cpp.o
@@ -1230,7 +1230,7 @@ server/server_iostream.o: server/server_iostream.cpp.o
 
 # target to build an object file
 server/server_iostream.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o
 .PHONY : server/server_iostream.cpp.o
 
 server/server_iostream.i: server/server_iostream.cpp.i
@@ -1239,7 +1239,7 @@ server/server_iostream.i: server/server_iostream.cpp.i
 
 # target to preprocess a source file
 server/server_iostream.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i
 .PHONY : server/server_iostream.cpp.i
 
 server/server_iostream.s: server/server_iostream.cpp.s
@@ -1248,7 +1248,7 @@ server/server_iostream.s: server/server_iostream.cpp.s
 
 # target to generate assembly for a file
 server/server_iostream.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s
 .PHONY : server/server_iostream.cpp.s
 
 server/server_kernel.o: server/server_kernel.cpp.o
@@ -1257,7 +1257,7 @@ server/server_kernel.o: server/server_kernel.cpp.o
 
 # target to build an object file
 server/server_kernel.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o
 .PHONY : server/server_kernel.cpp.o
 
 server/server_kernel.i: server/server_kernel.cpp.i
@@ -1266,7 +1266,7 @@ server/server_kernel.i: server/server_kernel.cpp.i
 
 # target to preprocess a source file
 server/server_kernel.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i
 .PHONY : server/server_kernel.cpp.i
 
 server/server_kernel.s: server/server_kernel.cpp.s
@@ -1275,7 +1275,7 @@ server/server_kernel.s: server/server_kernel.cpp.s
 
 # target to generate assembly for a file
 server/server_kernel.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s
 .PHONY : server/server_kernel.cpp.s
 
 sockets/sockets_extensions.o: sockets/sockets_extensions.cpp.o
@@ -1284,7 +1284,7 @@ sockets/sockets_extensions.o: sockets/sockets_extensions.cpp.o
 
 # target to build an object file
 sockets/sockets_extensions.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o
 .PHONY : sockets/sockets_extensions.cpp.o
 
 sockets/sockets_extensions.i: sockets/sockets_extensions.cpp.i
@@ -1293,7 +1293,7 @@ sockets/sockets_extensions.i: sockets/sockets_extensions.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_extensions.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
 .PHONY : sockets/sockets_extensions.cpp.i
 
 sockets/sockets_extensions.s: sockets/sockets_extensions.cpp.s
@@ -1302,7 +1302,7 @@ sockets/sockets_extensions.s: sockets/sockets_extensions.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_extensions.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
 .PHONY : sockets/sockets_extensions.cpp.s
 
 sockets/sockets_kernel_1.o: sockets/sockets_kernel_1.cpp.o
@@ -1311,7 +1311,7 @@ sockets/sockets_kernel_1.o: sockets/sockets_kernel_1.cpp.o
 
 # target to build an object file
 sockets/sockets_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
 .PHONY : sockets/sockets_kernel_1.cpp.o
 
 sockets/sockets_kernel_1.i: sockets/sockets_kernel_1.cpp.i
@@ -1320,7 +1320,7 @@ sockets/sockets_kernel_1.i: sockets/sockets_kernel_1.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
 .PHONY : sockets/sockets_kernel_1.cpp.i
 
 sockets/sockets_kernel_1.s: sockets/sockets_kernel_1.cpp.s
@@ -1329,7 +1329,7 @@ sockets/sockets_kernel_1.s: sockets/sockets_kernel_1.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
 .PHONY : sockets/sockets_kernel_1.cpp.s
 
 sockets/sockets_kernel_2.o: sockets/sockets_kernel_2.cpp.o
@@ -1338,7 +1338,7 @@ sockets/sockets_kernel_2.o: sockets/sockets_kernel_2.cpp.o
 
 # target to build an object file
 sockets/sockets_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o
 .PHONY : sockets/sockets_kernel_2.cpp.o
 
 sockets/sockets_kernel_2.i: sockets/sockets_kernel_2.cpp.i
@@ -1347,7 +1347,7 @@ sockets/sockets_kernel_2.i: sockets/sockets_kernel_2.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
 .PHONY : sockets/sockets_kernel_2.cpp.i
 
 sockets/sockets_kernel_2.s: sockets/sockets_kernel_2.cpp.s
@@ -1356,7 +1356,7 @@ sockets/sockets_kernel_2.s: sockets/sockets_kernel_2.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
 .PHONY : sockets/sockets_kernel_2.cpp.s
 
 sockstreambuf/sockstreambuf.o: sockstreambuf/sockstreambuf.cpp.o
@@ -1365,7 +1365,7 @@ sockstreambuf/sockstreambuf.o: sockstreambuf/sockstreambuf.cpp.o
 
 # target to build an object file
 sockstreambuf/sockstreambuf.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o
 .PHONY : sockstreambuf/sockstreambuf.cpp.o
 
 sockstreambuf/sockstreambuf.i: sockstreambuf/sockstreambuf.cpp.i
@@ -1374,7 +1374,7 @@ sockstreambuf/sockstreambuf.i: sockstreambuf/sockstreambuf.cpp.i
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
 .PHONY : sockstreambuf/sockstreambuf.cpp.i
 
 sockstreambuf/sockstreambuf.s: sockstreambuf/sockstreambuf.cpp.s
@@ -1383,7 +1383,7 @@ sockstreambuf/sockstreambuf.s: sockstreambuf/sockstreambuf.cpp.s
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
 .PHONY : sockstreambuf/sockstreambuf.cpp.s
 
 sockstreambuf/sockstreambuf_unbuffered.o: sockstreambuf/sockstreambuf_unbuffered.cpp.o
@@ -1392,7 +1392,7 @@ sockstreambuf/sockstreambuf_unbuffered.o: sockstreambuf/sockstreambuf_unbuffered
 
 # target to build an object file
 sockstreambuf/sockstreambuf_unbuffered.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.o
 
 sockstreambuf/sockstreambuf_unbuffered.i: sockstreambuf/sockstreambuf_unbuffered.cpp.i
@@ -1401,7 +1401,7 @@ sockstreambuf/sockstreambuf_unbuffered.i: sockstreambuf/sockstreambuf_unbuffered
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf_unbuffered.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.i
 
 sockstreambuf/sockstreambuf_unbuffered.s: sockstreambuf/sockstreambuf_unbuffered.cpp.s
@@ -1410,7 +1410,7 @@ sockstreambuf/sockstreambuf_unbuffered.s: sockstreambuf/sockstreambuf_unbuffered
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf_unbuffered.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.s
 
 stack_trace.o: stack_trace.cpp.o
@@ -1419,7 +1419,7 @@ stack_trace.o: stack_trace.cpp.o
 
 # target to build an object file
 stack_trace.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
 .PHONY : stack_trace.cpp.o
 
 stack_trace.i: stack_trace.cpp.i
@@ -1428,7 +1428,7 @@ stack_trace.i: stack_trace.cpp.i
 
 # target to preprocess a source file
 stack_trace.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i
 .PHONY : stack_trace.cpp.i
 
 stack_trace.s: stack_trace.cpp.s
@@ -1437,7 +1437,7 @@ stack_trace.s: stack_trace.cpp.s
 
 # target to generate assembly for a file
 stack_trace.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s
 .PHONY : stack_trace.cpp.s
 
 svm/auto.o: svm/auto.cpp.o
@@ -1446,7 +1446,7 @@ svm/auto.o: svm/auto.cpp.o
 
 # target to build an object file
 svm/auto.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
 .PHONY : svm/auto.cpp.o
 
 svm/auto.i: svm/auto.cpp.i
@@ -1455,7 +1455,7 @@ svm/auto.i: svm/auto.cpp.i
 
 # target to preprocess a source file
 svm/auto.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i
 .PHONY : svm/auto.cpp.i
 
 svm/auto.s: svm/auto.cpp.s
@@ -1464,7 +1464,7 @@ svm/auto.s: svm/auto.cpp.s
 
 # target to generate assembly for a file
 svm/auto.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s
 .PHONY : svm/auto.cpp.s
 
 test_for_odr_violations.o: test_for_odr_violations.cpp.o
@@ -1473,7 +1473,7 @@ test_for_odr_violations.o: test_for_odr_violations.cpp.o
 
 # target to build an object file
 test_for_odr_violations.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
 .PHONY : test_for_odr_violations.cpp.o
 
 test_for_odr_violations.i: test_for_odr_violations.cpp.i
@@ -1482,7 +1482,7 @@ test_for_odr_violations.i: test_for_odr_violations.cpp.i
 
 # target to preprocess a source file
 test_for_odr_violations.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i
 .PHONY : test_for_odr_violations.cpp.i
 
 test_for_odr_violations.s: test_for_odr_violations.cpp.s
@@ -1491,7 +1491,7 @@ test_for_odr_violations.s: test_for_odr_violations.cpp.s
 
 # target to generate assembly for a file
 test_for_odr_violations.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s
 .PHONY : test_for_odr_violations.cpp.s
 
 threads/async.o: threads/async.cpp.o
@@ -1500,7 +1500,7 @@ threads/async.o: threads/async.cpp.o
 
 # target to build an object file
 threads/async.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
 .PHONY : threads/async.cpp.o
 
 threads/async.i: threads/async.cpp.i
@@ -1509,7 +1509,7 @@ threads/async.i: threads/async.cpp.i
 
 # target to preprocess a source file
 threads/async.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i
 .PHONY : threads/async.cpp.i
 
 threads/async.s: threads/async.cpp.s
@@ -1518,7 +1518,7 @@ threads/async.s: threads/async.cpp.s
 
 # target to generate assembly for a file
 threads/async.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s
 .PHONY : threads/async.cpp.s
 
 threads/multithreaded_object_extension.o: threads/multithreaded_object_extension.cpp.o
@@ -1527,7 +1527,7 @@ threads/multithreaded_object_extension.o: threads/multithreaded_object_extension
 
 # target to build an object file
 threads/multithreaded_object_extension.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o
 .PHONY : threads/multithreaded_object_extension.cpp.o
 
 threads/multithreaded_object_extension.i: threads/multithreaded_object_extension.cpp.i
@@ -1536,7 +1536,7 @@ threads/multithreaded_object_extension.i: threads/multithreaded_object_extension
 
 # target to preprocess a source file
 threads/multithreaded_object_extension.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
 .PHONY : threads/multithreaded_object_extension.cpp.i
 
 threads/multithreaded_object_extension.s: threads/multithreaded_object_extension.cpp.s
@@ -1545,7 +1545,7 @@ threads/multithreaded_object_extension.s: threads/multithreaded_object_extension
 
 # target to generate assembly for a file
 threads/multithreaded_object_extension.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
 .PHONY : threads/multithreaded_object_extension.cpp.s
 
 threads/thread_pool_extension.o: threads/thread_pool_extension.cpp.o
@@ -1554,7 +1554,7 @@ threads/thread_pool_extension.o: threads/thread_pool_extension.cpp.o
 
 # target to build an object file
 threads/thread_pool_extension.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o
 .PHONY : threads/thread_pool_extension.cpp.o
 
 threads/thread_pool_extension.i: threads/thread_pool_extension.cpp.i
@@ -1563,7 +1563,7 @@ threads/thread_pool_extension.i: threads/thread_pool_extension.cpp.i
 
 # target to preprocess a source file
 threads/thread_pool_extension.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
 .PHONY : threads/thread_pool_extension.cpp.i
 
 threads/thread_pool_extension.s: threads/thread_pool_extension.cpp.s
@@ -1572,7 +1572,7 @@ threads/thread_pool_extension.s: threads/thread_pool_extension.cpp.s
 
 # target to generate assembly for a file
 threads/thread_pool_extension.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
 .PHONY : threads/thread_pool_extension.cpp.s
 
 threads/threaded_object_extension.o: threads/threaded_object_extension.cpp.o
@@ -1581,7 +1581,7 @@ threads/threaded_object_extension.o: threads/threaded_object_extension.cpp.o
 
 # target to build an object file
 threads/threaded_object_extension.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o
 .PHONY : threads/threaded_object_extension.cpp.o
 
 threads/threaded_object_extension.i: threads/threaded_object_extension.cpp.i
@@ -1590,7 +1590,7 @@ threads/threaded_object_extension.i: threads/threaded_object_extension.cpp.i
 
 # target to preprocess a source file
 threads/threaded_object_extension.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
 .PHONY : threads/threaded_object_extension.cpp.i
 
 threads/threaded_object_extension.s: threads/threaded_object_extension.cpp.s
@@ -1599,7 +1599,7 @@ threads/threaded_object_extension.s: threads/threaded_object_extension.cpp.s
 
 # target to generate assembly for a file
 threads/threaded_object_extension.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
 .PHONY : threads/threaded_object_extension.cpp.s
 
 threads/threads_kernel_1.o: threads/threads_kernel_1.cpp.o
@@ -1608,7 +1608,7 @@ threads/threads_kernel_1.o: threads/threads_kernel_1.cpp.o
 
 # target to build an object file
 threads/threads_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o
 .PHONY : threads/threads_kernel_1.cpp.o
 
 threads/threads_kernel_1.i: threads/threads_kernel_1.cpp.i
@@ -1617,7 +1617,7 @@ threads/threads_kernel_1.i: threads/threads_kernel_1.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
 .PHONY : threads/threads_kernel_1.cpp.i
 
 threads/threads_kernel_1.s: threads/threads_kernel_1.cpp.s
@@ -1626,7 +1626,7 @@ threads/threads_kernel_1.s: threads/threads_kernel_1.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
 .PHONY : threads/threads_kernel_1.cpp.s
 
 threads/threads_kernel_2.o: threads/threads_kernel_2.cpp.o
@@ -1635,7 +1635,7 @@ threads/threads_kernel_2.o: threads/threads_kernel_2.cpp.o
 
 # target to build an object file
 threads/threads_kernel_2.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o
 .PHONY : threads/threads_kernel_2.cpp.o
 
 threads/threads_kernel_2.i: threads/threads_kernel_2.cpp.i
@@ -1644,7 +1644,7 @@ threads/threads_kernel_2.i: threads/threads_kernel_2.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_2.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
 .PHONY : threads/threads_kernel_2.cpp.i
 
 threads/threads_kernel_2.s: threads/threads_kernel_2.cpp.s
@@ -1653,7 +1653,7 @@ threads/threads_kernel_2.s: threads/threads_kernel_2.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_2.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
 .PHONY : threads/threads_kernel_2.cpp.s
 
 threads/threads_kernel_shared.o: threads/threads_kernel_shared.cpp.o
@@ -1662,7 +1662,7 @@ threads/threads_kernel_shared.o: threads/threads_kernel_shared.cpp.o
 
 # target to build an object file
 threads/threads_kernel_shared.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o
 .PHONY : threads/threads_kernel_shared.cpp.o
 
 threads/threads_kernel_shared.i: threads/threads_kernel_shared.cpp.i
@@ -1671,7 +1671,7 @@ threads/threads_kernel_shared.i: threads/threads_kernel_shared.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_shared.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
 .PHONY : threads/threads_kernel_shared.cpp.i
 
 threads/threads_kernel_shared.s: threads/threads_kernel_shared.cpp.s
@@ -1680,7 +1680,7 @@ threads/threads_kernel_shared.s: threads/threads_kernel_shared.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_shared.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
 .PHONY : threads/threads_kernel_shared.cpp.s
 
 timer/timer.o: timer/timer.cpp.o
@@ -1689,7 +1689,7 @@ timer/timer.o: timer/timer.cpp.o
 
 # target to build an object file
 timer/timer.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
 .PHONY : timer/timer.cpp.o
 
 timer/timer.i: timer/timer.cpp.i
@@ -1698,7 +1698,7 @@ timer/timer.i: timer/timer.cpp.i
 
 # target to preprocess a source file
 timer/timer.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i
 .PHONY : timer/timer.cpp.i
 
 timer/timer.s: timer/timer.cpp.s
@@ -1707,7 +1707,7 @@ timer/timer.s: timer/timer.cpp.s
 
 # target to generate assembly for a file
 timer/timer.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s
 .PHONY : timer/timer.cpp.s
 
 tokenizer/tokenizer_kernel_1.o: tokenizer/tokenizer_kernel_1.cpp.o
@@ -1716,7 +1716,7 @@ tokenizer/tokenizer_kernel_1.o: tokenizer/tokenizer_kernel_1.cpp.o
 
 # target to build an object file
 tokenizer/tokenizer_kernel_1.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.o
 
 tokenizer/tokenizer_kernel_1.i: tokenizer/tokenizer_kernel_1.cpp.i
@@ -1725,7 +1725,7 @@ tokenizer/tokenizer_kernel_1.i: tokenizer/tokenizer_kernel_1.cpp.i
 
 # target to preprocess a source file
 tokenizer/tokenizer_kernel_1.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.i
 
 tokenizer/tokenizer_kernel_1.s: tokenizer/tokenizer_kernel_1.cpp.s
@@ -1734,7 +1734,7 @@ tokenizer/tokenizer_kernel_1.s: tokenizer/tokenizer_kernel_1.cpp.s
 
 # target to generate assembly for a file
 tokenizer/tokenizer_kernel_1.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.s
 
 unicode/unicode.o: unicode/unicode.cpp.o
@@ -1743,7 +1743,7 @@ unicode/unicode.o: unicode/unicode.cpp.o
 
 # target to build an object file
 unicode/unicode.cpp.o:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
 .PHONY : unicode/unicode.cpp.o
 
 unicode/unicode.i: unicode/unicode.cpp.i
@@ -1752,7 +1752,7 @@ unicode/unicode.i: unicode/unicode.cpp.i
 
 # target to preprocess a source file
 unicode/unicode.cpp.i:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.i
 .PHONY : unicode/unicode.cpp.i
 
 unicode/unicode.s: unicode/unicode.cpp.s
@@ -1761,7 +1761,7 @@ unicode/unicode.s: unicode/unicode.cpp.s
 
 # target to generate assembly for a file
 unicode/unicode.cpp.s:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.s
 .PHONY : unicode/unicode.cpp.s
 
 # Help Target
@@ -1965,6 +1965,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

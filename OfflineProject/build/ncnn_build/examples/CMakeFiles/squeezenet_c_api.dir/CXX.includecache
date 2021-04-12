@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
 c_api.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/c_api.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/c_api.h
 algorithm
 -
 opencv2/core/core.hpp
@@ -20,13 +20,13 @@ stdio.h
 vector
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/c_api.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/c_api.h
 stddef.h
 -
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/simplestl.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/simplestl.h
 stddef.h
 -
 stdint.h

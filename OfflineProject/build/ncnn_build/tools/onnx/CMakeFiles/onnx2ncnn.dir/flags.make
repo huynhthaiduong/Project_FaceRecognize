@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx 
+CXX_INCLUDES = -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx 
 

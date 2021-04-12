@@ -1,4 +1,4 @@
-# Install script for directory: /home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng
+# Install script for directory: /home/tamnguyen/Git_DATN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libpng_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/examples/CMakeFiles/mobilenetssd.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/examples/CMakeFiles/mobilenetssd.dir/progress.make
 include ncnn_build/examples/CMakeFiles/mobilenetssd.dir/flags.make
 
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o: ncnn_build/examples/CMakeFiles/mobilenetssd.dir/flags.make
-ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o: /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o"
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o -c /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp
+ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o: /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o"
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o -c /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp
 
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i"
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp > CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp > CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i
 
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s"
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp -o CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples/mobilenetssd.cpp -o CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s
 
 # Object files for target mobilenetssd
 mobilenetssd_OBJECTS = \
@@ -88,8 +88,8 @@ ncnn_build/examples/mobilenetssd: /usr/local/lib/libopencv_imgcodecs.so.4.5.2
 ncnn_build/examples/mobilenetssd: /usr/local/lib/libopencv_imgproc.so.4.5.2
 ncnn_build/examples/mobilenetssd: /usr/local/lib/libopencv_core.so.4.5.2
 ncnn_build/examples/mobilenetssd: ncnn_build/examples/CMakeFiles/mobilenetssd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mobilenetssd"
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mobilenetssd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mobilenetssd"
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mobilenetssd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build: ncnn_build/examples/mobilenetssd
@@ -97,10 +97,10 @@ ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build: ncnn_build/examples/mobil
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
 
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/clean:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/mobilenetssd.dir/cmake_clean.cmake
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/mobilenetssd.dir/cmake_clean.cmake
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/clean
 
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/depend:
-	cd /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject /home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/examples /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/mobilenetssd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject /home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/examples /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples /home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/mobilenetssd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/depend
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc
 onnx.pb.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -28,9 +28,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/third_party/protobuf/version.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/third_party/protobuf/version.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -60,9 +60,9 @@ google/protobuf/generated_enum_reflection.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
 onnx.pb.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/onnx/onnx.pb.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/onnx/onnx.pb.h
 algorithm
 -
 float.h

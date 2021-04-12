@@ -6,7 +6,7 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -DNCNN_STATIC_DEFINE -Wall -Wextra -Wno-unused-
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/x86 -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/build/ncnn_build/src -I/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer 
+CXX_INCLUDES = -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/x86 -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src -I/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer 
 
 # Custom flags: ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx2.cpp.o_FLAGS = -mfma -mf16c -mavx2
 

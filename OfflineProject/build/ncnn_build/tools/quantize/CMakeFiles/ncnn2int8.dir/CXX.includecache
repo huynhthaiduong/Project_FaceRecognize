@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/allocator.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/allocator.h
 windows.h
 -
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 stdlib.h
 -
 vulkan/vulkan.h
@@ -18,271 +18,271 @@ vulkan/vulkan.h
 android/hardware_buffer.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/blob.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/blob.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/command.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/command.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 vulkan/vulkan.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/datareader.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/datareader.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 stdio.h
 -
 android/asset_manager.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/gpu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/gpu.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 vulkan/vulkan.h
 -
 vulkan_header_fix.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 modelbin.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/modelbin.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/modelbin.h
 option.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/option.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/option.h
 paramdict.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/paramdict.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/paramdict.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 math.h
 -
 command.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/command.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/command.h
 pipeline.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/pipeline.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/pipeline.h
 vulkan/vulkan.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/batchnorm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/batchnorm.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/bias.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/bias.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/binaryop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/binaryop.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/clip.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/clip.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/concat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/concat.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/convolution.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/convolution.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/crop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/crop.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/deconvolution.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/deconvolution.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/detectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/detectionoutput.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/dropout.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/dropout.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/eltwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/eltwise.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/elu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/elu.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/exp.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/exp.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/flatten.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/flatten.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/innerproduct.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/innerproduct.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/input.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/input.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/instancenorm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/instancenorm.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/interp.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/interp.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/log.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/log.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/lrn.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/lrn.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/lstm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/lstm.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/memorydata.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/memorydata.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/mvn.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/mvn.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/normalize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/normalize.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/padding.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/padding.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/permute.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/permute.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/pooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/pooling.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/power.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/power.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/prelu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/prelu.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/priorbox.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/priorbox.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/proposal.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/proposal.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/psroipooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/psroipooling.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/quantize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/quantize.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/reduction.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/reduction.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/relu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/relu.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/reorg.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/reorg.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/requantize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/requantize.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/reshape.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/reshape.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/roialign.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/roialign.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/roipooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/roipooling.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/scale.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/scale.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/shufflechannel.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/shufflechannel.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/slice.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/slice.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/softmax.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/softmax.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/split.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/split.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/threshold.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/threshold.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/unaryop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/unaryop.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer/layer.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer_type.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer_type.h
 layer_type_enum.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer_type_enum.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer_type_enum.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 stdlib.h
 -
 string.h
@@ -292,11 +292,11 @@ arm_neon.h
 immintrin.h
 -
 allocator.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/allocator.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/allocator.h
 option.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/option.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 vulkan/vulkan.h
 -
 android/bitmap.h
@@ -304,43 +304,43 @@ android/bitmap.h
 jni.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/modelbin.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/modelbin.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/net.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/net.h
 blob.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/blob.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/blob.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/layer.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 option.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/option.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 android/asset_manager.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/option.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/option.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/paramdict.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/paramdict.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/pipeline.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/pipeline.h
 mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/mat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/mat.h
 platform.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/platform.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/platform.h
 gpu.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/gpu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/gpu.h
 vulkan/vulkan.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/simplestl.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/simplestl.h
 stddef.h
 -
 stdint.h
@@ -350,11 +350,11 @@ string.h
 new
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/src/vulkan_header_fix.h
 vulkan/vulkan.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
 cstdio
 -
 cstring
@@ -366,117 +366,117 @@ set
 vector
 -
 datareader.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/datareader.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/datareader.h
 layer.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer.h
 layer_type.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer_type.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer_type.h
 net.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/net.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/net.h
 layer/batchnorm.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/batchnorm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/batchnorm.h
 layer/bias.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/bias.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/bias.h
 layer/binaryop.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/binaryop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/binaryop.h
 layer/clip.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/clip.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/clip.h
 layer/concat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/concat.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/concat.h
 layer/convolution.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/convolution.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/convolution.h
 layer/convolutiondepthwise.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/convolutiondepthwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/convolutiondepthwise.h
 layer/crop.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/crop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/crop.h
 layer/deconvolution.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/deconvolution.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/deconvolution.h
 layer/deconvolutiondepthwise.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/deconvolutiondepthwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/deconvolutiondepthwise.h
 layer/detectionoutput.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/detectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/detectionoutput.h
 layer/dropout.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/dropout.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/dropout.h
 layer/eltwise.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/eltwise.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/eltwise.h
 layer/elu.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/elu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/elu.h
 layer/exp.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/exp.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/exp.h
 layer/flatten.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/flatten.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/flatten.h
 layer/innerproduct.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/innerproduct.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/innerproduct.h
 layer/input.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/input.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/input.h
 layer/instancenorm.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/instancenorm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/instancenorm.h
 layer/interp.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/interp.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/interp.h
 layer/log.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/log.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/log.h
 layer/lrn.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/lrn.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/lrn.h
 layer/lstm.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/lstm.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/lstm.h
 layer/memorydata.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/memorydata.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/memorydata.h
 layer/mvn.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/mvn.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/mvn.h
 layer/normalize.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/normalize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/normalize.h
 layer/padding.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/padding.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/padding.h
 layer/permute.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/permute.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/permute.h
 layer/pixelshuffle.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/pixelshuffle.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/pixelshuffle.h
 layer/pooling.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/pooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/pooling.h
 layer/power.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/power.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/power.h
 layer/prelu.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/prelu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/prelu.h
 layer/priorbox.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/priorbox.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/priorbox.h
 layer/proposal.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/proposal.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/proposal.h
 layer/psroipooling.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/psroipooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/psroipooling.h
 layer/quantize.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/quantize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/quantize.h
 layer/reduction.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/reduction.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/reduction.h
 layer/relu.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/relu.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/relu.h
 layer/reorg.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/reorg.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/reorg.h
 layer/requantize.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/requantize.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/requantize.h
 layer/reshape.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/reshape.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/reshape.h
 layer/roialign.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/roialign.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/roialign.h
 layer/roipooling.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/roipooling.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/roipooling.h
 layer/scale.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/scale.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/scale.h
 layer/shufflechannel.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/shufflechannel.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/shufflechannel.h
 layer/slice.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/slice.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/slice.h
 layer/softmax.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/softmax.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/softmax.h
 layer/split.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/split.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/split.h
 layer/threshold.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/threshold.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/threshold.h
 layer/unaryop.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/unaryop.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/unaryop.h
 layer/yolodetectionoutput.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/yolodetectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/yolodetectionoutput.h
 layer/yolov3detectionoutput.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/ncnn/tools/quantize/layer/yolov3detectionoutput.h
+/home/tamnguyen/Git_DATN/Project_FaceRecognize/ncnn/tools/quantize/layer/yolov3detectionoutput.h
 
 ncnn_build/src/layer_type_enum.h
 
