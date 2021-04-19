@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,8 +94,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -196,84 +196,6 @@ dlib/fast:
 .PHONY : dlib/fast
 
 #=============================================================================
-# Target rules for targets named MachineIndependent
-
-# Build rule for target.
-MachineIndependent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MachineIndependent
-.PHONY : MachineIndependent
-
-# fast build rule for target.
-MachineIndependent/fast:
-	$(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build
-.PHONY : MachineIndependent/fast
-
-#=============================================================================
-# Target rules for targets named GenericCodeGen
-
-# Build rule for target.
-GenericCodeGen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GenericCodeGen
-.PHONY : GenericCodeGen
-
-# fast build rule for target.
-GenericCodeGen/fast:
-	$(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build
-.PHONY : GenericCodeGen/fast
-
-#=============================================================================
-# Target rules for targets named glslang
-
-# Build rule for target.
-glslang: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glslang
-.PHONY : glslang
-
-# fast build rule for target.
-glslang/fast:
-	$(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build
-.PHONY : glslang/fast
-
-#=============================================================================
-# Target rules for targets named OSDependent
-
-# Build rule for target.
-OSDependent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OSDependent
-.PHONY : OSDependent
-
-# fast build rule for target.
-OSDependent/fast:
-	$(MAKE) -f ncnn_build/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/build.make ncnn_build/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/build
-.PHONY : OSDependent/fast
-
-#=============================================================================
-# Target rules for targets named OGLCompiler
-
-# Build rule for target.
-OGLCompiler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OGLCompiler
-.PHONY : OGLCompiler
-
-# fast build rule for target.
-OGLCompiler/fast:
-	$(MAKE) -f ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/build.make ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/build
-.PHONY : OGLCompiler/fast
-
-#=============================================================================
-# Target rules for targets named SPIRV
-
-# Build rule for target.
-SPIRV: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SPIRV
-.PHONY : SPIRV
-
-# fast build rule for target.
-SPIRV/fast:
-	$(MAKE) -f ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/build
-.PHONY : SPIRV/fast
-
-#=============================================================================
 # Target rules for targets named ncnn
 
 # Build rule for target.
@@ -287,30 +209,17 @@ ncnn/fast:
 .PHONY : ncnn/fast
 
 #=============================================================================
-# Target rules for targets named ncnn-generate-spirv
+# Target rules for targets named generate-spirv
 
 # Build rule for target.
-ncnn-generate-spirv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ncnn-generate-spirv
-.PHONY : ncnn-generate-spirv
+generate-spirv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate-spirv
+.PHONY : generate-spirv
 
 # fast build rule for target.
-ncnn-generate-spirv/fast:
-	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build
-.PHONY : ncnn-generate-spirv/fast
-
-#=============================================================================
-# Target rules for targets named benchncnn
-
-# Build rule for target.
-benchncnn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 benchncnn
-.PHONY : benchncnn
-
-# fast build rule for target.
-benchncnn/fast:
-	$(MAKE) -f ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build.make ncnn_build/benchmark/CMakeFiles/benchncnn.dir/build
-.PHONY : benchncnn/fast
+generate-spirv/fast:
+	$(MAKE) -f ncnn_build/src/CMakeFiles/generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/generate-spirv.dir/build
+.PHONY : generate-spirv/fast
 
 #=============================================================================
 # Target rules for targets named yolov3
@@ -352,19 +261,6 @@ rfcn/fast:
 .PHONY : rfcn/fast
 
 #=============================================================================
-# Target rules for targets named nanodet
-
-# Build rule for target.
-nanodet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nanodet
-.PHONY : nanodet
-
-# fast build rule for target.
-nanodet/fast:
-	$(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/build
-.PHONY : nanodet/fast
-
-#=============================================================================
 # Target rules for targets named shufflenetv2
 
 # Build rule for target.
@@ -378,19 +274,6 @@ shufflenetv2/fast:
 .PHONY : shufflenetv2/fast
 
 #=============================================================================
-# Target rules for targets named yolov4
-
-# Build rule for target.
-yolov4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 yolov4
-.PHONY : yolov4
-
-# fast build rule for target.
-yolov4/fast:
-	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/build
-.PHONY : yolov4/fast
-
-#=============================================================================
 # Target rules for targets named squeezenet
 
 # Build rule for target.
@@ -402,32 +285,6 @@ squeezenet: cmake_check_build_system
 squeezenet/fast:
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/build
 .PHONY : squeezenet/fast
-
-#=============================================================================
-# Target rules for targets named squeezenet_c_api
-
-# Build rule for target.
-squeezenet_c_api: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 squeezenet_c_api
-.PHONY : squeezenet_c_api
-
-# fast build rule for target.
-squeezenet_c_api/fast:
-	$(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build
-.PHONY : squeezenet_c_api/fast
-
-#=============================================================================
-# Target rules for targets named yolov5
-
-# Build rule for target.
-yolov5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 yolov5
-.PHONY : yolov5
-
-# fast build rule for target.
-yolov5/fast:
-	$(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/build
-.PHONY : yolov5/fast
 
 #=============================================================================
 # Target rules for targets named yolov2
@@ -454,19 +311,6 @@ mobilenetv2ssdlite: cmake_check_build_system
 mobilenetv2ssdlite/fast:
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build
 .PHONY : mobilenetv2ssdlite/fast
-
-#=============================================================================
-# Target rules for targets named mobilenetssd
-
-# Build rule for target.
-mobilenetssd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mobilenetssd
-.PHONY : mobilenetssd
-
-# fast build rule for target.
-mobilenetssd/fast:
-	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
-.PHONY : mobilenetssd/fast
 
 #=============================================================================
 # Target rules for targets named squeezenetssd
@@ -534,6 +378,19 @@ yolact/fast:
 .PHONY : yolact/fast
 
 #=============================================================================
+# Target rules for targets named mobilenetssd
+
+# Build rule for target.
+mobilenetssd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mobilenetssd
+.PHONY : mobilenetssd
+
+# fast build rule for target.
+mobilenetssd/fast:
+	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
+.PHONY : mobilenetssd/fast
+
+#=============================================================================
 # Target rules for targets named ncnnoptimize
 
 # Build rule for target.
@@ -545,19 +402,6 @@ ncnnoptimize: cmake_check_build_system
 ncnnoptimize/fast:
 	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/build.make ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/build
 .PHONY : ncnnoptimize/fast
-
-#=============================================================================
-# Target rules for targets named ncnnmerge
-
-# Build rule for target.
-ncnnmerge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ncnnmerge
-.PHONY : ncnnmerge
-
-# fast build rule for target.
-ncnnmerge/fast:
-	$(MAKE) -f ncnn_build/tools/CMakeFiles/ncnnmerge.dir/build.make ncnn_build/tools/CMakeFiles/ncnnmerge.dir/build
-.PHONY : ncnnmerge/fast
 
 #=============================================================================
 # Target rules for targets named ncnn2mem
@@ -610,19 +454,6 @@ onnx2ncnn: cmake_check_build_system
 onnx2ncnn/fast:
 	$(MAKE) -f ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build
 .PHONY : onnx2ncnn/fast
-
-#=============================================================================
-# Target rules for targets named darknet2ncnn
-
-# Build rule for target.
-darknet2ncnn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 darknet2ncnn
-.PHONY : darknet2ncnn
-
-# fast build rule for target.
-darknet2ncnn/fast:
-	$(MAKE) -f ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build
-.PHONY : darknet2ncnn/fast
 
 #=============================================================================
 # Target rules for targets named ncnn2int8
@@ -711,6 +542,7 @@ src/UltraFace.o: src/UltraFace.cpp.o
 # target to build an object file
 src/UltraFace.cpp.o:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.o
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.o
 .PHONY : src/UltraFace.cpp.o
 
 src/UltraFace.i: src/UltraFace.cpp.i
@@ -720,6 +552,7 @@ src/UltraFace.i: src/UltraFace.cpp.i
 # target to preprocess a source file
 src/UltraFace.cpp.i:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.i
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.i
 .PHONY : src/UltraFace.cpp.i
 
 src/UltraFace.s: src/UltraFace.cpp.s
@@ -729,6 +562,7 @@ src/UltraFace.s: src/UltraFace.cpp.s
 # target to generate assembly for a file
 src/UltraFace.cpp.s:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.s
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.s
 .PHONY : src/UltraFace.cpp.s
 
 src/detect.o: src/detect.cpp.o
@@ -803,39 +637,26 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... dlib"
-	@echo "... MachineIndependent"
-	@echo "... GenericCodeGen"
-	@echo "... glslang"
-	@echo "... OSDependent"
-	@echo "... OGLCompiler"
-	@echo "... SPIRV"
 	@echo "... ncnn"
-	@echo "... ncnn-generate-spirv"
-	@echo "... benchncnn"
+	@echo "... generate-spirv"
 	@echo "... yolov3"
 	@echo "... simplepose"
 	@echo "... rfcn"
-	@echo "... nanodet"
 	@echo "... shufflenetv2"
-	@echo "... yolov4"
 	@echo "... squeezenet"
-	@echo "... squeezenet_c_api"
-	@echo "... yolov5"
 	@echo "... yolov2"
 	@echo "... mobilenetv2ssdlite"
-	@echo "... mobilenetssd"
 	@echo "... squeezenetssd"
 	@echo "... peleenetssd_seg"
 	@echo "... fasterrcnn"
 	@echo "... retinaface"
 	@echo "... yolact"
+	@echo "... mobilenetssd"
 	@echo "... ncnnoptimize"
-	@echo "... ncnnmerge"
 	@echo "... ncnn2mem"
 	@echo "... caffe2ncnn"
 	@echo "... mxnet2ncnn"
 	@echo "... onnx2ncnn"
-	@echo "... darknet2ncnn"
 	@echo "... ncnn2int8"
 	@echo "... ncnn2table"
 	@echo "... src/TrainModel.o"

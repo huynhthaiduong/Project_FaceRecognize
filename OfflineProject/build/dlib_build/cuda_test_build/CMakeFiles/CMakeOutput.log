@@ -1,28 +1,28 @@
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7d356/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7d356.dir/build.make CMakeFiles/cmTC_7d356.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d356.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_7d356.dir/CheckIncludeFile.c.o   -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7d356
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d356.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_7d356.dir/CheckIncludeFile.c.o  -o cmTC_7d356 
-make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_00267/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00267.dir/build.make CMakeFiles/cmTC_00267.dir/build
+make[1]: Entering directory '/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00267.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_00267.dir/CheckIncludeFile.c.o   -c /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00267
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00267.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_00267.dir/CheckIncludeFile.c.o  -o cmTC_00267 
+make[1]: Leaving directory '/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+Change Dir: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63114/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63114.dir/build.make CMakeFiles/cmTC_63114.dir/build
-make[1]: Entering directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63114.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_63114.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_63114
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63114.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_63114.dir/CheckFunctionExists.c.o  -o cmTC_63114 -lpthread 
-make[1]: Leaving directory '/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_133bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_133bb.dir/build.make CMakeFiles/cmTC_133bb.dir/build
+make[1]: Entering directory '/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_133bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_133bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_133bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_133bb.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_133bb.dir/CheckFunctionExists.c.o  -o cmTC_133bb -lpthread 
+make[1]: Leaving directory '/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/depend.make
@@ -57,26 +57,26 @@ include ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/progress.make
 # Include the compile flags for this target's objects.
 include ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/flags.make
 
-ncnn_build/tools/onnx/onnx.pb.cc: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx.proto
+ncnn_build/tools/onnx/onnx.pb.cc: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx.proto
 ncnn_build/tools/onnx/onnx.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on onnx.proto"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/protoc --cpp_out=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx -I /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on onnx.proto"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/protoc --cpp_out=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx -I /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx.proto
 
 ncnn_build/tools/onnx/onnx.pb.h: ncnn_build/tools/onnx/onnx.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate ncnn_build/tools/onnx/onnx.pb.h
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/flags.make
-ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
+ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o -c /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp > CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp > CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.i
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp -o CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp -o CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.s
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o.requires:
 
@@ -91,16 +91,16 @@ ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o.provides.build: n
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/flags.make
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o: ncnn_build/tools/onnx/onnx.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o -c /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc > CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc > CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.i
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc -o CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/onnx.pb.cc -o CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.s
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o.requires:
 
@@ -126,8 +126,8 @@ ncnn_build/tools/onnx/onnx2ncnn: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/
 ncnn_build/tools/onnx/onnx2ncnn: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make
 ncnn_build/tools/onnx/onnx2ncnn: /usr/lib/aarch64-linux-gnu/libprotobuf.so
 ncnn_build/tools/onnx/onnx2ncnn: ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable onnx2ncnn"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onnx2ncnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable onnx2ncnn"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onnx2ncnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/build: ncnn_build/tools/onnx/onnx2ncnn
@@ -140,11 +140,11 @@ ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/requires: ncnn_build/tools/onnx/C
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/requires
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && $(CMAKE_COMMAND) -P CMakeFiles/onnx2ncnn.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx && $(CMAKE_COMMAND) -P CMakeFiles/onnx2ncnn.dir/cmake_clean.cmake
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/clean
 
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/depend: ncnn_build/tools/onnx/onnx.pb.cc
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/depend: ncnn_build/tools/onnx/onnx.pb.h
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/depend
 

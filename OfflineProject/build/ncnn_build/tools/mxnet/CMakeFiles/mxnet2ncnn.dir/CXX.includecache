@@ -6,18 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/mxnet/mxnet2ncnn.cpp
+/home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/mxnet/mxnet2ncnn.cpp
 limits.h
+-
+stdio.h
+-
+stdint.h
+-
+string.h
 -
 map
 -
 set
--
-stdint.h
--
-stdio.h
--
-string.h
 -
 string
 -

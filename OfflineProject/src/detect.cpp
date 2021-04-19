@@ -1,199 +1,337 @@
+#include <opencv2/opencv.hpp>
+
+#include "mysql_connection.h"
+#include <unistd.h>
+#include <cppconn/driver.h>
+#include <cppconn/exception.h>
+#include <cppconn/resultset.h>
+#include <cppconn/statement.h>
+#include <cppconn/prepared_statement.h>
+
+#include <dlib/gui_widgets.h>
+#include <dlib/clustering.h>
+#include <dlib/string.h>
+#include <dlib/image_io.h>
+#include <dlib/opencv.h>
+#include <dlib/image_processing.h>
+#include <map>
+#include <string>
 #include "../header/UltraFace.hpp"
-#include "../header/student.hpp"
-#include <time.h>
-#include <thread>
-#include "libxl.h"
+#include <deque>
 
-//Mutex for thread synchronization
-static pthread_mutex_t foo_mutex = PTHREAD_MUTEX_INITIALIZER;
+#include <math.h>
+using namespace dlib;
+using namespace std;
 
-struct thread_data 
+std::mutex m1;
+std::mutex m2;
+//std::chrono::time_point<std::chrono::system_clock> m_StartTime = std::chrono::system_clock::now();
+        
+std::string gstreamer_pipeline (int capture_width, int capture_height, int display_width, int display_height, int framerate, int flip_method) {
+    return "v4l2src device=/dev/video1 ! image/jpeg, width=(int)640, height=(int)360, framerate=30/1 ! jpegdec ! videoconvert ! appsink";//"nvarguscamerasrc ! video/x-raw(memory:NVMM), width=(int)" + std::to_string(capture_width) + ", height=(int)" +
+           //std::to_string(capture_height) + ", format=(string)NV12, framerate=(fraction)" + std::to_string(framerate) +
+           //"/1 ! nvvidconv flip-method=" + std::to_string(flip_method) + " ! video/x-raw, width=(int)" + std::to_string(display_width) + ", height=(int)" +
+           //std::to_string(display_height) + ", format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink drop=true";
+}
+
+
+void updata_mysql(sql::PreparedStatement *ps, const string name, matrix<rgb_pixel>& img)
 {
-  std::string gst_pipeline1;
-  int gst_pipeline;
-  std::vector<student>* temp_lst;
-  int  thread_id;
-  string window_title; //Unique window title for each thread
-};
+    cv::Mat tmp = toMat(img);
 
-struct Match_object
-{
-    std::string Name_detected;
-    double Avg_value;
-    double m_checkAvgValue_d = 0.15f;
-    cv::Scalar Bound_style;
-    int check_index;
-};
+    std::vector<unsigned char> buff(22500);
+    cv::imencode(".png", tmp, buff,{cv::IMWRITE_PNG_STRATEGY_DEFAULT,1});
+    unsigned char* buffimg = &buff[0];
 
-/**************************************************************************************************************************************************************************/
-/*                                                                        Capture And Detec MULTITHREAD                                                                   */
-/**************************************************************************************************************************************************************************/
-void *CaptureAndDetec(void *threadarg)
-{
-    struct thread_data *data;
-    data = (struct thread_data *) threadarg;
+    std::string value(reinterpret_cast<char*>(buffimg),22500);
+    std::istringstream tmp_blob(value);
+    ps->setBlob(2,&tmp_blob);
+    ps->setString(1,name);
+    ps->executeUpdate();     
+}
 
-    //Safely open video stream
-    pthread_mutex_lock(&foo_mutex);
-    cv::VideoCapture cap(data->gst_pipeline);//, cv::CAP_GSTREAMER);
-    pthread_mutex_unlock(&foo_mutex);
-    
-    if( !cap.isOpened())
-    {
-      std::cout<<"Not good, open camera failed"<<std::endl;
-      return 0;
+bool matIsEqual(const cv::Mat mat1, const cv::Mat mat2){
+    // treat two empty mat as identical as well
+    if (mat1.empty() && mat2.empty()) {
+        return true;
     }
-    std::cout<< "Opened camera successfully!"<<std::endl;
+    // if dimensionality of two mat is not identical, these two mat is not identical
+    if (mat1.cols != mat2.cols || mat1.rows != mat2.rows || mat1.dims != mat2.dims) {
+        return false;
+    }
+    cv::Mat diff;
+    cv::compare(mat1, mat2, diff, cv::CMP_NE);
+    int nz = cv::countNonZero(diff);
+    return nz==0;
+}
 
-    //Create window with unique title
-    cv::namedWindow(data->window_title, cv::WINDOW_AUTOSIZE);
 
-    shape_predictor sp;
-    deserialize("../Model/shape_predictor_68_face_landmarks.dat") >> sp;
-    anet_type net;
-    deserialize("../Model/dlib_face_recognition_resnet_model_v1.dat") >> net;
-    student temp_std;
-    UltraFace ultraface("../Model/RFB-320.bin", "../Model/RFB-320.param", 432, 240, 64, 0.82);
-    std::vector<matrix<rgb_pixel>> faces;
-    cv::Mat img;
-    auto m_StartTime = std::chrono::system_clock::now();
-    double FPS = cap.get(cv::CAP_PROP_FPS);
-    std::cout << "Capture  " << FPS << " FPS " <<std::endl;
-    while (true)
+double get_blinking_ratio(int eye_points[],dlib::full_object_detection facial_landmarks)
+{
+    cv::Point left_point (facial_landmarks.part(eye_points[0]).x(), facial_landmarks.part(eye_points[0]).y());
+    cv::Point right_point (facial_landmarks.part(eye_points[3]).x(), facial_landmarks.part(eye_points[3]).y());
+    cv::Point top1 (facial_landmarks.part(eye_points[1]).x(),facial_landmarks.part(eye_points[1]).y());
+    cv::Point top2 (facial_landmarks.part(eye_points[2]).x(),facial_landmarks.part(eye_points[2]).y());
+    cv::Point bot1 (facial_landmarks.part(eye_points[5]).x(),facial_landmarks.part(eye_points[5]).y());
+    cv::Point bot2 (facial_landmarks.part(eye_points[4]).x(),facial_landmarks.part(eye_points[4]).y());
+    cv::Point center_top = (top1 + top2)/2;
+    cv::Point center_bottom = (bot1 + bot2)/2;
+
+    //hor_line = cv2.line(image, left_point, right_point, (0, 255, 0), 2)
+    //ver_line = cv2.line(image, center_top, center_bottom, (0, 255, 0), 2)
+
+    double hor_line_lenght = hypot((left_point.x - right_point.x), (left_point.y - right_point.y));
+    double ver_line_lenght = hypot((center_top.x - center_bottom.x), (center_top.y - center_bottom.y));
+
+    
+    return hor_line_lenght / ver_line_lenght;
+} 
+float calc_prob(std::vector<float>& a, std::vector<float>& b)
+{
+    float prob = 0;
+    for(int i =0; i < b.size();i++)
     {
-        if (!cap.read(img))
-        {
-            std::cout << "Capture read error" << std::endl;
+        prob += a[i]*b[i]; 
+    }
+    return prob;
+}
+
+void capture_and_detect_func(cv::VideoCapture& cap,UltraFace& ultraface, std::deque<cv::Mat>& buffer_img,
+                                                                        std::deque<ncnn::Mat>& buffer_score_blob32,
+                                                                        std::deque<ncnn::Mat>& buffer_bbox_blob32,
+                                                                        std::deque<ncnn::Mat>& buffer_score_blob16,
+                                                                        std::deque<ncnn::Mat>& buffer_bbox_blob16)
+{
+    while(true)
+    {
+        //cout<<"capture_and_detect_func "<< buffer_img.size()<<endl;
+        cv::Mat img;
+        if (!cap.read(img)) {
+            std::cout<<"Capture read error"<<std::endl;
             break;
         }
+        ncnn::Mat inmat = ncnn::Mat::from_pixels(img.data, ncnn::Mat::PIXEL_BGR2RGB, img.cols, img.rows);
+        ncnn::Mat score_blob32; 
+        ncnn::Mat bbox_blob32;
+        ncnn::Mat score_blob16;
+        ncnn::Mat bbox_blob16;
 
-        double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
-	m_StartTime = std::chrono::system_clock::now();
-	cv::putText(img, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
+        ultraface.detect(inmat, score_blob32,bbox_blob32,score_blob16,bbox_blob16);
 
-        cv::Mat image_clone = img.clone();
-        ncnn::Mat inmat = ncnn::Mat::from_pixels(image_clone.data, ncnn::Mat::PIXEL_BGR2RGB, image_clone.cols, image_clone.rows);
-        /************************************************/
-        /*		      DETECT		        */
-        /************************************************/
+        auto lock = std::unique_lock<std::mutex>(m1);
+        buffer_img.push_back(img);
+        buffer_score_blob32.push_back(score_blob32);
+        buffer_bbox_blob32.push_back(bbox_blob32);
+        buffer_score_blob16.push_back(score_blob16);
+        buffer_bbox_blob16.push_back(bbox_blob16);
+        lock.unlock();
+        
+        std::this_thread::sleep_for (std::chrono::milliseconds(buffer_img.size()));
+    }
+}
+
+void landmark_ali_func(image_window& win,
+                        shape_predictor& sp,
+                        UltraFace& ultraface,
+                        std::deque<cv::Mat>& buffer_img,
+                        std::deque<ncnn::Mat>& buffer_score_blob32,
+                        std::deque<ncnn::Mat>& buffer_bbox_blob32,
+                        std::deque<ncnn::Mat>& buffer_score_blob16,
+                        std::deque<ncnn::Mat>& buffer_bbox_blob16,
+                        std::deque<std::vector<matrix<rgb_pixel>>>& buffer_faces)
+{
+    while(true)
+    {
+        //cout<<"landmark_ali_func"<<buffer_faces.size()<<endl;
+        if(buffer_img.size() <= 1)
+            continue;
+        
+        const float prob_threshold = 0.8f;
+        const float nms_threshold = 0.4f;
+        std::vector<FaceInfo> faceproposals;
         std::vector<FaceInfo> face_info;
-        ultraface.detect(inmat, face_info);
+        //32
+        int base_size = 16;
+        int feat_stride = 32;
+        ncnn::Mat ratios(1);
+        ratios[0] = 1.f;
+        ncnn::Mat scales(2);
+        scales[0] = 32.f;
+        scales[1] = 16.f;
+        ncnn::Mat anchors = ultraface.generate_anchors(base_size, ratios, scales);
+        std::vector<FaceInfo> faceobjects32;
+        ultraface.generate_proposals(anchors, feat_stride, buffer_score_blob32[0], buffer_bbox_blob32[0], prob_threshold, faceobjects32);
 
-        cv_image<bgr_pixel> cimg(img);
+        faceproposals.insert(faceproposals.end(), faceobjects32.begin(), faceobjects32.end());
+
+        //16
+        
+        feat_stride = 16;
+        //ncnn::Mat ratios(1);
+        //ratios[0] = 1.f;
+        //ncnn::Mat scales(2);
+        scales[0] = 8.f;
+        scales[1] = 4.f;
+        anchors = ultraface.generate_anchors(base_size, ratios, scales);
+        std::vector<FaceInfo> faceobjects16;
+        ultraface.generate_proposals(anchors, feat_stride, buffer_score_blob16[0], buffer_bbox_blob16[0], prob_threshold, faceobjects16);
+
+        faceproposals.insert(faceproposals.end(), faceobjects16.begin(), faceobjects16.end());
+    
+        ultraface.nms(faceproposals, face_info);
+
+        cv_image<bgr_pixel> cimg(buffer_img[0]);
         matrix<rgb_pixel> matrix;
         assign_image(matrix, cimg);
-        faces.clear();
-        for (int i = 0; i < face_info.size(); i++)
-        {
+        std::vector<dlib::matrix<rgb_pixel>> faces;
+
+        win.clear_overlay();
+        for (int i = 0; i < face_info.size(); i++) {
             auto face = face_info[i];
-            rectangle rect(point(face.x1, face.y1), point(face.x2, face.y2));
-            auto shape = sp(matrix, rect);
+            rectangle rect(point(face.x1,face.y1), point(face.x2, face.y2));
+            image_window::overlay_rect orect(rect, rgb_pixel(255,0,0));
+            auto shape = sp(matrix,rect);
+            //double left_eye_ratio = get_blinking_ratio(l_eye_poits, shape);
+            //double right_eye_ratio = get_blinking_ratio(r_eye_points, shape);
+           
             dlib::matrix<rgb_pixel> face_chip;
-            extract_image_chip(matrix, get_face_chip_details(shape, 150, 0.25), face_chip);
+            extract_image_chip(matrix, get_face_chip_details(shape,112,0.25), face_chip);
             faces.push_back(move(face_chip));
-            std::vector<dlib::matrix<float, 0, 1>> face_descriptors = net(faces);
-            Match_object temp_obj;
-            temp_obj.Name_detected = "Unknow";
-            temp_obj.Avg_value = 0.15f;
-            temp_obj.Bound_style = cv::Scalar(0, 0, 255);
-            temp_obj.check_index = -1;
-            for (int j = 0; j < (*(data->temp_lst)).size(); j++)
+            win.add_overlay(orect);
+        }
+        win.set_image(matrix);
+
+        auto lock1 = std::unique_lock<std::mutex>(m2);
+        buffer_faces.push_back(faces);
+        lock1.unlock();
+
+        auto lock = std::unique_lock<std::mutex>(m1);
+        buffer_img.pop_front();
+        buffer_score_blob32.pop_front();
+        buffer_bbox_blob32.pop_front();
+        buffer_score_blob16.pop_front();
+        buffer_bbox_blob16.pop_front();
+        lock.unlock();
+        std::this_thread::sleep_for (std::chrono::milliseconds(buffer_faces.size()));
+    }
+}
+
+void face_embedding_func(   UltraFace& ultraface,
+                            std::deque<std::vector<matrix<rgb_pixel>>>& buffer_faces,
+                            std::map<std::string, std::vector<float>>& data_faces)
+{
+    while(true)
+    {
+        if(buffer_faces.size() <= 1)
+            continue;
+        
+        if(buffer_faces[0].size() == 0)
+        {
+            auto lock = std::unique_lock<std::mutex>(m2);
+            buffer_faces.pop_front();
+            lock.unlock();        
+            continue;
+        }
+
+        for (size_t i = 0; i < buffer_faces[0].size(); ++i)
+        {
+            ncnn::Mat tmp_ncnnmat = ncnn::Mat::from_pixels(toMat(buffer_faces[0][i]).data, ncnn::Mat::PIXEL_RGB, 112, 112);
+            std::vector<float> out;
+            ultraface.face_embedding(tmp_ncnnmat, out);
+            
+            for(auto&x: data_faces)
             {
-		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], (*(data->temp_lst))[j].student_features);
-                if (temp_obj.m_checkAvgValue_d < temp_obj.Avg_value)
+                float prob = calc_prob(x.second,out);
+                if(prob > 0.6)
                 {
-                    temp_obj.Avg_value = temp_obj.m_checkAvgValue_d;
-                    temp_obj.Name_detected = (*(data->temp_lst))[j].student_name;
-                    temp_obj.Bound_style = cv::Scalar(0, 255, 0);
-                    temp_obj.check_index = j;
+                    cout<<"Name: "<<x.first<<endl;
+                    cout<<"Prob: "<<prob<<endl;
                 }
             }
-            if (temp_obj.check_index != -1)
-            {
-                (*(data->temp_lst))[temp_obj.check_index].checked = 1;
-            }
-            cv::rectangle(img, cv::Point(face.x1, face.y1), cv::Point(face.x2, face.y2), temp_obj.Bound_style, 1);
-            cv::putText(img, temp_obj.Name_detected, cv::Point(face.x1, face.y2 - 10), cv::FONT_HERSHEY_DUPLEX, 1, temp_obj.Bound_style, 2, false);
-            faces.clear();
         }
-        if (cv::waitKey(1) == 27)
-        {
-            cv::destroyAllWindows();
-            break;
-        }
-        cv::imshow(data->window_title, img);
+        auto lock = std::unique_lock<std::mutex>(m2);
+        buffer_faces.pop_front();
+        lock.unlock();
+        
     }
-    for (int i = 0; i < (*(data->temp_lst)).size(); i++)
-    {
-        std::cout << "Sinh vien: " << (*(data->temp_lst))[i].student_name << std::endl;
-        std::cout << "      MSSV: " << (*(data->temp_lst))[i].student_id << std::endl;
-        if ((*(data->temp_lst))[i].checked == 1)
-        {
-            std::cout << "      Co" << std::endl;
-        }
-        else
-        {
-            std::cout << "      Vang" << std::endl;
-        }
-    }
-    //Release VideoCapture object
-    cap.release();
-    //Destroy previously created window
-    cv::destroyWindow(data->window_title);
-
-  //Exit thread
-  pthread_exit(NULL);
 }
 
-
-/**************************************************************************************************************************************************************************/
-/*                                                                                   MAIN                                                                                 */
-/**************************************************************************************************************************************************************************/
-int main(void)
+int main()
 {
-    const int thread_count = 2;
+    int capture_width = 640 ;
+    int capture_height = 360 ;
+    int display_width = 640 ;
+    int display_height = 360 ;
+    int framerate = 21 ;
+    int flip_method = 2 ;
 
-    pthread_t threads[thread_count];
-    struct thread_data td[thread_count];
-
-    //Read list Student
-    student temp_student;
-    std::vector<student> m_temp_lst;
-    temp_student.ReadListStu(temp_student, m_temp_lst);
-
-    //Initialize thread data beforehand
-    td[0].gst_pipeline = 1;
-    //td[0].gst_pipeline = "v4l2src device=/dev/video1 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
-    td[0].window_title = "CAM 1 ";
-    td[0].temp_lst = &m_temp_lst;
-
-    td[1].gst_pipeline = 0;
-    //td[1].gst_pipeline = "v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640, height=480, framerate=25/1 ! videoconvert ! video/x-raw, format=BGR ! appsink";
-    td[1].window_title = "CAM 2 ";
-    td[1].temp_lst = &m_temp_lst;
-
-
-    int rc = 0;
-    for( int i = 0; i < thread_count; i++ ) 
-    {
-        cout <<"main() : creating thread, " << i << endl;
-        td[i].thread_id = i;
-
-        rc = pthread_create(&(threads[i]), NULL, CaptureAndDetec, (void *)& (td[i]));
-
-        if (rc) 
-        {
-            cout << "Error:unable to create thread," << rc << endl;
-            exit(-1);
-        }
+    std::string pipeline = gstreamer_pipeline(capture_width,
+	capture_height,
+	display_width,
+	display_height,
+	framerate,
+	flip_method);
+    std::cout << "Using pipeline: \n\t" << pipeline << "\n";
+ 
+    cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
+    if(!cap.isOpened()) {
+	std::cout<<"Failed to open camera."<<std::endl;
+	return (-1);
     }
 
-    //Wait for the previously spawned threads to complete execution
-    for( int i = 0; i < thread_count; i++ )
-        pthread_join(threads[i], NULL);
+    shape_predictor sp;
+    deserialize("shape_predictor_68_face_landmarks.dat") >> sp;
+    int r_eye_points[] = {42, 43, 44, 45, 46, 47};
+    int l_eye_poits[] = {36, 37, 38, 39, 40, 41};
+    // And finally we load the DNN responsible for face recognition.
+    
 
-    pthread_exit(NULL);
+    
+    //Load know faces
+    std::map<std::string, std::vector<float>> data_faces;    
+    deserialize("data_faces.dat") >> data_faces;
+    
+    //Template database
 
+    UltraFace ultraface("RFB-320.bin", "RFB-320.param", 426, 240, 2, 0.82);
+    image_window win;
+    
+
+
+    
+    //vector buffer
+    std::deque<cv::Mat> buffer_img;
+    std::deque<ncnn::Mat> buffer_score_blob16;
+    std::deque<ncnn::Mat> buffer_bbox_blob16;
+    std::deque<ncnn::Mat> buffer_score_blob32;
+    std::deque<ncnn::Mat> buffer_bbox_blob32;
+    std::deque<std::vector<matrix<rgb_pixel>>> buffer_faces;
+
+    thread capture_and_detect_thread(capture_and_detect_func,   std::ref(cap),
+                                                                std::ref(ultraface),
+                                                                std::ref(buffer_img),
+                                                                std::ref(buffer_score_blob32),
+                                                                std::ref(buffer_bbox_blob32),
+                                                                std::ref(buffer_score_blob16),
+                                                                std::ref(buffer_bbox_blob16));
+    	
+    thread landmark_ali_thread(landmark_ali_func,   std::ref(win),
+                                                    std::ref(sp),
+                                                    std::ref(ultraface),
+                                                    std::ref(buffer_img),
+                                                    std::ref(buffer_score_blob32),
+                                                    std::ref(buffer_bbox_blob32),
+                                                    std::ref(buffer_score_blob16),
+                                                    std::ref(buffer_bbox_blob16),
+                                                    std::ref(buffer_faces));
+
+    thread face_embedding_thread(face_embedding_func,std::ref(ultraface),
+                                                    std::ref(buffer_faces),
+                                                    std::ref(data_faces));
+    
+    capture_and_detect_thread.join();
+    landmark_ali_thread.join();
+    face_embedding_thread.join();
+    cap.release();
     return 0;
 }
-

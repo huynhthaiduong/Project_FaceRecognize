@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn
+# Install script for directory: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/cmake_install.cmake")
-  include("/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/cmake_install.cmake")
-  include("/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/benchmark/cmake_install.cmake")
-  include("/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/cmake_install.cmake")
-  include("/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/cmake_install.cmake")
+  include("/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/cmake_install.cmake")
+  include("/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/cmake_install.cmake")
+  include("/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/cmake_install.cmake")
 
 endif()
 

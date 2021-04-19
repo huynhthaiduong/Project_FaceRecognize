@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cuda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@echo "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@echo "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cuda_test_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

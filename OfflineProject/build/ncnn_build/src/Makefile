@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,10 +80,20 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -102,16 +112,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/progress.marks
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/progress.marks
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/clean
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/src/CMakeFiles/ncnn.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/rule
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/rule
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,23 +168,23 @@ ncnn: ncnn_build/src/CMakeFiles/ncnn.dir/rule
 
 # fast build rule for target.
 ncnn/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/build
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/build
 .PHONY : ncnn/fast
 
 # Convenience name for target.
-ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule
-.PHONY : ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule
+ncnn_build/src/CMakeFiles/generate-spirv.dir/rule:
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
+.PHONY : ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
 
 # Convenience name for target.
-ncnn-generate-spirv: ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/rule
+generate-spirv: ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
 
-.PHONY : ncnn-generate-spirv
+.PHONY : generate-spirv
 
 # fast build rule for target.
-ncnn-generate-spirv/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/ncnn-generate-spirv.dir/build
-.PHONY : ncnn-generate-spirv/fast
+generate-spirv/fast:
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/generate-spirv.dir/build
+.PHONY : generate-spirv/fast
 
 allocator.o: allocator.cpp.o
 
@@ -192,7 +192,7 @@ allocator.o: allocator.cpp.o
 
 # target to build an object file
 allocator.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o
 .PHONY : allocator.cpp.o
 
 allocator.i: allocator.cpp.i
@@ -201,7 +201,7 @@ allocator.i: allocator.cpp.i
 
 # target to preprocess a source file
 allocator.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i
 .PHONY : allocator.cpp.i
 
 allocator.s: allocator.cpp.s
@@ -210,7 +210,7 @@ allocator.s: allocator.cpp.s
 
 # target to generate assembly for a file
 allocator.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s
 .PHONY : allocator.cpp.s
 
 benchmark.o: benchmark.cpp.o
@@ -219,7 +219,7 @@ benchmark.o: benchmark.cpp.o
 
 # target to build an object file
 benchmark.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
 .PHONY : benchmark.cpp.o
 
 benchmark.i: benchmark.cpp.i
@@ -228,7 +228,7 @@ benchmark.i: benchmark.cpp.i
 
 # target to preprocess a source file
 benchmark.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i
 .PHONY : benchmark.cpp.i
 
 benchmark.s: benchmark.cpp.s
@@ -237,7 +237,7 @@ benchmark.s: benchmark.cpp.s
 
 # target to generate assembly for a file
 benchmark.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
 blob.o: blob.cpp.o
@@ -246,7 +246,7 @@ blob.o: blob.cpp.o
 
 # target to build an object file
 blob.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o
 .PHONY : blob.cpp.o
 
 blob.i: blob.cpp.i
@@ -255,7 +255,7 @@ blob.i: blob.cpp.i
 
 # target to preprocess a source file
 blob.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i
 .PHONY : blob.cpp.i
 
 blob.s: blob.cpp.s
@@ -264,35 +264,8 @@ blob.s: blob.cpp.s
 
 # target to generate assembly for a file
 blob.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s
 .PHONY : blob.cpp.s
-
-c_api.o: c_api.cpp.o
-
-.PHONY : c_api.o
-
-# target to build an object file
-c_api.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o
-.PHONY : c_api.cpp.o
-
-c_api.i: c_api.cpp.i
-
-.PHONY : c_api.i
-
-# target to preprocess a source file
-c_api.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.i
-.PHONY : c_api.cpp.i
-
-c_api.s: c_api.cpp.s
-
-.PHONY : c_api.s
-
-# target to generate assembly for a file
-c_api.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.s
-.PHONY : c_api.cpp.s
 
 command.o: command.cpp.o
 
@@ -300,7 +273,7 @@ command.o: command.cpp.o
 
 # target to build an object file
 command.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o
 .PHONY : command.cpp.o
 
 command.i: command.cpp.i
@@ -309,7 +282,7 @@ command.i: command.cpp.i
 
 # target to preprocess a source file
 command.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i
 .PHONY : command.cpp.i
 
 command.s: command.cpp.s
@@ -318,7 +291,7 @@ command.s: command.cpp.s
 
 # target to generate assembly for a file
 command.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s
 .PHONY : command.cpp.s
 
 cpu.o: cpu.cpp.o
@@ -327,7 +300,7 @@ cpu.o: cpu.cpp.o
 
 # target to build an object file
 cpu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o
 .PHONY : cpu.cpp.o
 
 cpu.i: cpu.cpp.i
@@ -336,7 +309,7 @@ cpu.i: cpu.cpp.i
 
 # target to preprocess a source file
 cpu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i
 .PHONY : cpu.cpp.i
 
 cpu.s: cpu.cpp.s
@@ -345,7 +318,7 @@ cpu.s: cpu.cpp.s
 
 # target to generate assembly for a file
 cpu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s
 .PHONY : cpu.cpp.s
 
 datareader.o: datareader.cpp.o
@@ -354,7 +327,7 @@ datareader.o: datareader.cpp.o
 
 # target to build an object file
 datareader.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o
 .PHONY : datareader.cpp.o
 
 datareader.i: datareader.cpp.i
@@ -363,7 +336,7 @@ datareader.i: datareader.cpp.i
 
 # target to preprocess a source file
 datareader.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.i
 .PHONY : datareader.cpp.i
 
 datareader.s: datareader.cpp.s
@@ -372,7 +345,7 @@ datareader.s: datareader.cpp.s
 
 # target to generate assembly for a file
 datareader.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.s
 .PHONY : datareader.cpp.s
 
 gpu.o: gpu.cpp.o
@@ -381,7 +354,7 @@ gpu.o: gpu.cpp.o
 
 # target to build an object file
 gpu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o
 .PHONY : gpu.cpp.o
 
 gpu.i: gpu.cpp.i
@@ -390,7 +363,7 @@ gpu.i: gpu.cpp.i
 
 # target to preprocess a source file
 gpu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i
 .PHONY : gpu.cpp.i
 
 gpu.s: gpu.cpp.s
@@ -399,7 +372,7 @@ gpu.s: gpu.cpp.s
 
 # target to generate assembly for a file
 gpu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s
 .PHONY : gpu.cpp.s
 
 layer.o: layer.cpp.o
@@ -408,7 +381,7 @@ layer.o: layer.cpp.o
 
 # target to build an object file
 layer.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o
 .PHONY : layer.cpp.o
 
 layer.i: layer.cpp.i
@@ -417,7 +390,7 @@ layer.i: layer.cpp.i
 
 # target to preprocess a source file
 layer.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i
 .PHONY : layer.cpp.i
 
 layer.s: layer.cpp.s
@@ -426,7 +399,7 @@ layer.s: layer.cpp.s
 
 # target to generate assembly for a file
 layer.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s
 .PHONY : layer.cpp.s
 
 layer/absval.o: layer/absval.cpp.o
@@ -435,7 +408,7 @@ layer/absval.o: layer/absval.cpp.o
 
 # target to build an object file
 layer/absval.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
 .PHONY : layer/absval.cpp.o
 
 layer/absval.i: layer/absval.cpp.i
@@ -444,7 +417,7 @@ layer/absval.i: layer/absval.cpp.i
 
 # target to preprocess a source file
 layer/absval.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
 .PHONY : layer/absval.cpp.i
 
 layer/absval.s: layer/absval.cpp.s
@@ -453,7 +426,7 @@ layer/absval.s: layer/absval.cpp.s
 
 # target to generate assembly for a file
 layer/absval.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
 .PHONY : layer/absval.cpp.s
 
 layer/arm/absval_arm.o: layer/arm/absval_arm.cpp.o
@@ -462,7 +435,7 @@ layer/arm/absval_arm.o: layer/arm/absval_arm.cpp.o
 
 # target to build an object file
 layer/arm/absval_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o
 .PHONY : layer/arm/absval_arm.cpp.o
 
 layer/arm/absval_arm.i: layer/arm/absval_arm.cpp.i
@@ -471,7 +444,7 @@ layer/arm/absval_arm.i: layer/arm/absval_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/absval_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i
 .PHONY : layer/arm/absval_arm.cpp.i
 
 layer/arm/absval_arm.s: layer/arm/absval_arm.cpp.s
@@ -480,35 +453,8 @@ layer/arm/absval_arm.s: layer/arm/absval_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/absval_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s
 .PHONY : layer/arm/absval_arm.cpp.s
-
-layer/arm/absval_arm_arm82.o: layer/arm/absval_arm_arm82.cpp.o
-
-.PHONY : layer/arm/absval_arm_arm82.o
-
-# target to build an object file
-layer/arm/absval_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o
-.PHONY : layer/arm/absval_arm_arm82.cpp.o
-
-layer/arm/absval_arm_arm82.i: layer/arm/absval_arm_arm82.cpp.i
-
-.PHONY : layer/arm/absval_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/absval_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.i
-.PHONY : layer/arm/absval_arm_arm82.cpp.i
-
-layer/arm/absval_arm_arm82.s: layer/arm/absval_arm_arm82.cpp.s
-
-.PHONY : layer/arm/absval_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/absval_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.s
-.PHONY : layer/arm/absval_arm_arm82.cpp.s
 
 layer/arm/batchnorm_arm.o: layer/arm/batchnorm_arm.cpp.o
 
@@ -516,7 +462,7 @@ layer/arm/batchnorm_arm.o: layer/arm/batchnorm_arm.cpp.o
 
 # target to build an object file
 layer/arm/batchnorm_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o
 .PHONY : layer/arm/batchnorm_arm.cpp.o
 
 layer/arm/batchnorm_arm.i: layer/arm/batchnorm_arm.cpp.i
@@ -525,7 +471,7 @@ layer/arm/batchnorm_arm.i: layer/arm/batchnorm_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/batchnorm_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i
 .PHONY : layer/arm/batchnorm_arm.cpp.i
 
 layer/arm/batchnorm_arm.s: layer/arm/batchnorm_arm.cpp.s
@@ -534,35 +480,8 @@ layer/arm/batchnorm_arm.s: layer/arm/batchnorm_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/batchnorm_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s
 .PHONY : layer/arm/batchnorm_arm.cpp.s
-
-layer/arm/batchnorm_arm_arm82.o: layer/arm/batchnorm_arm_arm82.cpp.o
-
-.PHONY : layer/arm/batchnorm_arm_arm82.o
-
-# target to build an object file
-layer/arm/batchnorm_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o
-.PHONY : layer/arm/batchnorm_arm_arm82.cpp.o
-
-layer/arm/batchnorm_arm_arm82.i: layer/arm/batchnorm_arm_arm82.cpp.i
-
-.PHONY : layer/arm/batchnorm_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/batchnorm_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.i
-.PHONY : layer/arm/batchnorm_arm_arm82.cpp.i
-
-layer/arm/batchnorm_arm_arm82.s: layer/arm/batchnorm_arm_arm82.cpp.s
-
-.PHONY : layer/arm/batchnorm_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/batchnorm_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.s
-.PHONY : layer/arm/batchnorm_arm_arm82.cpp.s
 
 layer/arm/bias_arm.o: layer/arm/bias_arm.cpp.o
 
@@ -570,7 +489,7 @@ layer/arm/bias_arm.o: layer/arm/bias_arm.cpp.o
 
 # target to build an object file
 layer/arm/bias_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o
 .PHONY : layer/arm/bias_arm.cpp.o
 
 layer/arm/bias_arm.i: layer/arm/bias_arm.cpp.i
@@ -579,7 +498,7 @@ layer/arm/bias_arm.i: layer/arm/bias_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/bias_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i
 .PHONY : layer/arm/bias_arm.cpp.i
 
 layer/arm/bias_arm.s: layer/arm/bias_arm.cpp.s
@@ -588,35 +507,8 @@ layer/arm/bias_arm.s: layer/arm/bias_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/bias_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s
 .PHONY : layer/arm/bias_arm.cpp.s
-
-layer/arm/bias_arm_arm82.o: layer/arm/bias_arm_arm82.cpp.o
-
-.PHONY : layer/arm/bias_arm_arm82.o
-
-# target to build an object file
-layer/arm/bias_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o
-.PHONY : layer/arm/bias_arm_arm82.cpp.o
-
-layer/arm/bias_arm_arm82.i: layer/arm/bias_arm_arm82.cpp.i
-
-.PHONY : layer/arm/bias_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/bias_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.i
-.PHONY : layer/arm/bias_arm_arm82.cpp.i
-
-layer/arm/bias_arm_arm82.s: layer/arm/bias_arm_arm82.cpp.s
-
-.PHONY : layer/arm/bias_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/bias_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.s
-.PHONY : layer/arm/bias_arm_arm82.cpp.s
 
 layer/arm/binaryop_arm.o: layer/arm/binaryop_arm.cpp.o
 
@@ -624,7 +516,7 @@ layer/arm/binaryop_arm.o: layer/arm/binaryop_arm.cpp.o
 
 # target to build an object file
 layer/arm/binaryop_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o
 .PHONY : layer/arm/binaryop_arm.cpp.o
 
 layer/arm/binaryop_arm.i: layer/arm/binaryop_arm.cpp.i
@@ -633,7 +525,7 @@ layer/arm/binaryop_arm.i: layer/arm/binaryop_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/binaryop_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i
 .PHONY : layer/arm/binaryop_arm.cpp.i
 
 layer/arm/binaryop_arm.s: layer/arm/binaryop_arm.cpp.s
@@ -642,35 +534,8 @@ layer/arm/binaryop_arm.s: layer/arm/binaryop_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/binaryop_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s
 .PHONY : layer/arm/binaryop_arm.cpp.s
-
-layer/arm/binaryop_arm_arm82.o: layer/arm/binaryop_arm_arm82.cpp.o
-
-.PHONY : layer/arm/binaryop_arm_arm82.o
-
-# target to build an object file
-layer/arm/binaryop_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o
-.PHONY : layer/arm/binaryop_arm_arm82.cpp.o
-
-layer/arm/binaryop_arm_arm82.i: layer/arm/binaryop_arm_arm82.cpp.i
-
-.PHONY : layer/arm/binaryop_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/binaryop_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.i
-.PHONY : layer/arm/binaryop_arm_arm82.cpp.i
-
-layer/arm/binaryop_arm_arm82.s: layer/arm/binaryop_arm_arm82.cpp.s
-
-.PHONY : layer/arm/binaryop_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/binaryop_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.s
-.PHONY : layer/arm/binaryop_arm_arm82.cpp.s
 
 layer/arm/cast_arm.o: layer/arm/cast_arm.cpp.o
 
@@ -678,7 +543,7 @@ layer/arm/cast_arm.o: layer/arm/cast_arm.cpp.o
 
 # target to build an object file
 layer/arm/cast_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o
 .PHONY : layer/arm/cast_arm.cpp.o
 
 layer/arm/cast_arm.i: layer/arm/cast_arm.cpp.i
@@ -687,7 +552,7 @@ layer/arm/cast_arm.i: layer/arm/cast_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/cast_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i
 .PHONY : layer/arm/cast_arm.cpp.i
 
 layer/arm/cast_arm.s: layer/arm/cast_arm.cpp.s
@@ -696,35 +561,8 @@ layer/arm/cast_arm.s: layer/arm/cast_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/cast_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s
 .PHONY : layer/arm/cast_arm.cpp.s
-
-layer/arm/cast_arm_arm82.o: layer/arm/cast_arm_arm82.cpp.o
-
-.PHONY : layer/arm/cast_arm_arm82.o
-
-# target to build an object file
-layer/arm/cast_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o
-.PHONY : layer/arm/cast_arm_arm82.cpp.o
-
-layer/arm/cast_arm_arm82.i: layer/arm/cast_arm_arm82.cpp.i
-
-.PHONY : layer/arm/cast_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/cast_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.i
-.PHONY : layer/arm/cast_arm_arm82.cpp.i
-
-layer/arm/cast_arm_arm82.s: layer/arm/cast_arm_arm82.cpp.s
-
-.PHONY : layer/arm/cast_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/cast_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.s
-.PHONY : layer/arm/cast_arm_arm82.cpp.s
 
 layer/arm/clip_arm.o: layer/arm/clip_arm.cpp.o
 
@@ -732,7 +570,7 @@ layer/arm/clip_arm.o: layer/arm/clip_arm.cpp.o
 
 # target to build an object file
 layer/arm/clip_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o
 .PHONY : layer/arm/clip_arm.cpp.o
 
 layer/arm/clip_arm.i: layer/arm/clip_arm.cpp.i
@@ -741,7 +579,7 @@ layer/arm/clip_arm.i: layer/arm/clip_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/clip_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i
 .PHONY : layer/arm/clip_arm.cpp.i
 
 layer/arm/clip_arm.s: layer/arm/clip_arm.cpp.s
@@ -750,35 +588,8 @@ layer/arm/clip_arm.s: layer/arm/clip_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/clip_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s
 .PHONY : layer/arm/clip_arm.cpp.s
-
-layer/arm/clip_arm_arm82.o: layer/arm/clip_arm_arm82.cpp.o
-
-.PHONY : layer/arm/clip_arm_arm82.o
-
-# target to build an object file
-layer/arm/clip_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o
-.PHONY : layer/arm/clip_arm_arm82.cpp.o
-
-layer/arm/clip_arm_arm82.i: layer/arm/clip_arm_arm82.cpp.i
-
-.PHONY : layer/arm/clip_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/clip_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.i
-.PHONY : layer/arm/clip_arm_arm82.cpp.i
-
-layer/arm/clip_arm_arm82.s: layer/arm/clip_arm_arm82.cpp.s
-
-.PHONY : layer/arm/clip_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/clip_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.s
-.PHONY : layer/arm/clip_arm_arm82.cpp.s
 
 layer/arm/concat_arm.o: layer/arm/concat_arm.cpp.o
 
@@ -786,7 +597,7 @@ layer/arm/concat_arm.o: layer/arm/concat_arm.cpp.o
 
 # target to build an object file
 layer/arm/concat_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o
 .PHONY : layer/arm/concat_arm.cpp.o
 
 layer/arm/concat_arm.i: layer/arm/concat_arm.cpp.i
@@ -795,7 +606,7 @@ layer/arm/concat_arm.i: layer/arm/concat_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/concat_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i
 .PHONY : layer/arm/concat_arm.cpp.i
 
 layer/arm/concat_arm.s: layer/arm/concat_arm.cpp.s
@@ -804,35 +615,8 @@ layer/arm/concat_arm.s: layer/arm/concat_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/concat_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s
 .PHONY : layer/arm/concat_arm.cpp.s
-
-layer/arm/concat_arm_arm82.o: layer/arm/concat_arm_arm82.cpp.o
-
-.PHONY : layer/arm/concat_arm_arm82.o
-
-# target to build an object file
-layer/arm/concat_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o
-.PHONY : layer/arm/concat_arm_arm82.cpp.o
-
-layer/arm/concat_arm_arm82.i: layer/arm/concat_arm_arm82.cpp.i
-
-.PHONY : layer/arm/concat_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/concat_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.i
-.PHONY : layer/arm/concat_arm_arm82.cpp.i
-
-layer/arm/concat_arm_arm82.s: layer/arm/concat_arm_arm82.cpp.s
-
-.PHONY : layer/arm/concat_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/concat_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.s
-.PHONY : layer/arm/concat_arm_arm82.cpp.s
 
 layer/arm/convolution_arm.o: layer/arm/convolution_arm.cpp.o
 
@@ -840,7 +624,7 @@ layer/arm/convolution_arm.o: layer/arm/convolution_arm.cpp.o
 
 # target to build an object file
 layer/arm/convolution_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o
 .PHONY : layer/arm/convolution_arm.cpp.o
 
 layer/arm/convolution_arm.i: layer/arm/convolution_arm.cpp.i
@@ -849,7 +633,7 @@ layer/arm/convolution_arm.i: layer/arm/convolution_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/convolution_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i
 .PHONY : layer/arm/convolution_arm.cpp.i
 
 layer/arm/convolution_arm.s: layer/arm/convolution_arm.cpp.s
@@ -858,35 +642,8 @@ layer/arm/convolution_arm.s: layer/arm/convolution_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/convolution_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s
 .PHONY : layer/arm/convolution_arm.cpp.s
-
-layer/arm/convolution_arm_arm82.o: layer/arm/convolution_arm_arm82.cpp.o
-
-.PHONY : layer/arm/convolution_arm_arm82.o
-
-# target to build an object file
-layer/arm/convolution_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o
-.PHONY : layer/arm/convolution_arm_arm82.cpp.o
-
-layer/arm/convolution_arm_arm82.i: layer/arm/convolution_arm_arm82.cpp.i
-
-.PHONY : layer/arm/convolution_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/convolution_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.i
-.PHONY : layer/arm/convolution_arm_arm82.cpp.i
-
-layer/arm/convolution_arm_arm82.s: layer/arm/convolution_arm_arm82.cpp.s
-
-.PHONY : layer/arm/convolution_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/convolution_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.s
-.PHONY : layer/arm/convolution_arm_arm82.cpp.s
 
 layer/arm/convolutiondepthwise_arm.o: layer/arm/convolutiondepthwise_arm.cpp.o
 
@@ -894,7 +651,7 @@ layer/arm/convolutiondepthwise_arm.o: layer/arm/convolutiondepthwise_arm.cpp.o
 
 # target to build an object file
 layer/arm/convolutiondepthwise_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o
 .PHONY : layer/arm/convolutiondepthwise_arm.cpp.o
 
 layer/arm/convolutiondepthwise_arm.i: layer/arm/convolutiondepthwise_arm.cpp.i
@@ -903,7 +660,7 @@ layer/arm/convolutiondepthwise_arm.i: layer/arm/convolutiondepthwise_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/convolutiondepthwise_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i
 .PHONY : layer/arm/convolutiondepthwise_arm.cpp.i
 
 layer/arm/convolutiondepthwise_arm.s: layer/arm/convolutiondepthwise_arm.cpp.s
@@ -912,35 +669,8 @@ layer/arm/convolutiondepthwise_arm.s: layer/arm/convolutiondepthwise_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/convolutiondepthwise_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s
 .PHONY : layer/arm/convolutiondepthwise_arm.cpp.s
-
-layer/arm/convolutiondepthwise_arm_arm82.o: layer/arm/convolutiondepthwise_arm_arm82.cpp.o
-
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.o
-
-# target to build an object file
-layer/arm/convolutiondepthwise_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.cpp.o
-
-layer/arm/convolutiondepthwise_arm_arm82.i: layer/arm/convolutiondepthwise_arm_arm82.cpp.i
-
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/convolutiondepthwise_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.i
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.cpp.i
-
-layer/arm/convolutiondepthwise_arm_arm82.s: layer/arm/convolutiondepthwise_arm_arm82.cpp.s
-
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/convolutiondepthwise_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.s
-.PHONY : layer/arm/convolutiondepthwise_arm_arm82.cpp.s
 
 layer/arm/crop_arm.o: layer/arm/crop_arm.cpp.o
 
@@ -948,7 +678,7 @@ layer/arm/crop_arm.o: layer/arm/crop_arm.cpp.o
 
 # target to build an object file
 layer/arm/crop_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o
 .PHONY : layer/arm/crop_arm.cpp.o
 
 layer/arm/crop_arm.i: layer/arm/crop_arm.cpp.i
@@ -957,7 +687,7 @@ layer/arm/crop_arm.i: layer/arm/crop_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/crop_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i
 .PHONY : layer/arm/crop_arm.cpp.i
 
 layer/arm/crop_arm.s: layer/arm/crop_arm.cpp.s
@@ -966,35 +696,8 @@ layer/arm/crop_arm.s: layer/arm/crop_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/crop_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s
 .PHONY : layer/arm/crop_arm.cpp.s
-
-layer/arm/crop_arm_arm82.o: layer/arm/crop_arm_arm82.cpp.o
-
-.PHONY : layer/arm/crop_arm_arm82.o
-
-# target to build an object file
-layer/arm/crop_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o
-.PHONY : layer/arm/crop_arm_arm82.cpp.o
-
-layer/arm/crop_arm_arm82.i: layer/arm/crop_arm_arm82.cpp.i
-
-.PHONY : layer/arm/crop_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/crop_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.i
-.PHONY : layer/arm/crop_arm_arm82.cpp.i
-
-layer/arm/crop_arm_arm82.s: layer/arm/crop_arm_arm82.cpp.s
-
-.PHONY : layer/arm/crop_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/crop_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.s
-.PHONY : layer/arm/crop_arm_arm82.cpp.s
 
 layer/arm/deconvolution_arm.o: layer/arm/deconvolution_arm.cpp.o
 
@@ -1002,7 +705,7 @@ layer/arm/deconvolution_arm.o: layer/arm/deconvolution_arm.cpp.o
 
 # target to build an object file
 layer/arm/deconvolution_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o
 .PHONY : layer/arm/deconvolution_arm.cpp.o
 
 layer/arm/deconvolution_arm.i: layer/arm/deconvolution_arm.cpp.i
@@ -1011,7 +714,7 @@ layer/arm/deconvolution_arm.i: layer/arm/deconvolution_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/deconvolution_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i
 .PHONY : layer/arm/deconvolution_arm.cpp.i
 
 layer/arm/deconvolution_arm.s: layer/arm/deconvolution_arm.cpp.s
@@ -1020,35 +723,8 @@ layer/arm/deconvolution_arm.s: layer/arm/deconvolution_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/deconvolution_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s
 .PHONY : layer/arm/deconvolution_arm.cpp.s
-
-layer/arm/deconvolution_arm_arm82.o: layer/arm/deconvolution_arm_arm82.cpp.o
-
-.PHONY : layer/arm/deconvolution_arm_arm82.o
-
-# target to build an object file
-layer/arm/deconvolution_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o
-.PHONY : layer/arm/deconvolution_arm_arm82.cpp.o
-
-layer/arm/deconvolution_arm_arm82.i: layer/arm/deconvolution_arm_arm82.cpp.i
-
-.PHONY : layer/arm/deconvolution_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/deconvolution_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.i
-.PHONY : layer/arm/deconvolution_arm_arm82.cpp.i
-
-layer/arm/deconvolution_arm_arm82.s: layer/arm/deconvolution_arm_arm82.cpp.s
-
-.PHONY : layer/arm/deconvolution_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/deconvolution_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.s
-.PHONY : layer/arm/deconvolution_arm_arm82.cpp.s
 
 layer/arm/deconvolutiondepthwise_arm.o: layer/arm/deconvolutiondepthwise_arm.cpp.o
 
@@ -1056,7 +732,7 @@ layer/arm/deconvolutiondepthwise_arm.o: layer/arm/deconvolutiondepthwise_arm.cpp
 
 # target to build an object file
 layer/arm/deconvolutiondepthwise_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o
 .PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.o
 
 layer/arm/deconvolutiondepthwise_arm.i: layer/arm/deconvolutiondepthwise_arm.cpp.i
@@ -1065,7 +741,7 @@ layer/arm/deconvolutiondepthwise_arm.i: layer/arm/deconvolutiondepthwise_arm.cpp
 
 # target to preprocess a source file
 layer/arm/deconvolutiondepthwise_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i
 .PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.i
 
 layer/arm/deconvolutiondepthwise_arm.s: layer/arm/deconvolutiondepthwise_arm.cpp.s
@@ -1074,35 +750,8 @@ layer/arm/deconvolutiondepthwise_arm.s: layer/arm/deconvolutiondepthwise_arm.cpp
 
 # target to generate assembly for a file
 layer/arm/deconvolutiondepthwise_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s
 .PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.s
-
-layer/arm/deconvolutiondepthwise_arm_arm82.o: layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o
-
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.o
-
-# target to build an object file
-layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o
-
-layer/arm/deconvolutiondepthwise_arm_arm82.i: layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i
-
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i
-
-layer/arm/deconvolutiondepthwise_arm_arm82.s: layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s
-
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s
-.PHONY : layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s
 
 layer/arm/dequantize_arm.o: layer/arm/dequantize_arm.cpp.o
 
@@ -1110,7 +759,7 @@ layer/arm/dequantize_arm.o: layer/arm/dequantize_arm.cpp.o
 
 # target to build an object file
 layer/arm/dequantize_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o
 .PHONY : layer/arm/dequantize_arm.cpp.o
 
 layer/arm/dequantize_arm.i: layer/arm/dequantize_arm.cpp.i
@@ -1119,7 +768,7 @@ layer/arm/dequantize_arm.i: layer/arm/dequantize_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/dequantize_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i
 .PHONY : layer/arm/dequantize_arm.cpp.i
 
 layer/arm/dequantize_arm.s: layer/arm/dequantize_arm.cpp.s
@@ -1128,35 +777,8 @@ layer/arm/dequantize_arm.s: layer/arm/dequantize_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/dequantize_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s
 .PHONY : layer/arm/dequantize_arm.cpp.s
-
-layer/arm/dequantize_arm_arm82.o: layer/arm/dequantize_arm_arm82.cpp.o
-
-.PHONY : layer/arm/dequantize_arm_arm82.o
-
-# target to build an object file
-layer/arm/dequantize_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o
-.PHONY : layer/arm/dequantize_arm_arm82.cpp.o
-
-layer/arm/dequantize_arm_arm82.i: layer/arm/dequantize_arm_arm82.cpp.i
-
-.PHONY : layer/arm/dequantize_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/dequantize_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.i
-.PHONY : layer/arm/dequantize_arm_arm82.cpp.i
-
-layer/arm/dequantize_arm_arm82.s: layer/arm/dequantize_arm_arm82.cpp.s
-
-.PHONY : layer/arm/dequantize_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/dequantize_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.s
-.PHONY : layer/arm/dequantize_arm_arm82.cpp.s
 
 layer/arm/dropout_arm.o: layer/arm/dropout_arm.cpp.o
 
@@ -1164,7 +786,7 @@ layer/arm/dropout_arm.o: layer/arm/dropout_arm.cpp.o
 
 # target to build an object file
 layer/arm/dropout_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o
 .PHONY : layer/arm/dropout_arm.cpp.o
 
 layer/arm/dropout_arm.i: layer/arm/dropout_arm.cpp.i
@@ -1173,7 +795,7 @@ layer/arm/dropout_arm.i: layer/arm/dropout_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/dropout_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i
 .PHONY : layer/arm/dropout_arm.cpp.i
 
 layer/arm/dropout_arm.s: layer/arm/dropout_arm.cpp.s
@@ -1182,35 +804,8 @@ layer/arm/dropout_arm.s: layer/arm/dropout_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/dropout_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s
 .PHONY : layer/arm/dropout_arm.cpp.s
-
-layer/arm/dropout_arm_arm82.o: layer/arm/dropout_arm_arm82.cpp.o
-
-.PHONY : layer/arm/dropout_arm_arm82.o
-
-# target to build an object file
-layer/arm/dropout_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o
-.PHONY : layer/arm/dropout_arm_arm82.cpp.o
-
-layer/arm/dropout_arm_arm82.i: layer/arm/dropout_arm_arm82.cpp.i
-
-.PHONY : layer/arm/dropout_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/dropout_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.i
-.PHONY : layer/arm/dropout_arm_arm82.cpp.i
-
-layer/arm/dropout_arm_arm82.s: layer/arm/dropout_arm_arm82.cpp.s
-
-.PHONY : layer/arm/dropout_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/dropout_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.s
-.PHONY : layer/arm/dropout_arm_arm82.cpp.s
 
 layer/arm/eltwise_arm.o: layer/arm/eltwise_arm.cpp.o
 
@@ -1218,7 +813,7 @@ layer/arm/eltwise_arm.o: layer/arm/eltwise_arm.cpp.o
 
 # target to build an object file
 layer/arm/eltwise_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o
 .PHONY : layer/arm/eltwise_arm.cpp.o
 
 layer/arm/eltwise_arm.i: layer/arm/eltwise_arm.cpp.i
@@ -1227,7 +822,7 @@ layer/arm/eltwise_arm.i: layer/arm/eltwise_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/eltwise_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i
 .PHONY : layer/arm/eltwise_arm.cpp.i
 
 layer/arm/eltwise_arm.s: layer/arm/eltwise_arm.cpp.s
@@ -1236,35 +831,8 @@ layer/arm/eltwise_arm.s: layer/arm/eltwise_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/eltwise_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s
 .PHONY : layer/arm/eltwise_arm.cpp.s
-
-layer/arm/eltwise_arm_arm82.o: layer/arm/eltwise_arm_arm82.cpp.o
-
-.PHONY : layer/arm/eltwise_arm_arm82.o
-
-# target to build an object file
-layer/arm/eltwise_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o
-.PHONY : layer/arm/eltwise_arm_arm82.cpp.o
-
-layer/arm/eltwise_arm_arm82.i: layer/arm/eltwise_arm_arm82.cpp.i
-
-.PHONY : layer/arm/eltwise_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/eltwise_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.i
-.PHONY : layer/arm/eltwise_arm_arm82.cpp.i
-
-layer/arm/eltwise_arm_arm82.s: layer/arm/eltwise_arm_arm82.cpp.s
-
-.PHONY : layer/arm/eltwise_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/eltwise_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.s
-.PHONY : layer/arm/eltwise_arm_arm82.cpp.s
 
 layer/arm/flatten_arm.o: layer/arm/flatten_arm.cpp.o
 
@@ -1272,7 +840,7 @@ layer/arm/flatten_arm.o: layer/arm/flatten_arm.cpp.o
 
 # target to build an object file
 layer/arm/flatten_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o
 .PHONY : layer/arm/flatten_arm.cpp.o
 
 layer/arm/flatten_arm.i: layer/arm/flatten_arm.cpp.i
@@ -1281,7 +849,7 @@ layer/arm/flatten_arm.i: layer/arm/flatten_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/flatten_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i
 .PHONY : layer/arm/flatten_arm.cpp.i
 
 layer/arm/flatten_arm.s: layer/arm/flatten_arm.cpp.s
@@ -1290,89 +858,8 @@ layer/arm/flatten_arm.s: layer/arm/flatten_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/flatten_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s
 .PHONY : layer/arm/flatten_arm.cpp.s
-
-layer/arm/flatten_arm_arm82.o: layer/arm/flatten_arm_arm82.cpp.o
-
-.PHONY : layer/arm/flatten_arm_arm82.o
-
-# target to build an object file
-layer/arm/flatten_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o
-.PHONY : layer/arm/flatten_arm_arm82.cpp.o
-
-layer/arm/flatten_arm_arm82.i: layer/arm/flatten_arm_arm82.cpp.i
-
-.PHONY : layer/arm/flatten_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/flatten_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.i
-.PHONY : layer/arm/flatten_arm_arm82.cpp.i
-
-layer/arm/flatten_arm_arm82.s: layer/arm/flatten_arm_arm82.cpp.s
-
-.PHONY : layer/arm/flatten_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/flatten_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.s
-.PHONY : layer/arm/flatten_arm_arm82.cpp.s
-
-layer/arm/gru_arm.o: layer/arm/gru_arm.cpp.o
-
-.PHONY : layer/arm/gru_arm.o
-
-# target to build an object file
-layer/arm/gru_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o
-.PHONY : layer/arm/gru_arm.cpp.o
-
-layer/arm/gru_arm.i: layer/arm/gru_arm.cpp.i
-
-.PHONY : layer/arm/gru_arm.i
-
-# target to preprocess a source file
-layer/arm/gru_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i
-.PHONY : layer/arm/gru_arm.cpp.i
-
-layer/arm/gru_arm.s: layer/arm/gru_arm.cpp.s
-
-.PHONY : layer/arm/gru_arm.s
-
-# target to generate assembly for a file
-layer/arm/gru_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s
-.PHONY : layer/arm/gru_arm.cpp.s
-
-layer/arm/gru_arm_arm82.o: layer/arm/gru_arm_arm82.cpp.o
-
-.PHONY : layer/arm/gru_arm_arm82.o
-
-# target to build an object file
-layer/arm/gru_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o
-.PHONY : layer/arm/gru_arm_arm82.cpp.o
-
-layer/arm/gru_arm_arm82.i: layer/arm/gru_arm_arm82.cpp.i
-
-.PHONY : layer/arm/gru_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/gru_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.i
-.PHONY : layer/arm/gru_arm_arm82.cpp.i
-
-layer/arm/gru_arm_arm82.s: layer/arm/gru_arm_arm82.cpp.s
-
-.PHONY : layer/arm/gru_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/gru_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.s
-.PHONY : layer/arm/gru_arm_arm82.cpp.s
 
 layer/arm/hardsigmoid_arm.o: layer/arm/hardsigmoid_arm.cpp.o
 
@@ -1380,7 +867,7 @@ layer/arm/hardsigmoid_arm.o: layer/arm/hardsigmoid_arm.cpp.o
 
 # target to build an object file
 layer/arm/hardsigmoid_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o
 .PHONY : layer/arm/hardsigmoid_arm.cpp.o
 
 layer/arm/hardsigmoid_arm.i: layer/arm/hardsigmoid_arm.cpp.i
@@ -1389,7 +876,7 @@ layer/arm/hardsigmoid_arm.i: layer/arm/hardsigmoid_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/hardsigmoid_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i
 .PHONY : layer/arm/hardsigmoid_arm.cpp.i
 
 layer/arm/hardsigmoid_arm.s: layer/arm/hardsigmoid_arm.cpp.s
@@ -1398,35 +885,8 @@ layer/arm/hardsigmoid_arm.s: layer/arm/hardsigmoid_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/hardsigmoid_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s
 .PHONY : layer/arm/hardsigmoid_arm.cpp.s
-
-layer/arm/hardsigmoid_arm_arm82.o: layer/arm/hardsigmoid_arm_arm82.cpp.o
-
-.PHONY : layer/arm/hardsigmoid_arm_arm82.o
-
-# target to build an object file
-layer/arm/hardsigmoid_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o
-.PHONY : layer/arm/hardsigmoid_arm_arm82.cpp.o
-
-layer/arm/hardsigmoid_arm_arm82.i: layer/arm/hardsigmoid_arm_arm82.cpp.i
-
-.PHONY : layer/arm/hardsigmoid_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/hardsigmoid_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.i
-.PHONY : layer/arm/hardsigmoid_arm_arm82.cpp.i
-
-layer/arm/hardsigmoid_arm_arm82.s: layer/arm/hardsigmoid_arm_arm82.cpp.s
-
-.PHONY : layer/arm/hardsigmoid_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/hardsigmoid_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.s
-.PHONY : layer/arm/hardsigmoid_arm_arm82.cpp.s
 
 layer/arm/hardswish_arm.o: layer/arm/hardswish_arm.cpp.o
 
@@ -1434,7 +894,7 @@ layer/arm/hardswish_arm.o: layer/arm/hardswish_arm.cpp.o
 
 # target to build an object file
 layer/arm/hardswish_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o
 .PHONY : layer/arm/hardswish_arm.cpp.o
 
 layer/arm/hardswish_arm.i: layer/arm/hardswish_arm.cpp.i
@@ -1443,7 +903,7 @@ layer/arm/hardswish_arm.i: layer/arm/hardswish_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/hardswish_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i
 .PHONY : layer/arm/hardswish_arm.cpp.i
 
 layer/arm/hardswish_arm.s: layer/arm/hardswish_arm.cpp.s
@@ -1452,35 +912,8 @@ layer/arm/hardswish_arm.s: layer/arm/hardswish_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/hardswish_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s
 .PHONY : layer/arm/hardswish_arm.cpp.s
-
-layer/arm/hardswish_arm_arm82.o: layer/arm/hardswish_arm_arm82.cpp.o
-
-.PHONY : layer/arm/hardswish_arm_arm82.o
-
-# target to build an object file
-layer/arm/hardswish_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o
-.PHONY : layer/arm/hardswish_arm_arm82.cpp.o
-
-layer/arm/hardswish_arm_arm82.i: layer/arm/hardswish_arm_arm82.cpp.i
-
-.PHONY : layer/arm/hardswish_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/hardswish_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.i
-.PHONY : layer/arm/hardswish_arm_arm82.cpp.i
-
-layer/arm/hardswish_arm_arm82.s: layer/arm/hardswish_arm_arm82.cpp.s
-
-.PHONY : layer/arm/hardswish_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/hardswish_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.s
-.PHONY : layer/arm/hardswish_arm_arm82.cpp.s
 
 layer/arm/innerproduct_arm.o: layer/arm/innerproduct_arm.cpp.o
 
@@ -1488,7 +921,7 @@ layer/arm/innerproduct_arm.o: layer/arm/innerproduct_arm.cpp.o
 
 # target to build an object file
 layer/arm/innerproduct_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o
 .PHONY : layer/arm/innerproduct_arm.cpp.o
 
 layer/arm/innerproduct_arm.i: layer/arm/innerproduct_arm.cpp.i
@@ -1497,7 +930,7 @@ layer/arm/innerproduct_arm.i: layer/arm/innerproduct_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/innerproduct_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i
 .PHONY : layer/arm/innerproduct_arm.cpp.i
 
 layer/arm/innerproduct_arm.s: layer/arm/innerproduct_arm.cpp.s
@@ -1506,35 +939,8 @@ layer/arm/innerproduct_arm.s: layer/arm/innerproduct_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/innerproduct_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s
 .PHONY : layer/arm/innerproduct_arm.cpp.s
-
-layer/arm/innerproduct_arm_arm82.o: layer/arm/innerproduct_arm_arm82.cpp.o
-
-.PHONY : layer/arm/innerproduct_arm_arm82.o
-
-# target to build an object file
-layer/arm/innerproduct_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o
-.PHONY : layer/arm/innerproduct_arm_arm82.cpp.o
-
-layer/arm/innerproduct_arm_arm82.i: layer/arm/innerproduct_arm_arm82.cpp.i
-
-.PHONY : layer/arm/innerproduct_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/innerproduct_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.i
-.PHONY : layer/arm/innerproduct_arm_arm82.cpp.i
-
-layer/arm/innerproduct_arm_arm82.s: layer/arm/innerproduct_arm_arm82.cpp.s
-
-.PHONY : layer/arm/innerproduct_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/innerproduct_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.s
-.PHONY : layer/arm/innerproduct_arm_arm82.cpp.s
 
 layer/arm/interp_arm.o: layer/arm/interp_arm.cpp.o
 
@@ -1542,7 +948,7 @@ layer/arm/interp_arm.o: layer/arm/interp_arm.cpp.o
 
 # target to build an object file
 layer/arm/interp_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o
 .PHONY : layer/arm/interp_arm.cpp.o
 
 layer/arm/interp_arm.i: layer/arm/interp_arm.cpp.i
@@ -1551,7 +957,7 @@ layer/arm/interp_arm.i: layer/arm/interp_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/interp_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i
 .PHONY : layer/arm/interp_arm.cpp.i
 
 layer/arm/interp_arm.s: layer/arm/interp_arm.cpp.s
@@ -1560,35 +966,8 @@ layer/arm/interp_arm.s: layer/arm/interp_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/interp_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s
 .PHONY : layer/arm/interp_arm.cpp.s
-
-layer/arm/interp_arm_arm82.o: layer/arm/interp_arm_arm82.cpp.o
-
-.PHONY : layer/arm/interp_arm_arm82.o
-
-# target to build an object file
-layer/arm/interp_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o
-.PHONY : layer/arm/interp_arm_arm82.cpp.o
-
-layer/arm/interp_arm_arm82.i: layer/arm/interp_arm_arm82.cpp.i
-
-.PHONY : layer/arm/interp_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/interp_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.i
-.PHONY : layer/arm/interp_arm_arm82.cpp.i
-
-layer/arm/interp_arm_arm82.s: layer/arm/interp_arm_arm82.cpp.s
-
-.PHONY : layer/arm/interp_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/interp_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.s
-.PHONY : layer/arm/interp_arm_arm82.cpp.s
 
 layer/arm/lrn_arm.o: layer/arm/lrn_arm.cpp.o
 
@@ -1596,7 +975,7 @@ layer/arm/lrn_arm.o: layer/arm/lrn_arm.cpp.o
 
 # target to build an object file
 layer/arm/lrn_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o
 .PHONY : layer/arm/lrn_arm.cpp.o
 
 layer/arm/lrn_arm.i: layer/arm/lrn_arm.cpp.i
@@ -1605,7 +984,7 @@ layer/arm/lrn_arm.i: layer/arm/lrn_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/lrn_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i
 .PHONY : layer/arm/lrn_arm.cpp.i
 
 layer/arm/lrn_arm.s: layer/arm/lrn_arm.cpp.s
@@ -1614,143 +993,8 @@ layer/arm/lrn_arm.s: layer/arm/lrn_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/lrn_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s
 .PHONY : layer/arm/lrn_arm.cpp.s
-
-layer/arm/lrn_arm_arm82.o: layer/arm/lrn_arm_arm82.cpp.o
-
-.PHONY : layer/arm/lrn_arm_arm82.o
-
-# target to build an object file
-layer/arm/lrn_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o
-.PHONY : layer/arm/lrn_arm_arm82.cpp.o
-
-layer/arm/lrn_arm_arm82.i: layer/arm/lrn_arm_arm82.cpp.i
-
-.PHONY : layer/arm/lrn_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/lrn_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.i
-.PHONY : layer/arm/lrn_arm_arm82.cpp.i
-
-layer/arm/lrn_arm_arm82.s: layer/arm/lrn_arm_arm82.cpp.s
-
-.PHONY : layer/arm/lrn_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/lrn_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.s
-.PHONY : layer/arm/lrn_arm_arm82.cpp.s
-
-layer/arm/lstm_arm.o: layer/arm/lstm_arm.cpp.o
-
-.PHONY : layer/arm/lstm_arm.o
-
-# target to build an object file
-layer/arm/lstm_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o
-.PHONY : layer/arm/lstm_arm.cpp.o
-
-layer/arm/lstm_arm.i: layer/arm/lstm_arm.cpp.i
-
-.PHONY : layer/arm/lstm_arm.i
-
-# target to preprocess a source file
-layer/arm/lstm_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i
-.PHONY : layer/arm/lstm_arm.cpp.i
-
-layer/arm/lstm_arm.s: layer/arm/lstm_arm.cpp.s
-
-.PHONY : layer/arm/lstm_arm.s
-
-# target to generate assembly for a file
-layer/arm/lstm_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s
-.PHONY : layer/arm/lstm_arm.cpp.s
-
-layer/arm/lstm_arm_arm82.o: layer/arm/lstm_arm_arm82.cpp.o
-
-.PHONY : layer/arm/lstm_arm_arm82.o
-
-# target to build an object file
-layer/arm/lstm_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o
-.PHONY : layer/arm/lstm_arm_arm82.cpp.o
-
-layer/arm/lstm_arm_arm82.i: layer/arm/lstm_arm_arm82.cpp.i
-
-.PHONY : layer/arm/lstm_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/lstm_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.i
-.PHONY : layer/arm/lstm_arm_arm82.cpp.i
-
-layer/arm/lstm_arm_arm82.s: layer/arm/lstm_arm_arm82.cpp.s
-
-.PHONY : layer/arm/lstm_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/lstm_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.s
-.PHONY : layer/arm/lstm_arm_arm82.cpp.s
-
-layer/arm/mish_arm.o: layer/arm/mish_arm.cpp.o
-
-.PHONY : layer/arm/mish_arm.o
-
-# target to build an object file
-layer/arm/mish_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o
-.PHONY : layer/arm/mish_arm.cpp.o
-
-layer/arm/mish_arm.i: layer/arm/mish_arm.cpp.i
-
-.PHONY : layer/arm/mish_arm.i
-
-# target to preprocess a source file
-layer/arm/mish_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i
-.PHONY : layer/arm/mish_arm.cpp.i
-
-layer/arm/mish_arm.s: layer/arm/mish_arm.cpp.s
-
-.PHONY : layer/arm/mish_arm.s
-
-# target to generate assembly for a file
-layer/arm/mish_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s
-.PHONY : layer/arm/mish_arm.cpp.s
-
-layer/arm/mish_arm_arm82.o: layer/arm/mish_arm_arm82.cpp.o
-
-.PHONY : layer/arm/mish_arm_arm82.o
-
-# target to build an object file
-layer/arm/mish_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o
-.PHONY : layer/arm/mish_arm_arm82.cpp.o
-
-layer/arm/mish_arm_arm82.i: layer/arm/mish_arm_arm82.cpp.i
-
-.PHONY : layer/arm/mish_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/mish_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.i
-.PHONY : layer/arm/mish_arm_arm82.cpp.i
-
-layer/arm/mish_arm_arm82.s: layer/arm/mish_arm_arm82.cpp.s
-
-.PHONY : layer/arm/mish_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/mish_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.s
-.PHONY : layer/arm/mish_arm_arm82.cpp.s
 
 layer/arm/packing_arm.o: layer/arm/packing_arm.cpp.o
 
@@ -1758,7 +1002,7 @@ layer/arm/packing_arm.o: layer/arm/packing_arm.cpp.o
 
 # target to build an object file
 layer/arm/packing_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o
 .PHONY : layer/arm/packing_arm.cpp.o
 
 layer/arm/packing_arm.i: layer/arm/packing_arm.cpp.i
@@ -1767,7 +1011,7 @@ layer/arm/packing_arm.i: layer/arm/packing_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/packing_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i
 .PHONY : layer/arm/packing_arm.cpp.i
 
 layer/arm/packing_arm.s: layer/arm/packing_arm.cpp.s
@@ -1776,35 +1020,8 @@ layer/arm/packing_arm.s: layer/arm/packing_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/packing_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s
 .PHONY : layer/arm/packing_arm.cpp.s
-
-layer/arm/packing_arm_arm82.o: layer/arm/packing_arm_arm82.cpp.o
-
-.PHONY : layer/arm/packing_arm_arm82.o
-
-# target to build an object file
-layer/arm/packing_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o
-.PHONY : layer/arm/packing_arm_arm82.cpp.o
-
-layer/arm/packing_arm_arm82.i: layer/arm/packing_arm_arm82.cpp.i
-
-.PHONY : layer/arm/packing_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/packing_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.i
-.PHONY : layer/arm/packing_arm_arm82.cpp.i
-
-layer/arm/packing_arm_arm82.s: layer/arm/packing_arm_arm82.cpp.s
-
-.PHONY : layer/arm/packing_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/packing_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.s
-.PHONY : layer/arm/packing_arm_arm82.cpp.s
 
 layer/arm/padding_arm.o: layer/arm/padding_arm.cpp.o
 
@@ -1812,7 +1029,7 @@ layer/arm/padding_arm.o: layer/arm/padding_arm.cpp.o
 
 # target to build an object file
 layer/arm/padding_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o
 .PHONY : layer/arm/padding_arm.cpp.o
 
 layer/arm/padding_arm.i: layer/arm/padding_arm.cpp.i
@@ -1821,7 +1038,7 @@ layer/arm/padding_arm.i: layer/arm/padding_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/padding_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i
 .PHONY : layer/arm/padding_arm.cpp.i
 
 layer/arm/padding_arm.s: layer/arm/padding_arm.cpp.s
@@ -1830,35 +1047,8 @@ layer/arm/padding_arm.s: layer/arm/padding_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/padding_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s
 .PHONY : layer/arm/padding_arm.cpp.s
-
-layer/arm/padding_arm_arm82.o: layer/arm/padding_arm_arm82.cpp.o
-
-.PHONY : layer/arm/padding_arm_arm82.o
-
-# target to build an object file
-layer/arm/padding_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o
-.PHONY : layer/arm/padding_arm_arm82.cpp.o
-
-layer/arm/padding_arm_arm82.i: layer/arm/padding_arm_arm82.cpp.i
-
-.PHONY : layer/arm/padding_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/padding_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.i
-.PHONY : layer/arm/padding_arm_arm82.cpp.i
-
-layer/arm/padding_arm_arm82.s: layer/arm/padding_arm_arm82.cpp.s
-
-.PHONY : layer/arm/padding_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/padding_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.s
-.PHONY : layer/arm/padding_arm_arm82.cpp.s
 
 layer/arm/pooling_arm.o: layer/arm/pooling_arm.cpp.o
 
@@ -1866,7 +1056,7 @@ layer/arm/pooling_arm.o: layer/arm/pooling_arm.cpp.o
 
 # target to build an object file
 layer/arm/pooling_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o
 .PHONY : layer/arm/pooling_arm.cpp.o
 
 layer/arm/pooling_arm.i: layer/arm/pooling_arm.cpp.i
@@ -1875,7 +1065,7 @@ layer/arm/pooling_arm.i: layer/arm/pooling_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/pooling_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i
 .PHONY : layer/arm/pooling_arm.cpp.i
 
 layer/arm/pooling_arm.s: layer/arm/pooling_arm.cpp.s
@@ -1884,35 +1074,8 @@ layer/arm/pooling_arm.s: layer/arm/pooling_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/pooling_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s
 .PHONY : layer/arm/pooling_arm.cpp.s
-
-layer/arm/pooling_arm_arm82.o: layer/arm/pooling_arm_arm82.cpp.o
-
-.PHONY : layer/arm/pooling_arm_arm82.o
-
-# target to build an object file
-layer/arm/pooling_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o
-.PHONY : layer/arm/pooling_arm_arm82.cpp.o
-
-layer/arm/pooling_arm_arm82.i: layer/arm/pooling_arm_arm82.cpp.i
-
-.PHONY : layer/arm/pooling_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/pooling_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.i
-.PHONY : layer/arm/pooling_arm_arm82.cpp.i
-
-layer/arm/pooling_arm_arm82.s: layer/arm/pooling_arm_arm82.cpp.s
-
-.PHONY : layer/arm/pooling_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/pooling_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.s
-.PHONY : layer/arm/pooling_arm_arm82.cpp.s
 
 layer/arm/prelu_arm.o: layer/arm/prelu_arm.cpp.o
 
@@ -1920,7 +1083,7 @@ layer/arm/prelu_arm.o: layer/arm/prelu_arm.cpp.o
 
 # target to build an object file
 layer/arm/prelu_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o
 .PHONY : layer/arm/prelu_arm.cpp.o
 
 layer/arm/prelu_arm.i: layer/arm/prelu_arm.cpp.i
@@ -1929,7 +1092,7 @@ layer/arm/prelu_arm.i: layer/arm/prelu_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/prelu_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i
 .PHONY : layer/arm/prelu_arm.cpp.i
 
 layer/arm/prelu_arm.s: layer/arm/prelu_arm.cpp.s
@@ -1938,35 +1101,8 @@ layer/arm/prelu_arm.s: layer/arm/prelu_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/prelu_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s
 .PHONY : layer/arm/prelu_arm.cpp.s
-
-layer/arm/prelu_arm_arm82.o: layer/arm/prelu_arm_arm82.cpp.o
-
-.PHONY : layer/arm/prelu_arm_arm82.o
-
-# target to build an object file
-layer/arm/prelu_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o
-.PHONY : layer/arm/prelu_arm_arm82.cpp.o
-
-layer/arm/prelu_arm_arm82.i: layer/arm/prelu_arm_arm82.cpp.i
-
-.PHONY : layer/arm/prelu_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/prelu_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.i
-.PHONY : layer/arm/prelu_arm_arm82.cpp.i
-
-layer/arm/prelu_arm_arm82.s: layer/arm/prelu_arm_arm82.cpp.s
-
-.PHONY : layer/arm/prelu_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/prelu_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.s
-.PHONY : layer/arm/prelu_arm_arm82.cpp.s
 
 layer/arm/quantize_arm.o: layer/arm/quantize_arm.cpp.o
 
@@ -1974,7 +1110,7 @@ layer/arm/quantize_arm.o: layer/arm/quantize_arm.cpp.o
 
 # target to build an object file
 layer/arm/quantize_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o
 .PHONY : layer/arm/quantize_arm.cpp.o
 
 layer/arm/quantize_arm.i: layer/arm/quantize_arm.cpp.i
@@ -1983,7 +1119,7 @@ layer/arm/quantize_arm.i: layer/arm/quantize_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/quantize_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i
 .PHONY : layer/arm/quantize_arm.cpp.i
 
 layer/arm/quantize_arm.s: layer/arm/quantize_arm.cpp.s
@@ -1992,35 +1128,8 @@ layer/arm/quantize_arm.s: layer/arm/quantize_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/quantize_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s
 .PHONY : layer/arm/quantize_arm.cpp.s
-
-layer/arm/quantize_arm_arm82.o: layer/arm/quantize_arm_arm82.cpp.o
-
-.PHONY : layer/arm/quantize_arm_arm82.o
-
-# target to build an object file
-layer/arm/quantize_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o
-.PHONY : layer/arm/quantize_arm_arm82.cpp.o
-
-layer/arm/quantize_arm_arm82.i: layer/arm/quantize_arm_arm82.cpp.i
-
-.PHONY : layer/arm/quantize_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/quantize_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.i
-.PHONY : layer/arm/quantize_arm_arm82.cpp.i
-
-layer/arm/quantize_arm_arm82.s: layer/arm/quantize_arm_arm82.cpp.s
-
-.PHONY : layer/arm/quantize_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/quantize_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.s
-.PHONY : layer/arm/quantize_arm_arm82.cpp.s
 
 layer/arm/relu_arm.o: layer/arm/relu_arm.cpp.o
 
@@ -2028,7 +1137,7 @@ layer/arm/relu_arm.o: layer/arm/relu_arm.cpp.o
 
 # target to build an object file
 layer/arm/relu_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o
 .PHONY : layer/arm/relu_arm.cpp.o
 
 layer/arm/relu_arm.i: layer/arm/relu_arm.cpp.i
@@ -2037,7 +1146,7 @@ layer/arm/relu_arm.i: layer/arm/relu_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/relu_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i
 .PHONY : layer/arm/relu_arm.cpp.i
 
 layer/arm/relu_arm.s: layer/arm/relu_arm.cpp.s
@@ -2046,35 +1155,8 @@ layer/arm/relu_arm.s: layer/arm/relu_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/relu_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s
 .PHONY : layer/arm/relu_arm.cpp.s
-
-layer/arm/relu_arm_arm82.o: layer/arm/relu_arm_arm82.cpp.o
-
-.PHONY : layer/arm/relu_arm_arm82.o
-
-# target to build an object file
-layer/arm/relu_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o
-.PHONY : layer/arm/relu_arm_arm82.cpp.o
-
-layer/arm/relu_arm_arm82.i: layer/arm/relu_arm_arm82.cpp.i
-
-.PHONY : layer/arm/relu_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/relu_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.i
-.PHONY : layer/arm/relu_arm_arm82.cpp.i
-
-layer/arm/relu_arm_arm82.s: layer/arm/relu_arm_arm82.cpp.s
-
-.PHONY : layer/arm/relu_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/relu_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.s
-.PHONY : layer/arm/relu_arm_arm82.cpp.s
 
 layer/arm/requantize_arm.o: layer/arm/requantize_arm.cpp.o
 
@@ -2082,7 +1164,7 @@ layer/arm/requantize_arm.o: layer/arm/requantize_arm.cpp.o
 
 # target to build an object file
 layer/arm/requantize_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o
 .PHONY : layer/arm/requantize_arm.cpp.o
 
 layer/arm/requantize_arm.i: layer/arm/requantize_arm.cpp.i
@@ -2091,7 +1173,7 @@ layer/arm/requantize_arm.i: layer/arm/requantize_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/requantize_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i
 .PHONY : layer/arm/requantize_arm.cpp.i
 
 layer/arm/requantize_arm.s: layer/arm/requantize_arm.cpp.s
@@ -2100,35 +1182,8 @@ layer/arm/requantize_arm.s: layer/arm/requantize_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/requantize_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s
 .PHONY : layer/arm/requantize_arm.cpp.s
-
-layer/arm/requantize_arm_arm82.o: layer/arm/requantize_arm_arm82.cpp.o
-
-.PHONY : layer/arm/requantize_arm_arm82.o
-
-# target to build an object file
-layer/arm/requantize_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o
-.PHONY : layer/arm/requantize_arm_arm82.cpp.o
-
-layer/arm/requantize_arm_arm82.i: layer/arm/requantize_arm_arm82.cpp.i
-
-.PHONY : layer/arm/requantize_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/requantize_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.i
-.PHONY : layer/arm/requantize_arm_arm82.cpp.i
-
-layer/arm/requantize_arm_arm82.s: layer/arm/requantize_arm_arm82.cpp.s
-
-.PHONY : layer/arm/requantize_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/requantize_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.s
-.PHONY : layer/arm/requantize_arm_arm82.cpp.s
 
 layer/arm/reshape_arm.o: layer/arm/reshape_arm.cpp.o
 
@@ -2136,7 +1191,7 @@ layer/arm/reshape_arm.o: layer/arm/reshape_arm.cpp.o
 
 # target to build an object file
 layer/arm/reshape_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o
 .PHONY : layer/arm/reshape_arm.cpp.o
 
 layer/arm/reshape_arm.i: layer/arm/reshape_arm.cpp.i
@@ -2145,7 +1200,7 @@ layer/arm/reshape_arm.i: layer/arm/reshape_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/reshape_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i
 .PHONY : layer/arm/reshape_arm.cpp.i
 
 layer/arm/reshape_arm.s: layer/arm/reshape_arm.cpp.s
@@ -2154,89 +1209,8 @@ layer/arm/reshape_arm.s: layer/arm/reshape_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/reshape_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s
 .PHONY : layer/arm/reshape_arm.cpp.s
-
-layer/arm/reshape_arm_arm82.o: layer/arm/reshape_arm_arm82.cpp.o
-
-.PHONY : layer/arm/reshape_arm_arm82.o
-
-# target to build an object file
-layer/arm/reshape_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o
-.PHONY : layer/arm/reshape_arm_arm82.cpp.o
-
-layer/arm/reshape_arm_arm82.i: layer/arm/reshape_arm_arm82.cpp.i
-
-.PHONY : layer/arm/reshape_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/reshape_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.i
-.PHONY : layer/arm/reshape_arm_arm82.cpp.i
-
-layer/arm/reshape_arm_arm82.s: layer/arm/reshape_arm_arm82.cpp.s
-
-.PHONY : layer/arm/reshape_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/reshape_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.s
-.PHONY : layer/arm/reshape_arm_arm82.cpp.s
-
-layer/arm/rnn_arm.o: layer/arm/rnn_arm.cpp.o
-
-.PHONY : layer/arm/rnn_arm.o
-
-# target to build an object file
-layer/arm/rnn_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o
-.PHONY : layer/arm/rnn_arm.cpp.o
-
-layer/arm/rnn_arm.i: layer/arm/rnn_arm.cpp.i
-
-.PHONY : layer/arm/rnn_arm.i
-
-# target to preprocess a source file
-layer/arm/rnn_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i
-.PHONY : layer/arm/rnn_arm.cpp.i
-
-layer/arm/rnn_arm.s: layer/arm/rnn_arm.cpp.s
-
-.PHONY : layer/arm/rnn_arm.s
-
-# target to generate assembly for a file
-layer/arm/rnn_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s
-.PHONY : layer/arm/rnn_arm.cpp.s
-
-layer/arm/rnn_arm_arm82.o: layer/arm/rnn_arm_arm82.cpp.o
-
-.PHONY : layer/arm/rnn_arm_arm82.o
-
-# target to build an object file
-layer/arm/rnn_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o
-.PHONY : layer/arm/rnn_arm_arm82.cpp.o
-
-layer/arm/rnn_arm_arm82.i: layer/arm/rnn_arm_arm82.cpp.i
-
-.PHONY : layer/arm/rnn_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/rnn_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.i
-.PHONY : layer/arm/rnn_arm_arm82.cpp.i
-
-layer/arm/rnn_arm_arm82.s: layer/arm/rnn_arm_arm82.cpp.s
-
-.PHONY : layer/arm/rnn_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/rnn_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.s
-.PHONY : layer/arm/rnn_arm_arm82.cpp.s
 
 layer/arm/scale_arm.o: layer/arm/scale_arm.cpp.o
 
@@ -2244,7 +1218,7 @@ layer/arm/scale_arm.o: layer/arm/scale_arm.cpp.o
 
 # target to build an object file
 layer/arm/scale_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o
 .PHONY : layer/arm/scale_arm.cpp.o
 
 layer/arm/scale_arm.i: layer/arm/scale_arm.cpp.i
@@ -2253,7 +1227,7 @@ layer/arm/scale_arm.i: layer/arm/scale_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/scale_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i
 .PHONY : layer/arm/scale_arm.cpp.i
 
 layer/arm/scale_arm.s: layer/arm/scale_arm.cpp.s
@@ -2262,35 +1236,8 @@ layer/arm/scale_arm.s: layer/arm/scale_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/scale_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s
 .PHONY : layer/arm/scale_arm.cpp.s
-
-layer/arm/scale_arm_arm82.o: layer/arm/scale_arm_arm82.cpp.o
-
-.PHONY : layer/arm/scale_arm_arm82.o
-
-# target to build an object file
-layer/arm/scale_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o
-.PHONY : layer/arm/scale_arm_arm82.cpp.o
-
-layer/arm/scale_arm_arm82.i: layer/arm/scale_arm_arm82.cpp.i
-
-.PHONY : layer/arm/scale_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/scale_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.i
-.PHONY : layer/arm/scale_arm_arm82.cpp.i
-
-layer/arm/scale_arm_arm82.s: layer/arm/scale_arm_arm82.cpp.s
-
-.PHONY : layer/arm/scale_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/scale_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.s
-.PHONY : layer/arm/scale_arm_arm82.cpp.s
 
 layer/arm/selu_arm.o: layer/arm/selu_arm.cpp.o
 
@@ -2298,7 +1245,7 @@ layer/arm/selu_arm.o: layer/arm/selu_arm.cpp.o
 
 # target to build an object file
 layer/arm/selu_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o
 .PHONY : layer/arm/selu_arm.cpp.o
 
 layer/arm/selu_arm.i: layer/arm/selu_arm.cpp.i
@@ -2307,7 +1254,7 @@ layer/arm/selu_arm.i: layer/arm/selu_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/selu_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i
 .PHONY : layer/arm/selu_arm.cpp.i
 
 layer/arm/selu_arm.s: layer/arm/selu_arm.cpp.s
@@ -2316,35 +1263,8 @@ layer/arm/selu_arm.s: layer/arm/selu_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/selu_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s
 .PHONY : layer/arm/selu_arm.cpp.s
-
-layer/arm/selu_arm_arm82.o: layer/arm/selu_arm_arm82.cpp.o
-
-.PHONY : layer/arm/selu_arm_arm82.o
-
-# target to build an object file
-layer/arm/selu_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o
-.PHONY : layer/arm/selu_arm_arm82.cpp.o
-
-layer/arm/selu_arm_arm82.i: layer/arm/selu_arm_arm82.cpp.i
-
-.PHONY : layer/arm/selu_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/selu_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.i
-.PHONY : layer/arm/selu_arm_arm82.cpp.i
-
-layer/arm/selu_arm_arm82.s: layer/arm/selu_arm_arm82.cpp.s
-
-.PHONY : layer/arm/selu_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/selu_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.s
-.PHONY : layer/arm/selu_arm_arm82.cpp.s
 
 layer/arm/shufflechannel_arm.o: layer/arm/shufflechannel_arm.cpp.o
 
@@ -2352,7 +1272,7 @@ layer/arm/shufflechannel_arm.o: layer/arm/shufflechannel_arm.cpp.o
 
 # target to build an object file
 layer/arm/shufflechannel_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o
 .PHONY : layer/arm/shufflechannel_arm.cpp.o
 
 layer/arm/shufflechannel_arm.i: layer/arm/shufflechannel_arm.cpp.i
@@ -2361,7 +1281,7 @@ layer/arm/shufflechannel_arm.i: layer/arm/shufflechannel_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/shufflechannel_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i
 .PHONY : layer/arm/shufflechannel_arm.cpp.i
 
 layer/arm/shufflechannel_arm.s: layer/arm/shufflechannel_arm.cpp.s
@@ -2370,35 +1290,8 @@ layer/arm/shufflechannel_arm.s: layer/arm/shufflechannel_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/shufflechannel_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s
 .PHONY : layer/arm/shufflechannel_arm.cpp.s
-
-layer/arm/shufflechannel_arm_arm82.o: layer/arm/shufflechannel_arm_arm82.cpp.o
-
-.PHONY : layer/arm/shufflechannel_arm_arm82.o
-
-# target to build an object file
-layer/arm/shufflechannel_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o
-.PHONY : layer/arm/shufflechannel_arm_arm82.cpp.o
-
-layer/arm/shufflechannel_arm_arm82.i: layer/arm/shufflechannel_arm_arm82.cpp.i
-
-.PHONY : layer/arm/shufflechannel_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/shufflechannel_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.i
-.PHONY : layer/arm/shufflechannel_arm_arm82.cpp.i
-
-layer/arm/shufflechannel_arm_arm82.s: layer/arm/shufflechannel_arm_arm82.cpp.s
-
-.PHONY : layer/arm/shufflechannel_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/shufflechannel_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.s
-.PHONY : layer/arm/shufflechannel_arm_arm82.cpp.s
 
 layer/arm/sigmoid_arm.o: layer/arm/sigmoid_arm.cpp.o
 
@@ -2406,7 +1299,7 @@ layer/arm/sigmoid_arm.o: layer/arm/sigmoid_arm.cpp.o
 
 # target to build an object file
 layer/arm/sigmoid_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o
 .PHONY : layer/arm/sigmoid_arm.cpp.o
 
 layer/arm/sigmoid_arm.i: layer/arm/sigmoid_arm.cpp.i
@@ -2415,7 +1308,7 @@ layer/arm/sigmoid_arm.i: layer/arm/sigmoid_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/sigmoid_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i
 .PHONY : layer/arm/sigmoid_arm.cpp.i
 
 layer/arm/sigmoid_arm.s: layer/arm/sigmoid_arm.cpp.s
@@ -2424,35 +1317,8 @@ layer/arm/sigmoid_arm.s: layer/arm/sigmoid_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/sigmoid_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s
 .PHONY : layer/arm/sigmoid_arm.cpp.s
-
-layer/arm/sigmoid_arm_arm82.o: layer/arm/sigmoid_arm_arm82.cpp.o
-
-.PHONY : layer/arm/sigmoid_arm_arm82.o
-
-# target to build an object file
-layer/arm/sigmoid_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o
-.PHONY : layer/arm/sigmoid_arm_arm82.cpp.o
-
-layer/arm/sigmoid_arm_arm82.i: layer/arm/sigmoid_arm_arm82.cpp.i
-
-.PHONY : layer/arm/sigmoid_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/sigmoid_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.i
-.PHONY : layer/arm/sigmoid_arm_arm82.cpp.i
-
-layer/arm/sigmoid_arm_arm82.s: layer/arm/sigmoid_arm_arm82.cpp.s
-
-.PHONY : layer/arm/sigmoid_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/sigmoid_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.s
-.PHONY : layer/arm/sigmoid_arm_arm82.cpp.s
 
 layer/arm/slice_arm.o: layer/arm/slice_arm.cpp.o
 
@@ -2460,7 +1326,7 @@ layer/arm/slice_arm.o: layer/arm/slice_arm.cpp.o
 
 # target to build an object file
 layer/arm/slice_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o
 .PHONY : layer/arm/slice_arm.cpp.o
 
 layer/arm/slice_arm.i: layer/arm/slice_arm.cpp.i
@@ -2469,7 +1335,7 @@ layer/arm/slice_arm.i: layer/arm/slice_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/slice_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i
 .PHONY : layer/arm/slice_arm.cpp.i
 
 layer/arm/slice_arm.s: layer/arm/slice_arm.cpp.s
@@ -2478,35 +1344,8 @@ layer/arm/slice_arm.s: layer/arm/slice_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/slice_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s
 .PHONY : layer/arm/slice_arm.cpp.s
-
-layer/arm/slice_arm_arm82.o: layer/arm/slice_arm_arm82.cpp.o
-
-.PHONY : layer/arm/slice_arm_arm82.o
-
-# target to build an object file
-layer/arm/slice_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o
-.PHONY : layer/arm/slice_arm_arm82.cpp.o
-
-layer/arm/slice_arm_arm82.i: layer/arm/slice_arm_arm82.cpp.i
-
-.PHONY : layer/arm/slice_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/slice_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.i
-.PHONY : layer/arm/slice_arm_arm82.cpp.i
-
-layer/arm/slice_arm_arm82.s: layer/arm/slice_arm_arm82.cpp.s
-
-.PHONY : layer/arm/slice_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/slice_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.s
-.PHONY : layer/arm/slice_arm_arm82.cpp.s
 
 layer/arm/softmax_arm.o: layer/arm/softmax_arm.cpp.o
 
@@ -2514,7 +1353,7 @@ layer/arm/softmax_arm.o: layer/arm/softmax_arm.cpp.o
 
 # target to build an object file
 layer/arm/softmax_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o
 .PHONY : layer/arm/softmax_arm.cpp.o
 
 layer/arm/softmax_arm.i: layer/arm/softmax_arm.cpp.i
@@ -2523,7 +1362,7 @@ layer/arm/softmax_arm.i: layer/arm/softmax_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/softmax_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i
 .PHONY : layer/arm/softmax_arm.cpp.i
 
 layer/arm/softmax_arm.s: layer/arm/softmax_arm.cpp.s
@@ -2532,89 +1371,8 @@ layer/arm/softmax_arm.s: layer/arm/softmax_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/softmax_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s
 .PHONY : layer/arm/softmax_arm.cpp.s
-
-layer/arm/softmax_arm_arm82.o: layer/arm/softmax_arm_arm82.cpp.o
-
-.PHONY : layer/arm/softmax_arm_arm82.o
-
-# target to build an object file
-layer/arm/softmax_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o
-.PHONY : layer/arm/softmax_arm_arm82.cpp.o
-
-layer/arm/softmax_arm_arm82.i: layer/arm/softmax_arm_arm82.cpp.i
-
-.PHONY : layer/arm/softmax_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/softmax_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.i
-.PHONY : layer/arm/softmax_arm_arm82.cpp.i
-
-layer/arm/softmax_arm_arm82.s: layer/arm/softmax_arm_arm82.cpp.s
-
-.PHONY : layer/arm/softmax_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/softmax_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.s
-.PHONY : layer/arm/softmax_arm_arm82.cpp.s
-
-layer/arm/swish_arm.o: layer/arm/swish_arm.cpp.o
-
-.PHONY : layer/arm/swish_arm.o
-
-# target to build an object file
-layer/arm/swish_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o
-.PHONY : layer/arm/swish_arm.cpp.o
-
-layer/arm/swish_arm.i: layer/arm/swish_arm.cpp.i
-
-.PHONY : layer/arm/swish_arm.i
-
-# target to preprocess a source file
-layer/arm/swish_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i
-.PHONY : layer/arm/swish_arm.cpp.i
-
-layer/arm/swish_arm.s: layer/arm/swish_arm.cpp.s
-
-.PHONY : layer/arm/swish_arm.s
-
-# target to generate assembly for a file
-layer/arm/swish_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s
-.PHONY : layer/arm/swish_arm.cpp.s
-
-layer/arm/swish_arm_arm82.o: layer/arm/swish_arm_arm82.cpp.o
-
-.PHONY : layer/arm/swish_arm_arm82.o
-
-# target to build an object file
-layer/arm/swish_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o
-.PHONY : layer/arm/swish_arm_arm82.cpp.o
-
-layer/arm/swish_arm_arm82.i: layer/arm/swish_arm_arm82.cpp.i
-
-.PHONY : layer/arm/swish_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/swish_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.i
-.PHONY : layer/arm/swish_arm_arm82.cpp.i
-
-layer/arm/swish_arm_arm82.s: layer/arm/swish_arm_arm82.cpp.s
-
-.PHONY : layer/arm/swish_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/swish_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.s
-.PHONY : layer/arm/swish_arm_arm82.cpp.s
 
 layer/arm/tanh_arm.o: layer/arm/tanh_arm.cpp.o
 
@@ -2622,7 +1380,7 @@ layer/arm/tanh_arm.o: layer/arm/tanh_arm.cpp.o
 
 # target to build an object file
 layer/arm/tanh_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o
 .PHONY : layer/arm/tanh_arm.cpp.o
 
 layer/arm/tanh_arm.i: layer/arm/tanh_arm.cpp.i
@@ -2631,7 +1389,7 @@ layer/arm/tanh_arm.i: layer/arm/tanh_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/tanh_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i
 .PHONY : layer/arm/tanh_arm.cpp.i
 
 layer/arm/tanh_arm.s: layer/arm/tanh_arm.cpp.s
@@ -2640,35 +1398,8 @@ layer/arm/tanh_arm.s: layer/arm/tanh_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/tanh_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s
 .PHONY : layer/arm/tanh_arm.cpp.s
-
-layer/arm/tanh_arm_arm82.o: layer/arm/tanh_arm_arm82.cpp.o
-
-.PHONY : layer/arm/tanh_arm_arm82.o
-
-# target to build an object file
-layer/arm/tanh_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o
-.PHONY : layer/arm/tanh_arm_arm82.cpp.o
-
-layer/arm/tanh_arm_arm82.i: layer/arm/tanh_arm_arm82.cpp.i
-
-.PHONY : layer/arm/tanh_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/tanh_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.i
-.PHONY : layer/arm/tanh_arm_arm82.cpp.i
-
-layer/arm/tanh_arm_arm82.s: layer/arm/tanh_arm_arm82.cpp.s
-
-.PHONY : layer/arm/tanh_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/tanh_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.s
-.PHONY : layer/arm/tanh_arm_arm82.cpp.s
 
 layer/arm/unaryop_arm.o: layer/arm/unaryop_arm.cpp.o
 
@@ -2676,7 +1407,7 @@ layer/arm/unaryop_arm.o: layer/arm/unaryop_arm.cpp.o
 
 # target to build an object file
 layer/arm/unaryop_arm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o
 .PHONY : layer/arm/unaryop_arm.cpp.o
 
 layer/arm/unaryop_arm.i: layer/arm/unaryop_arm.cpp.i
@@ -2685,7 +1416,7 @@ layer/arm/unaryop_arm.i: layer/arm/unaryop_arm.cpp.i
 
 # target to preprocess a source file
 layer/arm/unaryop_arm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i
 .PHONY : layer/arm/unaryop_arm.cpp.i
 
 layer/arm/unaryop_arm.s: layer/arm/unaryop_arm.cpp.s
@@ -2694,35 +1425,8 @@ layer/arm/unaryop_arm.s: layer/arm/unaryop_arm.cpp.s
 
 # target to generate assembly for a file
 layer/arm/unaryop_arm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s
 .PHONY : layer/arm/unaryop_arm.cpp.s
-
-layer/arm/unaryop_arm_arm82.o: layer/arm/unaryop_arm_arm82.cpp.o
-
-.PHONY : layer/arm/unaryop_arm_arm82.o
-
-# target to build an object file
-layer/arm/unaryop_arm_arm82.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o
-.PHONY : layer/arm/unaryop_arm_arm82.cpp.o
-
-layer/arm/unaryop_arm_arm82.i: layer/arm/unaryop_arm_arm82.cpp.i
-
-.PHONY : layer/arm/unaryop_arm_arm82.i
-
-# target to preprocess a source file
-layer/arm/unaryop_arm_arm82.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.i
-.PHONY : layer/arm/unaryop_arm_arm82.cpp.i
-
-layer/arm/unaryop_arm_arm82.s: layer/arm/unaryop_arm_arm82.cpp.s
-
-.PHONY : layer/arm/unaryop_arm_arm82.s
-
-# target to generate assembly for a file
-layer/arm/unaryop_arm_arm82.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.s
-.PHONY : layer/arm/unaryop_arm_arm82.cpp.s
 
 layer/batchnorm.o: layer/batchnorm.cpp.o
 
@@ -2730,7 +1434,7 @@ layer/batchnorm.o: layer/batchnorm.cpp.o
 
 # target to build an object file
 layer/batchnorm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
 .PHONY : layer/batchnorm.cpp.o
 
 layer/batchnorm.i: layer/batchnorm.cpp.i
@@ -2739,7 +1443,7 @@ layer/batchnorm.i: layer/batchnorm.cpp.i
 
 # target to preprocess a source file
 layer/batchnorm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
 .PHONY : layer/batchnorm.cpp.i
 
 layer/batchnorm.s: layer/batchnorm.cpp.s
@@ -2748,7 +1452,7 @@ layer/batchnorm.s: layer/batchnorm.cpp.s
 
 # target to generate assembly for a file
 layer/batchnorm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
 .PHONY : layer/batchnorm.cpp.s
 
 layer/bias.o: layer/bias.cpp.o
@@ -2757,7 +1461,7 @@ layer/bias.o: layer/bias.cpp.o
 
 # target to build an object file
 layer/bias.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
 .PHONY : layer/bias.cpp.o
 
 layer/bias.i: layer/bias.cpp.i
@@ -2766,7 +1470,7 @@ layer/bias.i: layer/bias.cpp.i
 
 # target to preprocess a source file
 layer/bias.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
 .PHONY : layer/bias.cpp.i
 
 layer/bias.s: layer/bias.cpp.s
@@ -2775,7 +1479,7 @@ layer/bias.s: layer/bias.cpp.s
 
 # target to generate assembly for a file
 layer/bias.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
 .PHONY : layer/bias.cpp.s
 
 layer/binaryop.o: layer/binaryop.cpp.o
@@ -2784,7 +1488,7 @@ layer/binaryop.o: layer/binaryop.cpp.o
 
 # target to build an object file
 layer/binaryop.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
 .PHONY : layer/binaryop.cpp.o
 
 layer/binaryop.i: layer/binaryop.cpp.i
@@ -2793,7 +1497,7 @@ layer/binaryop.i: layer/binaryop.cpp.i
 
 # target to preprocess a source file
 layer/binaryop.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
 .PHONY : layer/binaryop.cpp.i
 
 layer/binaryop.s: layer/binaryop.cpp.s
@@ -2802,7 +1506,7 @@ layer/binaryop.s: layer/binaryop.cpp.s
 
 # target to generate assembly for a file
 layer/binaryop.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
 .PHONY : layer/binaryop.cpp.s
 
 layer/bnll.o: layer/bnll.cpp.o
@@ -2811,7 +1515,7 @@ layer/bnll.o: layer/bnll.cpp.o
 
 # target to build an object file
 layer/bnll.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
 .PHONY : layer/bnll.cpp.o
 
 layer/bnll.i: layer/bnll.cpp.i
@@ -2820,7 +1524,7 @@ layer/bnll.i: layer/bnll.cpp.i
 
 # target to preprocess a source file
 layer/bnll.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
 .PHONY : layer/bnll.cpp.i
 
 layer/bnll.s: layer/bnll.cpp.s
@@ -2829,7 +1533,7 @@ layer/bnll.s: layer/bnll.cpp.s
 
 # target to generate assembly for a file
 layer/bnll.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
 .PHONY : layer/bnll.cpp.s
 
 layer/cast.o: layer/cast.cpp.o
@@ -2838,7 +1542,7 @@ layer/cast.o: layer/cast.cpp.o
 
 # target to build an object file
 layer/cast.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
 .PHONY : layer/cast.cpp.o
 
 layer/cast.i: layer/cast.cpp.i
@@ -2847,7 +1551,7 @@ layer/cast.i: layer/cast.cpp.i
 
 # target to preprocess a source file
 layer/cast.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
 .PHONY : layer/cast.cpp.i
 
 layer/cast.s: layer/cast.cpp.s
@@ -2856,7 +1560,7 @@ layer/cast.s: layer/cast.cpp.s
 
 # target to generate assembly for a file
 layer/cast.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
 .PHONY : layer/cast.cpp.s
 
 layer/clip.o: layer/clip.cpp.o
@@ -2865,7 +1569,7 @@ layer/clip.o: layer/clip.cpp.o
 
 # target to build an object file
 layer/clip.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
 .PHONY : layer/clip.cpp.o
 
 layer/clip.i: layer/clip.cpp.i
@@ -2874,7 +1578,7 @@ layer/clip.i: layer/clip.cpp.i
 
 # target to preprocess a source file
 layer/clip.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
 .PHONY : layer/clip.cpp.i
 
 layer/clip.s: layer/clip.cpp.s
@@ -2883,7 +1587,7 @@ layer/clip.s: layer/clip.cpp.s
 
 # target to generate assembly for a file
 layer/clip.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
 .PHONY : layer/clip.cpp.s
 
 layer/concat.o: layer/concat.cpp.o
@@ -2892,7 +1596,7 @@ layer/concat.o: layer/concat.cpp.o
 
 # target to build an object file
 layer/concat.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
 .PHONY : layer/concat.cpp.o
 
 layer/concat.i: layer/concat.cpp.i
@@ -2901,7 +1605,7 @@ layer/concat.i: layer/concat.cpp.i
 
 # target to preprocess a source file
 layer/concat.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
 .PHONY : layer/concat.cpp.i
 
 layer/concat.s: layer/concat.cpp.s
@@ -2910,7 +1614,7 @@ layer/concat.s: layer/concat.cpp.s
 
 # target to generate assembly for a file
 layer/concat.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
 .PHONY : layer/concat.cpp.s
 
 layer/convolution.o: layer/convolution.cpp.o
@@ -2919,7 +1623,7 @@ layer/convolution.o: layer/convolution.cpp.o
 
 # target to build an object file
 layer/convolution.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
 .PHONY : layer/convolution.cpp.o
 
 layer/convolution.i: layer/convolution.cpp.i
@@ -2928,7 +1632,7 @@ layer/convolution.i: layer/convolution.cpp.i
 
 # target to preprocess a source file
 layer/convolution.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
 .PHONY : layer/convolution.cpp.i
 
 layer/convolution.s: layer/convolution.cpp.s
@@ -2937,7 +1641,7 @@ layer/convolution.s: layer/convolution.cpp.s
 
 # target to generate assembly for a file
 layer/convolution.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
 .PHONY : layer/convolution.cpp.s
 
 layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
@@ -2946,7 +1650,7 @@ layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/convolutiondepthwise.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
 .PHONY : layer/convolutiondepthwise.cpp.o
 
 layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
@@ -2955,7 +1659,7 @@ layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/convolutiondepthwise.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
 .PHONY : layer/convolutiondepthwise.cpp.i
 
 layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
@@ -2964,7 +1668,7 @@ layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/convolutiondepthwise.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
 .PHONY : layer/convolutiondepthwise.cpp.s
 
 layer/crop.o: layer/crop.cpp.o
@@ -2973,7 +1677,7 @@ layer/crop.o: layer/crop.cpp.o
 
 # target to build an object file
 layer/crop.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
 .PHONY : layer/crop.cpp.o
 
 layer/crop.i: layer/crop.cpp.i
@@ -2982,7 +1686,7 @@ layer/crop.i: layer/crop.cpp.i
 
 # target to preprocess a source file
 layer/crop.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
 .PHONY : layer/crop.cpp.i
 
 layer/crop.s: layer/crop.cpp.s
@@ -2991,7 +1695,7 @@ layer/crop.s: layer/crop.cpp.s
 
 # target to generate assembly for a file
 layer/crop.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
 .PHONY : layer/crop.cpp.s
 
 layer/deconvolution.o: layer/deconvolution.cpp.o
@@ -3000,7 +1704,7 @@ layer/deconvolution.o: layer/deconvolution.cpp.o
 
 # target to build an object file
 layer/deconvolution.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
 .PHONY : layer/deconvolution.cpp.o
 
 layer/deconvolution.i: layer/deconvolution.cpp.i
@@ -3009,7 +1713,7 @@ layer/deconvolution.i: layer/deconvolution.cpp.i
 
 # target to preprocess a source file
 layer/deconvolution.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
 .PHONY : layer/deconvolution.cpp.i
 
 layer/deconvolution.s: layer/deconvolution.cpp.s
@@ -3018,7 +1722,7 @@ layer/deconvolution.s: layer/deconvolution.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolution.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
 .PHONY : layer/deconvolution.cpp.s
 
 layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
@@ -3027,7 +1731,7 @@ layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/deconvolutiondepthwise.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
 .PHONY : layer/deconvolutiondepthwise.cpp.o
 
 layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
@@ -3036,7 +1740,7 @@ layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/deconvolutiondepthwise.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
 .PHONY : layer/deconvolutiondepthwise.cpp.i
 
 layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
@@ -3045,7 +1749,7 @@ layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolutiondepthwise.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
 .PHONY : layer/deconvolutiondepthwise.cpp.s
 
 layer/deepcopy.o: layer/deepcopy.cpp.o
@@ -3054,7 +1758,7 @@ layer/deepcopy.o: layer/deepcopy.cpp.o
 
 # target to build an object file
 layer/deepcopy.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
 .PHONY : layer/deepcopy.cpp.o
 
 layer/deepcopy.i: layer/deepcopy.cpp.i
@@ -3063,7 +1767,7 @@ layer/deepcopy.i: layer/deepcopy.cpp.i
 
 # target to preprocess a source file
 layer/deepcopy.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
 .PHONY : layer/deepcopy.cpp.i
 
 layer/deepcopy.s: layer/deepcopy.cpp.s
@@ -3072,7 +1776,7 @@ layer/deepcopy.s: layer/deepcopy.cpp.s
 
 # target to generate assembly for a file
 layer/deepcopy.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
 .PHONY : layer/deepcopy.cpp.s
 
 layer/dequantize.o: layer/dequantize.cpp.o
@@ -3081,7 +1785,7 @@ layer/dequantize.o: layer/dequantize.cpp.o
 
 # target to build an object file
 layer/dequantize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
 .PHONY : layer/dequantize.cpp.o
 
 layer/dequantize.i: layer/dequantize.cpp.i
@@ -3090,7 +1794,7 @@ layer/dequantize.i: layer/dequantize.cpp.i
 
 # target to preprocess a source file
 layer/dequantize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
 .PHONY : layer/dequantize.cpp.i
 
 layer/dequantize.s: layer/dequantize.cpp.s
@@ -3099,7 +1803,7 @@ layer/dequantize.s: layer/dequantize.cpp.s
 
 # target to generate assembly for a file
 layer/dequantize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
 .PHONY : layer/dequantize.cpp.s
 
 layer/detectionoutput.o: layer/detectionoutput.cpp.o
@@ -3108,7 +1812,7 @@ layer/detectionoutput.o: layer/detectionoutput.cpp.o
 
 # target to build an object file
 layer/detectionoutput.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
 .PHONY : layer/detectionoutput.cpp.o
 
 layer/detectionoutput.i: layer/detectionoutput.cpp.i
@@ -3117,7 +1821,7 @@ layer/detectionoutput.i: layer/detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/detectionoutput.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
 .PHONY : layer/detectionoutput.cpp.i
 
 layer/detectionoutput.s: layer/detectionoutput.cpp.s
@@ -3126,7 +1830,7 @@ layer/detectionoutput.s: layer/detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/detectionoutput.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
 .PHONY : layer/detectionoutput.cpp.s
 
 layer/dropout.o: layer/dropout.cpp.o
@@ -3135,7 +1839,7 @@ layer/dropout.o: layer/dropout.cpp.o
 
 # target to build an object file
 layer/dropout.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
 .PHONY : layer/dropout.cpp.o
 
 layer/dropout.i: layer/dropout.cpp.i
@@ -3144,7 +1848,7 @@ layer/dropout.i: layer/dropout.cpp.i
 
 # target to preprocess a source file
 layer/dropout.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
 .PHONY : layer/dropout.cpp.i
 
 layer/dropout.s: layer/dropout.cpp.s
@@ -3153,7 +1857,7 @@ layer/dropout.s: layer/dropout.cpp.s
 
 # target to generate assembly for a file
 layer/dropout.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
 .PHONY : layer/dropout.cpp.s
 
 layer/eltwise.o: layer/eltwise.cpp.o
@@ -3162,7 +1866,7 @@ layer/eltwise.o: layer/eltwise.cpp.o
 
 # target to build an object file
 layer/eltwise.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
 .PHONY : layer/eltwise.cpp.o
 
 layer/eltwise.i: layer/eltwise.cpp.i
@@ -3171,7 +1875,7 @@ layer/eltwise.i: layer/eltwise.cpp.i
 
 # target to preprocess a source file
 layer/eltwise.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
 .PHONY : layer/eltwise.cpp.i
 
 layer/eltwise.s: layer/eltwise.cpp.s
@@ -3180,7 +1884,7 @@ layer/eltwise.s: layer/eltwise.cpp.s
 
 # target to generate assembly for a file
 layer/eltwise.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
 .PHONY : layer/eltwise.cpp.s
 
 layer/elu.o: layer/elu.cpp.o
@@ -3189,7 +1893,7 @@ layer/elu.o: layer/elu.cpp.o
 
 # target to build an object file
 layer/elu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
 .PHONY : layer/elu.cpp.o
 
 layer/elu.i: layer/elu.cpp.i
@@ -3198,7 +1902,7 @@ layer/elu.i: layer/elu.cpp.i
 
 # target to preprocess a source file
 layer/elu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
 .PHONY : layer/elu.cpp.i
 
 layer/elu.s: layer/elu.cpp.s
@@ -3207,7 +1911,7 @@ layer/elu.s: layer/elu.cpp.s
 
 # target to generate assembly for a file
 layer/elu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
 .PHONY : layer/elu.cpp.s
 
 layer/embed.o: layer/embed.cpp.o
@@ -3216,7 +1920,7 @@ layer/embed.o: layer/embed.cpp.o
 
 # target to build an object file
 layer/embed.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
 .PHONY : layer/embed.cpp.o
 
 layer/embed.i: layer/embed.cpp.i
@@ -3225,7 +1929,7 @@ layer/embed.i: layer/embed.cpp.i
 
 # target to preprocess a source file
 layer/embed.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
 .PHONY : layer/embed.cpp.i
 
 layer/embed.s: layer/embed.cpp.s
@@ -3234,7 +1938,7 @@ layer/embed.s: layer/embed.cpp.s
 
 # target to generate assembly for a file
 layer/embed.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
 .PHONY : layer/embed.cpp.s
 
 layer/exp.o: layer/exp.cpp.o
@@ -3243,7 +1947,7 @@ layer/exp.o: layer/exp.cpp.o
 
 # target to build an object file
 layer/exp.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
 .PHONY : layer/exp.cpp.o
 
 layer/exp.i: layer/exp.cpp.i
@@ -3252,7 +1956,7 @@ layer/exp.i: layer/exp.cpp.i
 
 # target to preprocess a source file
 layer/exp.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
 .PHONY : layer/exp.cpp.i
 
 layer/exp.s: layer/exp.cpp.s
@@ -3261,7 +1965,7 @@ layer/exp.s: layer/exp.cpp.s
 
 # target to generate assembly for a file
 layer/exp.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
 .PHONY : layer/exp.cpp.s
 
 layer/expanddims.o: layer/expanddims.cpp.o
@@ -3270,7 +1974,7 @@ layer/expanddims.o: layer/expanddims.cpp.o
 
 # target to build an object file
 layer/expanddims.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
 .PHONY : layer/expanddims.cpp.o
 
 layer/expanddims.i: layer/expanddims.cpp.i
@@ -3279,7 +1983,7 @@ layer/expanddims.i: layer/expanddims.cpp.i
 
 # target to preprocess a source file
 layer/expanddims.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
 .PHONY : layer/expanddims.cpp.i
 
 layer/expanddims.s: layer/expanddims.cpp.s
@@ -3288,7 +1992,7 @@ layer/expanddims.s: layer/expanddims.cpp.s
 
 # target to generate assembly for a file
 layer/expanddims.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
 .PHONY : layer/expanddims.cpp.s
 
 layer/flatten.o: layer/flatten.cpp.o
@@ -3297,7 +2001,7 @@ layer/flatten.o: layer/flatten.cpp.o
 
 # target to build an object file
 layer/flatten.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
 .PHONY : layer/flatten.cpp.o
 
 layer/flatten.i: layer/flatten.cpp.i
@@ -3306,7 +2010,7 @@ layer/flatten.i: layer/flatten.cpp.i
 
 # target to preprocess a source file
 layer/flatten.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
 .PHONY : layer/flatten.cpp.i
 
 layer/flatten.s: layer/flatten.cpp.s
@@ -3315,116 +2019,8 @@ layer/flatten.s: layer/flatten.cpp.s
 
 # target to generate assembly for a file
 layer/flatten.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 .PHONY : layer/flatten.cpp.s
-
-layer/gelu.o: layer/gelu.cpp.o
-
-.PHONY : layer/gelu.o
-
-# target to build an object file
-layer/gelu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
-.PHONY : layer/gelu.cpp.o
-
-layer/gelu.i: layer/gelu.cpp.i
-
-.PHONY : layer/gelu.i
-
-# target to preprocess a source file
-layer/gelu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i
-.PHONY : layer/gelu.cpp.i
-
-layer/gelu.s: layer/gelu.cpp.s
-
-.PHONY : layer/gelu.s
-
-# target to generate assembly for a file
-layer/gelu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s
-.PHONY : layer/gelu.cpp.s
-
-layer/gemm.o: layer/gemm.cpp.o
-
-.PHONY : layer/gemm.o
-
-# target to build an object file
-layer/gemm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
-.PHONY : layer/gemm.cpp.o
-
-layer/gemm.i: layer/gemm.cpp.i
-
-.PHONY : layer/gemm.i
-
-# target to preprocess a source file
-layer/gemm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.i
-.PHONY : layer/gemm.cpp.i
-
-layer/gemm.s: layer/gemm.cpp.s
-
-.PHONY : layer/gemm.s
-
-# target to generate assembly for a file
-layer/gemm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.s
-.PHONY : layer/gemm.cpp.s
-
-layer/groupnorm.o: layer/groupnorm.cpp.o
-
-.PHONY : layer/groupnorm.o
-
-# target to build an object file
-layer/groupnorm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
-.PHONY : layer/groupnorm.cpp.o
-
-layer/groupnorm.i: layer/groupnorm.cpp.i
-
-.PHONY : layer/groupnorm.i
-
-# target to preprocess a source file
-layer/groupnorm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i
-.PHONY : layer/groupnorm.cpp.i
-
-layer/groupnorm.s: layer/groupnorm.cpp.s
-
-.PHONY : layer/groupnorm.s
-
-# target to generate assembly for a file
-layer/groupnorm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s
-.PHONY : layer/groupnorm.cpp.s
-
-layer/gru.o: layer/gru.cpp.o
-
-.PHONY : layer/gru.o
-
-# target to build an object file
-layer/gru.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
-.PHONY : layer/gru.cpp.o
-
-layer/gru.i: layer/gru.cpp.i
-
-.PHONY : layer/gru.i
-
-# target to preprocess a source file
-layer/gru.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.i
-.PHONY : layer/gru.cpp.i
-
-layer/gru.s: layer/gru.cpp.s
-
-.PHONY : layer/gru.s
-
-# target to generate assembly for a file
-layer/gru.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.s
-.PHONY : layer/gru.cpp.s
 
 layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
 
@@ -3432,7 +2028,7 @@ layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
 
 # target to build an object file
 layer/hardsigmoid.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
 .PHONY : layer/hardsigmoid.cpp.o
 
 layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
@@ -3441,7 +2037,7 @@ layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
 
 # target to preprocess a source file
 layer/hardsigmoid.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
 .PHONY : layer/hardsigmoid.cpp.i
 
 layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
@@ -3450,7 +2046,7 @@ layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/hardsigmoid.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
 .PHONY : layer/hardsigmoid.cpp.s
 
 layer/hardswish.o: layer/hardswish.cpp.o
@@ -3459,7 +2055,7 @@ layer/hardswish.o: layer/hardswish.cpp.o
 
 # target to build an object file
 layer/hardswish.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
 .PHONY : layer/hardswish.cpp.o
 
 layer/hardswish.i: layer/hardswish.cpp.i
@@ -3468,7 +2064,7 @@ layer/hardswish.i: layer/hardswish.cpp.i
 
 # target to preprocess a source file
 layer/hardswish.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
 .PHONY : layer/hardswish.cpp.i
 
 layer/hardswish.s: layer/hardswish.cpp.s
@@ -3477,7 +2073,7 @@ layer/hardswish.s: layer/hardswish.cpp.s
 
 # target to generate assembly for a file
 layer/hardswish.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
 .PHONY : layer/hardswish.cpp.s
 
 layer/innerproduct.o: layer/innerproduct.cpp.o
@@ -3486,7 +2082,7 @@ layer/innerproduct.o: layer/innerproduct.cpp.o
 
 # target to build an object file
 layer/innerproduct.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
 .PHONY : layer/innerproduct.cpp.o
 
 layer/innerproduct.i: layer/innerproduct.cpp.i
@@ -3495,7 +2091,7 @@ layer/innerproduct.i: layer/innerproduct.cpp.i
 
 # target to preprocess a source file
 layer/innerproduct.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
 .PHONY : layer/innerproduct.cpp.i
 
 layer/innerproduct.s: layer/innerproduct.cpp.s
@@ -3504,7 +2100,7 @@ layer/innerproduct.s: layer/innerproduct.cpp.s
 
 # target to generate assembly for a file
 layer/innerproduct.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
 .PHONY : layer/innerproduct.cpp.s
 
 layer/input.o: layer/input.cpp.o
@@ -3513,7 +2109,7 @@ layer/input.o: layer/input.cpp.o
 
 # target to build an object file
 layer/input.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
 .PHONY : layer/input.cpp.o
 
 layer/input.i: layer/input.cpp.i
@@ -3522,7 +2118,7 @@ layer/input.i: layer/input.cpp.i
 
 # target to preprocess a source file
 layer/input.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i
 .PHONY : layer/input.cpp.i
 
 layer/input.s: layer/input.cpp.s
@@ -3531,7 +2127,7 @@ layer/input.s: layer/input.cpp.s
 
 # target to generate assembly for a file
 layer/input.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s
 .PHONY : layer/input.cpp.s
 
 layer/instancenorm.o: layer/instancenorm.cpp.o
@@ -3540,7 +2136,7 @@ layer/instancenorm.o: layer/instancenorm.cpp.o
 
 # target to build an object file
 layer/instancenorm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
 .PHONY : layer/instancenorm.cpp.o
 
 layer/instancenorm.i: layer/instancenorm.cpp.i
@@ -3549,7 +2145,7 @@ layer/instancenorm.i: layer/instancenorm.cpp.i
 
 # target to preprocess a source file
 layer/instancenorm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
 .PHONY : layer/instancenorm.cpp.i
 
 layer/instancenorm.s: layer/instancenorm.cpp.s
@@ -3558,7 +2154,7 @@ layer/instancenorm.s: layer/instancenorm.cpp.s
 
 # target to generate assembly for a file
 layer/instancenorm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
 .PHONY : layer/instancenorm.cpp.s
 
 layer/interp.o: layer/interp.cpp.o
@@ -3567,7 +2163,7 @@ layer/interp.o: layer/interp.cpp.o
 
 # target to build an object file
 layer/interp.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
 .PHONY : layer/interp.cpp.o
 
 layer/interp.i: layer/interp.cpp.i
@@ -3576,7 +2172,7 @@ layer/interp.i: layer/interp.cpp.i
 
 # target to preprocess a source file
 layer/interp.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
 .PHONY : layer/interp.cpp.i
 
 layer/interp.s: layer/interp.cpp.s
@@ -3585,35 +2181,8 @@ layer/interp.s: layer/interp.cpp.s
 
 # target to generate assembly for a file
 layer/interp.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
 .PHONY : layer/interp.cpp.s
-
-layer/layernorm.o: layer/layernorm.cpp.o
-
-.PHONY : layer/layernorm.o
-
-# target to build an object file
-layer/layernorm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
-.PHONY : layer/layernorm.cpp.o
-
-layer/layernorm.i: layer/layernorm.cpp.i
-
-.PHONY : layer/layernorm.i
-
-# target to preprocess a source file
-layer/layernorm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.i
-.PHONY : layer/layernorm.cpp.i
-
-layer/layernorm.s: layer/layernorm.cpp.s
-
-.PHONY : layer/layernorm.s
-
-# target to generate assembly for a file
-layer/layernorm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.s
-.PHONY : layer/layernorm.cpp.s
 
 layer/log.o: layer/log.cpp.o
 
@@ -3621,7 +2190,7 @@ layer/log.o: layer/log.cpp.o
 
 # target to build an object file
 layer/log.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
 .PHONY : layer/log.cpp.o
 
 layer/log.i: layer/log.cpp.i
@@ -3630,7 +2199,7 @@ layer/log.i: layer/log.cpp.i
 
 # target to preprocess a source file
 layer/log.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i
 .PHONY : layer/log.cpp.i
 
 layer/log.s: layer/log.cpp.s
@@ -3639,7 +2208,7 @@ layer/log.s: layer/log.cpp.s
 
 # target to generate assembly for a file
 layer/log.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s
 .PHONY : layer/log.cpp.s
 
 layer/lrn.o: layer/lrn.cpp.o
@@ -3648,7 +2217,7 @@ layer/lrn.o: layer/lrn.cpp.o
 
 # target to build an object file
 layer/lrn.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
 .PHONY : layer/lrn.cpp.o
 
 layer/lrn.i: layer/lrn.cpp.i
@@ -3657,7 +2226,7 @@ layer/lrn.i: layer/lrn.cpp.i
 
 # target to preprocess a source file
 layer/lrn.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
 .PHONY : layer/lrn.cpp.i
 
 layer/lrn.s: layer/lrn.cpp.s
@@ -3666,7 +2235,7 @@ layer/lrn.s: layer/lrn.cpp.s
 
 # target to generate assembly for a file
 layer/lrn.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
 .PHONY : layer/lrn.cpp.s
 
 layer/lstm.o: layer/lstm.cpp.o
@@ -3675,7 +2244,7 @@ layer/lstm.o: layer/lstm.cpp.o
 
 # target to build an object file
 layer/lstm.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
 .PHONY : layer/lstm.cpp.o
 
 layer/lstm.i: layer/lstm.cpp.i
@@ -3684,7 +2253,7 @@ layer/lstm.i: layer/lstm.cpp.i
 
 # target to preprocess a source file
 layer/lstm.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.i
 .PHONY : layer/lstm.cpp.i
 
 layer/lstm.s: layer/lstm.cpp.s
@@ -3693,7 +2262,7 @@ layer/lstm.s: layer/lstm.cpp.s
 
 # target to generate assembly for a file
 layer/lstm.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.s
 .PHONY : layer/lstm.cpp.s
 
 layer/memorydata.o: layer/memorydata.cpp.o
@@ -3702,7 +2271,7 @@ layer/memorydata.o: layer/memorydata.cpp.o
 
 # target to build an object file
 layer/memorydata.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
 .PHONY : layer/memorydata.cpp.o
 
 layer/memorydata.i: layer/memorydata.cpp.i
@@ -3711,7 +2280,7 @@ layer/memorydata.i: layer/memorydata.cpp.i
 
 # target to preprocess a source file
 layer/memorydata.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
 .PHONY : layer/memorydata.cpp.i
 
 layer/memorydata.s: layer/memorydata.cpp.s
@@ -3720,62 +2289,8 @@ layer/memorydata.s: layer/memorydata.cpp.s
 
 # target to generate assembly for a file
 layer/memorydata.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
 .PHONY : layer/memorydata.cpp.s
-
-layer/mish.o: layer/mish.cpp.o
-
-.PHONY : layer/mish.o
-
-# target to build an object file
-layer/mish.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
-.PHONY : layer/mish.cpp.o
-
-layer/mish.i: layer/mish.cpp.i
-
-.PHONY : layer/mish.i
-
-# target to preprocess a source file
-layer/mish.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.i
-.PHONY : layer/mish.cpp.i
-
-layer/mish.s: layer/mish.cpp.s
-
-.PHONY : layer/mish.s
-
-# target to generate assembly for a file
-layer/mish.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.s
-.PHONY : layer/mish.cpp.s
-
-layer/multiheadattention.o: layer/multiheadattention.cpp.o
-
-.PHONY : layer/multiheadattention.o
-
-# target to build an object file
-layer/multiheadattention.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
-.PHONY : layer/multiheadattention.cpp.o
-
-layer/multiheadattention.i: layer/multiheadattention.cpp.i
-
-.PHONY : layer/multiheadattention.i
-
-# target to preprocess a source file
-layer/multiheadattention.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i
-.PHONY : layer/multiheadattention.cpp.i
-
-layer/multiheadattention.s: layer/multiheadattention.cpp.s
-
-.PHONY : layer/multiheadattention.s
-
-# target to generate assembly for a file
-layer/multiheadattention.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s
-.PHONY : layer/multiheadattention.cpp.s
 
 layer/mvn.o: layer/mvn.cpp.o
 
@@ -3783,7 +2298,7 @@ layer/mvn.o: layer/mvn.cpp.o
 
 # target to build an object file
 layer/mvn.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
 .PHONY : layer/mvn.cpp.o
 
 layer/mvn.i: layer/mvn.cpp.i
@@ -3792,7 +2307,7 @@ layer/mvn.i: layer/mvn.cpp.i
 
 # target to preprocess a source file
 layer/mvn.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
 .PHONY : layer/mvn.cpp.i
 
 layer/mvn.s: layer/mvn.cpp.s
@@ -3801,7 +2316,7 @@ layer/mvn.s: layer/mvn.cpp.s
 
 # target to generate assembly for a file
 layer/mvn.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
 .PHONY : layer/mvn.cpp.s
 
 layer/noop.o: layer/noop.cpp.o
@@ -3810,7 +2325,7 @@ layer/noop.o: layer/noop.cpp.o
 
 # target to build an object file
 layer/noop.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
 .PHONY : layer/noop.cpp.o
 
 layer/noop.i: layer/noop.cpp.i
@@ -3819,7 +2334,7 @@ layer/noop.i: layer/noop.cpp.i
 
 # target to preprocess a source file
 layer/noop.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
 .PHONY : layer/noop.cpp.i
 
 layer/noop.s: layer/noop.cpp.s
@@ -3828,7 +2343,7 @@ layer/noop.s: layer/noop.cpp.s
 
 # target to generate assembly for a file
 layer/noop.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
 .PHONY : layer/noop.cpp.s
 
 layer/normalize.o: layer/normalize.cpp.o
@@ -3837,7 +2352,7 @@ layer/normalize.o: layer/normalize.cpp.o
 
 # target to build an object file
 layer/normalize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
 .PHONY : layer/normalize.cpp.o
 
 layer/normalize.i: layer/normalize.cpp.i
@@ -3846,7 +2361,7 @@ layer/normalize.i: layer/normalize.cpp.i
 
 # target to preprocess a source file
 layer/normalize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
 .PHONY : layer/normalize.cpp.i
 
 layer/normalize.s: layer/normalize.cpp.s
@@ -3855,7 +2370,7 @@ layer/normalize.s: layer/normalize.cpp.s
 
 # target to generate assembly for a file
 layer/normalize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
 .PHONY : layer/normalize.cpp.s
 
 layer/packing.o: layer/packing.cpp.o
@@ -3864,7 +2379,7 @@ layer/packing.o: layer/packing.cpp.o
 
 # target to build an object file
 layer/packing.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
 .PHONY : layer/packing.cpp.o
 
 layer/packing.i: layer/packing.cpp.i
@@ -3873,7 +2388,7 @@ layer/packing.i: layer/packing.cpp.i
 
 # target to preprocess a source file
 layer/packing.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
 .PHONY : layer/packing.cpp.i
 
 layer/packing.s: layer/packing.cpp.s
@@ -3882,7 +2397,7 @@ layer/packing.s: layer/packing.cpp.s
 
 # target to generate assembly for a file
 layer/packing.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
 .PHONY : layer/packing.cpp.s
 
 layer/padding.o: layer/padding.cpp.o
@@ -3891,7 +2406,7 @@ layer/padding.o: layer/padding.cpp.o
 
 # target to build an object file
 layer/padding.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
 .PHONY : layer/padding.cpp.o
 
 layer/padding.i: layer/padding.cpp.i
@@ -3900,7 +2415,7 @@ layer/padding.i: layer/padding.cpp.i
 
 # target to preprocess a source file
 layer/padding.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
 .PHONY : layer/padding.cpp.i
 
 layer/padding.s: layer/padding.cpp.s
@@ -3909,7 +2424,7 @@ layer/padding.s: layer/padding.cpp.s
 
 # target to generate assembly for a file
 layer/padding.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
 .PHONY : layer/padding.cpp.s
 
 layer/permute.o: layer/permute.cpp.o
@@ -3918,7 +2433,7 @@ layer/permute.o: layer/permute.cpp.o
 
 # target to build an object file
 layer/permute.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
 .PHONY : layer/permute.cpp.o
 
 layer/permute.i: layer/permute.cpp.i
@@ -3927,7 +2442,7 @@ layer/permute.i: layer/permute.cpp.i
 
 # target to preprocess a source file
 layer/permute.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
 .PHONY : layer/permute.cpp.i
 
 layer/permute.s: layer/permute.cpp.s
@@ -3936,7 +2451,7 @@ layer/permute.s: layer/permute.cpp.s
 
 # target to generate assembly for a file
 layer/permute.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
 .PHONY : layer/permute.cpp.s
 
 layer/pixelshuffle.o: layer/pixelshuffle.cpp.o
@@ -3945,7 +2460,7 @@ layer/pixelshuffle.o: layer/pixelshuffle.cpp.o
 
 # target to build an object file
 layer/pixelshuffle.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
 .PHONY : layer/pixelshuffle.cpp.o
 
 layer/pixelshuffle.i: layer/pixelshuffle.cpp.i
@@ -3954,7 +2469,7 @@ layer/pixelshuffle.i: layer/pixelshuffle.cpp.i
 
 # target to preprocess a source file
 layer/pixelshuffle.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
 .PHONY : layer/pixelshuffle.cpp.i
 
 layer/pixelshuffle.s: layer/pixelshuffle.cpp.s
@@ -3963,7 +2478,7 @@ layer/pixelshuffle.s: layer/pixelshuffle.cpp.s
 
 # target to generate assembly for a file
 layer/pixelshuffle.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
 .PHONY : layer/pixelshuffle.cpp.s
 
 layer/pooling.o: layer/pooling.cpp.o
@@ -3972,7 +2487,7 @@ layer/pooling.o: layer/pooling.cpp.o
 
 # target to build an object file
 layer/pooling.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
 .PHONY : layer/pooling.cpp.o
 
 layer/pooling.i: layer/pooling.cpp.i
@@ -3981,7 +2496,7 @@ layer/pooling.i: layer/pooling.cpp.i
 
 # target to preprocess a source file
 layer/pooling.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
 .PHONY : layer/pooling.cpp.i
 
 layer/pooling.s: layer/pooling.cpp.s
@@ -3990,7 +2505,7 @@ layer/pooling.s: layer/pooling.cpp.s
 
 # target to generate assembly for a file
 layer/pooling.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
 .PHONY : layer/pooling.cpp.s
 
 layer/power.o: layer/power.cpp.o
@@ -3999,7 +2514,7 @@ layer/power.o: layer/power.cpp.o
 
 # target to build an object file
 layer/power.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
 .PHONY : layer/power.cpp.o
 
 layer/power.i: layer/power.cpp.i
@@ -4008,7 +2523,7 @@ layer/power.i: layer/power.cpp.i
 
 # target to preprocess a source file
 layer/power.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i
 .PHONY : layer/power.cpp.i
 
 layer/power.s: layer/power.cpp.s
@@ -4017,7 +2532,7 @@ layer/power.s: layer/power.cpp.s
 
 # target to generate assembly for a file
 layer/power.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s
 .PHONY : layer/power.cpp.s
 
 layer/prelu.o: layer/prelu.cpp.o
@@ -4026,7 +2541,7 @@ layer/prelu.o: layer/prelu.cpp.o
 
 # target to build an object file
 layer/prelu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
 .PHONY : layer/prelu.cpp.o
 
 layer/prelu.i: layer/prelu.cpp.i
@@ -4035,7 +2550,7 @@ layer/prelu.i: layer/prelu.cpp.i
 
 # target to preprocess a source file
 layer/prelu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
 .PHONY : layer/prelu.cpp.i
 
 layer/prelu.s: layer/prelu.cpp.s
@@ -4044,7 +2559,7 @@ layer/prelu.s: layer/prelu.cpp.s
 
 # target to generate assembly for a file
 layer/prelu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
 .PHONY : layer/prelu.cpp.s
 
 layer/priorbox.o: layer/priorbox.cpp.o
@@ -4053,7 +2568,7 @@ layer/priorbox.o: layer/priorbox.cpp.o
 
 # target to build an object file
 layer/priorbox.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
 .PHONY : layer/priorbox.cpp.o
 
 layer/priorbox.i: layer/priorbox.cpp.i
@@ -4062,7 +2577,7 @@ layer/priorbox.i: layer/priorbox.cpp.i
 
 # target to preprocess a source file
 layer/priorbox.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
 .PHONY : layer/priorbox.cpp.i
 
 layer/priorbox.s: layer/priorbox.cpp.s
@@ -4071,7 +2586,7 @@ layer/priorbox.s: layer/priorbox.cpp.s
 
 # target to generate assembly for a file
 layer/priorbox.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
 .PHONY : layer/priorbox.cpp.s
 
 layer/proposal.o: layer/proposal.cpp.o
@@ -4080,7 +2595,7 @@ layer/proposal.o: layer/proposal.cpp.o
 
 # target to build an object file
 layer/proposal.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
 .PHONY : layer/proposal.cpp.o
 
 layer/proposal.i: layer/proposal.cpp.i
@@ -4089,7 +2604,7 @@ layer/proposal.i: layer/proposal.cpp.i
 
 # target to preprocess a source file
 layer/proposal.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
 .PHONY : layer/proposal.cpp.i
 
 layer/proposal.s: layer/proposal.cpp.s
@@ -4098,7 +2613,7 @@ layer/proposal.s: layer/proposal.cpp.s
 
 # target to generate assembly for a file
 layer/proposal.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
 .PHONY : layer/proposal.cpp.s
 
 layer/psroipooling.o: layer/psroipooling.cpp.o
@@ -4107,7 +2622,7 @@ layer/psroipooling.o: layer/psroipooling.cpp.o
 
 # target to build an object file
 layer/psroipooling.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
 .PHONY : layer/psroipooling.cpp.o
 
 layer/psroipooling.i: layer/psroipooling.cpp.i
@@ -4116,7 +2631,7 @@ layer/psroipooling.i: layer/psroipooling.cpp.i
 
 # target to preprocess a source file
 layer/psroipooling.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
 .PHONY : layer/psroipooling.cpp.i
 
 layer/psroipooling.s: layer/psroipooling.cpp.s
@@ -4125,7 +2640,7 @@ layer/psroipooling.s: layer/psroipooling.cpp.s
 
 # target to generate assembly for a file
 layer/psroipooling.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
 .PHONY : layer/psroipooling.cpp.s
 
 layer/quantize.o: layer/quantize.cpp.o
@@ -4134,7 +2649,7 @@ layer/quantize.o: layer/quantize.cpp.o
 
 # target to build an object file
 layer/quantize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
 .PHONY : layer/quantize.cpp.o
 
 layer/quantize.i: layer/quantize.cpp.i
@@ -4143,7 +2658,7 @@ layer/quantize.i: layer/quantize.cpp.i
 
 # target to preprocess a source file
 layer/quantize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
 .PHONY : layer/quantize.cpp.i
 
 layer/quantize.s: layer/quantize.cpp.s
@@ -4152,7 +2667,7 @@ layer/quantize.s: layer/quantize.cpp.s
 
 # target to generate assembly for a file
 layer/quantize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
 .PHONY : layer/quantize.cpp.s
 
 layer/reduction.o: layer/reduction.cpp.o
@@ -4161,7 +2676,7 @@ layer/reduction.o: layer/reduction.cpp.o
 
 # target to build an object file
 layer/reduction.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
 .PHONY : layer/reduction.cpp.o
 
 layer/reduction.i: layer/reduction.cpp.i
@@ -4170,7 +2685,7 @@ layer/reduction.i: layer/reduction.cpp.i
 
 # target to preprocess a source file
 layer/reduction.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
 .PHONY : layer/reduction.cpp.i
 
 layer/reduction.s: layer/reduction.cpp.s
@@ -4179,7 +2694,7 @@ layer/reduction.s: layer/reduction.cpp.s
 
 # target to generate assembly for a file
 layer/reduction.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
 .PHONY : layer/reduction.cpp.s
 
 layer/relu.o: layer/relu.cpp.o
@@ -4188,7 +2703,7 @@ layer/relu.o: layer/relu.cpp.o
 
 # target to build an object file
 layer/relu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
 .PHONY : layer/relu.cpp.o
 
 layer/relu.i: layer/relu.cpp.i
@@ -4197,7 +2712,7 @@ layer/relu.i: layer/relu.cpp.i
 
 # target to preprocess a source file
 layer/relu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
 .PHONY : layer/relu.cpp.i
 
 layer/relu.s: layer/relu.cpp.s
@@ -4206,7 +2721,7 @@ layer/relu.s: layer/relu.cpp.s
 
 # target to generate assembly for a file
 layer/relu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
 .PHONY : layer/relu.cpp.s
 
 layer/reorg.o: layer/reorg.cpp.o
@@ -4215,7 +2730,7 @@ layer/reorg.o: layer/reorg.cpp.o
 
 # target to build an object file
 layer/reorg.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
 .PHONY : layer/reorg.cpp.o
 
 layer/reorg.i: layer/reorg.cpp.i
@@ -4224,7 +2739,7 @@ layer/reorg.i: layer/reorg.cpp.i
 
 # target to preprocess a source file
 layer/reorg.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
 .PHONY : layer/reorg.cpp.i
 
 layer/reorg.s: layer/reorg.cpp.s
@@ -4233,7 +2748,7 @@ layer/reorg.s: layer/reorg.cpp.s
 
 # target to generate assembly for a file
 layer/reorg.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
 .PHONY : layer/reorg.cpp.s
 
 layer/requantize.o: layer/requantize.cpp.o
@@ -4242,7 +2757,7 @@ layer/requantize.o: layer/requantize.cpp.o
 
 # target to build an object file
 layer/requantize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
 .PHONY : layer/requantize.cpp.o
 
 layer/requantize.i: layer/requantize.cpp.i
@@ -4251,7 +2766,7 @@ layer/requantize.i: layer/requantize.cpp.i
 
 # target to preprocess a source file
 layer/requantize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
 .PHONY : layer/requantize.cpp.i
 
 layer/requantize.s: layer/requantize.cpp.s
@@ -4260,7 +2775,7 @@ layer/requantize.s: layer/requantize.cpp.s
 
 # target to generate assembly for a file
 layer/requantize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
 .PHONY : layer/requantize.cpp.s
 
 layer/reshape.o: layer/reshape.cpp.o
@@ -4269,7 +2784,7 @@ layer/reshape.o: layer/reshape.cpp.o
 
 # target to build an object file
 layer/reshape.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
 .PHONY : layer/reshape.cpp.o
 
 layer/reshape.i: layer/reshape.cpp.i
@@ -4278,7 +2793,7 @@ layer/reshape.i: layer/reshape.cpp.i
 
 # target to preprocess a source file
 layer/reshape.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
 .PHONY : layer/reshape.cpp.i
 
 layer/reshape.s: layer/reshape.cpp.s
@@ -4287,62 +2802,8 @@ layer/reshape.s: layer/reshape.cpp.s
 
 # target to generate assembly for a file
 layer/reshape.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
 .PHONY : layer/reshape.cpp.s
-
-layer/rnn.o: layer/rnn.cpp.o
-
-.PHONY : layer/rnn.o
-
-# target to build an object file
-layer/rnn.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
-.PHONY : layer/rnn.cpp.o
-
-layer/rnn.i: layer/rnn.cpp.i
-
-.PHONY : layer/rnn.i
-
-# target to preprocess a source file
-layer/rnn.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.i
-.PHONY : layer/rnn.cpp.i
-
-layer/rnn.s: layer/rnn.cpp.s
-
-.PHONY : layer/rnn.s
-
-# target to generate assembly for a file
-layer/rnn.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.s
-.PHONY : layer/rnn.cpp.s
-
-layer/roialign.o: layer/roialign.cpp.o
-
-.PHONY : layer/roialign.o
-
-# target to build an object file
-layer/roialign.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
-.PHONY : layer/roialign.cpp.o
-
-layer/roialign.i: layer/roialign.cpp.i
-
-.PHONY : layer/roialign.i
-
-# target to preprocess a source file
-layer/roialign.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.i
-.PHONY : layer/roialign.cpp.i
-
-layer/roialign.s: layer/roialign.cpp.s
-
-.PHONY : layer/roialign.s
-
-# target to generate assembly for a file
-layer/roialign.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.s
-.PHONY : layer/roialign.cpp.s
 
 layer/roipooling.o: layer/roipooling.cpp.o
 
@@ -4350,7 +2811,7 @@ layer/roipooling.o: layer/roipooling.cpp.o
 
 # target to build an object file
 layer/roipooling.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
 .PHONY : layer/roipooling.cpp.o
 
 layer/roipooling.i: layer/roipooling.cpp.i
@@ -4359,7 +2820,7 @@ layer/roipooling.i: layer/roipooling.cpp.i
 
 # target to preprocess a source file
 layer/roipooling.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
 .PHONY : layer/roipooling.cpp.i
 
 layer/roipooling.s: layer/roipooling.cpp.s
@@ -4368,7 +2829,7 @@ layer/roipooling.s: layer/roipooling.cpp.s
 
 # target to generate assembly for a file
 layer/roipooling.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
 .PHONY : layer/roipooling.cpp.s
 
 layer/scale.o: layer/scale.cpp.o
@@ -4377,7 +2838,7 @@ layer/scale.o: layer/scale.cpp.o
 
 # target to build an object file
 layer/scale.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
 .PHONY : layer/scale.cpp.o
 
 layer/scale.i: layer/scale.cpp.i
@@ -4386,7 +2847,7 @@ layer/scale.i: layer/scale.cpp.i
 
 # target to preprocess a source file
 layer/scale.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
 .PHONY : layer/scale.cpp.i
 
 layer/scale.s: layer/scale.cpp.s
@@ -4395,7 +2856,7 @@ layer/scale.s: layer/scale.cpp.s
 
 # target to generate assembly for a file
 layer/scale.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
 .PHONY : layer/scale.cpp.s
 
 layer/selu.o: layer/selu.cpp.o
@@ -4404,7 +2865,7 @@ layer/selu.o: layer/selu.cpp.o
 
 # target to build an object file
 layer/selu.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
 .PHONY : layer/selu.cpp.o
 
 layer/selu.i: layer/selu.cpp.i
@@ -4413,7 +2874,7 @@ layer/selu.i: layer/selu.cpp.i
 
 # target to preprocess a source file
 layer/selu.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
 .PHONY : layer/selu.cpp.i
 
 layer/selu.s: layer/selu.cpp.s
@@ -4422,7 +2883,7 @@ layer/selu.s: layer/selu.cpp.s
 
 # target to generate assembly for a file
 layer/selu.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
 .PHONY : layer/selu.cpp.s
 
 layer/shufflechannel.o: layer/shufflechannel.cpp.o
@@ -4431,7 +2892,7 @@ layer/shufflechannel.o: layer/shufflechannel.cpp.o
 
 # target to build an object file
 layer/shufflechannel.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
 .PHONY : layer/shufflechannel.cpp.o
 
 layer/shufflechannel.i: layer/shufflechannel.cpp.i
@@ -4440,7 +2901,7 @@ layer/shufflechannel.i: layer/shufflechannel.cpp.i
 
 # target to preprocess a source file
 layer/shufflechannel.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
 .PHONY : layer/shufflechannel.cpp.i
 
 layer/shufflechannel.s: layer/shufflechannel.cpp.s
@@ -4449,7 +2910,7 @@ layer/shufflechannel.s: layer/shufflechannel.cpp.s
 
 # target to generate assembly for a file
 layer/shufflechannel.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
 .PHONY : layer/shufflechannel.cpp.s
 
 layer/sigmoid.o: layer/sigmoid.cpp.o
@@ -4458,7 +2919,7 @@ layer/sigmoid.o: layer/sigmoid.cpp.o
 
 # target to build an object file
 layer/sigmoid.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
 .PHONY : layer/sigmoid.cpp.o
 
 layer/sigmoid.i: layer/sigmoid.cpp.i
@@ -4467,7 +2928,7 @@ layer/sigmoid.i: layer/sigmoid.cpp.i
 
 # target to preprocess a source file
 layer/sigmoid.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
 .PHONY : layer/sigmoid.cpp.i
 
 layer/sigmoid.s: layer/sigmoid.cpp.s
@@ -4476,7 +2937,7 @@ layer/sigmoid.s: layer/sigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/sigmoid.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
 .PHONY : layer/sigmoid.cpp.s
 
 layer/slice.o: layer/slice.cpp.o
@@ -4485,7 +2946,7 @@ layer/slice.o: layer/slice.cpp.o
 
 # target to build an object file
 layer/slice.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
 .PHONY : layer/slice.cpp.o
 
 layer/slice.i: layer/slice.cpp.i
@@ -4494,7 +2955,7 @@ layer/slice.i: layer/slice.cpp.i
 
 # target to preprocess a source file
 layer/slice.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
 .PHONY : layer/slice.cpp.i
 
 layer/slice.s: layer/slice.cpp.s
@@ -4503,7 +2964,7 @@ layer/slice.s: layer/slice.cpp.s
 
 # target to generate assembly for a file
 layer/slice.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
 .PHONY : layer/slice.cpp.s
 
 layer/softmax.o: layer/softmax.cpp.o
@@ -4512,7 +2973,7 @@ layer/softmax.o: layer/softmax.cpp.o
 
 # target to build an object file
 layer/softmax.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
 .PHONY : layer/softmax.cpp.o
 
 layer/softmax.i: layer/softmax.cpp.i
@@ -4521,7 +2982,7 @@ layer/softmax.i: layer/softmax.cpp.i
 
 # target to preprocess a source file
 layer/softmax.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
 .PHONY : layer/softmax.cpp.i
 
 layer/softmax.s: layer/softmax.cpp.s
@@ -4530,35 +2991,8 @@ layer/softmax.s: layer/softmax.cpp.s
 
 # target to generate assembly for a file
 layer/softmax.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
 .PHONY : layer/softmax.cpp.s
-
-layer/softplus.o: layer/softplus.cpp.o
-
-.PHONY : layer/softplus.o
-
-# target to build an object file
-layer/softplus.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
-.PHONY : layer/softplus.cpp.o
-
-layer/softplus.i: layer/softplus.cpp.i
-
-.PHONY : layer/softplus.i
-
-# target to preprocess a source file
-layer/softplus.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.i
-.PHONY : layer/softplus.cpp.i
-
-layer/softplus.s: layer/softplus.cpp.s
-
-.PHONY : layer/softplus.s
-
-# target to generate assembly for a file
-layer/softplus.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.s
-.PHONY : layer/softplus.cpp.s
 
 layer/split.o: layer/split.cpp.o
 
@@ -4566,7 +3000,7 @@ layer/split.o: layer/split.cpp.o
 
 # target to build an object file
 layer/split.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
 .PHONY : layer/split.cpp.o
 
 layer/split.i: layer/split.cpp.i
@@ -4575,7 +3009,7 @@ layer/split.i: layer/split.cpp.i
 
 # target to preprocess a source file
 layer/split.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i
 .PHONY : layer/split.cpp.i
 
 layer/split.s: layer/split.cpp.s
@@ -4584,7 +3018,7 @@ layer/split.s: layer/split.cpp.s
 
 # target to generate assembly for a file
 layer/split.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s
 .PHONY : layer/split.cpp.s
 
 layer/squeeze.o: layer/squeeze.cpp.o
@@ -4593,7 +3027,7 @@ layer/squeeze.o: layer/squeeze.cpp.o
 
 # target to build an object file
 layer/squeeze.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
 .PHONY : layer/squeeze.cpp.o
 
 layer/squeeze.i: layer/squeeze.cpp.i
@@ -4602,7 +3036,7 @@ layer/squeeze.i: layer/squeeze.cpp.i
 
 # target to preprocess a source file
 layer/squeeze.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
 .PHONY : layer/squeeze.cpp.i
 
 layer/squeeze.s: layer/squeeze.cpp.s
@@ -4611,62 +3045,8 @@ layer/squeeze.s: layer/squeeze.cpp.s
 
 # target to generate assembly for a file
 layer/squeeze.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
 .PHONY : layer/squeeze.cpp.s
-
-layer/statisticspooling.o: layer/statisticspooling.cpp.o
-
-.PHONY : layer/statisticspooling.o
-
-# target to build an object file
-layer/statisticspooling.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
-.PHONY : layer/statisticspooling.cpp.o
-
-layer/statisticspooling.i: layer/statisticspooling.cpp.i
-
-.PHONY : layer/statisticspooling.i
-
-# target to preprocess a source file
-layer/statisticspooling.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i
-.PHONY : layer/statisticspooling.cpp.i
-
-layer/statisticspooling.s: layer/statisticspooling.cpp.s
-
-.PHONY : layer/statisticspooling.s
-
-# target to generate assembly for a file
-layer/statisticspooling.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s
-.PHONY : layer/statisticspooling.cpp.s
-
-layer/swish.o: layer/swish.cpp.o
-
-.PHONY : layer/swish.o
-
-# target to build an object file
-layer/swish.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
-.PHONY : layer/swish.cpp.o
-
-layer/swish.i: layer/swish.cpp.i
-
-.PHONY : layer/swish.i
-
-# target to preprocess a source file
-layer/swish.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.i
-.PHONY : layer/swish.cpp.i
-
-layer/swish.s: layer/swish.cpp.s
-
-.PHONY : layer/swish.s
-
-# target to generate assembly for a file
-layer/swish.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.s
-.PHONY : layer/swish.cpp.s
 
 layer/tanh.o: layer/tanh.cpp.o
 
@@ -4674,7 +3054,7 @@ layer/tanh.o: layer/tanh.cpp.o
 
 # target to build an object file
 layer/tanh.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
 .PHONY : layer/tanh.cpp.o
 
 layer/tanh.i: layer/tanh.cpp.i
@@ -4683,7 +3063,7 @@ layer/tanh.i: layer/tanh.cpp.i
 
 # target to preprocess a source file
 layer/tanh.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
 .PHONY : layer/tanh.cpp.i
 
 layer/tanh.s: layer/tanh.cpp.s
@@ -4692,7 +3072,7 @@ layer/tanh.s: layer/tanh.cpp.s
 
 # target to generate assembly for a file
 layer/tanh.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
 .PHONY : layer/tanh.cpp.s
 
 layer/threshold.o: layer/threshold.cpp.o
@@ -4701,7 +3081,7 @@ layer/threshold.o: layer/threshold.cpp.o
 
 # target to build an object file
 layer/threshold.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
 .PHONY : layer/threshold.cpp.o
 
 layer/threshold.i: layer/threshold.cpp.i
@@ -4710,7 +3090,7 @@ layer/threshold.i: layer/threshold.cpp.i
 
 # target to preprocess a source file
 layer/threshold.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
 .PHONY : layer/threshold.cpp.i
 
 layer/threshold.s: layer/threshold.cpp.s
@@ -4719,7 +3099,7 @@ layer/threshold.s: layer/threshold.cpp.s
 
 # target to generate assembly for a file
 layer/threshold.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
 .PHONY : layer/threshold.cpp.s
 
 layer/unaryop.o: layer/unaryop.cpp.o
@@ -4728,7 +3108,7 @@ layer/unaryop.o: layer/unaryop.cpp.o
 
 # target to build an object file
 layer/unaryop.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
 .PHONY : layer/unaryop.cpp.o
 
 layer/unaryop.i: layer/unaryop.cpp.i
@@ -4737,7 +3117,7 @@ layer/unaryop.i: layer/unaryop.cpp.i
 
 # target to preprocess a source file
 layer/unaryop.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
 .PHONY : layer/unaryop.cpp.i
 
 layer/unaryop.s: layer/unaryop.cpp.s
@@ -4746,7 +3126,7 @@ layer/unaryop.s: layer/unaryop.cpp.s
 
 # target to generate assembly for a file
 layer/unaryop.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
 .PHONY : layer/unaryop.cpp.s
 
 layer/vulkan/absval_vulkan.o: layer/vulkan/absval_vulkan.cpp.o
@@ -4755,7 +3135,7 @@ layer/vulkan/absval_vulkan.o: layer/vulkan/absval_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/absval_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o
 .PHONY : layer/vulkan/absval_vulkan.cpp.o
 
 layer/vulkan/absval_vulkan.i: layer/vulkan/absval_vulkan.cpp.i
@@ -4764,7 +3144,7 @@ layer/vulkan/absval_vulkan.i: layer/vulkan/absval_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/absval_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i
 .PHONY : layer/vulkan/absval_vulkan.cpp.i
 
 layer/vulkan/absval_vulkan.s: layer/vulkan/absval_vulkan.cpp.s
@@ -4773,7 +3153,7 @@ layer/vulkan/absval_vulkan.s: layer/vulkan/absval_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/absval_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s
 .PHONY : layer/vulkan/absval_vulkan.cpp.s
 
 layer/vulkan/batchnorm_vulkan.o: layer/vulkan/batchnorm_vulkan.cpp.o
@@ -4782,7 +3162,7 @@ layer/vulkan/batchnorm_vulkan.o: layer/vulkan/batchnorm_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/batchnorm_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o
 .PHONY : layer/vulkan/batchnorm_vulkan.cpp.o
 
 layer/vulkan/batchnorm_vulkan.i: layer/vulkan/batchnorm_vulkan.cpp.i
@@ -4791,7 +3171,7 @@ layer/vulkan/batchnorm_vulkan.i: layer/vulkan/batchnorm_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/batchnorm_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i
 .PHONY : layer/vulkan/batchnorm_vulkan.cpp.i
 
 layer/vulkan/batchnorm_vulkan.s: layer/vulkan/batchnorm_vulkan.cpp.s
@@ -4800,7 +3180,7 @@ layer/vulkan/batchnorm_vulkan.s: layer/vulkan/batchnorm_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/batchnorm_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s
 .PHONY : layer/vulkan/batchnorm_vulkan.cpp.s
 
 layer/vulkan/binaryop_vulkan.o: layer/vulkan/binaryop_vulkan.cpp.o
@@ -4809,7 +3189,7 @@ layer/vulkan/binaryop_vulkan.o: layer/vulkan/binaryop_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/binaryop_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o
 .PHONY : layer/vulkan/binaryop_vulkan.cpp.o
 
 layer/vulkan/binaryop_vulkan.i: layer/vulkan/binaryop_vulkan.cpp.i
@@ -4818,7 +3198,7 @@ layer/vulkan/binaryop_vulkan.i: layer/vulkan/binaryop_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/binaryop_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i
 .PHONY : layer/vulkan/binaryop_vulkan.cpp.i
 
 layer/vulkan/binaryop_vulkan.s: layer/vulkan/binaryop_vulkan.cpp.s
@@ -4827,7 +3207,7 @@ layer/vulkan/binaryop_vulkan.s: layer/vulkan/binaryop_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/binaryop_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s
 .PHONY : layer/vulkan/binaryop_vulkan.cpp.s
 
 layer/vulkan/cast_vulkan.o: layer/vulkan/cast_vulkan.cpp.o
@@ -4836,7 +3216,7 @@ layer/vulkan/cast_vulkan.o: layer/vulkan/cast_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/cast_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o
 .PHONY : layer/vulkan/cast_vulkan.cpp.o
 
 layer/vulkan/cast_vulkan.i: layer/vulkan/cast_vulkan.cpp.i
@@ -4845,7 +3225,7 @@ layer/vulkan/cast_vulkan.i: layer/vulkan/cast_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/cast_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i
 .PHONY : layer/vulkan/cast_vulkan.cpp.i
 
 layer/vulkan/cast_vulkan.s: layer/vulkan/cast_vulkan.cpp.s
@@ -4854,7 +3234,7 @@ layer/vulkan/cast_vulkan.s: layer/vulkan/cast_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/cast_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s
 .PHONY : layer/vulkan/cast_vulkan.cpp.s
 
 layer/vulkan/clip_vulkan.o: layer/vulkan/clip_vulkan.cpp.o
@@ -4863,7 +3243,7 @@ layer/vulkan/clip_vulkan.o: layer/vulkan/clip_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/clip_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o
 .PHONY : layer/vulkan/clip_vulkan.cpp.o
 
 layer/vulkan/clip_vulkan.i: layer/vulkan/clip_vulkan.cpp.i
@@ -4872,7 +3252,7 @@ layer/vulkan/clip_vulkan.i: layer/vulkan/clip_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/clip_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i
 .PHONY : layer/vulkan/clip_vulkan.cpp.i
 
 layer/vulkan/clip_vulkan.s: layer/vulkan/clip_vulkan.cpp.s
@@ -4881,7 +3261,7 @@ layer/vulkan/clip_vulkan.s: layer/vulkan/clip_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/clip_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s
 .PHONY : layer/vulkan/clip_vulkan.cpp.s
 
 layer/vulkan/concat_vulkan.o: layer/vulkan/concat_vulkan.cpp.o
@@ -4890,7 +3270,7 @@ layer/vulkan/concat_vulkan.o: layer/vulkan/concat_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/concat_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o
 .PHONY : layer/vulkan/concat_vulkan.cpp.o
 
 layer/vulkan/concat_vulkan.i: layer/vulkan/concat_vulkan.cpp.i
@@ -4899,7 +3279,7 @@ layer/vulkan/concat_vulkan.i: layer/vulkan/concat_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/concat_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i
 .PHONY : layer/vulkan/concat_vulkan.cpp.i
 
 layer/vulkan/concat_vulkan.s: layer/vulkan/concat_vulkan.cpp.s
@@ -4908,7 +3288,7 @@ layer/vulkan/concat_vulkan.s: layer/vulkan/concat_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/concat_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s
 .PHONY : layer/vulkan/concat_vulkan.cpp.s
 
 layer/vulkan/convolution_vulkan.o: layer/vulkan/convolution_vulkan.cpp.o
@@ -4917,7 +3297,7 @@ layer/vulkan/convolution_vulkan.o: layer/vulkan/convolution_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/convolution_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o
 .PHONY : layer/vulkan/convolution_vulkan.cpp.o
 
 layer/vulkan/convolution_vulkan.i: layer/vulkan/convolution_vulkan.cpp.i
@@ -4926,7 +3306,7 @@ layer/vulkan/convolution_vulkan.i: layer/vulkan/convolution_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/convolution_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i
 .PHONY : layer/vulkan/convolution_vulkan.cpp.i
 
 layer/vulkan/convolution_vulkan.s: layer/vulkan/convolution_vulkan.cpp.s
@@ -4935,7 +3315,7 @@ layer/vulkan/convolution_vulkan.s: layer/vulkan/convolution_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/convolution_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s
 .PHONY : layer/vulkan/convolution_vulkan.cpp.s
 
 layer/vulkan/convolutiondepthwise_vulkan.o: layer/vulkan/convolutiondepthwise_vulkan.cpp.o
@@ -4944,7 +3324,7 @@ layer/vulkan/convolutiondepthwise_vulkan.o: layer/vulkan/convolutiondepthwise_vu
 
 # target to build an object file
 layer/vulkan/convolutiondepthwise_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o
 .PHONY : layer/vulkan/convolutiondepthwise_vulkan.cpp.o
 
 layer/vulkan/convolutiondepthwise_vulkan.i: layer/vulkan/convolutiondepthwise_vulkan.cpp.i
@@ -4953,7 +3333,7 @@ layer/vulkan/convolutiondepthwise_vulkan.i: layer/vulkan/convolutiondepthwise_vu
 
 # target to preprocess a source file
 layer/vulkan/convolutiondepthwise_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i
 .PHONY : layer/vulkan/convolutiondepthwise_vulkan.cpp.i
 
 layer/vulkan/convolutiondepthwise_vulkan.s: layer/vulkan/convolutiondepthwise_vulkan.cpp.s
@@ -4962,7 +3342,7 @@ layer/vulkan/convolutiondepthwise_vulkan.s: layer/vulkan/convolutiondepthwise_vu
 
 # target to generate assembly for a file
 layer/vulkan/convolutiondepthwise_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s
 .PHONY : layer/vulkan/convolutiondepthwise_vulkan.cpp.s
 
 layer/vulkan/crop_vulkan.o: layer/vulkan/crop_vulkan.cpp.o
@@ -4971,7 +3351,7 @@ layer/vulkan/crop_vulkan.o: layer/vulkan/crop_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/crop_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o
 .PHONY : layer/vulkan/crop_vulkan.cpp.o
 
 layer/vulkan/crop_vulkan.i: layer/vulkan/crop_vulkan.cpp.i
@@ -4980,7 +3360,7 @@ layer/vulkan/crop_vulkan.i: layer/vulkan/crop_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/crop_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i
 .PHONY : layer/vulkan/crop_vulkan.cpp.i
 
 layer/vulkan/crop_vulkan.s: layer/vulkan/crop_vulkan.cpp.s
@@ -4989,7 +3369,7 @@ layer/vulkan/crop_vulkan.s: layer/vulkan/crop_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/crop_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s
 .PHONY : layer/vulkan/crop_vulkan.cpp.s
 
 layer/vulkan/deconvolution_vulkan.o: layer/vulkan/deconvolution_vulkan.cpp.o
@@ -4998,7 +3378,7 @@ layer/vulkan/deconvolution_vulkan.o: layer/vulkan/deconvolution_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/deconvolution_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o
 .PHONY : layer/vulkan/deconvolution_vulkan.cpp.o
 
 layer/vulkan/deconvolution_vulkan.i: layer/vulkan/deconvolution_vulkan.cpp.i
@@ -5007,7 +3387,7 @@ layer/vulkan/deconvolution_vulkan.i: layer/vulkan/deconvolution_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/deconvolution_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i
 .PHONY : layer/vulkan/deconvolution_vulkan.cpp.i
 
 layer/vulkan/deconvolution_vulkan.s: layer/vulkan/deconvolution_vulkan.cpp.s
@@ -5016,7 +3396,7 @@ layer/vulkan/deconvolution_vulkan.s: layer/vulkan/deconvolution_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/deconvolution_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s
 .PHONY : layer/vulkan/deconvolution_vulkan.cpp.s
 
 layer/vulkan/deconvolutiondepthwise_vulkan.o: layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o
@@ -5025,7 +3405,7 @@ layer/vulkan/deconvolutiondepthwise_vulkan.o: layer/vulkan/deconvolutiondepthwis
 
 # target to build an object file
 layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o
 .PHONY : layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o
 
 layer/vulkan/deconvolutiondepthwise_vulkan.i: layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
@@ -5034,7 +3414,7 @@ layer/vulkan/deconvolutiondepthwise_vulkan.i: layer/vulkan/deconvolutiondepthwis
 
 # target to preprocess a source file
 layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
 .PHONY : layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
 
 layer/vulkan/deconvolutiondepthwise_vulkan.s: layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
@@ -5043,7 +3423,7 @@ layer/vulkan/deconvolutiondepthwise_vulkan.s: layer/vulkan/deconvolutiondepthwis
 
 # target to generate assembly for a file
 layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
 .PHONY : layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
 
 layer/vulkan/deepcopy_vulkan.o: layer/vulkan/deepcopy_vulkan.cpp.o
@@ -5052,7 +3432,7 @@ layer/vulkan/deepcopy_vulkan.o: layer/vulkan/deepcopy_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/deepcopy_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o
 .PHONY : layer/vulkan/deepcopy_vulkan.cpp.o
 
 layer/vulkan/deepcopy_vulkan.i: layer/vulkan/deepcopy_vulkan.cpp.i
@@ -5061,7 +3441,7 @@ layer/vulkan/deepcopy_vulkan.i: layer/vulkan/deepcopy_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/deepcopy_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i
 .PHONY : layer/vulkan/deepcopy_vulkan.cpp.i
 
 layer/vulkan/deepcopy_vulkan.s: layer/vulkan/deepcopy_vulkan.cpp.s
@@ -5070,7 +3450,7 @@ layer/vulkan/deepcopy_vulkan.s: layer/vulkan/deepcopy_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/deepcopy_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s
 .PHONY : layer/vulkan/deepcopy_vulkan.cpp.s
 
 layer/vulkan/dropout_vulkan.o: layer/vulkan/dropout_vulkan.cpp.o
@@ -5079,7 +3459,7 @@ layer/vulkan/dropout_vulkan.o: layer/vulkan/dropout_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/dropout_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o
 .PHONY : layer/vulkan/dropout_vulkan.cpp.o
 
 layer/vulkan/dropout_vulkan.i: layer/vulkan/dropout_vulkan.cpp.i
@@ -5088,7 +3468,7 @@ layer/vulkan/dropout_vulkan.i: layer/vulkan/dropout_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/dropout_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i
 .PHONY : layer/vulkan/dropout_vulkan.cpp.i
 
 layer/vulkan/dropout_vulkan.s: layer/vulkan/dropout_vulkan.cpp.s
@@ -5097,7 +3477,7 @@ layer/vulkan/dropout_vulkan.s: layer/vulkan/dropout_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/dropout_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s
 .PHONY : layer/vulkan/dropout_vulkan.cpp.s
 
 layer/vulkan/eltwise_vulkan.o: layer/vulkan/eltwise_vulkan.cpp.o
@@ -5106,7 +3486,7 @@ layer/vulkan/eltwise_vulkan.o: layer/vulkan/eltwise_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/eltwise_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o
 .PHONY : layer/vulkan/eltwise_vulkan.cpp.o
 
 layer/vulkan/eltwise_vulkan.i: layer/vulkan/eltwise_vulkan.cpp.i
@@ -5115,7 +3495,7 @@ layer/vulkan/eltwise_vulkan.i: layer/vulkan/eltwise_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/eltwise_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i
 .PHONY : layer/vulkan/eltwise_vulkan.cpp.i
 
 layer/vulkan/eltwise_vulkan.s: layer/vulkan/eltwise_vulkan.cpp.s
@@ -5124,7 +3504,7 @@ layer/vulkan/eltwise_vulkan.s: layer/vulkan/eltwise_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/eltwise_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s
 .PHONY : layer/vulkan/eltwise_vulkan.cpp.s
 
 layer/vulkan/flatten_vulkan.o: layer/vulkan/flatten_vulkan.cpp.o
@@ -5133,7 +3513,7 @@ layer/vulkan/flatten_vulkan.o: layer/vulkan/flatten_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/flatten_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o
 .PHONY : layer/vulkan/flatten_vulkan.cpp.o
 
 layer/vulkan/flatten_vulkan.i: layer/vulkan/flatten_vulkan.cpp.i
@@ -5142,7 +3522,7 @@ layer/vulkan/flatten_vulkan.i: layer/vulkan/flatten_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/flatten_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i
 .PHONY : layer/vulkan/flatten_vulkan.cpp.i
 
 layer/vulkan/flatten_vulkan.s: layer/vulkan/flatten_vulkan.cpp.s
@@ -5151,7 +3531,7 @@ layer/vulkan/flatten_vulkan.s: layer/vulkan/flatten_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/flatten_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s
 .PHONY : layer/vulkan/flatten_vulkan.cpp.s
 
 layer/vulkan/hardsigmoid_vulkan.o: layer/vulkan/hardsigmoid_vulkan.cpp.o
@@ -5160,7 +3540,7 @@ layer/vulkan/hardsigmoid_vulkan.o: layer/vulkan/hardsigmoid_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/hardsigmoid_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o
 .PHONY : layer/vulkan/hardsigmoid_vulkan.cpp.o
 
 layer/vulkan/hardsigmoid_vulkan.i: layer/vulkan/hardsigmoid_vulkan.cpp.i
@@ -5169,7 +3549,7 @@ layer/vulkan/hardsigmoid_vulkan.i: layer/vulkan/hardsigmoid_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/hardsigmoid_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i
 .PHONY : layer/vulkan/hardsigmoid_vulkan.cpp.i
 
 layer/vulkan/hardsigmoid_vulkan.s: layer/vulkan/hardsigmoid_vulkan.cpp.s
@@ -5178,7 +3558,7 @@ layer/vulkan/hardsigmoid_vulkan.s: layer/vulkan/hardsigmoid_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/hardsigmoid_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s
 .PHONY : layer/vulkan/hardsigmoid_vulkan.cpp.s
 
 layer/vulkan/hardswish_vulkan.o: layer/vulkan/hardswish_vulkan.cpp.o
@@ -5187,7 +3567,7 @@ layer/vulkan/hardswish_vulkan.o: layer/vulkan/hardswish_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/hardswish_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o
 .PHONY : layer/vulkan/hardswish_vulkan.cpp.o
 
 layer/vulkan/hardswish_vulkan.i: layer/vulkan/hardswish_vulkan.cpp.i
@@ -5196,7 +3576,7 @@ layer/vulkan/hardswish_vulkan.i: layer/vulkan/hardswish_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/hardswish_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i
 .PHONY : layer/vulkan/hardswish_vulkan.cpp.i
 
 layer/vulkan/hardswish_vulkan.s: layer/vulkan/hardswish_vulkan.cpp.s
@@ -5205,7 +3585,7 @@ layer/vulkan/hardswish_vulkan.s: layer/vulkan/hardswish_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/hardswish_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s
 .PHONY : layer/vulkan/hardswish_vulkan.cpp.s
 
 layer/vulkan/innerproduct_vulkan.o: layer/vulkan/innerproduct_vulkan.cpp.o
@@ -5214,7 +3594,7 @@ layer/vulkan/innerproduct_vulkan.o: layer/vulkan/innerproduct_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/innerproduct_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o
 .PHONY : layer/vulkan/innerproduct_vulkan.cpp.o
 
 layer/vulkan/innerproduct_vulkan.i: layer/vulkan/innerproduct_vulkan.cpp.i
@@ -5223,7 +3603,7 @@ layer/vulkan/innerproduct_vulkan.i: layer/vulkan/innerproduct_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/innerproduct_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i
 .PHONY : layer/vulkan/innerproduct_vulkan.cpp.i
 
 layer/vulkan/innerproduct_vulkan.s: layer/vulkan/innerproduct_vulkan.cpp.s
@@ -5232,7 +3612,7 @@ layer/vulkan/innerproduct_vulkan.s: layer/vulkan/innerproduct_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/innerproduct_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s
 .PHONY : layer/vulkan/innerproduct_vulkan.cpp.s
 
 layer/vulkan/instancenorm_vulkan.o: layer/vulkan/instancenorm_vulkan.cpp.o
@@ -5241,7 +3621,7 @@ layer/vulkan/instancenorm_vulkan.o: layer/vulkan/instancenorm_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/instancenorm_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o
 .PHONY : layer/vulkan/instancenorm_vulkan.cpp.o
 
 layer/vulkan/instancenorm_vulkan.i: layer/vulkan/instancenorm_vulkan.cpp.i
@@ -5250,7 +3630,7 @@ layer/vulkan/instancenorm_vulkan.i: layer/vulkan/instancenorm_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/instancenorm_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i
 .PHONY : layer/vulkan/instancenorm_vulkan.cpp.i
 
 layer/vulkan/instancenorm_vulkan.s: layer/vulkan/instancenorm_vulkan.cpp.s
@@ -5259,7 +3639,7 @@ layer/vulkan/instancenorm_vulkan.s: layer/vulkan/instancenorm_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/instancenorm_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s
 .PHONY : layer/vulkan/instancenorm_vulkan.cpp.s
 
 layer/vulkan/interp_vulkan.o: layer/vulkan/interp_vulkan.cpp.o
@@ -5268,7 +3648,7 @@ layer/vulkan/interp_vulkan.o: layer/vulkan/interp_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/interp_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o
 .PHONY : layer/vulkan/interp_vulkan.cpp.o
 
 layer/vulkan/interp_vulkan.i: layer/vulkan/interp_vulkan.cpp.i
@@ -5277,7 +3657,7 @@ layer/vulkan/interp_vulkan.i: layer/vulkan/interp_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/interp_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i
 .PHONY : layer/vulkan/interp_vulkan.cpp.i
 
 layer/vulkan/interp_vulkan.s: layer/vulkan/interp_vulkan.cpp.s
@@ -5286,7 +3666,7 @@ layer/vulkan/interp_vulkan.s: layer/vulkan/interp_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/interp_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s
 .PHONY : layer/vulkan/interp_vulkan.cpp.s
 
 layer/vulkan/lrn_vulkan.o: layer/vulkan/lrn_vulkan.cpp.o
@@ -5295,7 +3675,7 @@ layer/vulkan/lrn_vulkan.o: layer/vulkan/lrn_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/lrn_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o
 .PHONY : layer/vulkan/lrn_vulkan.cpp.o
 
 layer/vulkan/lrn_vulkan.i: layer/vulkan/lrn_vulkan.cpp.i
@@ -5304,7 +3684,7 @@ layer/vulkan/lrn_vulkan.i: layer/vulkan/lrn_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/lrn_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i
 .PHONY : layer/vulkan/lrn_vulkan.cpp.i
 
 layer/vulkan/lrn_vulkan.s: layer/vulkan/lrn_vulkan.cpp.s
@@ -5313,62 +3693,8 @@ layer/vulkan/lrn_vulkan.s: layer/vulkan/lrn_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/lrn_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s
 .PHONY : layer/vulkan/lrn_vulkan.cpp.s
-
-layer/vulkan/memorydata_vulkan.o: layer/vulkan/memorydata_vulkan.cpp.o
-
-.PHONY : layer/vulkan/memorydata_vulkan.o
-
-# target to build an object file
-layer/vulkan/memorydata_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o
-.PHONY : layer/vulkan/memorydata_vulkan.cpp.o
-
-layer/vulkan/memorydata_vulkan.i: layer/vulkan/memorydata_vulkan.cpp.i
-
-.PHONY : layer/vulkan/memorydata_vulkan.i
-
-# target to preprocess a source file
-layer/vulkan/memorydata_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.i
-.PHONY : layer/vulkan/memorydata_vulkan.cpp.i
-
-layer/vulkan/memorydata_vulkan.s: layer/vulkan/memorydata_vulkan.cpp.s
-
-.PHONY : layer/vulkan/memorydata_vulkan.s
-
-# target to generate assembly for a file
-layer/vulkan/memorydata_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.s
-.PHONY : layer/vulkan/memorydata_vulkan.cpp.s
-
-layer/vulkan/mish_vulkan.o: layer/vulkan/mish_vulkan.cpp.o
-
-.PHONY : layer/vulkan/mish_vulkan.o
-
-# target to build an object file
-layer/vulkan/mish_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o
-.PHONY : layer/vulkan/mish_vulkan.cpp.o
-
-layer/vulkan/mish_vulkan.i: layer/vulkan/mish_vulkan.cpp.i
-
-.PHONY : layer/vulkan/mish_vulkan.i
-
-# target to preprocess a source file
-layer/vulkan/mish_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.i
-.PHONY : layer/vulkan/mish_vulkan.cpp.i
-
-layer/vulkan/mish_vulkan.s: layer/vulkan/mish_vulkan.cpp.s
-
-.PHONY : layer/vulkan/mish_vulkan.s
-
-# target to generate assembly for a file
-layer/vulkan/mish_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.s
-.PHONY : layer/vulkan/mish_vulkan.cpp.s
 
 layer/vulkan/normalize_vulkan.o: layer/vulkan/normalize_vulkan.cpp.o
 
@@ -5376,7 +3702,7 @@ layer/vulkan/normalize_vulkan.o: layer/vulkan/normalize_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/normalize_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o
 .PHONY : layer/vulkan/normalize_vulkan.cpp.o
 
 layer/vulkan/normalize_vulkan.i: layer/vulkan/normalize_vulkan.cpp.i
@@ -5385,7 +3711,7 @@ layer/vulkan/normalize_vulkan.i: layer/vulkan/normalize_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/normalize_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i
 .PHONY : layer/vulkan/normalize_vulkan.cpp.i
 
 layer/vulkan/normalize_vulkan.s: layer/vulkan/normalize_vulkan.cpp.s
@@ -5394,7 +3720,7 @@ layer/vulkan/normalize_vulkan.s: layer/vulkan/normalize_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/normalize_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s
 .PHONY : layer/vulkan/normalize_vulkan.cpp.s
 
 layer/vulkan/packing_vulkan.o: layer/vulkan/packing_vulkan.cpp.o
@@ -5403,7 +3729,7 @@ layer/vulkan/packing_vulkan.o: layer/vulkan/packing_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/packing_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o
 .PHONY : layer/vulkan/packing_vulkan.cpp.o
 
 layer/vulkan/packing_vulkan.i: layer/vulkan/packing_vulkan.cpp.i
@@ -5412,7 +3738,7 @@ layer/vulkan/packing_vulkan.i: layer/vulkan/packing_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/packing_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i
 .PHONY : layer/vulkan/packing_vulkan.cpp.i
 
 layer/vulkan/packing_vulkan.s: layer/vulkan/packing_vulkan.cpp.s
@@ -5421,7 +3747,7 @@ layer/vulkan/packing_vulkan.s: layer/vulkan/packing_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/packing_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s
 .PHONY : layer/vulkan/packing_vulkan.cpp.s
 
 layer/vulkan/padding_vulkan.o: layer/vulkan/padding_vulkan.cpp.o
@@ -5430,7 +3756,7 @@ layer/vulkan/padding_vulkan.o: layer/vulkan/padding_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/padding_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o
 .PHONY : layer/vulkan/padding_vulkan.cpp.o
 
 layer/vulkan/padding_vulkan.i: layer/vulkan/padding_vulkan.cpp.i
@@ -5439,7 +3765,7 @@ layer/vulkan/padding_vulkan.i: layer/vulkan/padding_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/padding_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i
 .PHONY : layer/vulkan/padding_vulkan.cpp.i
 
 layer/vulkan/padding_vulkan.s: layer/vulkan/padding_vulkan.cpp.s
@@ -5448,7 +3774,7 @@ layer/vulkan/padding_vulkan.s: layer/vulkan/padding_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/padding_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s
 .PHONY : layer/vulkan/padding_vulkan.cpp.s
 
 layer/vulkan/permute_vulkan.o: layer/vulkan/permute_vulkan.cpp.o
@@ -5457,7 +3783,7 @@ layer/vulkan/permute_vulkan.o: layer/vulkan/permute_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/permute_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o
 .PHONY : layer/vulkan/permute_vulkan.cpp.o
 
 layer/vulkan/permute_vulkan.i: layer/vulkan/permute_vulkan.cpp.i
@@ -5466,7 +3792,7 @@ layer/vulkan/permute_vulkan.i: layer/vulkan/permute_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/permute_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i
 .PHONY : layer/vulkan/permute_vulkan.cpp.i
 
 layer/vulkan/permute_vulkan.s: layer/vulkan/permute_vulkan.cpp.s
@@ -5475,7 +3801,7 @@ layer/vulkan/permute_vulkan.s: layer/vulkan/permute_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/permute_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s
 .PHONY : layer/vulkan/permute_vulkan.cpp.s
 
 layer/vulkan/pixelshuffle_vulkan.o: layer/vulkan/pixelshuffle_vulkan.cpp.o
@@ -5484,7 +3810,7 @@ layer/vulkan/pixelshuffle_vulkan.o: layer/vulkan/pixelshuffle_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/pixelshuffle_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o
 .PHONY : layer/vulkan/pixelshuffle_vulkan.cpp.o
 
 layer/vulkan/pixelshuffle_vulkan.i: layer/vulkan/pixelshuffle_vulkan.cpp.i
@@ -5493,7 +3819,7 @@ layer/vulkan/pixelshuffle_vulkan.i: layer/vulkan/pixelshuffle_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/pixelshuffle_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i
 .PHONY : layer/vulkan/pixelshuffle_vulkan.cpp.i
 
 layer/vulkan/pixelshuffle_vulkan.s: layer/vulkan/pixelshuffle_vulkan.cpp.s
@@ -5502,7 +3828,7 @@ layer/vulkan/pixelshuffle_vulkan.s: layer/vulkan/pixelshuffle_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/pixelshuffle_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s
 .PHONY : layer/vulkan/pixelshuffle_vulkan.cpp.s
 
 layer/vulkan/pooling_vulkan.o: layer/vulkan/pooling_vulkan.cpp.o
@@ -5511,7 +3837,7 @@ layer/vulkan/pooling_vulkan.o: layer/vulkan/pooling_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/pooling_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o
 .PHONY : layer/vulkan/pooling_vulkan.cpp.o
 
 layer/vulkan/pooling_vulkan.i: layer/vulkan/pooling_vulkan.cpp.i
@@ -5520,7 +3846,7 @@ layer/vulkan/pooling_vulkan.i: layer/vulkan/pooling_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/pooling_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i
 .PHONY : layer/vulkan/pooling_vulkan.cpp.i
 
 layer/vulkan/pooling_vulkan.s: layer/vulkan/pooling_vulkan.cpp.s
@@ -5529,7 +3855,7 @@ layer/vulkan/pooling_vulkan.s: layer/vulkan/pooling_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/pooling_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s
 .PHONY : layer/vulkan/pooling_vulkan.cpp.s
 
 layer/vulkan/prelu_vulkan.o: layer/vulkan/prelu_vulkan.cpp.o
@@ -5538,7 +3864,7 @@ layer/vulkan/prelu_vulkan.o: layer/vulkan/prelu_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/prelu_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o
 .PHONY : layer/vulkan/prelu_vulkan.cpp.o
 
 layer/vulkan/prelu_vulkan.i: layer/vulkan/prelu_vulkan.cpp.i
@@ -5547,7 +3873,7 @@ layer/vulkan/prelu_vulkan.i: layer/vulkan/prelu_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/prelu_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i
 .PHONY : layer/vulkan/prelu_vulkan.cpp.i
 
 layer/vulkan/prelu_vulkan.s: layer/vulkan/prelu_vulkan.cpp.s
@@ -5556,7 +3882,7 @@ layer/vulkan/prelu_vulkan.s: layer/vulkan/prelu_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/prelu_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s
 .PHONY : layer/vulkan/prelu_vulkan.cpp.s
 
 layer/vulkan/priorbox_vulkan.o: layer/vulkan/priorbox_vulkan.cpp.o
@@ -5565,7 +3891,7 @@ layer/vulkan/priorbox_vulkan.o: layer/vulkan/priorbox_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/priorbox_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o
 .PHONY : layer/vulkan/priorbox_vulkan.cpp.o
 
 layer/vulkan/priorbox_vulkan.i: layer/vulkan/priorbox_vulkan.cpp.i
@@ -5574,7 +3900,7 @@ layer/vulkan/priorbox_vulkan.i: layer/vulkan/priorbox_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/priorbox_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i
 .PHONY : layer/vulkan/priorbox_vulkan.cpp.i
 
 layer/vulkan/priorbox_vulkan.s: layer/vulkan/priorbox_vulkan.cpp.s
@@ -5583,7 +3909,7 @@ layer/vulkan/priorbox_vulkan.s: layer/vulkan/priorbox_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/priorbox_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s
 .PHONY : layer/vulkan/priorbox_vulkan.cpp.s
 
 layer/vulkan/relu_vulkan.o: layer/vulkan/relu_vulkan.cpp.o
@@ -5592,7 +3918,7 @@ layer/vulkan/relu_vulkan.o: layer/vulkan/relu_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/relu_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o
 .PHONY : layer/vulkan/relu_vulkan.cpp.o
 
 layer/vulkan/relu_vulkan.i: layer/vulkan/relu_vulkan.cpp.i
@@ -5601,7 +3927,7 @@ layer/vulkan/relu_vulkan.i: layer/vulkan/relu_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/relu_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i
 .PHONY : layer/vulkan/relu_vulkan.cpp.i
 
 layer/vulkan/relu_vulkan.s: layer/vulkan/relu_vulkan.cpp.s
@@ -5610,7 +3936,7 @@ layer/vulkan/relu_vulkan.s: layer/vulkan/relu_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/relu_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s
 .PHONY : layer/vulkan/relu_vulkan.cpp.s
 
 layer/vulkan/reorg_vulkan.o: layer/vulkan/reorg_vulkan.cpp.o
@@ -5619,7 +3945,7 @@ layer/vulkan/reorg_vulkan.o: layer/vulkan/reorg_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/reorg_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o
 .PHONY : layer/vulkan/reorg_vulkan.cpp.o
 
 layer/vulkan/reorg_vulkan.i: layer/vulkan/reorg_vulkan.cpp.i
@@ -5628,7 +3954,7 @@ layer/vulkan/reorg_vulkan.i: layer/vulkan/reorg_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/reorg_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i
 .PHONY : layer/vulkan/reorg_vulkan.cpp.i
 
 layer/vulkan/reorg_vulkan.s: layer/vulkan/reorg_vulkan.cpp.s
@@ -5637,7 +3963,7 @@ layer/vulkan/reorg_vulkan.s: layer/vulkan/reorg_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/reorg_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s
 .PHONY : layer/vulkan/reorg_vulkan.cpp.s
 
 layer/vulkan/reshape_vulkan.o: layer/vulkan/reshape_vulkan.cpp.o
@@ -5646,7 +3972,7 @@ layer/vulkan/reshape_vulkan.o: layer/vulkan/reshape_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/reshape_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o
 .PHONY : layer/vulkan/reshape_vulkan.cpp.o
 
 layer/vulkan/reshape_vulkan.i: layer/vulkan/reshape_vulkan.cpp.i
@@ -5655,7 +3981,7 @@ layer/vulkan/reshape_vulkan.i: layer/vulkan/reshape_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/reshape_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i
 .PHONY : layer/vulkan/reshape_vulkan.cpp.i
 
 layer/vulkan/reshape_vulkan.s: layer/vulkan/reshape_vulkan.cpp.s
@@ -5664,7 +3990,7 @@ layer/vulkan/reshape_vulkan.s: layer/vulkan/reshape_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/reshape_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s
 .PHONY : layer/vulkan/reshape_vulkan.cpp.s
 
 layer/vulkan/scale_vulkan.o: layer/vulkan/scale_vulkan.cpp.o
@@ -5673,7 +3999,7 @@ layer/vulkan/scale_vulkan.o: layer/vulkan/scale_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/scale_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o
 .PHONY : layer/vulkan/scale_vulkan.cpp.o
 
 layer/vulkan/scale_vulkan.i: layer/vulkan/scale_vulkan.cpp.i
@@ -5682,7 +4008,7 @@ layer/vulkan/scale_vulkan.i: layer/vulkan/scale_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/scale_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i
 .PHONY : layer/vulkan/scale_vulkan.cpp.i
 
 layer/vulkan/scale_vulkan.s: layer/vulkan/scale_vulkan.cpp.s
@@ -5691,7 +4017,7 @@ layer/vulkan/scale_vulkan.s: layer/vulkan/scale_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/scale_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s
 .PHONY : layer/vulkan/scale_vulkan.cpp.s
 
 layer/vulkan/shufflechannel_vulkan.o: layer/vulkan/shufflechannel_vulkan.cpp.o
@@ -5700,7 +4026,7 @@ layer/vulkan/shufflechannel_vulkan.o: layer/vulkan/shufflechannel_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/shufflechannel_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o
 .PHONY : layer/vulkan/shufflechannel_vulkan.cpp.o
 
 layer/vulkan/shufflechannel_vulkan.i: layer/vulkan/shufflechannel_vulkan.cpp.i
@@ -5709,7 +4035,7 @@ layer/vulkan/shufflechannel_vulkan.i: layer/vulkan/shufflechannel_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/shufflechannel_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i
 .PHONY : layer/vulkan/shufflechannel_vulkan.cpp.i
 
 layer/vulkan/shufflechannel_vulkan.s: layer/vulkan/shufflechannel_vulkan.cpp.s
@@ -5718,7 +4044,7 @@ layer/vulkan/shufflechannel_vulkan.s: layer/vulkan/shufflechannel_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/shufflechannel_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s
 .PHONY : layer/vulkan/shufflechannel_vulkan.cpp.s
 
 layer/vulkan/sigmoid_vulkan.o: layer/vulkan/sigmoid_vulkan.cpp.o
@@ -5727,7 +4053,7 @@ layer/vulkan/sigmoid_vulkan.o: layer/vulkan/sigmoid_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/sigmoid_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o
 .PHONY : layer/vulkan/sigmoid_vulkan.cpp.o
 
 layer/vulkan/sigmoid_vulkan.i: layer/vulkan/sigmoid_vulkan.cpp.i
@@ -5736,7 +4062,7 @@ layer/vulkan/sigmoid_vulkan.i: layer/vulkan/sigmoid_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/sigmoid_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i
 .PHONY : layer/vulkan/sigmoid_vulkan.cpp.i
 
 layer/vulkan/sigmoid_vulkan.s: layer/vulkan/sigmoid_vulkan.cpp.s
@@ -5745,7 +4071,7 @@ layer/vulkan/sigmoid_vulkan.s: layer/vulkan/sigmoid_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/sigmoid_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s
 .PHONY : layer/vulkan/sigmoid_vulkan.cpp.s
 
 layer/vulkan/slice_vulkan.o: layer/vulkan/slice_vulkan.cpp.o
@@ -5754,7 +4080,7 @@ layer/vulkan/slice_vulkan.o: layer/vulkan/slice_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/slice_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o
 .PHONY : layer/vulkan/slice_vulkan.cpp.o
 
 layer/vulkan/slice_vulkan.i: layer/vulkan/slice_vulkan.cpp.i
@@ -5763,7 +4089,7 @@ layer/vulkan/slice_vulkan.i: layer/vulkan/slice_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/slice_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i
 .PHONY : layer/vulkan/slice_vulkan.cpp.i
 
 layer/vulkan/slice_vulkan.s: layer/vulkan/slice_vulkan.cpp.s
@@ -5772,7 +4098,7 @@ layer/vulkan/slice_vulkan.s: layer/vulkan/slice_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/slice_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s
 .PHONY : layer/vulkan/slice_vulkan.cpp.s
 
 layer/vulkan/softmax_vulkan.o: layer/vulkan/softmax_vulkan.cpp.o
@@ -5781,7 +4107,7 @@ layer/vulkan/softmax_vulkan.o: layer/vulkan/softmax_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/softmax_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o
 .PHONY : layer/vulkan/softmax_vulkan.cpp.o
 
 layer/vulkan/softmax_vulkan.i: layer/vulkan/softmax_vulkan.cpp.i
@@ -5790,7 +4116,7 @@ layer/vulkan/softmax_vulkan.i: layer/vulkan/softmax_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/softmax_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i
 .PHONY : layer/vulkan/softmax_vulkan.cpp.i
 
 layer/vulkan/softmax_vulkan.s: layer/vulkan/softmax_vulkan.cpp.s
@@ -5799,35 +4125,8 @@ layer/vulkan/softmax_vulkan.s: layer/vulkan/softmax_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/softmax_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s
 .PHONY : layer/vulkan/softmax_vulkan.cpp.s
-
-layer/vulkan/swish_vulkan.o: layer/vulkan/swish_vulkan.cpp.o
-
-.PHONY : layer/vulkan/swish_vulkan.o
-
-# target to build an object file
-layer/vulkan/swish_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o
-.PHONY : layer/vulkan/swish_vulkan.cpp.o
-
-layer/vulkan/swish_vulkan.i: layer/vulkan/swish_vulkan.cpp.i
-
-.PHONY : layer/vulkan/swish_vulkan.i
-
-# target to preprocess a source file
-layer/vulkan/swish_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.i
-.PHONY : layer/vulkan/swish_vulkan.cpp.i
-
-layer/vulkan/swish_vulkan.s: layer/vulkan/swish_vulkan.cpp.s
-
-.PHONY : layer/vulkan/swish_vulkan.s
-
-# target to generate assembly for a file
-layer/vulkan/swish_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.s
-.PHONY : layer/vulkan/swish_vulkan.cpp.s
 
 layer/vulkan/tanh_vulkan.o: layer/vulkan/tanh_vulkan.cpp.o
 
@@ -5835,7 +4134,7 @@ layer/vulkan/tanh_vulkan.o: layer/vulkan/tanh_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/tanh_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o
 .PHONY : layer/vulkan/tanh_vulkan.cpp.o
 
 layer/vulkan/tanh_vulkan.i: layer/vulkan/tanh_vulkan.cpp.i
@@ -5844,7 +4143,7 @@ layer/vulkan/tanh_vulkan.i: layer/vulkan/tanh_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/tanh_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i
 .PHONY : layer/vulkan/tanh_vulkan.cpp.i
 
 layer/vulkan/tanh_vulkan.s: layer/vulkan/tanh_vulkan.cpp.s
@@ -5853,7 +4152,7 @@ layer/vulkan/tanh_vulkan.s: layer/vulkan/tanh_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/tanh_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s
 .PHONY : layer/vulkan/tanh_vulkan.cpp.s
 
 layer/vulkan/unaryop_vulkan.o: layer/vulkan/unaryop_vulkan.cpp.o
@@ -5862,7 +4161,7 @@ layer/vulkan/unaryop_vulkan.o: layer/vulkan/unaryop_vulkan.cpp.o
 
 # target to build an object file
 layer/vulkan/unaryop_vulkan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o
 .PHONY : layer/vulkan/unaryop_vulkan.cpp.o
 
 layer/vulkan/unaryop_vulkan.i: layer/vulkan/unaryop_vulkan.cpp.i
@@ -5871,7 +4170,7 @@ layer/vulkan/unaryop_vulkan.i: layer/vulkan/unaryop_vulkan.cpp.i
 
 # target to preprocess a source file
 layer/vulkan/unaryop_vulkan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i
 .PHONY : layer/vulkan/unaryop_vulkan.cpp.i
 
 layer/vulkan/unaryop_vulkan.s: layer/vulkan/unaryop_vulkan.cpp.s
@@ -5880,7 +4179,7 @@ layer/vulkan/unaryop_vulkan.s: layer/vulkan/unaryop_vulkan.cpp.s
 
 # target to generate assembly for a file
 layer/vulkan/unaryop_vulkan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s
 .PHONY : layer/vulkan/unaryop_vulkan.cpp.s
 
 layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
@@ -5889,7 +4188,7 @@ layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
 
 # target to build an object file
 layer/yolodetectionoutput.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
 .PHONY : layer/yolodetectionoutput.cpp.o
 
 layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
@@ -5898,7 +4197,7 @@ layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolodetectionoutput.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
 .PHONY : layer/yolodetectionoutput.cpp.i
 
 layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
@@ -5907,7 +4206,7 @@ layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolodetectionoutput.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
 .PHONY : layer/yolodetectionoutput.cpp.s
 
 layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
@@ -5916,7 +4215,7 @@ layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
 
 # target to build an object file
 layer/yolov3detectionoutput.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
 .PHONY : layer/yolov3detectionoutput.cpp.o
 
 layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
@@ -5925,7 +4224,7 @@ layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolov3detectionoutput.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
 .PHONY : layer/yolov3detectionoutput.cpp.i
 
 layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
@@ -5934,7 +4233,7 @@ layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolov3detectionoutput.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
 .PHONY : layer/yolov3detectionoutput.cpp.s
 
 mat.o: mat.cpp.o
@@ -5943,7 +4242,7 @@ mat.o: mat.cpp.o
 
 # target to build an object file
 mat.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o
 .PHONY : mat.cpp.o
 
 mat.i: mat.cpp.i
@@ -5952,7 +4251,7 @@ mat.i: mat.cpp.i
 
 # target to preprocess a source file
 mat.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i
 .PHONY : mat.cpp.i
 
 mat.s: mat.cpp.s
@@ -5961,7 +4260,7 @@ mat.s: mat.cpp.s
 
 # target to generate assembly for a file
 mat.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s
 .PHONY : mat.cpp.s
 
 mat_pixel.o: mat_pixel.cpp.o
@@ -5970,7 +4269,7 @@ mat_pixel.o: mat_pixel.cpp.o
 
 # target to build an object file
 mat_pixel.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
 .PHONY : mat_pixel.cpp.o
 
 mat_pixel.i: mat_pixel.cpp.i
@@ -5979,7 +4278,7 @@ mat_pixel.i: mat_pixel.cpp.i
 
 # target to preprocess a source file
 mat_pixel.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
 .PHONY : mat_pixel.cpp.i
 
 mat_pixel.s: mat_pixel.cpp.s
@@ -5988,35 +4287,8 @@ mat_pixel.s: mat_pixel.cpp.s
 
 # target to generate assembly for a file
 mat_pixel.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
 .PHONY : mat_pixel.cpp.s
-
-mat_pixel_affine.o: mat_pixel_affine.cpp.o
-
-.PHONY : mat_pixel_affine.o
-
-# target to build an object file
-mat_pixel_affine.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
-.PHONY : mat_pixel_affine.cpp.o
-
-mat_pixel_affine.i: mat_pixel_affine.cpp.i
-
-.PHONY : mat_pixel_affine.i
-
-# target to preprocess a source file
-mat_pixel_affine.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i
-.PHONY : mat_pixel_affine.cpp.i
-
-mat_pixel_affine.s: mat_pixel_affine.cpp.s
-
-.PHONY : mat_pixel_affine.s
-
-# target to generate assembly for a file
-mat_pixel_affine.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s
-.PHONY : mat_pixel_affine.cpp.s
 
 mat_pixel_resize.o: mat_pixel_resize.cpp.o
 
@@ -6024,7 +4296,7 @@ mat_pixel_resize.o: mat_pixel_resize.cpp.o
 
 # target to build an object file
 mat_pixel_resize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
 .PHONY : mat_pixel_resize.cpp.o
 
 mat_pixel_resize.i: mat_pixel_resize.cpp.i
@@ -6033,7 +4305,7 @@ mat_pixel_resize.i: mat_pixel_resize.cpp.i
 
 # target to preprocess a source file
 mat_pixel_resize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
 .PHONY : mat_pixel_resize.cpp.i
 
 mat_pixel_resize.s: mat_pixel_resize.cpp.s
@@ -6042,7 +4314,7 @@ mat_pixel_resize.s: mat_pixel_resize.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_resize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
 .PHONY : mat_pixel_resize.cpp.s
 
 mat_pixel_rotate.o: mat_pixel_rotate.cpp.o
@@ -6051,7 +4323,7 @@ mat_pixel_rotate.o: mat_pixel_rotate.cpp.o
 
 # target to build an object file
 mat_pixel_rotate.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
 .PHONY : mat_pixel_rotate.cpp.o
 
 mat_pixel_rotate.i: mat_pixel_rotate.cpp.i
@@ -6060,7 +4332,7 @@ mat_pixel_rotate.i: mat_pixel_rotate.cpp.i
 
 # target to preprocess a source file
 mat_pixel_rotate.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
 .PHONY : mat_pixel_rotate.cpp.i
 
 mat_pixel_rotate.s: mat_pixel_rotate.cpp.s
@@ -6069,7 +4341,7 @@ mat_pixel_rotate.s: mat_pixel_rotate.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_rotate.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
 .PHONY : mat_pixel_rotate.cpp.s
 
 modelbin.o: modelbin.cpp.o
@@ -6078,7 +4350,7 @@ modelbin.o: modelbin.cpp.o
 
 # target to build an object file
 modelbin.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
 .PHONY : modelbin.cpp.o
 
 modelbin.i: modelbin.cpp.i
@@ -6087,7 +4359,7 @@ modelbin.i: modelbin.cpp.i
 
 # target to preprocess a source file
 modelbin.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i
 .PHONY : modelbin.cpp.i
 
 modelbin.s: modelbin.cpp.s
@@ -6096,7 +4368,7 @@ modelbin.s: modelbin.cpp.s
 
 # target to generate assembly for a file
 modelbin.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s
 .PHONY : modelbin.cpp.s
 
 net.o: net.cpp.o
@@ -6105,7 +4377,7 @@ net.o: net.cpp.o
 
 # target to build an object file
 net.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o
 .PHONY : net.cpp.o
 
 net.i: net.cpp.i
@@ -6114,7 +4386,7 @@ net.i: net.cpp.i
 
 # target to preprocess a source file
 net.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i
 .PHONY : net.cpp.i
 
 net.s: net.cpp.s
@@ -6123,8 +4395,35 @@ net.s: net.cpp.s
 
 # target to generate assembly for a file
 net.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s
 .PHONY : net.cpp.s
+
+opencv.o: opencv.cpp.o
+
+.PHONY : opencv.o
+
+# target to build an object file
+opencv.cpp.o:
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o
+.PHONY : opencv.cpp.o
+
+opencv.i: opencv.cpp.i
+
+.PHONY : opencv.i
+
+# target to preprocess a source file
+opencv.cpp.i:
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.i
+.PHONY : opencv.cpp.i
+
+opencv.s: opencv.cpp.s
+
+.PHONY : opencv.s
+
+# target to generate assembly for a file
+opencv.cpp.s:
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.s
+.PHONY : opencv.cpp.s
 
 option.o: option.cpp.o
 
@@ -6132,7 +4431,7 @@ option.o: option.cpp.o
 
 # target to build an object file
 option.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o
 .PHONY : option.cpp.o
 
 option.i: option.cpp.i
@@ -6141,7 +4440,7 @@ option.i: option.cpp.i
 
 # target to preprocess a source file
 option.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i
 .PHONY : option.cpp.i
 
 option.s: option.cpp.s
@@ -6150,7 +4449,7 @@ option.s: option.cpp.s
 
 # target to generate assembly for a file
 option.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s
 .PHONY : option.cpp.s
 
 paramdict.o: paramdict.cpp.o
@@ -6159,7 +4458,7 @@ paramdict.o: paramdict.cpp.o
 
 # target to build an object file
 paramdict.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
 .PHONY : paramdict.cpp.o
 
 paramdict.i: paramdict.cpp.i
@@ -6168,7 +4467,7 @@ paramdict.i: paramdict.cpp.i
 
 # target to preprocess a source file
 paramdict.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i
 .PHONY : paramdict.cpp.i
 
 paramdict.s: paramdict.cpp.s
@@ -6177,7 +4476,7 @@ paramdict.s: paramdict.cpp.s
 
 # target to generate assembly for a file
 paramdict.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s
 .PHONY : paramdict.cpp.s
 
 pipeline.o: pipeline.cpp.o
@@ -6186,7 +4485,7 @@ pipeline.o: pipeline.cpp.o
 
 # target to build an object file
 pipeline.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
 .PHONY : pipeline.cpp.o
 
 pipeline.i: pipeline.cpp.i
@@ -6195,7 +4494,7 @@ pipeline.i: pipeline.cpp.i
 
 # target to preprocess a source file
 pipeline.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i
 .PHONY : pipeline.cpp.i
 
 pipeline.s: pipeline.cpp.s
@@ -6204,116 +4503,8 @@ pipeline.s: pipeline.cpp.s
 
 # target to generate assembly for a file
 pipeline.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s
 .PHONY : pipeline.cpp.s
-
-pipelinecache.o: pipelinecache.cpp.o
-
-.PHONY : pipelinecache.o
-
-# target to build an object file
-pipelinecache.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
-.PHONY : pipelinecache.cpp.o
-
-pipelinecache.i: pipelinecache.cpp.i
-
-.PHONY : pipelinecache.i
-
-# target to preprocess a source file
-pipelinecache.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.i
-.PHONY : pipelinecache.cpp.i
-
-pipelinecache.s: pipelinecache.cpp.s
-
-.PHONY : pipelinecache.s
-
-# target to generate assembly for a file
-pipelinecache.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.s
-.PHONY : pipelinecache.cpp.s
-
-simpleocv.o: simpleocv.cpp.o
-
-.PHONY : simpleocv.o
-
-# target to build an object file
-simpleocv.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
-.PHONY : simpleocv.cpp.o
-
-simpleocv.i: simpleocv.cpp.i
-
-.PHONY : simpleocv.i
-
-# target to preprocess a source file
-simpleocv.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.i
-.PHONY : simpleocv.cpp.i
-
-simpleocv.s: simpleocv.cpp.s
-
-.PHONY : simpleocv.s
-
-# target to generate assembly for a file
-simpleocv.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.s
-.PHONY : simpleocv.cpp.s
-
-simpleomp.o: simpleomp.cpp.o
-
-.PHONY : simpleomp.o
-
-# target to build an object file
-simpleomp.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
-.PHONY : simpleomp.cpp.o
-
-simpleomp.i: simpleomp.cpp.i
-
-.PHONY : simpleomp.i
-
-# target to preprocess a source file
-simpleomp.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.i
-.PHONY : simpleomp.cpp.i
-
-simpleomp.s: simpleomp.cpp.s
-
-.PHONY : simpleomp.s
-
-# target to generate assembly for a file
-simpleomp.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.s
-.PHONY : simpleomp.cpp.s
-
-simplestl.o: simplestl.cpp.o
-
-.PHONY : simplestl.o
-
-# target to build an object file
-simplestl.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o
-.PHONY : simplestl.cpp.o
-
-simplestl.i: simplestl.cpp.i
-
-.PHONY : simplestl.i
-
-# target to preprocess a source file
-simplestl.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.i
-.PHONY : simplestl.cpp.i
-
-simplestl.s: simplestl.cpp.s
-
-.PHONY : simplestl.s
-
-# target to generate assembly for a file
-simplestl.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.s
-.PHONY : simplestl.cpp.s
 
 # Help Target
 help:
@@ -6324,10 +4515,10 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... ncnn"
+	@echo "... generate-spirv"
+	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... ncnn-generate-spirv"
 	@echo "... install"
 	@echo "... allocator.o"
 	@echo "... allocator.i"
@@ -6338,9 +4529,6 @@ help:
 	@echo "... blob.o"
 	@echo "... blob.i"
 	@echo "... blob.s"
-	@echo "... c_api.o"
-	@echo "... c_api.i"
-	@echo "... c_api.s"
 	@echo "... command.o"
 	@echo "... command.i"
 	@echo "... command.s"
@@ -6362,255 +4550,114 @@ help:
 	@echo "... layer/arm/absval_arm.o"
 	@echo "... layer/arm/absval_arm.i"
 	@echo "... layer/arm/absval_arm.s"
-	@echo "... layer/arm/absval_arm_arm82.o"
-	@echo "... layer/arm/absval_arm_arm82.i"
-	@echo "... layer/arm/absval_arm_arm82.s"
 	@echo "... layer/arm/batchnorm_arm.o"
 	@echo "... layer/arm/batchnorm_arm.i"
 	@echo "... layer/arm/batchnorm_arm.s"
-	@echo "... layer/arm/batchnorm_arm_arm82.o"
-	@echo "... layer/arm/batchnorm_arm_arm82.i"
-	@echo "... layer/arm/batchnorm_arm_arm82.s"
 	@echo "... layer/arm/bias_arm.o"
 	@echo "... layer/arm/bias_arm.i"
 	@echo "... layer/arm/bias_arm.s"
-	@echo "... layer/arm/bias_arm_arm82.o"
-	@echo "... layer/arm/bias_arm_arm82.i"
-	@echo "... layer/arm/bias_arm_arm82.s"
 	@echo "... layer/arm/binaryop_arm.o"
 	@echo "... layer/arm/binaryop_arm.i"
 	@echo "... layer/arm/binaryop_arm.s"
-	@echo "... layer/arm/binaryop_arm_arm82.o"
-	@echo "... layer/arm/binaryop_arm_arm82.i"
-	@echo "... layer/arm/binaryop_arm_arm82.s"
 	@echo "... layer/arm/cast_arm.o"
 	@echo "... layer/arm/cast_arm.i"
 	@echo "... layer/arm/cast_arm.s"
-	@echo "... layer/arm/cast_arm_arm82.o"
-	@echo "... layer/arm/cast_arm_arm82.i"
-	@echo "... layer/arm/cast_arm_arm82.s"
 	@echo "... layer/arm/clip_arm.o"
 	@echo "... layer/arm/clip_arm.i"
 	@echo "... layer/arm/clip_arm.s"
-	@echo "... layer/arm/clip_arm_arm82.o"
-	@echo "... layer/arm/clip_arm_arm82.i"
-	@echo "... layer/arm/clip_arm_arm82.s"
 	@echo "... layer/arm/concat_arm.o"
 	@echo "... layer/arm/concat_arm.i"
 	@echo "... layer/arm/concat_arm.s"
-	@echo "... layer/arm/concat_arm_arm82.o"
-	@echo "... layer/arm/concat_arm_arm82.i"
-	@echo "... layer/arm/concat_arm_arm82.s"
 	@echo "... layer/arm/convolution_arm.o"
 	@echo "... layer/arm/convolution_arm.i"
 	@echo "... layer/arm/convolution_arm.s"
-	@echo "... layer/arm/convolution_arm_arm82.o"
-	@echo "... layer/arm/convolution_arm_arm82.i"
-	@echo "... layer/arm/convolution_arm_arm82.s"
 	@echo "... layer/arm/convolutiondepthwise_arm.o"
 	@echo "... layer/arm/convolutiondepthwise_arm.i"
 	@echo "... layer/arm/convolutiondepthwise_arm.s"
-	@echo "... layer/arm/convolutiondepthwise_arm_arm82.o"
-	@echo "... layer/arm/convolutiondepthwise_arm_arm82.i"
-	@echo "... layer/arm/convolutiondepthwise_arm_arm82.s"
 	@echo "... layer/arm/crop_arm.o"
 	@echo "... layer/arm/crop_arm.i"
 	@echo "... layer/arm/crop_arm.s"
-	@echo "... layer/arm/crop_arm_arm82.o"
-	@echo "... layer/arm/crop_arm_arm82.i"
-	@echo "... layer/arm/crop_arm_arm82.s"
 	@echo "... layer/arm/deconvolution_arm.o"
 	@echo "... layer/arm/deconvolution_arm.i"
 	@echo "... layer/arm/deconvolution_arm.s"
-	@echo "... layer/arm/deconvolution_arm_arm82.o"
-	@echo "... layer/arm/deconvolution_arm_arm82.i"
-	@echo "... layer/arm/deconvolution_arm_arm82.s"
 	@echo "... layer/arm/deconvolutiondepthwise_arm.o"
 	@echo "... layer/arm/deconvolutiondepthwise_arm.i"
 	@echo "... layer/arm/deconvolutiondepthwise_arm.s"
-	@echo "... layer/arm/deconvolutiondepthwise_arm_arm82.o"
-	@echo "... layer/arm/deconvolutiondepthwise_arm_arm82.i"
-	@echo "... layer/arm/deconvolutiondepthwise_arm_arm82.s"
 	@echo "... layer/arm/dequantize_arm.o"
 	@echo "... layer/arm/dequantize_arm.i"
 	@echo "... layer/arm/dequantize_arm.s"
-	@echo "... layer/arm/dequantize_arm_arm82.o"
-	@echo "... layer/arm/dequantize_arm_arm82.i"
-	@echo "... layer/arm/dequantize_arm_arm82.s"
 	@echo "... layer/arm/dropout_arm.o"
 	@echo "... layer/arm/dropout_arm.i"
 	@echo "... layer/arm/dropout_arm.s"
-	@echo "... layer/arm/dropout_arm_arm82.o"
-	@echo "... layer/arm/dropout_arm_arm82.i"
-	@echo "... layer/arm/dropout_arm_arm82.s"
 	@echo "... layer/arm/eltwise_arm.o"
 	@echo "... layer/arm/eltwise_arm.i"
 	@echo "... layer/arm/eltwise_arm.s"
-	@echo "... layer/arm/eltwise_arm_arm82.o"
-	@echo "... layer/arm/eltwise_arm_arm82.i"
-	@echo "... layer/arm/eltwise_arm_arm82.s"
 	@echo "... layer/arm/flatten_arm.o"
 	@echo "... layer/arm/flatten_arm.i"
 	@echo "... layer/arm/flatten_arm.s"
-	@echo "... layer/arm/flatten_arm_arm82.o"
-	@echo "... layer/arm/flatten_arm_arm82.i"
-	@echo "... layer/arm/flatten_arm_arm82.s"
-	@echo "... layer/arm/gru_arm.o"
-	@echo "... layer/arm/gru_arm.i"
-	@echo "... layer/arm/gru_arm.s"
-	@echo "... layer/arm/gru_arm_arm82.o"
-	@echo "... layer/arm/gru_arm_arm82.i"
-	@echo "... layer/arm/gru_arm_arm82.s"
 	@echo "... layer/arm/hardsigmoid_arm.o"
 	@echo "... layer/arm/hardsigmoid_arm.i"
 	@echo "... layer/arm/hardsigmoid_arm.s"
-	@echo "... layer/arm/hardsigmoid_arm_arm82.o"
-	@echo "... layer/arm/hardsigmoid_arm_arm82.i"
-	@echo "... layer/arm/hardsigmoid_arm_arm82.s"
 	@echo "... layer/arm/hardswish_arm.o"
 	@echo "... layer/arm/hardswish_arm.i"
 	@echo "... layer/arm/hardswish_arm.s"
-	@echo "... layer/arm/hardswish_arm_arm82.o"
-	@echo "... layer/arm/hardswish_arm_arm82.i"
-	@echo "... layer/arm/hardswish_arm_arm82.s"
 	@echo "... layer/arm/innerproduct_arm.o"
 	@echo "... layer/arm/innerproduct_arm.i"
 	@echo "... layer/arm/innerproduct_arm.s"
-	@echo "... layer/arm/innerproduct_arm_arm82.o"
-	@echo "... layer/arm/innerproduct_arm_arm82.i"
-	@echo "... layer/arm/innerproduct_arm_arm82.s"
 	@echo "... layer/arm/interp_arm.o"
 	@echo "... layer/arm/interp_arm.i"
 	@echo "... layer/arm/interp_arm.s"
-	@echo "... layer/arm/interp_arm_arm82.o"
-	@echo "... layer/arm/interp_arm_arm82.i"
-	@echo "... layer/arm/interp_arm_arm82.s"
 	@echo "... layer/arm/lrn_arm.o"
 	@echo "... layer/arm/lrn_arm.i"
 	@echo "... layer/arm/lrn_arm.s"
-	@echo "... layer/arm/lrn_arm_arm82.o"
-	@echo "... layer/arm/lrn_arm_arm82.i"
-	@echo "... layer/arm/lrn_arm_arm82.s"
-	@echo "... layer/arm/lstm_arm.o"
-	@echo "... layer/arm/lstm_arm.i"
-	@echo "... layer/arm/lstm_arm.s"
-	@echo "... layer/arm/lstm_arm_arm82.o"
-	@echo "... layer/arm/lstm_arm_arm82.i"
-	@echo "... layer/arm/lstm_arm_arm82.s"
-	@echo "... layer/arm/mish_arm.o"
-	@echo "... layer/arm/mish_arm.i"
-	@echo "... layer/arm/mish_arm.s"
-	@echo "... layer/arm/mish_arm_arm82.o"
-	@echo "... layer/arm/mish_arm_arm82.i"
-	@echo "... layer/arm/mish_arm_arm82.s"
 	@echo "... layer/arm/packing_arm.o"
 	@echo "... layer/arm/packing_arm.i"
 	@echo "... layer/arm/packing_arm.s"
-	@echo "... layer/arm/packing_arm_arm82.o"
-	@echo "... layer/arm/packing_arm_arm82.i"
-	@echo "... layer/arm/packing_arm_arm82.s"
 	@echo "... layer/arm/padding_arm.o"
 	@echo "... layer/arm/padding_arm.i"
 	@echo "... layer/arm/padding_arm.s"
-	@echo "... layer/arm/padding_arm_arm82.o"
-	@echo "... layer/arm/padding_arm_arm82.i"
-	@echo "... layer/arm/padding_arm_arm82.s"
 	@echo "... layer/arm/pooling_arm.o"
 	@echo "... layer/arm/pooling_arm.i"
 	@echo "... layer/arm/pooling_arm.s"
-	@echo "... layer/arm/pooling_arm_arm82.o"
-	@echo "... layer/arm/pooling_arm_arm82.i"
-	@echo "... layer/arm/pooling_arm_arm82.s"
 	@echo "... layer/arm/prelu_arm.o"
 	@echo "... layer/arm/prelu_arm.i"
 	@echo "... layer/arm/prelu_arm.s"
-	@echo "... layer/arm/prelu_arm_arm82.o"
-	@echo "... layer/arm/prelu_arm_arm82.i"
-	@echo "... layer/arm/prelu_arm_arm82.s"
 	@echo "... layer/arm/quantize_arm.o"
 	@echo "... layer/arm/quantize_arm.i"
 	@echo "... layer/arm/quantize_arm.s"
-	@echo "... layer/arm/quantize_arm_arm82.o"
-	@echo "... layer/arm/quantize_arm_arm82.i"
-	@echo "... layer/arm/quantize_arm_arm82.s"
 	@echo "... layer/arm/relu_arm.o"
 	@echo "... layer/arm/relu_arm.i"
 	@echo "... layer/arm/relu_arm.s"
-	@echo "... layer/arm/relu_arm_arm82.o"
-	@echo "... layer/arm/relu_arm_arm82.i"
-	@echo "... layer/arm/relu_arm_arm82.s"
 	@echo "... layer/arm/requantize_arm.o"
 	@echo "... layer/arm/requantize_arm.i"
 	@echo "... layer/arm/requantize_arm.s"
-	@echo "... layer/arm/requantize_arm_arm82.o"
-	@echo "... layer/arm/requantize_arm_arm82.i"
-	@echo "... layer/arm/requantize_arm_arm82.s"
 	@echo "... layer/arm/reshape_arm.o"
 	@echo "... layer/arm/reshape_arm.i"
 	@echo "... layer/arm/reshape_arm.s"
-	@echo "... layer/arm/reshape_arm_arm82.o"
-	@echo "... layer/arm/reshape_arm_arm82.i"
-	@echo "... layer/arm/reshape_arm_arm82.s"
-	@echo "... layer/arm/rnn_arm.o"
-	@echo "... layer/arm/rnn_arm.i"
-	@echo "... layer/arm/rnn_arm.s"
-	@echo "... layer/arm/rnn_arm_arm82.o"
-	@echo "... layer/arm/rnn_arm_arm82.i"
-	@echo "... layer/arm/rnn_arm_arm82.s"
 	@echo "... layer/arm/scale_arm.o"
 	@echo "... layer/arm/scale_arm.i"
 	@echo "... layer/arm/scale_arm.s"
-	@echo "... layer/arm/scale_arm_arm82.o"
-	@echo "... layer/arm/scale_arm_arm82.i"
-	@echo "... layer/arm/scale_arm_arm82.s"
 	@echo "... layer/arm/selu_arm.o"
 	@echo "... layer/arm/selu_arm.i"
 	@echo "... layer/arm/selu_arm.s"
-	@echo "... layer/arm/selu_arm_arm82.o"
-	@echo "... layer/arm/selu_arm_arm82.i"
-	@echo "... layer/arm/selu_arm_arm82.s"
 	@echo "... layer/arm/shufflechannel_arm.o"
 	@echo "... layer/arm/shufflechannel_arm.i"
 	@echo "... layer/arm/shufflechannel_arm.s"
-	@echo "... layer/arm/shufflechannel_arm_arm82.o"
-	@echo "... layer/arm/shufflechannel_arm_arm82.i"
-	@echo "... layer/arm/shufflechannel_arm_arm82.s"
 	@echo "... layer/arm/sigmoid_arm.o"
 	@echo "... layer/arm/sigmoid_arm.i"
 	@echo "... layer/arm/sigmoid_arm.s"
-	@echo "... layer/arm/sigmoid_arm_arm82.o"
-	@echo "... layer/arm/sigmoid_arm_arm82.i"
-	@echo "... layer/arm/sigmoid_arm_arm82.s"
 	@echo "... layer/arm/slice_arm.o"
 	@echo "... layer/arm/slice_arm.i"
 	@echo "... layer/arm/slice_arm.s"
-	@echo "... layer/arm/slice_arm_arm82.o"
-	@echo "... layer/arm/slice_arm_arm82.i"
-	@echo "... layer/arm/slice_arm_arm82.s"
 	@echo "... layer/arm/softmax_arm.o"
 	@echo "... layer/arm/softmax_arm.i"
 	@echo "... layer/arm/softmax_arm.s"
-	@echo "... layer/arm/softmax_arm_arm82.o"
-	@echo "... layer/arm/softmax_arm_arm82.i"
-	@echo "... layer/arm/softmax_arm_arm82.s"
-	@echo "... layer/arm/swish_arm.o"
-	@echo "... layer/arm/swish_arm.i"
-	@echo "... layer/arm/swish_arm.s"
-	@echo "... layer/arm/swish_arm_arm82.o"
-	@echo "... layer/arm/swish_arm_arm82.i"
-	@echo "... layer/arm/swish_arm_arm82.s"
 	@echo "... layer/arm/tanh_arm.o"
 	@echo "... layer/arm/tanh_arm.i"
 	@echo "... layer/arm/tanh_arm.s"
-	@echo "... layer/arm/tanh_arm_arm82.o"
-	@echo "... layer/arm/tanh_arm_arm82.i"
-	@echo "... layer/arm/tanh_arm_arm82.s"
 	@echo "... layer/arm/unaryop_arm.o"
 	@echo "... layer/arm/unaryop_arm.i"
 	@echo "... layer/arm/unaryop_arm.s"
-	@echo "... layer/arm/unaryop_arm_arm82.o"
-	@echo "... layer/arm/unaryop_arm_arm82.i"
-	@echo "... layer/arm/unaryop_arm_arm82.s"
 	@echo "... layer/batchnorm.o"
 	@echo "... layer/batchnorm.i"
 	@echo "... layer/batchnorm.s"
@@ -6677,18 +4724,6 @@ help:
 	@echo "... layer/flatten.o"
 	@echo "... layer/flatten.i"
 	@echo "... layer/flatten.s"
-	@echo "... layer/gelu.o"
-	@echo "... layer/gelu.i"
-	@echo "... layer/gelu.s"
-	@echo "... layer/gemm.o"
-	@echo "... layer/gemm.i"
-	@echo "... layer/gemm.s"
-	@echo "... layer/groupnorm.o"
-	@echo "... layer/groupnorm.i"
-	@echo "... layer/groupnorm.s"
-	@echo "... layer/gru.o"
-	@echo "... layer/gru.i"
-	@echo "... layer/gru.s"
 	@echo "... layer/hardsigmoid.o"
 	@echo "... layer/hardsigmoid.i"
 	@echo "... layer/hardsigmoid.s"
@@ -6707,9 +4742,6 @@ help:
 	@echo "... layer/interp.o"
 	@echo "... layer/interp.i"
 	@echo "... layer/interp.s"
-	@echo "... layer/layernorm.o"
-	@echo "... layer/layernorm.i"
-	@echo "... layer/layernorm.s"
 	@echo "... layer/log.o"
 	@echo "... layer/log.i"
 	@echo "... layer/log.s"
@@ -6722,12 +4754,6 @@ help:
 	@echo "... layer/memorydata.o"
 	@echo "... layer/memorydata.i"
 	@echo "... layer/memorydata.s"
-	@echo "... layer/mish.o"
-	@echo "... layer/mish.i"
-	@echo "... layer/mish.s"
-	@echo "... layer/multiheadattention.o"
-	@echo "... layer/multiheadattention.i"
-	@echo "... layer/multiheadattention.s"
 	@echo "... layer/mvn.o"
 	@echo "... layer/mvn.i"
 	@echo "... layer/mvn.s"
@@ -6785,12 +4811,6 @@ help:
 	@echo "... layer/reshape.o"
 	@echo "... layer/reshape.i"
 	@echo "... layer/reshape.s"
-	@echo "... layer/rnn.o"
-	@echo "... layer/rnn.i"
-	@echo "... layer/rnn.s"
-	@echo "... layer/roialign.o"
-	@echo "... layer/roialign.i"
-	@echo "... layer/roialign.s"
 	@echo "... layer/roipooling.o"
 	@echo "... layer/roipooling.i"
 	@echo "... layer/roipooling.s"
@@ -6812,21 +4832,12 @@ help:
 	@echo "... layer/softmax.o"
 	@echo "... layer/softmax.i"
 	@echo "... layer/softmax.s"
-	@echo "... layer/softplus.o"
-	@echo "... layer/softplus.i"
-	@echo "... layer/softplus.s"
 	@echo "... layer/split.o"
 	@echo "... layer/split.i"
 	@echo "... layer/split.s"
 	@echo "... layer/squeeze.o"
 	@echo "... layer/squeeze.i"
 	@echo "... layer/squeeze.s"
-	@echo "... layer/statisticspooling.o"
-	@echo "... layer/statisticspooling.i"
-	@echo "... layer/statisticspooling.s"
-	@echo "... layer/swish.o"
-	@echo "... layer/swish.i"
-	@echo "... layer/swish.s"
 	@echo "... layer/tanh.o"
 	@echo "... layer/tanh.i"
 	@echo "... layer/tanh.s"
@@ -6899,12 +4910,6 @@ help:
 	@echo "... layer/vulkan/lrn_vulkan.o"
 	@echo "... layer/vulkan/lrn_vulkan.i"
 	@echo "... layer/vulkan/lrn_vulkan.s"
-	@echo "... layer/vulkan/memorydata_vulkan.o"
-	@echo "... layer/vulkan/memorydata_vulkan.i"
-	@echo "... layer/vulkan/memorydata_vulkan.s"
-	@echo "... layer/vulkan/mish_vulkan.o"
-	@echo "... layer/vulkan/mish_vulkan.i"
-	@echo "... layer/vulkan/mish_vulkan.s"
 	@echo "... layer/vulkan/normalize_vulkan.o"
 	@echo "... layer/vulkan/normalize_vulkan.i"
 	@echo "... layer/vulkan/normalize_vulkan.s"
@@ -6953,9 +4958,6 @@ help:
 	@echo "... layer/vulkan/softmax_vulkan.o"
 	@echo "... layer/vulkan/softmax_vulkan.i"
 	@echo "... layer/vulkan/softmax_vulkan.s"
-	@echo "... layer/vulkan/swish_vulkan.o"
-	@echo "... layer/vulkan/swish_vulkan.i"
-	@echo "... layer/vulkan/swish_vulkan.s"
 	@echo "... layer/vulkan/tanh_vulkan.o"
 	@echo "... layer/vulkan/tanh_vulkan.i"
 	@echo "... layer/vulkan/tanh_vulkan.s"
@@ -6974,9 +4976,6 @@ help:
 	@echo "... mat_pixel.o"
 	@echo "... mat_pixel.i"
 	@echo "... mat_pixel.s"
-	@echo "... mat_pixel_affine.o"
-	@echo "... mat_pixel_affine.i"
-	@echo "... mat_pixel_affine.s"
 	@echo "... mat_pixel_resize.o"
 	@echo "... mat_pixel_resize.i"
 	@echo "... mat_pixel_resize.s"
@@ -6989,6 +4988,9 @@ help:
 	@echo "... net.o"
 	@echo "... net.i"
 	@echo "... net.s"
+	@echo "... opencv.o"
+	@echo "... opencv.i"
+	@echo "... opencv.s"
 	@echo "... option.o"
 	@echo "... option.i"
 	@echo "... option.s"
@@ -6998,18 +5000,6 @@ help:
 	@echo "... pipeline.o"
 	@echo "... pipeline.i"
 	@echo "... pipeline.s"
-	@echo "... pipelinecache.o"
-	@echo "... pipelinecache.i"
-	@echo "... pipelinecache.s"
-	@echo "... simpleocv.o"
-	@echo "... simpleocv.i"
-	@echo "... simpleocv.s"
-	@echo "... simpleomp.o"
-	@echo "... simpleomp.i"
-	@echo "... simpleomp.s"
-	@echo "... simplestl.o"
-	@echo "... simplestl.i"
-	@echo "... simplestl.s"
 .PHONY : help
 
 
@@ -7021,6 +5011,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

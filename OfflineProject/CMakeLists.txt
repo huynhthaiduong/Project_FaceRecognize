@@ -18,7 +18,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(Traing src/Traing.cpp src/student.cpp src/TrainModel.cpp)
+add_executable(Traing src/Traing.cpp src/student.cpp src/TrainModel.cpp src/UltraFace.cpp)
 
 target_link_libraries(Traing ${OpenCV_LIBS} dlib::dlib ncnn stdc++fs)
 

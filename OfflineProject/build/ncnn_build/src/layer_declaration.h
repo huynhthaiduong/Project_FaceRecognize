@@ -25,29 +25,6 @@ public:
 DEFINE_LAYER_CREATOR(AbsVal_final)
 } // namespace ncnn
 
-#include "layer/absval.h"
-#include "layer/arm/absval_arm_arm82.h"
-#include "layer/vulkan/absval_vulkan.h"
-namespace ncnn {
-class AbsVal_final_arm82 : virtual public AbsVal, virtual public AbsVal_arm_arm82, virtual public AbsVal_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = AbsVal::create_pipeline(opt); if (ret) return ret; }
-        { int ret = AbsVal_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = AbsVal_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = AbsVal_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = AbsVal_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = AbsVal::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(AbsVal_final_arm82)
-} // namespace ncnn
-
 #include "layer/batchnorm.h"
 #include "layer/arm/batchnorm_arm.h"
 #include "layer/vulkan/batchnorm_vulkan.h"
@@ -71,29 +48,6 @@ public:
 DEFINE_LAYER_CREATOR(BatchNorm_final)
 } // namespace ncnn
 
-#include "layer/batchnorm.h"
-#include "layer/arm/batchnorm_arm_arm82.h"
-#include "layer/vulkan/batchnorm_vulkan.h"
-namespace ncnn {
-class BatchNorm_final_arm82 : virtual public BatchNorm, virtual public BatchNorm_arm_arm82, virtual public BatchNorm_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = BatchNorm::create_pipeline(opt); if (ret) return ret; }
-        { int ret = BatchNorm_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = BatchNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = BatchNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = BatchNorm_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = BatchNorm::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(BatchNorm_final_arm82)
-} // namespace ncnn
-
 #include "layer/bias.h"
 #include "layer/arm/bias_arm.h"
 namespace ncnn {
@@ -112,26 +66,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Bias_final)
-} // namespace ncnn
-
-#include "layer/bias.h"
-#include "layer/arm/bias_arm_arm82.h"
-namespace ncnn {
-class Bias_final_arm82 : virtual public Bias, virtual public Bias_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Bias::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Bias_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Bias_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Bias::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Bias_final_arm82)
 } // namespace ncnn
 
 #include "layer/bnll.h"
@@ -174,29 +108,6 @@ public:
 DEFINE_LAYER_CREATOR(Concat_final)
 } // namespace ncnn
 
-#include "layer/concat.h"
-#include "layer/arm/concat_arm_arm82.h"
-#include "layer/vulkan/concat_vulkan.h"
-namespace ncnn {
-class Concat_final_arm82 : virtual public Concat, virtual public Concat_arm_arm82, virtual public Concat_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Concat::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Concat_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Concat_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Concat_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Concat_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Concat::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Concat_final_arm82)
-} // namespace ncnn
-
 #include "layer/convolution.h"
 #include "layer/arm/convolution_arm.h"
 #include "layer/vulkan/convolution_vulkan.h"
@@ -218,29 +129,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Convolution_final)
-} // namespace ncnn
-
-#include "layer/convolution.h"
-#include "layer/arm/convolution_arm_arm82.h"
-#include "layer/vulkan/convolution_vulkan.h"
-namespace ncnn {
-class Convolution_final_arm82 : virtual public Convolution, virtual public Convolution_arm_arm82, virtual public Convolution_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Convolution::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Convolution_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Convolution_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Convolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Convolution_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Convolution::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Convolution_final_arm82)
 } // namespace ncnn
 
 #include "layer/crop.h"
@@ -266,29 +154,6 @@ public:
 DEFINE_LAYER_CREATOR(Crop_final)
 } // namespace ncnn
 
-#include "layer/crop.h"
-#include "layer/arm/crop_arm_arm82.h"
-#include "layer/vulkan/crop_vulkan.h"
-namespace ncnn {
-class Crop_final_arm82 : virtual public Crop, virtual public Crop_arm_arm82, virtual public Crop_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Crop::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Crop_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Crop_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Crop_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Crop_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Crop::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Crop_final_arm82)
-} // namespace ncnn
-
 #include "layer/deconvolution.h"
 #include "layer/arm/deconvolution_arm.h"
 #include "layer/vulkan/deconvolution_vulkan.h"
@@ -310,29 +175,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Deconvolution_final)
-} // namespace ncnn
-
-#include "layer/deconvolution.h"
-#include "layer/arm/deconvolution_arm_arm82.h"
-#include "layer/vulkan/deconvolution_vulkan.h"
-namespace ncnn {
-class Deconvolution_final_arm82 : virtual public Deconvolution, virtual public Deconvolution_arm_arm82, virtual public Deconvolution_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Deconvolution::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Deconvolution_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Deconvolution_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Deconvolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Deconvolution_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Deconvolution::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Deconvolution_final_arm82)
 } // namespace ncnn
 
 #include "layer/dropout.h"
@@ -358,29 +200,6 @@ public:
 DEFINE_LAYER_CREATOR(Dropout_final)
 } // namespace ncnn
 
-#include "layer/dropout.h"
-#include "layer/arm/dropout_arm_arm82.h"
-#include "layer/vulkan/dropout_vulkan.h"
-namespace ncnn {
-class Dropout_final_arm82 : virtual public Dropout, virtual public Dropout_arm_arm82, virtual public Dropout_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Dropout::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Dropout_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Dropout_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Dropout_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Dropout_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Dropout::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Dropout_final_arm82)
-} // namespace ncnn
-
 #include "layer/eltwise.h"
 #include "layer/arm/eltwise_arm.h"
 #include "layer/vulkan/eltwise_vulkan.h"
@@ -402,29 +221,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Eltwise_final)
-} // namespace ncnn
-
-#include "layer/eltwise.h"
-#include "layer/arm/eltwise_arm_arm82.h"
-#include "layer/vulkan/eltwise_vulkan.h"
-namespace ncnn {
-class Eltwise_final_arm82 : virtual public Eltwise, virtual public Eltwise_arm_arm82, virtual public Eltwise_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Eltwise::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Eltwise_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Eltwise_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Eltwise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Eltwise_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Eltwise::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Eltwise_final_arm82)
 } // namespace ncnn
 
 #include "layer/elu.h"
@@ -501,29 +297,6 @@ public:
 DEFINE_LAYER_CREATOR(Flatten_final)
 } // namespace ncnn
 
-#include "layer/flatten.h"
-#include "layer/arm/flatten_arm_arm82.h"
-#include "layer/vulkan/flatten_vulkan.h"
-namespace ncnn {
-class Flatten_final_arm82 : virtual public Flatten, virtual public Flatten_arm_arm82, virtual public Flatten_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Flatten::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Flatten_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Flatten_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Flatten_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Flatten_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Flatten::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Flatten_final_arm82)
-} // namespace ncnn
-
 #include "layer/innerproduct.h"
 #include "layer/arm/innerproduct_arm.h"
 #include "layer/vulkan/innerproduct_vulkan.h"
@@ -545,29 +318,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(InnerProduct_final)
-} // namespace ncnn
-
-#include "layer/innerproduct.h"
-#include "layer/arm/innerproduct_arm_arm82.h"
-#include "layer/vulkan/innerproduct_vulkan.h"
-namespace ncnn {
-class InnerProduct_final_arm82 : virtual public InnerProduct, virtual public InnerProduct_arm_arm82, virtual public InnerProduct_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = InnerProduct::create_pipeline(opt); if (ret) return ret; }
-        { int ret = InnerProduct_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = InnerProduct_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = InnerProduct_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = InnerProduct_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = InnerProduct::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(InnerProduct_final_arm82)
 } // namespace ncnn
 
 #include "layer/input.h"
@@ -627,42 +377,16 @@ public:
 DEFINE_LAYER_CREATOR(LRN_final)
 } // namespace ncnn
 
-#include "layer/lrn.h"
-#include "layer/arm/lrn_arm_arm82.h"
-#include "layer/vulkan/lrn_vulkan.h"
-namespace ncnn {
-class LRN_final_arm82 : virtual public LRN, virtual public LRN_arm_arm82, virtual public LRN_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = LRN::create_pipeline(opt); if (ret) return ret; }
-        { int ret = LRN_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = LRN_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = LRN_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = LRN_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = LRN::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(LRN_final_arm82)
-} // namespace ncnn
-
 #include "layer/memorydata.h"
-#include "layer/vulkan/memorydata_vulkan.h"
 namespace ncnn {
-class MemoryData_final : virtual public MemoryData, virtual public MemoryData_vulkan
+class MemoryData_final : virtual public MemoryData
 {
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = MemoryData::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = MemoryData_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = MemoryData_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = MemoryData::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -710,29 +434,6 @@ public:
 DEFINE_LAYER_CREATOR(Pooling_final)
 } // namespace ncnn
 
-#include "layer/pooling.h"
-#include "layer/arm/pooling_arm_arm82.h"
-#include "layer/vulkan/pooling_vulkan.h"
-namespace ncnn {
-class Pooling_final_arm82 : virtual public Pooling, virtual public Pooling_arm_arm82, virtual public Pooling_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Pooling::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Pooling_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Pooling_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Pooling_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Pooling_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Pooling::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Pooling_final_arm82)
-} // namespace ncnn
-
 #include "layer/power.h"
 namespace ncnn {
 class Power_final : virtual public Power
@@ -771,29 +472,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(PReLU_final)
-} // namespace ncnn
-
-#include "layer/prelu.h"
-#include "layer/arm/prelu_arm_arm82.h"
-#include "layer/vulkan/prelu_vulkan.h"
-namespace ncnn {
-class PReLU_final_arm82 : virtual public PReLU, virtual public PReLU_arm_arm82, virtual public PReLU_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = PReLU::create_pipeline(opt); if (ret) return ret; }
-        { int ret = PReLU_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = PReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = PReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = PReLU_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = PReLU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(PReLU_final_arm82)
 } // namespace ncnn
 
 #include "layer/proposal.h"
@@ -853,29 +531,6 @@ public:
 DEFINE_LAYER_CREATOR(ReLU_final)
 } // namespace ncnn
 
-#include "layer/relu.h"
-#include "layer/arm/relu_arm_arm82.h"
-#include "layer/vulkan/relu_vulkan.h"
-namespace ncnn {
-class ReLU_final_arm82 : virtual public ReLU, virtual public ReLU_arm_arm82, virtual public ReLU_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = ReLU::create_pipeline(opt); if (ret) return ret; }
-        { int ret = ReLU_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = ReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = ReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ReLU_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ReLU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(ReLU_final_arm82)
-} // namespace ncnn
-
 #include "layer/reshape.h"
 #include "layer/arm/reshape_arm.h"
 #include "layer/vulkan/reshape_vulkan.h"
@@ -897,29 +552,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Reshape_final)
-} // namespace ncnn
-
-#include "layer/reshape.h"
-#include "layer/arm/reshape_arm_arm82.h"
-#include "layer/vulkan/reshape_vulkan.h"
-namespace ncnn {
-class Reshape_final_arm82 : virtual public Reshape, virtual public Reshape_arm_arm82, virtual public Reshape_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Reshape::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Reshape_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Reshape_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Reshape_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Reshape_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Reshape::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Reshape_final_arm82)
 } // namespace ncnn
 
 #include "layer/roipooling.h"
@@ -962,29 +594,6 @@ public:
 DEFINE_LAYER_CREATOR(Scale_final)
 } // namespace ncnn
 
-#include "layer/scale.h"
-#include "layer/arm/scale_arm_arm82.h"
-#include "layer/vulkan/scale_vulkan.h"
-namespace ncnn {
-class Scale_final_arm82 : virtual public Scale, virtual public Scale_arm_arm82, virtual public Scale_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Scale::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Scale_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Scale_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Scale_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Scale_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Scale::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Scale_final_arm82)
-} // namespace ncnn
-
 #include "layer/sigmoid.h"
 #include "layer/arm/sigmoid_arm.h"
 #include "layer/vulkan/sigmoid_vulkan.h"
@@ -1006,29 +615,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Sigmoid_final)
-} // namespace ncnn
-
-#include "layer/sigmoid.h"
-#include "layer/arm/sigmoid_arm_arm82.h"
-#include "layer/vulkan/sigmoid_vulkan.h"
-namespace ncnn {
-class Sigmoid_final_arm82 : virtual public Sigmoid, virtual public Sigmoid_arm_arm82, virtual public Sigmoid_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Sigmoid::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Sigmoid_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Sigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Sigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Sigmoid_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Sigmoid::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Sigmoid_final_arm82)
 } // namespace ncnn
 
 #include "layer/slice.h"
@@ -1054,29 +640,6 @@ public:
 DEFINE_LAYER_CREATOR(Slice_final)
 } // namespace ncnn
 
-#include "layer/slice.h"
-#include "layer/arm/slice_arm_arm82.h"
-#include "layer/vulkan/slice_vulkan.h"
-namespace ncnn {
-class Slice_final_arm82 : virtual public Slice, virtual public Slice_arm_arm82, virtual public Slice_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Slice::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Slice_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Slice_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Slice_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Slice_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Slice::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Slice_final_arm82)
-} // namespace ncnn
-
 #include "layer/softmax.h"
 #include "layer/arm/softmax_arm.h"
 #include "layer/vulkan/softmax_vulkan.h"
@@ -1098,29 +661,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Softmax_final)
-} // namespace ncnn
-
-#include "layer/softmax.h"
-#include "layer/arm/softmax_arm_arm82.h"
-#include "layer/vulkan/softmax_vulkan.h"
-namespace ncnn {
-class Softmax_final_arm82 : virtual public Softmax, virtual public Softmax_arm_arm82, virtual public Softmax_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Softmax::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Softmax_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Softmax_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Softmax_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Softmax_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Softmax::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Softmax_final_arm82)
 } // namespace ncnn
 
 #include "layer/split.h"
@@ -1163,29 +703,6 @@ public:
 DEFINE_LAYER_CREATOR(TanH_final)
 } // namespace ncnn
 
-#include "layer/tanh.h"
-#include "layer/arm/tanh_arm_arm82.h"
-#include "layer/vulkan/tanh_vulkan.h"
-namespace ncnn {
-class TanH_final_arm82 : virtual public TanH, virtual public TanH_arm_arm82, virtual public TanH_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = TanH::create_pipeline(opt); if (ret) return ret; }
-        { int ret = TanH_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = TanH_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = TanH_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = TanH_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = TanH::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(TanH_final_arm82)
-} // namespace ncnn
-
 #include "layer/threshold.h"
 namespace ncnn {
 class Threshold_final : virtual public Threshold
@@ -1203,84 +720,21 @@ public:
 DEFINE_LAYER_CREATOR(Threshold_final)
 } // namespace ncnn
 
-#include "layer/rnn.h"
-#include "layer/arm/rnn_arm.h"
-namespace ncnn {
-class RNN_final : virtual public RNN, virtual public RNN_arm
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = RNN::create_pipeline(opt); if (ret) return ret; }
-        { int ret = RNN_arm::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = RNN_arm::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = RNN::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(RNN_final)
-} // namespace ncnn
-
-#include "layer/rnn.h"
-#include "layer/arm/rnn_arm_arm82.h"
-namespace ncnn {
-class RNN_final_arm82 : virtual public RNN, virtual public RNN_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = RNN::create_pipeline(opt); if (ret) return ret; }
-        { int ret = RNN_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = RNN_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = RNN::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(RNN_final_arm82)
-} // namespace ncnn
-
 #include "layer/lstm.h"
-#include "layer/arm/lstm_arm.h"
 namespace ncnn {
-class LSTM_final : virtual public LSTM, virtual public LSTM_arm
+class LSTM_final : virtual public LSTM
 {
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = LSTM::create_pipeline(opt); if (ret) return ret; }
-        { int ret = LSTM_arm::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        { int ret = LSTM_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = LSTM::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
 };
 DEFINE_LAYER_CREATOR(LSTM_final)
-} // namespace ncnn
-
-#include "layer/lstm.h"
-#include "layer/arm/lstm_arm_arm82.h"
-namespace ncnn {
-class LSTM_final_arm82 : virtual public LSTM, virtual public LSTM_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = LSTM::create_pipeline(opt); if (ret) return ret; }
-        { int ret = LSTM_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = LSTM_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = LSTM::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(LSTM_final_arm82)
 } // namespace ncnn
 
 #include "layer/binaryop.h"
@@ -1306,29 +760,6 @@ public:
 DEFINE_LAYER_CREATOR(BinaryOp_final)
 } // namespace ncnn
 
-#include "layer/binaryop.h"
-#include "layer/arm/binaryop_arm_arm82.h"
-#include "layer/vulkan/binaryop_vulkan.h"
-namespace ncnn {
-class BinaryOp_final_arm82 : virtual public BinaryOp, virtual public BinaryOp_arm_arm82, virtual public BinaryOp_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = BinaryOp::create_pipeline(opt); if (ret) return ret; }
-        { int ret = BinaryOp_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = BinaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = BinaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = BinaryOp_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = BinaryOp::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(BinaryOp_final_arm82)
-} // namespace ncnn
-
 #include "layer/unaryop.h"
 #include "layer/arm/unaryop_arm.h"
 #include "layer/vulkan/unaryop_vulkan.h"
@@ -1350,29 +781,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(UnaryOp_final)
-} // namespace ncnn
-
-#include "layer/unaryop.h"
-#include "layer/arm/unaryop_arm_arm82.h"
-#include "layer/vulkan/unaryop_vulkan.h"
-namespace ncnn {
-class UnaryOp_final_arm82 : virtual public UnaryOp, virtual public UnaryOp_arm_arm82, virtual public UnaryOp_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = UnaryOp::create_pipeline(opt); if (ret) return ret; }
-        { int ret = UnaryOp_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = UnaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = UnaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = UnaryOp_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = UnaryOp::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(UnaryOp_final_arm82)
 } // namespace ncnn
 
 #include "layer/convolutiondepthwise.h"
@@ -1398,29 +806,6 @@ public:
 DEFINE_LAYER_CREATOR(ConvolutionDepthWise_final)
 } // namespace ncnn
 
-#include "layer/convolutiondepthwise.h"
-#include "layer/arm/convolutiondepthwise_arm_arm82.h"
-#include "layer/vulkan/convolutiondepthwise_vulkan.h"
-namespace ncnn {
-class ConvolutionDepthWise_final_arm82 : virtual public ConvolutionDepthWise, virtual public ConvolutionDepthWise_arm_arm82, virtual public ConvolutionDepthWise_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = ConvolutionDepthWise::create_pipeline(opt); if (ret) return ret; }
-        { int ret = ConvolutionDepthWise_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = ConvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = ConvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ConvolutionDepthWise_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ConvolutionDepthWise::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(ConvolutionDepthWise_final_arm82)
-} // namespace ncnn
-
 #include "layer/padding.h"
 #include "layer/arm/padding_arm.h"
 #include "layer/vulkan/padding_vulkan.h"
@@ -1442,29 +827,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Padding_final)
-} // namespace ncnn
-
-#include "layer/padding.h"
-#include "layer/arm/padding_arm_arm82.h"
-#include "layer/vulkan/padding_vulkan.h"
-namespace ncnn {
-class Padding_final_arm82 : virtual public Padding, virtual public Padding_arm_arm82, virtual public Padding_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Padding::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Padding_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Padding_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Padding_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Padding_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Padding::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Padding_final_arm82)
 } // namespace ncnn
 
 #include "layer/squeeze.h"
@@ -1601,29 +963,6 @@ public:
 DEFINE_LAYER_CREATOR(Interp_final)
 } // namespace ncnn
 
-#include "layer/interp.h"
-#include "layer/arm/interp_arm_arm82.h"
-#include "layer/vulkan/interp_vulkan.h"
-namespace ncnn {
-class Interp_final_arm82 : virtual public Interp, virtual public Interp_arm_arm82, virtual public Interp_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Interp::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Interp_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Interp_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Interp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Interp_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Interp::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Interp_final_arm82)
-} // namespace ncnn
-
 #include "layer/deconvolutiondepthwise.h"
 #include "layer/arm/deconvolutiondepthwise_arm.h"
 #include "layer/vulkan/deconvolutiondepthwise_vulkan.h"
@@ -1647,29 +986,6 @@ public:
 DEFINE_LAYER_CREATOR(DeconvolutionDepthWise_final)
 } // namespace ncnn
 
-#include "layer/deconvolutiondepthwise.h"
-#include "layer/arm/deconvolutiondepthwise_arm_arm82.h"
-#include "layer/vulkan/deconvolutiondepthwise_vulkan.h"
-namespace ncnn {
-class DeconvolutionDepthWise_final_arm82 : virtual public DeconvolutionDepthWise, virtual public DeconvolutionDepthWise_arm_arm82, virtual public DeconvolutionDepthWise_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = DeconvolutionDepthWise::create_pipeline(opt); if (ret) return ret; }
-        { int ret = DeconvolutionDepthWise_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = DeconvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = DeconvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = DeconvolutionDepthWise_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = DeconvolutionDepthWise::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(DeconvolutionDepthWise_final_arm82)
-} // namespace ncnn
-
 #include "layer/shufflechannel.h"
 #include "layer/arm/shufflechannel_arm.h"
 #include "layer/vulkan/shufflechannel_vulkan.h"
@@ -1691,29 +1007,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(ShuffleChannel_final)
-} // namespace ncnn
-
-#include "layer/shufflechannel.h"
-#include "layer/arm/shufflechannel_arm_arm82.h"
-#include "layer/vulkan/shufflechannel_vulkan.h"
-namespace ncnn {
-class ShuffleChannel_final_arm82 : virtual public ShuffleChannel, virtual public ShuffleChannel_arm_arm82, virtual public ShuffleChannel_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = ShuffleChannel::create_pipeline(opt); if (ret) return ret; }
-        { int ret = ShuffleChannel_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = ShuffleChannel_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = ShuffleChannel_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ShuffleChannel_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = ShuffleChannel::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(ShuffleChannel_final_arm82)
 } // namespace ncnn
 
 #include "layer/instancenorm.h"
@@ -1757,29 +1050,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Clip_final)
-} // namespace ncnn
-
-#include "layer/clip.h"
-#include "layer/arm/clip_arm_arm82.h"
-#include "layer/vulkan/clip_vulkan.h"
-namespace ncnn {
-class Clip_final_arm82 : virtual public Clip, virtual public Clip_arm_arm82, virtual public Clip_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Clip::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Clip_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Clip_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Clip_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Clip_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Clip::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Clip_final_arm82)
 } // namespace ncnn
 
 #include "layer/reorg.h"
@@ -1839,26 +1109,6 @@ public:
 DEFINE_LAYER_CREATOR(Quantize_final)
 } // namespace ncnn
 
-#include "layer/quantize.h"
-#include "layer/arm/quantize_arm_arm82.h"
-namespace ncnn {
-class Quantize_final_arm82 : virtual public Quantize, virtual public Quantize_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Quantize::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Quantize_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Quantize_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Quantize::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Quantize_final_arm82)
-} // namespace ncnn
-
 #include "layer/dequantize.h"
 #include "layer/arm/dequantize_arm.h"
 namespace ncnn {
@@ -1877,26 +1127,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Dequantize_final)
-} // namespace ncnn
-
-#include "layer/dequantize.h"
-#include "layer/arm/dequantize_arm_arm82.h"
-namespace ncnn {
-class Dequantize_final_arm82 : virtual public Dequantize, virtual public Dequantize_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Dequantize::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Dequantize_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Dequantize_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Dequantize::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Dequantize_final_arm82)
 } // namespace ncnn
 
 #include "layer/yolov3detectionoutput.h"
@@ -1933,23 +1163,6 @@ public:
 DEFINE_LAYER_CREATOR(PSROIPooling_final)
 } // namespace ncnn
 
-#include "layer/roialign.h"
-namespace ncnn {
-class ROIAlign_final : virtual public ROIAlign
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = ROIAlign::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = ROIAlign::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(ROIAlign_final)
-} // namespace ncnn
-
 #include "layer/packing.h"
 #include "layer/arm/packing_arm.h"
 #include "layer/vulkan/packing_vulkan.h"
@@ -1973,29 +1186,6 @@ public:
 DEFINE_LAYER_CREATOR(Packing_final)
 } // namespace ncnn
 
-#include "layer/packing.h"
-#include "layer/arm/packing_arm_arm82.h"
-#include "layer/vulkan/packing_vulkan.h"
-namespace ncnn {
-class Packing_final_arm82 : virtual public Packing, virtual public Packing_arm_arm82, virtual public Packing_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Packing::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Packing_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Packing_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Packing_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Packing_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Packing::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Packing_final_arm82)
-} // namespace ncnn
-
 #include "layer/requantize.h"
 #include "layer/arm/requantize_arm.h"
 namespace ncnn {
@@ -2014,26 +1204,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(Requantize_final)
-} // namespace ncnn
-
-#include "layer/requantize.h"
-#include "layer/arm/requantize_arm_arm82.h"
-namespace ncnn {
-class Requantize_final_arm82 : virtual public Requantize, virtual public Requantize_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Requantize::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Requantize_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Requantize_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Requantize::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Requantize_final_arm82)
 } // namespace ncnn
 
 #include "layer/cast.h"
@@ -2059,29 +1229,6 @@ public:
 DEFINE_LAYER_CREATOR(Cast_final)
 } // namespace ncnn
 
-#include "layer/cast.h"
-#include "layer/arm/cast_arm_arm82.h"
-#include "layer/vulkan/cast_vulkan.h"
-namespace ncnn {
-class Cast_final_arm82 : virtual public Cast, virtual public Cast_arm_arm82, virtual public Cast_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Cast::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Cast_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Cast_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Cast_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Cast_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Cast::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Cast_final_arm82)
-} // namespace ncnn
-
 #include "layer/hardsigmoid.h"
 #include "layer/arm/hardsigmoid_arm.h"
 #include "layer/vulkan/hardsigmoid_vulkan.h"
@@ -2105,29 +1252,6 @@ public:
 DEFINE_LAYER_CREATOR(HardSigmoid_final)
 } // namespace ncnn
 
-#include "layer/hardsigmoid.h"
-#include "layer/arm/hardsigmoid_arm_arm82.h"
-#include "layer/vulkan/hardsigmoid_vulkan.h"
-namespace ncnn {
-class HardSigmoid_final_arm82 : virtual public HardSigmoid, virtual public HardSigmoid_arm_arm82, virtual public HardSigmoid_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = HardSigmoid::create_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSigmoid_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = HardSigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = HardSigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSigmoid_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSigmoid::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(HardSigmoid_final_arm82)
-} // namespace ncnn
-
 #include "layer/selu.h"
 #include "layer/arm/selu_arm.h"
 namespace ncnn {
@@ -2146,26 +1270,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(SELU_final)
-} // namespace ncnn
-
-#include "layer/selu.h"
-#include "layer/arm/selu_arm_arm82.h"
-namespace ncnn {
-class SELU_final_arm82 : virtual public SELU, virtual public SELU_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = SELU::create_pipeline(opt); if (ret) return ret; }
-        { int ret = SELU_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = SELU_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = SELU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(SELU_final_arm82)
 } // namespace ncnn
 
 #include "layer/hardswish.h"
@@ -2189,29 +1293,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(HardSwish_final)
-} // namespace ncnn
-
-#include "layer/hardswish.h"
-#include "layer/arm/hardswish_arm_arm82.h"
-#include "layer/vulkan/hardswish_vulkan.h"
-namespace ncnn {
-class HardSwish_final_arm82 : virtual public HardSwish, virtual public HardSwish_arm_arm82, virtual public HardSwish_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = HardSwish::create_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSwish_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = HardSwish_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = HardSwish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSwish_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = HardSwish::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(HardSwish_final_arm82)
 } // namespace ncnn
 
 #include "layer/noop.h"
@@ -2269,257 +1350,6 @@ public:
     }
 };
 DEFINE_LAYER_CREATOR(DeepCopy_final)
-} // namespace ncnn
-
-#include "layer/mish.h"
-#include "layer/arm/mish_arm.h"
-#include "layer/vulkan/mish_vulkan.h"
-namespace ncnn {
-class Mish_final : virtual public Mish, virtual public Mish_arm, virtual public Mish_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Mish::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish_arm::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Mish_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Mish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish_arm::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Mish_final)
-} // namespace ncnn
-
-#include "layer/mish.h"
-#include "layer/arm/mish_arm_arm82.h"
-#include "layer/vulkan/mish_vulkan.h"
-namespace ncnn {
-class Mish_final_arm82 : virtual public Mish, virtual public Mish_arm_arm82, virtual public Mish_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Mish::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Mish_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Mish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Mish::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Mish_final_arm82)
-} // namespace ncnn
-
-#include "layer/statisticspooling.h"
-namespace ncnn {
-class StatisticsPooling_final : virtual public StatisticsPooling
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = StatisticsPooling::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = StatisticsPooling::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(StatisticsPooling_final)
-} // namespace ncnn
-
-#include "layer/swish.h"
-#include "layer/arm/swish_arm.h"
-#include "layer/vulkan/swish_vulkan.h"
-namespace ncnn {
-class Swish_final : virtual public Swish, virtual public Swish_arm, virtual public Swish_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Swish::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish_arm::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Swish_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Swish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish_arm::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Swish_final)
-} // namespace ncnn
-
-#include "layer/swish.h"
-#include "layer/arm/swish_arm_arm82.h"
-#include "layer/vulkan/swish_vulkan.h"
-namespace ncnn {
-class Swish_final_arm82 : virtual public Swish, virtual public Swish_arm_arm82, virtual public Swish_vulkan
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Swish::create_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        if (vkdev) { int ret = Swish_vulkan::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        if (vkdev) { int ret = Swish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = Swish::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Swish_final_arm82)
-} // namespace ncnn
-
-#include "layer/gemm.h"
-namespace ncnn {
-class Gemm_final : virtual public Gemm
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Gemm::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Gemm::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Gemm_final)
-} // namespace ncnn
-
-#include "layer/groupnorm.h"
-namespace ncnn {
-class GroupNorm_final : virtual public GroupNorm
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = GroupNorm::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = GroupNorm::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(GroupNorm_final)
-} // namespace ncnn
-
-#include "layer/layernorm.h"
-namespace ncnn {
-class LayerNorm_final : virtual public LayerNorm
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = LayerNorm::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = LayerNorm::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(LayerNorm_final)
-} // namespace ncnn
-
-#include "layer/softplus.h"
-namespace ncnn {
-class Softplus_final : virtual public Softplus
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = Softplus::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = Softplus::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(Softplus_final)
-} // namespace ncnn
-
-#include "layer/gru.h"
-#include "layer/arm/gru_arm.h"
-namespace ncnn {
-class GRU_final : virtual public GRU, virtual public GRU_arm
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = GRU::create_pipeline(opt); if (ret) return ret; }
-        { int ret = GRU_arm::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = GRU_arm::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = GRU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(GRU_final)
-} // namespace ncnn
-
-#include "layer/gru.h"
-#include "layer/arm/gru_arm_arm82.h"
-namespace ncnn {
-class GRU_final_arm82 : virtual public GRU, virtual public GRU_arm_arm82
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = GRU::create_pipeline(opt); if (ret) return ret; }
-        { int ret = GRU_arm_arm82::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = GRU_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
-        { int ret = GRU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(GRU_final_arm82)
-} // namespace ncnn
-
-#include "layer/multiheadattention.h"
-namespace ncnn {
-class MultiHeadAttention_final : virtual public MultiHeadAttention
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = MultiHeadAttention::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = MultiHeadAttention::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(MultiHeadAttention_final)
-} // namespace ncnn
-
-#include "layer/gelu.h"
-namespace ncnn {
-class GELU_final : virtual public GELU
-{
-public:
-    virtual int create_pipeline(const Option& opt) {
-        { int ret = GELU::create_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-    virtual int destroy_pipeline(const Option& opt) {
-        { int ret = GELU::destroy_pipeline(opt); if (ret) return ret; }
-        return 0;
-    }
-};
-DEFINE_LAYER_CREATOR(GELU_final)
 } // namespace ncnn
 
 

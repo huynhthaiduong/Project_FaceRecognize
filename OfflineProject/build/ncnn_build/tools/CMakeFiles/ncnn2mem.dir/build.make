@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/tools/CMakeFiles/ncnn2mem.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/tools/CMakeFiles/ncnn2mem.dir/progress.make
 include ncnn_build/tools/CMakeFiles/ncnn2mem.dir/flags.make
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o: ncnn_build/tools/CMakeFiles/ncnn2mem.dir/flags.make
-ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp
+ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o -c /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp > CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp > CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp -o CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/ncnn2mem.cpp -o CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o.requires:
 
@@ -91,19 +91,13 @@ ncnn2mem_EXTERNAL_OBJECTS =
 ncnn_build/tools/ncnn2mem: ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o
 ncnn_build/tools/ncnn2mem: ncnn_build/tools/CMakeFiles/ncnn2mem.dir/build.make
 ncnn_build/tools/ncnn2mem: ncnn_build/src/libncnn.a
-ncnn_build/tools/ncnn2mem: /usr/lib/aarch64-linux-gnu/libvulkan.so
+ncnn_build/tools/ncnn2mem: /usr/local/lib/libvulkan.so
+ncnn_build/tools/ncnn2mem: /usr/local/lib/libvulkan.so
 ncnn_build/tools/ncnn2mem: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 ncnn_build/tools/ncnn2mem: /usr/lib/aarch64-linux-gnu/libpthread.so
-ncnn_build/tools/ncnn2mem: /usr/lib/aarch64-linux-gnu/libvulkan.so
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/glslang/libglslang.a
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/SPIRV/libSPIRV.a
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/glslang/libMachineIndependent.a
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
-ncnn_build/tools/ncnn2mem: ncnn_build/glslang/glslang/libGenericCodeGen.a
 ncnn_build/tools/ncnn2mem: ncnn_build/tools/CMakeFiles/ncnn2mem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2mem"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2mem.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2mem"
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2mem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/build: ncnn_build/tools/ncnn2mem
@@ -115,10 +109,10 @@ ncnn_build/tools/CMakeFiles/ncnn2mem.dir/requires: ncnn_build/tools/CMakeFiles/n
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/requires
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2mem.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2mem.dir/cmake_clean.cmake
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/clean
 
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/CMakeFiles/ncnn2mem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools /home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/CMakeFiles/ncnn2mem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/depend
 

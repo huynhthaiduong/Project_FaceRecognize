@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp" "/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o"
+  "/home/nghiep/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp" "/home/nghiep/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

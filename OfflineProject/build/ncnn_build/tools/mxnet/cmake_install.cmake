@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/mxnet
+# Install script for directory: /home/nghiep/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/mxnet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

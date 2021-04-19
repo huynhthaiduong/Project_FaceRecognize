@@ -60,7 +60,7 @@ TrainModel::TrainModel(const std::string &bin_path, const std::string &param_pat
     trainmodel.opt.use_fp16_arithmetic = true;
     trainmodel.opt.use_packing_layout = true;
     trainmodel.opt.use_shader_pack8 = false;
-    trainmodel.opt.use_image_storage = false;
+    //trainmodel.opt.use_image_storage = false;
     /* --> End of setting params <-- */
     trainmodel.load_param(param_path.data());
     trainmodel.load_model(bin_path.data());

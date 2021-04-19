@@ -32,6 +32,7 @@ sudo apt-get install libopenblas-dev liblapack-dev
 sudo apt-get install protobuf-compiler libprotobuf-dev
 apt-get install libatlas-base-dev 
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+sudo apt-get install protobuf-compiler libprotobuf-dev
  \
 /============/ \
 RUN WITH GPU \

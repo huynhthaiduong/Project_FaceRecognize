@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Traing.dir/src/Traing.cpp.o"
   "CMakeFiles/Traing.dir/src/student.cpp.o"
   "CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
+  "CMakeFiles/Traing.dir/src/UltraFace.cpp.o"
   "Traing.pdb"
   "Traing"
 )
