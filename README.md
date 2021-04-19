@@ -67,5 +67,5 @@ cmake -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc
 https://kezunlin.me/post/4eb7fcec/
 # Project_FaceRecognize \
 
-
+sudo systemctl restart nvargus-daemon
 

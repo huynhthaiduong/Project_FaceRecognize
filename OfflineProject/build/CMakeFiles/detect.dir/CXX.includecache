@@ -8112,6 +8112,34 @@ windows.h
 posix.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/posix.h
 
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.cpp
+../platform.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/platform.h
+threads_kernel_1.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.h
+process.h
+-
+
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.h
+threads_kernel_abstract.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_abstract.h
+../windows_magic.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/windows_magic.h
+windows.h
+-
+../algs.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/algs.h
+condition_variable
+-
+mutex
+-
+chrono
+-
+threads_kernel_shared.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_shared.h
+threads_kernel_1.cpp
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.cpp
+
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_2.cpp
 ../platform.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/platform.h
@@ -8163,6 +8191,10 @@ auto_mutex_extension.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/test_for_odr_violations.h
 threads_kernel_shared.cpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_shared.cpp
+
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/windows.h
+threads_kernel_1.h
+/home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.h
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/timer.h
 timer/timer.h
@@ -8535,8 +8567,26 @@ time.h
 -
 thread
 -
-libxl.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/libxl.h
+opencv2/core.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/ml.hpp
+-
+iostream
+-
+fstream
+-
+dlib/threads.h
+-
+dlib/misc_api.h
+-
+dlib/logger.h
+-
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
 ../header/student.hpp
@@ -8545,6 +8595,8 @@ libxl.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/TrainModel.hpp
 ../header/UltraFace.hpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
+sstream
+-
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

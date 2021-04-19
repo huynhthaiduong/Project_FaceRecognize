@@ -8531,6 +8531,8 @@ mat.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/student.hpp
 ../header/TrainModel.hpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/TrainModel.hpp
+cmath
+-
 
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
 ../header/student.hpp
@@ -8539,6 +8541,8 @@ mat.h
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/TrainModel.hpp
 ../header/UltraFace.hpp
 /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
+sstream
+-
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

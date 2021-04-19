@@ -1,6 +1,7 @@
 #include "../header/student.hpp"
 #include "../header/TrainModel.hpp"
 #include "../header/UltraFace.hpp"
+#include <sstream>
 
 struct Match_object
 {
@@ -23,55 +24,57 @@ student::student(std::string stdname,std::string stdid,int stdcheck,dlib::matrix
 
 void student::CreateListStu(student &temp_student, std::map<std::string, dlib::matrix<float,0,1>> &data_faces)
 {
-    fstream f;
+    fstream file;
     int status = 0;
     cout << "Enter Student Name: " << std::endl;
     getline(cin, temp_student.student_name);
     cout << "Enter Student ID: " << std::endl;
     getline(cin, temp_student.student_id);
     temp_student.dat_path = "../dat/" + temp_student.student_id + ".dat";
-    std::string std_lst_path = "../list/studentList.txt";
+    std::string std_lst_path = "../list/studentList.csv";
     std::vector<std::string> std_list;
+    std::string line;
     if (fs::exists(std_lst_path))
     {
-        f.open(std_lst_path, ios::in);
-        while (!f.eof())
+        file.open(std_lst_path, ios::in);
+        while (getline( file, line,'\n'))
         {
-            std::string data;
-            getline(f, data);
-            std_list.push_back(data);
+	  istringstream templine(line); 
+	  string data;
+	  while (getline( templine, data,','))
+	  {
+	    std_list.push_back(data.c_str());
+	  }
         }
-        f.close();
-        for (int i = 0; i < std_list.size(); i += 4)
+        file.close();
+        for (int i = 0; i < std_list.size(); i += 2)
         {
-            if (temp_student.student_id == std_list[i])
+            if (temp_student.student_id == std_list[i+1])
             {
-                std_list[i] = temp_student.student_id;
-                std_list[i + 1] = temp_student.student_name;
-                std_list[i + 2] = temp_student.dat_path;
+                std_list[i] = temp_student.student_name;
+                std_list[i + 1] = temp_student.student_id;
                 std_list.pop_back();
                 status = 1;
             }
         }
         if (status == 0)
         {
-            std_list.push_back(temp_student.student_id);
             std_list.push_back(temp_student.student_name);
-            std_list.push_back(temp_student.dat_path);
+            std_list.push_back(temp_student.student_id);
         }
     }
     else
     {
-        std_list.push_back(temp_student.student_id);
         std_list.push_back(temp_student.student_name);
-        std_list.push_back(temp_student.dat_path);
+        std_list.push_back(temp_student.student_id);
     }
-    f.open(std_lst_path, ios::out);
-    for (int i = 0; i < std_list.size(); i++)
+    file.open(std_lst_path, ios::out);
+    for (int i = 0; i < std_list.size(); i+=2)
     {
-        f << std_list[i] + "\n";
+        file << std_list[i] + ",";
+        file << std_list[i+1] + "\n";
     }
-    f.close();
+    file.close();
     if (!fs::exists(temp_student.dat_path))
     {
         serialize(temp_student.dat_path) << data_faces;
@@ -86,22 +89,27 @@ int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst)
 {
     std::map<std::string, dlib::matrix<float, 0, 1>> data_faces;
     std::vector<std::string> std_list;
-    fstream f;
-    if (fs::exists("../list/studentList.txt"))
+    fstream file;
+    std::string line;
+    
+    if (fs::exists("../list/studentList.csv"))
     {
-        f.open("../list/studentList.txt", ios::in);
-        while (!f.eof())
+        file.open("../list/studentList.csv", ios::in);
+        while (getline( file, line,'\n'))
         {
-            std::string data;
-            getline(f, data);
-            std_list.push_back(data);
+	  istringstream templine(line); 
+	  string data;
+	  while (getline( templine, data,','))
+	  {
+	    std_list.push_back(data.c_str());
+	  }
         }
-        f.close();
-        for (int i = 0; i < std_list.size(); i += 4)
+        file.close();
+        for (int i = 0; i < std_list.size(); i += 2)
         {
-            temp_student.student_id = std_list[i];
-            temp_student.student_name = std_list[i + 1];
-            temp_student.dat_path = std_list[i + 2];
+            temp_student.student_name = std_list[i];
+            temp_student.student_id = std_list[i + 1];
+            temp_student.dat_path = "../dat/" + temp_student.student_id + ".dat";
             temp_student.checked = 0;
             if (fs::exists(temp_student.dat_path))
             {
@@ -123,4 +131,3 @@ int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst)
     }
     return 1;
 }
-

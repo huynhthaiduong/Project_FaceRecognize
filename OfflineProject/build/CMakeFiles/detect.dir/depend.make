@@ -877,7 +877,6 @@ CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/net.h
 CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/option.h
 CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/paramdict.h
 CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/pipeline.h
-CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/simplestl.h
 CMakeFiles/detect.dir/src/detect.cpp.o: ../../ncnn/src/vulkan_header_fix.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/algs.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/any.h
@@ -1596,11 +1595,14 @@ CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecog
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threaded_object_extension.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threaded_object_extension_abstract.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel.h
+CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.cpp
+CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_1.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_2.cpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_2.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_abstract.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_shared.cpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/threads_kernel_shared.h
+CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/threads/windows.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/timer.h
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/timer/timer.cpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/../dlib/timer/timer.h
@@ -1730,8 +1732,6 @@ CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/video.hpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/video/background_segm.hpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/video/tracking.hpp
 CMakeFiles/detect.dir/src/detect.cpp.o: /usr/include/opencv4/opencv2/videoio.hpp
-CMakeFiles/detect.dir/src/detect.cpp.o: ncnn_build/src/ncnn_export.h
-CMakeFiles/detect.dir/src/detect.cpp.o: ncnn_build/src/platform.h
 
 CMakeFiles/detect.dir/src/student.cpp.o: ../../ncnn/src/allocator.h
 CMakeFiles/detect.dir/src/student.cpp.o: ../../ncnn/src/blob.h
