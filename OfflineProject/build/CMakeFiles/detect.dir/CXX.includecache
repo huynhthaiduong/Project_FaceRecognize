@@ -8428,20 +8428,6 @@ string
 ../error.h
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/Dlib/dlib/error.h
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/TrainModel.hpp
-gpu.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/gpu.h
-net.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/net.h
-algorithm
--
-iostream
--
-string
--
-vector
--
-
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
 gpu.h
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/gpu.h
@@ -8520,12 +8506,6 @@ string
 math.h
 -
 
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp
-../header/UltraFace.hpp
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
-mat.h
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/mat.h
-
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/detect.cpp
 ../header/UltraFace.hpp
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
@@ -8533,14 +8513,6 @@ mat.h
 /home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/student.hpp
 time.h
 -
-
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/src/student.cpp
-../header/student.hpp
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/student.hpp
-../header/TrainModel.hpp
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/TrainModel.hpp
-../header/UltraFace.hpp
-/home/phamlong0906/Desktop/Project/Project_FaceRecognize/OfflineProject/header/UltraFace.hpp
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -8997,16 +8969,6 @@ lsh_index.h
 /usr/local/include/opencv4/opencv2/flann/lsh_index.h
 autotuned_index.h
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h
-
-/usr/local/include/opencv4/opencv2/flann/any.h
-defines.h
-/usr/local/include/opencv4/opencv2/flann/defines.h
-stdexcept
--
-ostream
--
-typeinfo
--
 
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h
 sstream

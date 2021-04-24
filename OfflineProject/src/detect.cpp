@@ -21,8 +21,8 @@ int main()
     //const std::string gst_pipeline1 = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)1280, height=(int)720, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
     //cv::VideoCapture cap0(gst_pipeline0, cv::CAP_GSTREAMER);
     //cv::VideoCapture cap1(gst_pipeline1, cv::CAP_GSTREAMER);
-    //cv::VideoCapture cap1("../videotest/60fps.mov");
-    cv::VideoCapture cap1(0);
+    cv::VideoCapture cap1("../videotest/60fps.mov");
+    //cv::VideoCapture cap1(0);
     
     if (!cap1.isOpened())//||!cap0.isOpened())
     {
@@ -41,8 +41,8 @@ int main()
 //    cap0>>frameL;
 //    cap1>>frameR;
 //    cv::hconcat(frameL, frameR, img);
-    cv::namedWindow("Detect", cv::WINDOW_AUTOSIZE);
-    cv::resizeWindow("Detect", 1280, 720);
+//    cv::namedWindow("Detect", cv::WINDOW_AUTOSIZE);
+//    cv::resizeWindow("Detect", 1280, 720);
     auto m_StartTime = std::chrono::system_clock::now();
     auto m_EndTime = std::chrono::system_clock::now();
     //clock_t start, end;
@@ -58,7 +58,7 @@ int main()
             std::cout << "Capture read error" << std::endl;
             break;
         }
-
+	cv::resize(img,img,cv::Size(720,360));
         //cv::hconcat(frameL, frameR, img);
 
 	
@@ -93,7 +93,7 @@ int main()
             temp_obj.Avg_value = 0.15f;
             temp_obj.Bound_style = cv::Scalar(0, 0, 255);
             temp_obj.check_index = -1;
-            for (int j = 0; j < temp_lst.size(); j++)
+            /*for (int j = 0; j < temp_lst.size(); j++)
             {
                 //temp_obj.m_checkAvgValue_d = (length(face_descriptors[0] - temp_lst[j].student_features) * length(face_descriptors[0] - temp_lst[j].student_features));
 		temp_obj.m_checkAvgValue_d = ultraface.SubVector(face_descriptors[0], temp_lst[j].student_features);
@@ -105,7 +105,7 @@ int main()
                     temp_obj.Bound_style = cv::Scalar(0, 255, 0);
                     temp_obj.check_index = j;
                 }
-            }
+            }*/
             if (temp_obj.check_index != -1)
             {
                 temp_lst[temp_obj.check_index].checked = 1;
@@ -124,7 +124,7 @@ int main()
 
         cv::imshow("Detect", img);
     }
-    for (int i = 0; i < temp_lst.size(); i++)
+    /*for (int i = 0; i < temp_lst.size(); i++)
     {
         std::cout << "Sinh vien: " << temp_lst[i].student_name << std::endl;
         std::cout << "      MSSV: " << temp_lst[i].student_id << std::endl;
@@ -136,7 +136,7 @@ int main()
         {
             std::cout << "      Vang" << std::endl;
         }
-    }
+    }*/
     cap1.release();
 //    cap0.release();
     return 0;
