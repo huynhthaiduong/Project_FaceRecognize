@@ -30,7 +30,7 @@ typedef struct FaceInfo {
     float x2;
     float y2;
     float score;
-    cv::Point2f landmark[5];
+    cv::Point2f landmark[68];
 } FaceInfo;
 
 class UltraFace {
