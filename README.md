@@ -13,20 +13,25 @@ cd ncnn \
 Step 3  \
 git submodule update --init \
 \
+
+
+
 /============/ \
 DOWNLOAD VULKAN SDK AND SET ENV \
 /============/ \
 Step 1 \
-wget https://sdk.lunarg.com/sdk/download/1.2.154.0/linux/vulkansdk-linux-x86_64-1.2.154.0.tar.gz?Human=true -O \
-vulkansdk-linux-x86_64-1.2.154.0.tar.gz \
+wget https://sdk.lunarg.com/sdk/download/1.2.170.0/linux/vulkansdk-linux-x86_64-1.2.170.0.tar.gz \
 Step 2 \
-tar -xf vulkansdk-linux-x86_64-1.2.154.0.tar.gz \
+tar -xf vulkansdk-linux-x86_64-1.2.170.0.tar.gz \
 Step 3 \
-export VULKAN_SDK=$(pwd)/1.2.154.0/x86_64 \
+export VULKAN_SDK=$(pwd)/1.2.170.0/x86_64 \
 Step 4 \
 sudo apt-get update -y \
 Step 5 \
 sudo apt-get install -y libvulkan-dev \
+
+
+
 Step 6
 sudo apt-get install libopenblas-dev liblapack-dev
 sudo apt-get install protobuf-compiler libprotobuf-dev
@@ -68,4 +73,6 @@ https://kezunlin.me/post/4eb7fcec/
 # Project_FaceRecognize \
 
 sudo systemctl restart nvargus-daemon
+
+https://ncnn.docsforge.com/master/how-to-build/how-to-build/#build-for-linux
 

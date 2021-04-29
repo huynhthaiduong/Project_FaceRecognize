@@ -1,0 +1,3 @@
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/rebuild_cache.dir
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/test_for_libjpeg_build/CMakeFiles/edit_cache.dir

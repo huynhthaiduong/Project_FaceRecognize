@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Traing.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Traing.dir/flags.make
 
 CMakeFiles/Traing.dir/src/Traing.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/Traing.cpp.o: ../src/Traing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Traing.dir/src/Traing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/Traing.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/Traing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Traing.dir/src/Traing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/Traing.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/Traing.cpp
 
 CMakeFiles/Traing.dir/src/Traing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/Traing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/Traing.cpp > CMakeFiles/Traing.dir/src/Traing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/Traing.cpp > CMakeFiles/Traing.dir/src/Traing.cpp.i
 
 CMakeFiles/Traing.dir/src/Traing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/Traing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/Traing.cpp -o CMakeFiles/Traing.dir/src/Traing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/Traing.cpp -o CMakeFiles/Traing.dir/src/Traing.cpp.s
 
 CMakeFiles/Traing.dir/src/Traing.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Traing.dir/src/Traing.cpp.o.provides.build: CMakeFiles/Traing.dir/src
 
 CMakeFiles/Traing.dir/src/student.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/student.cpp.o: ../src/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Traing.dir/src/student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/student.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Traing.dir/src/student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/student.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/student.cpp
 
 CMakeFiles/Traing.dir/src/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/Traing.dir/src/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/student.cpp > CMakeFiles/Traing.dir/src/student.cpp.i
 
 CMakeFiles/Traing.dir/src/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/Traing.dir/src/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/student.cpp -o CMakeFiles/Traing.dir/src/student.cpp.s
 
 CMakeFiles/Traing.dir/src/student.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Traing.dir/src/student.cpp.o.provides.build: CMakeFiles/Traing.dir/sr
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o: CMakeFiles/Traing.dir/flags.make
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o: ../src/TrainModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/TrainModel.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/TrainModel.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/TrainModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp > CMakeFiles/Traing.dir/src/TrainModel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp > CMakeFiles/Traing.dir/src/TrainModel.cpp.i
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/TrainModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp -o CMakeFiles/Traing.dir/src/TrainModel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/TrainModel.cpp -o CMakeFiles/Traing.dir/src/TrainModel.cpp.s
 
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o.requires:
 
@@ -129,11 +129,36 @@ CMakeFiles/Traing.dir/src/TrainModel.cpp.o.provides: CMakeFiles/Traing.dir/src/T
 CMakeFiles/Traing.dir/src/TrainModel.cpp.o.provides.build: CMakeFiles/Traing.dir/src/TrainModel.cpp.o
 
 
+CMakeFiles/Traing.dir/src/UltraFace.cpp.o: CMakeFiles/Traing.dir/flags.make
+CMakeFiles/Traing.dir/src/UltraFace.cpp.o: ../src/UltraFace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Traing.dir/src/UltraFace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traing.dir/src/UltraFace.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp
+
+CMakeFiles/Traing.dir/src/UltraFace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traing.dir/src/UltraFace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp > CMakeFiles/Traing.dir/src/UltraFace.cpp.i
+
+CMakeFiles/Traing.dir/src/UltraFace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traing.dir/src/UltraFace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/src/UltraFace.cpp -o CMakeFiles/Traing.dir/src/UltraFace.cpp.s
+
+CMakeFiles/Traing.dir/src/UltraFace.cpp.o.requires:
+
+.PHONY : CMakeFiles/Traing.dir/src/UltraFace.cpp.o.requires
+
+CMakeFiles/Traing.dir/src/UltraFace.cpp.o.provides: CMakeFiles/Traing.dir/src/UltraFace.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.o.provides.build
+.PHONY : CMakeFiles/Traing.dir/src/UltraFace.cpp.o.provides
+
+CMakeFiles/Traing.dir/src/UltraFace.cpp.o.provides.build: CMakeFiles/Traing.dir/src/UltraFace.cpp.o
+
+
 # Object files for target Traing
 Traing_OBJECTS = \
 "CMakeFiles/Traing.dir/src/Traing.cpp.o" \
 "CMakeFiles/Traing.dir/src/student.cpp.o" \
-"CMakeFiles/Traing.dir/src/TrainModel.cpp.o"
+"CMakeFiles/Traing.dir/src/TrainModel.cpp.o" \
+"CMakeFiles/Traing.dir/src/UltraFace.cpp.o"
 
 # External object files for target Traing
 Traing_EXTERNAL_OBJECTS =
@@ -141,39 +166,63 @@ Traing_EXTERNAL_OBJECTS =
 Traing: CMakeFiles/Traing.dir/src/Traing.cpp.o
 Traing: CMakeFiles/Traing.dir/src/student.cpp.o
 Traing: CMakeFiles/Traing.dir/src/TrainModel.cpp.o
+Traing: CMakeFiles/Traing.dir/src/UltraFace.cpp.o
 Traing: CMakeFiles/Traing.dir/build.make
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_gapi.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1.1
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/local/lib/libopencv_world.so.4.3.0
+Traing: /usr/lib/aarch64-linux-gnu/libmysqlcppconn.so
 Traing: dlib_build/libdlib.a
 Traing: ncnn_build/src/libncnn.a
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.1.1
-Traing: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.1.1
+Traing: /usr/local/lib/libvulkan.so
 Traing: /usr/local/cuda/lib64/libcudart_static.a
 Traing: /usr/lib/aarch64-linux-gnu/librt.so
 Traing: /usr/lib/aarch64-linux-gnu/libSM.so
 Traing: /usr/lib/aarch64-linux-gnu/libICE.so
 Traing: /usr/lib/aarch64-linux-gnu/libX11.so
 Traing: /usr/lib/aarch64-linux-gnu/libXext.so
+Traing: /usr/lib/aarch64-linux-gnu/libpng.so
+Traing: /usr/lib/aarch64-linux-gnu/libz.so
+Traing: /usr/lib/aarch64-linux-gnu/libjpeg.so
 Traing: /usr/lib/aarch64-linux-gnu/libopenblas.so
-Traing: /usr/lib/aarch64-linux-gnu/libcublas.so
+Traing: /usr/local/cuda/lib64/libcublas.so
 Traing: /usr/lib/aarch64-linux-gnu/libcudnn.so
 Traing: /usr/local/cuda/lib64/libcurand.so
 Traing: /usr/local/cuda/lib64/libcusolver.so
 Traing: /usr/local/cuda/lib64/libcudart.so
+Traing: /usr/lib/aarch64-linux-gnu/libiomp5.so
+Traing: /usr/lib/aarch64-linux-gnu/libsqlite3.so
 Traing: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 Traing: /usr/lib/aarch64-linux-gnu/libpthread.so
-Traing: /usr/lib/aarch64-linux-gnu/libvulkan.so
 Traing: ncnn_build/glslang/glslang/libglslang.a
 Traing: ncnn_build/glslang/SPIRV/libSPIRV.a
 Traing: ncnn_build/glslang/glslang/libMachineIndependent.a
@@ -181,7 +230,7 @@ Traing: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 Traing: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 Traing: ncnn_build/glslang/glslang/libGenericCodeGen.a
 Traing: CMakeFiles/Traing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Traing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Traing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Traing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +241,7 @@ CMakeFiles/Traing.dir/build: Traing
 CMakeFiles/Traing.dir/requires: CMakeFiles/Traing.dir/src/Traing.cpp.o.requires
 CMakeFiles/Traing.dir/requires: CMakeFiles/Traing.dir/src/student.cpp.o.requires
 CMakeFiles/Traing.dir/requires: CMakeFiles/Traing.dir/src/TrainModel.cpp.o.requires
+CMakeFiles/Traing.dir/requires: CMakeFiles/Traing.dir/src/UltraFace.cpp.o.requires
 
 .PHONY : CMakeFiles/Traing.dir/requires
 
@@ -200,6 +250,6 @@ CMakeFiles/Traing.dir/clean:
 .PHONY : CMakeFiles/Traing.dir/clean
 
 CMakeFiles/Traing.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/Traing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles/Traing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Traing.dir/depend
 

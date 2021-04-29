@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/progress.make
 include ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp > CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp > CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o.provides.build:
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp > CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp > CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o.provides.bui
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/Logger.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/Logger.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/Logger.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp > CMakeFiles/SPIRV.dir/Logger.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp > CMakeFiles/SPIRV.dir/Logger.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/Logger.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp -o CMakeFiles/SPIRV.dir/Logger.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp -o CMakeFiles/SPIRV.dir/Logger.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o.requires:
 
@@ -130,17 +130,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o.provides.build: ncnn_
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp > CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp > CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o.requires:
 
@@ -154,17 +154,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o.provides.build: n
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp > CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp > CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o.requires:
 
@@ -178,17 +178,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o.provides.buil
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/doc.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/doc.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/doc.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp > CMakeFiles/SPIRV.dir/doc.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp > CMakeFiles/SPIRV.dir/doc.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/doc.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp -o CMakeFiles/SPIRV.dir/doc.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp -o CMakeFiles/SPIRV.dir/doc.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o.requires:
 
@@ -202,17 +202,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvTools.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/SpvTools.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/SpvTools.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp > CMakeFiles/SPIRV.dir/SpvTools.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp > CMakeFiles/SPIRV.dir/SpvTools.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/SpvTools.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp -o CMakeFiles/SPIRV.dir/SpvTools.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp -o CMakeFiles/SPIRV.dir/SpvTools.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o.requires:
 
@@ -226,17 +226,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o.provides.build: ncn
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/disassemble.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/disassemble.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/disassemble.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp > CMakeFiles/SPIRV.dir/disassemble.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp > CMakeFiles/SPIRV.dir/disassemble.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/disassemble.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp -o CMakeFiles/SPIRV.dir/disassemble.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp -o CMakeFiles/SPIRV.dir/disassemble.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o.requires:
 
@@ -250,17 +250,17 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o.provides.build: 
 
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/flags.make
-ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
+ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp > CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp > CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.i
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.s
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o.requires:
 
@@ -299,9 +299,9 @@ ncnn_build/glslang/SPIRV/libSPIRV.a: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.d
 ncnn_build/glslang/SPIRV/libSPIRV.a: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o
 ncnn_build/glslang/SPIRV/libSPIRV.a: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make
 ncnn_build/glslang/SPIRV/libSPIRV.a: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libSPIRV.a"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -P CMakeFiles/SPIRV.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SPIRV.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libSPIRV.a"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -P CMakeFiles/SPIRV.dir/cmake_clean_target.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SPIRV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/build: ncnn_build/glslang/SPIRV/libSPIRV.a
@@ -321,10 +321,10 @@ ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/requires: ncnn_build/glslang/SPIRV
 .PHONY : ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/requires
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -P CMakeFiles/SPIRV.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV && $(CMAKE_COMMAND) -P CMakeFiles/SPIRV.dir/cmake_clean.cmake
 .PHONY : ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/clean
 
 ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/depend
 

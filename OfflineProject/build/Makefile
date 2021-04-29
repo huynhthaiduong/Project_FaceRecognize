@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,8 +94,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -711,6 +711,7 @@ src/UltraFace.o: src/UltraFace.cpp.o
 # target to build an object file
 src/UltraFace.cpp.o:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.o
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.o
 .PHONY : src/UltraFace.cpp.o
 
 src/UltraFace.i: src/UltraFace.cpp.i
@@ -720,6 +721,7 @@ src/UltraFace.i: src/UltraFace.cpp.i
 # target to preprocess a source file
 src/UltraFace.cpp.i:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.i
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.i
 .PHONY : src/UltraFace.cpp.i
 
 src/UltraFace.s: src/UltraFace.cpp.s
@@ -729,6 +731,7 @@ src/UltraFace.s: src/UltraFace.cpp.s
 # target to generate assembly for a file
 src/UltraFace.cpp.s:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/UltraFace.cpp.s
+	$(MAKE) -f CMakeFiles/Traing.dir/build.make CMakeFiles/Traing.dir/src/UltraFace.cpp.s
 .PHONY : src/UltraFace.cpp.s
 
 src/detect.o: src/detect.cpp.o

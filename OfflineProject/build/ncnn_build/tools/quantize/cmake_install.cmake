@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize
+# Install script for directory: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

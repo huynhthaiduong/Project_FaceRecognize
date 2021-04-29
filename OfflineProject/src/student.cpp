@@ -2,6 +2,7 @@
 #include "../header/TrainModel.hpp"
 #include "../header/UltraFace.hpp"
 #include <sstream>
+#include <map>
 
 struct Match_object
 {
@@ -85,16 +86,16 @@ void student::CreateListStu(student &temp_student, std::map<std::string, dlib::m
     }
 }
 
-int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst)
+int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst, std::map<std::string, std::vector<float>> &data_faces)
 {
-    std::map<std::string, dlib::matrix<float, 0, 1>> data_faces;
+    //std::map<std::string, dlib::matrix<float, 0, 1>> data_faces;
     std::vector<std::string> std_list;
     fstream file;
     std::string line;
     
-    if (fs::exists("../list/studentList.csv"))
+    if (fs::exists("../dataface/data_faces.dat"))
     {
-        file.open("../list/studentList.csv", ios::in);
+        /*file.open("../list/studentList.csv", ios::in);
         while (getline( file, line,'\n'))
         {
 	  istringstream templine(line); 
@@ -122,7 +123,9 @@ int student::ReadListStu(student &temp_student, std::vector<student> &temp_lst)
             }
             temp_student.student_features = data_faces[temp_student.student_id];
             temp_lst.push_back(temp_student);
-        }
+        }*/
+
+	deserialize("../dataface/data_faces.dat") >> data_faces;
     }
     else
     {

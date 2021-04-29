@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/progress.make
 include ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/flags.make
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp
+ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp > CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp > CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.
 
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp
+ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp > CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp > CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/GenericCodeGen/Link.cpp -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o.requires:
 
@@ -117,9 +117,9 @@ ncnn_build/glslang/glslang/libGenericCodeGen.a: ncnn_build/glslang/glslang/CMake
 ncnn_build/glslang/glslang/libGenericCodeGen.a: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o
 ncnn_build/glslang/glslang/libGenericCodeGen.a: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make
 ncnn_build/glslang/glslang/libGenericCodeGen.a: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libGenericCodeGen.a"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/GenericCodeGen.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GenericCodeGen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libGenericCodeGen.a"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/GenericCodeGen.dir/cmake_clean_target.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GenericCodeGen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build: ncnn_build/glslang/glslang/libGenericCodeGen.a
@@ -132,10 +132,10 @@ ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/requires: ncnn_build/gl
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/requires
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/GenericCodeGen.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/GenericCodeGen.dir/cmake_clean.cmake
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/clean
 
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/depend
 

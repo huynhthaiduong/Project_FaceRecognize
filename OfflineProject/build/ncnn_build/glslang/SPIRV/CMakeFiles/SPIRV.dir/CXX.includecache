@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/GlslangToSpv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/GlslangToSpv.h
 SpvTools.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/SpvTools.h
 glslang/Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/glslang/Include/intermediate.h
 string
 -
 vector
 -
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
 string
 -
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/SpvTools.h
 vector
 -
 ostream
 -
 spirv-tools/libspirv.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/spirv-tools/libspirv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/spirv-tools/libspirv.h
 glslang/MachineIndependent/localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/glslang/MachineIndependent/localintermediate.h
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../SPIRV/Logger.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
 algorithm
 -
 cassert
@@ -72,15 +72,15 @@ stdint.h
 stdlib.h
 -
 PoolAlloc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/PoolAlloc.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ConstantUnion.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
 ../Include/BaseTypes.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring
@@ -88,51 +88,51 @@ cstring
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Types.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
 ../Include/BaseTypes.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/BaseTypes.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
 arrays.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/arrays.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/arrays.h
 algorithm
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/arrays.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/arrays.h
 algorithm
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_interface.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_interface.h
 stdbool.h
 -
 stdlib.h
 -
 glslang_c_shader_types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_shader_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_shader_types.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_shader_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/glslang_c_shader_types.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/intermediate.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Common.h
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/Types.h
 ../Include/ConstantUnion.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ConstantUnion.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/localintermediate.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/intermediate.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
 Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
 string
 -
 vector
@@ -144,11 +144,11 @@ set
 array
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/../glslang/MachineIndependent/Versions.h
 cstring
 -
 vector
@@ -160,53 +160,53 @@ string
 utility
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp
 glslang/Include/glslang_c_interface.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/glslang/Include/glslang_c_interface.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/glslang/Include/glslang_c_interface.h
 SPIRV/GlslangToSpv.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/GlslangToSpv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/GlslangToSpv.h
 SPIRV/Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/Logger.h
 SPIRV/SpvTools.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/CInterface/SPIRV/SpvTools.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.cpp
 spirv.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 GlslangToSpv.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
 SpvBuilder.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
 GLSL.std.450.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
 GLSL.ext.KHR.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
 GLSL.ext.EXT.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
 GLSL.ext.AMD.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
 GLSL.ext.NV.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
 NonSemanticDebugPrintf.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h
 ../glslang/MachineIndependent/localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 ../glslang/MachineIndependent/SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ../glslang/Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 glslang/build_info.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/build_info.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/build_info.h
 fstream
 -
 iomanip
@@ -222,29 +222,29 @@ string
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
 SpvTools.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
 glslang/Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/Include/intermediate.h
 string
 -
 vector
 -
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/InReadableOrder.cpp
 spvIR.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
 cassert
 -
 unordered_set
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.cpp
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
 algorithm
 -
 iterator
@@ -252,15 +252,15 @@ iterator
 sstream
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
 string
 -
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.cpp
 cassert
 -
 cstdlib
@@ -270,19 +270,19 @@ unordered_set
 algorithm
 -
 SpvBuilder.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
 hex_float.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/hex_float.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/hex_float.h
 cstdio
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
 spirv.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 spvIR.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
 algorithm
 -
 map
@@ -300,7 +300,7 @@ unordered_map
 map
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvPostProcess.cpp
 cassert
 -
 cstdlib
@@ -312,53 +312,53 @@ unordered_set
 algorithm
 -
 SpvBuilder.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
 spirv.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 GlslangToSpv.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GlslangToSpv.h
 SpvBuilder.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvBuilder.h
 GLSL.std.450.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
 GLSL.ext.KHR.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
 GLSL.ext.EXT.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
 GLSL.ext.AMD.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
 GLSL.ext.NV.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.cpp
 cstdio
 -
 iostream
 -
 SpvTools.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
 spirv-tools/optimizer.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv-tools/optimizer.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv-tools/optimizer.hpp
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/SpvTools.h
 vector
 -
 ostream
 -
 spirv-tools/libspirv.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv-tools/libspirv.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv-tools/libspirv.h
 glslang/MachineIndependent/localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/glslang/MachineIndependent/localintermediate.h
 Logger.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/Logger.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/bitutils.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/bitutils.h
 cstdint
 -
 cstring
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.cpp
 cstdlib
 -
 cstring
@@ -374,25 +374,25 @@ sstream
 cstring
 -
 disassemble.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.h
 doc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
 GLSL.std.450.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.std.450.h
 GLSL.ext.AMD.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
 GLSL.ext.NV.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/disassemble.h
 iostream
 -
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.cpp
 doc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
 cstdio
 -
 cstring
@@ -400,21 +400,21 @@ cstring
 algorithm
 -
 GLSL.ext.KHR.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.KHR.h
 GLSL.ext.EXT.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.EXT.h
 GLSL.ext.AMD.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.AMD.h
 GLSL.ext.NV.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/GLSL.ext.NV.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/doc.h
 spirv.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/hex_float.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/hex_float.h
 cassert
 -
 cctype
@@ -430,13 +430,13 @@ limits
 sstream
 -
 bitutils.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/bitutils.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/bitutils.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spvIR.h
 spirv.hpp
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/spirv.hpp
 algorithm
 -
 cassert
@@ -452,7 +452,7 @@ vector
 set
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 algorithm
 -
 cassert
@@ -486,15 +486,15 @@ stdint.h
 stdlib.h
 -
 PoolAlloc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 cmath
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring
@@ -502,33 +502,33 @@ cstring
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 ../Include/ConstantUnion.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 string
 -
 vector
@@ -540,11 +540,11 @@ set
 array
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 cstring
 -
 vector

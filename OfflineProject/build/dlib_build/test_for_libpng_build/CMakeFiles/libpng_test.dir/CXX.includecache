@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
+png.h
+-
+setjmp.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+

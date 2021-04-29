@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cudnn_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/cudnn_test.dir/progress.make
 include CMakeFiles/cudnn_test.dir/flags.make
 
 CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o: CMakeFiles/cudnn_test.dir/flags.make
-CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
+CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp
 
 CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.i: cmake_force
 	@echo "Preprocessing CXX source to CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp > CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp > CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.i
 
 CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp -o CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cuda/cudnn_dlibapi.cpp -o CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.s
 
 CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o.requires:
 
@@ -91,7 +91,7 @@ cudnn_test_EXTERNAL_OBJECTS =
 libcudnn_test.a: CMakeFiles/cudnn_test.dir/cudnn_dlibapi.cpp.o
 libcudnn_test.a: CMakeFiles/cudnn_test.dir/build.make
 libcudnn_test.a: CMakeFiles/cudnn_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcudnn_test.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcudnn_test.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cudnn_test.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cudnn_test.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/cudnn_test.dir/clean:
 .PHONY : CMakeFiles/cudnn_test.dir/clean
 
 CMakeFiles/cudnn_test.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn /home/kyo/Desktop/KLTN/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir/DependInfo.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/Dlib/dlib/cmake_utils/test_for_cudnn /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir/DependInfo.cmake
 .PHONY : CMakeFiles/cudnn_test.dir/depend
 

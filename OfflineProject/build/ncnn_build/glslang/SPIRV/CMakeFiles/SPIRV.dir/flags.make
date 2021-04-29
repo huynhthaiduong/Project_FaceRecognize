@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wmaybe-uninitialized -Wuninitialized -Wu
 
 CXX_DEFINES = -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX
 
-CXX_INCLUDES = -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/SPIRV/.. -I/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/include 
+CXX_INCLUDES = -I/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/SPIRV/.. -I/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/include 
 

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
 ../glslang/OSDependent/osinclude.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp
 ../osinclude.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 ../../../OGLCompilersDLL/InitializeDll.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
 pthread.h
 -
 semaphore.h
@@ -32,5 +32,5 @@ sys/time.h
 sys/resource.h
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 

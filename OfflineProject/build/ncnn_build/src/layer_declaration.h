@@ -1717,23 +1717,49 @@ DEFINE_LAYER_CREATOR(ShuffleChannel_final_arm82)
 } // namespace ncnn
 
 #include "layer/instancenorm.h"
+#include "layer/arm/instancenorm_arm.h"
 #include "layer/vulkan/instancenorm_vulkan.h"
 namespace ncnn {
-class InstanceNorm_final : virtual public InstanceNorm, virtual public InstanceNorm_vulkan
+class InstanceNorm_final : virtual public InstanceNorm, virtual public InstanceNorm_arm, virtual public InstanceNorm_vulkan
 {
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = InstanceNorm::create_pipeline(opt); if (ret) return ret; }
+        { int ret = InstanceNorm_arm::create_pipeline(opt); if (ret) return ret; }
         if (vkdev) { int ret = InstanceNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
         if (vkdev) { int ret = InstanceNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        { int ret = InstanceNorm_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = InstanceNorm::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
 };
 DEFINE_LAYER_CREATOR(InstanceNorm_final)
+} // namespace ncnn
+
+#include "layer/instancenorm.h"
+#include "layer/arm/instancenorm_arm_arm82.h"
+#include "layer/vulkan/instancenorm_vulkan.h"
+namespace ncnn {
+class InstanceNorm_final_arm82 : virtual public InstanceNorm, virtual public InstanceNorm_arm_arm82, virtual public InstanceNorm_vulkan
+{
+public:
+    virtual int create_pipeline(const Option& opt) {
+        { int ret = InstanceNorm::create_pipeline(opt); if (ret) return ret; }
+        { int ret = InstanceNorm_arm_arm82::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = InstanceNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
+        return 0;
+    }
+    virtual int destroy_pipeline(const Option& opt) {
+        if (vkdev) { int ret = InstanceNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        { int ret = InstanceNorm_arm_arm82::destroy_pipeline(opt); if (ret) return ret; }
+        { int ret = InstanceNorm::destroy_pipeline(opt); if (ret) return ret; }
+        return 0;
+    }
+};
+DEFINE_LAYER_CREATOR(InstanceNorm_final_arm82)
 } // namespace ncnn
 
 #include "layer/clip.h"

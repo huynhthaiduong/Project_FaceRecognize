@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,8 +94,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/progress.marks
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/progress.marks
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/clean
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/preinstall
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/preinstall
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/rule
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ MachineIndependent: ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir
 
 # fast build rule for target.
 MachineIndependent/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build
 .PHONY : MachineIndependent/fast
 
 # Convenience name for target.
 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/rule
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ GenericCodeGen: ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/rule
 
 # fast build rule for target.
 GenericCodeGen/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build
 .PHONY : GenericCodeGen/fast
 
 # Convenience name for target.
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ glslang: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule
 
 # fast build rule for target.
 glslang/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build
 .PHONY : glslang/fast
 
 CInterface/glslang_c_interface.o: CInterface/glslang_c_interface.cpp.o
@@ -207,7 +207,7 @@ CInterface/glslang_c_interface.o: CInterface/glslang_c_interface.cpp.o
 
 # target to build an object file
 CInterface/glslang_c_interface.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o
 .PHONY : CInterface/glslang_c_interface.cpp.o
 
 CInterface/glslang_c_interface.i: CInterface/glslang_c_interface.cpp.i
@@ -216,7 +216,7 @@ CInterface/glslang_c_interface.i: CInterface/glslang_c_interface.cpp.i
 
 # target to preprocess a source file
 CInterface/glslang_c_interface.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i
 .PHONY : CInterface/glslang_c_interface.cpp.i
 
 CInterface/glslang_c_interface.s: CInterface/glslang_c_interface.cpp.s
@@ -225,7 +225,7 @@ CInterface/glslang_c_interface.s: CInterface/glslang_c_interface.cpp.s
 
 # target to generate assembly for a file
 CInterface/glslang_c_interface.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s
 .PHONY : CInterface/glslang_c_interface.cpp.s
 
 GenericCodeGen/CodeGen.o: GenericCodeGen/CodeGen.cpp.o
@@ -234,7 +234,7 @@ GenericCodeGen/CodeGen.o: GenericCodeGen/CodeGen.cpp.o
 
 # target to build an object file
 GenericCodeGen/CodeGen.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o
 .PHONY : GenericCodeGen/CodeGen.cpp.o
 
 GenericCodeGen/CodeGen.i: GenericCodeGen/CodeGen.cpp.i
@@ -243,7 +243,7 @@ GenericCodeGen/CodeGen.i: GenericCodeGen/CodeGen.cpp.i
 
 # target to preprocess a source file
 GenericCodeGen/CodeGen.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.i
 .PHONY : GenericCodeGen/CodeGen.cpp.i
 
 GenericCodeGen/CodeGen.s: GenericCodeGen/CodeGen.cpp.s
@@ -252,7 +252,7 @@ GenericCodeGen/CodeGen.s: GenericCodeGen/CodeGen.cpp.s
 
 # target to generate assembly for a file
 GenericCodeGen/CodeGen.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.s
 .PHONY : GenericCodeGen/CodeGen.cpp.s
 
 GenericCodeGen/Link.o: GenericCodeGen/Link.cpp.o
@@ -261,7 +261,7 @@ GenericCodeGen/Link.o: GenericCodeGen/Link.cpp.o
 
 # target to build an object file
 GenericCodeGen/Link.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o
 .PHONY : GenericCodeGen/Link.cpp.o
 
 GenericCodeGen/Link.i: GenericCodeGen/Link.cpp.i
@@ -270,7 +270,7 @@ GenericCodeGen/Link.i: GenericCodeGen/Link.cpp.i
 
 # target to preprocess a source file
 GenericCodeGen/Link.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.i
 .PHONY : GenericCodeGen/Link.cpp.i
 
 GenericCodeGen/Link.s: GenericCodeGen/Link.cpp.s
@@ -279,7 +279,7 @@ GenericCodeGen/Link.s: GenericCodeGen/Link.cpp.s
 
 # target to generate assembly for a file
 GenericCodeGen/Link.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.s
 .PHONY : GenericCodeGen/Link.cpp.s
 
 MachineIndependent/Constant.o: MachineIndependent/Constant.cpp.o
@@ -288,7 +288,7 @@ MachineIndependent/Constant.o: MachineIndependent/Constant.cpp.o
 
 # target to build an object file
 MachineIndependent/Constant.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o
 .PHONY : MachineIndependent/Constant.cpp.o
 
 MachineIndependent/Constant.i: MachineIndependent/Constant.cpp.i
@@ -297,7 +297,7 @@ MachineIndependent/Constant.i: MachineIndependent/Constant.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/Constant.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.i
 .PHONY : MachineIndependent/Constant.cpp.i
 
 MachineIndependent/Constant.s: MachineIndependent/Constant.cpp.s
@@ -306,7 +306,7 @@ MachineIndependent/Constant.s: MachineIndependent/Constant.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/Constant.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.s
 .PHONY : MachineIndependent/Constant.cpp.s
 
 MachineIndependent/InfoSink.o: MachineIndependent/InfoSink.cpp.o
@@ -315,7 +315,7 @@ MachineIndependent/InfoSink.o: MachineIndependent/InfoSink.cpp.o
 
 # target to build an object file
 MachineIndependent/InfoSink.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o
 .PHONY : MachineIndependent/InfoSink.cpp.o
 
 MachineIndependent/InfoSink.i: MachineIndependent/InfoSink.cpp.i
@@ -324,7 +324,7 @@ MachineIndependent/InfoSink.i: MachineIndependent/InfoSink.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/InfoSink.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.i
 .PHONY : MachineIndependent/InfoSink.cpp.i
 
 MachineIndependent/InfoSink.s: MachineIndependent/InfoSink.cpp.s
@@ -333,7 +333,7 @@ MachineIndependent/InfoSink.s: MachineIndependent/InfoSink.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/InfoSink.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.s
 .PHONY : MachineIndependent/InfoSink.cpp.s
 
 MachineIndependent/Initialize.o: MachineIndependent/Initialize.cpp.o
@@ -342,7 +342,7 @@ MachineIndependent/Initialize.o: MachineIndependent/Initialize.cpp.o
 
 # target to build an object file
 MachineIndependent/Initialize.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o
 .PHONY : MachineIndependent/Initialize.cpp.o
 
 MachineIndependent/Initialize.i: MachineIndependent/Initialize.cpp.i
@@ -351,7 +351,7 @@ MachineIndependent/Initialize.i: MachineIndependent/Initialize.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/Initialize.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.i
 .PHONY : MachineIndependent/Initialize.cpp.i
 
 MachineIndependent/Initialize.s: MachineIndependent/Initialize.cpp.s
@@ -360,7 +360,7 @@ MachineIndependent/Initialize.s: MachineIndependent/Initialize.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/Initialize.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.s
 .PHONY : MachineIndependent/Initialize.cpp.s
 
 MachineIndependent/IntermTraverse.o: MachineIndependent/IntermTraverse.cpp.o
@@ -369,7 +369,7 @@ MachineIndependent/IntermTraverse.o: MachineIndependent/IntermTraverse.cpp.o
 
 # target to build an object file
 MachineIndependent/IntermTraverse.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o
 .PHONY : MachineIndependent/IntermTraverse.cpp.o
 
 MachineIndependent/IntermTraverse.i: MachineIndependent/IntermTraverse.cpp.i
@@ -378,7 +378,7 @@ MachineIndependent/IntermTraverse.i: MachineIndependent/IntermTraverse.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/IntermTraverse.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.i
 .PHONY : MachineIndependent/IntermTraverse.cpp.i
 
 MachineIndependent/IntermTraverse.s: MachineIndependent/IntermTraverse.cpp.s
@@ -387,7 +387,7 @@ MachineIndependent/IntermTraverse.s: MachineIndependent/IntermTraverse.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/IntermTraverse.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.s
 .PHONY : MachineIndependent/IntermTraverse.cpp.s
 
 MachineIndependent/Intermediate.o: MachineIndependent/Intermediate.cpp.o
@@ -396,7 +396,7 @@ MachineIndependent/Intermediate.o: MachineIndependent/Intermediate.cpp.o
 
 # target to build an object file
 MachineIndependent/Intermediate.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o
 .PHONY : MachineIndependent/Intermediate.cpp.o
 
 MachineIndependent/Intermediate.i: MachineIndependent/Intermediate.cpp.i
@@ -405,7 +405,7 @@ MachineIndependent/Intermediate.i: MachineIndependent/Intermediate.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/Intermediate.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.i
 .PHONY : MachineIndependent/Intermediate.cpp.i
 
 MachineIndependent/Intermediate.s: MachineIndependent/Intermediate.cpp.s
@@ -414,7 +414,7 @@ MachineIndependent/Intermediate.s: MachineIndependent/Intermediate.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/Intermediate.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.s
 .PHONY : MachineIndependent/Intermediate.cpp.s
 
 MachineIndependent/ParseContextBase.o: MachineIndependent/ParseContextBase.cpp.o
@@ -423,7 +423,7 @@ MachineIndependent/ParseContextBase.o: MachineIndependent/ParseContextBase.cpp.o
 
 # target to build an object file
 MachineIndependent/ParseContextBase.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o
 .PHONY : MachineIndependent/ParseContextBase.cpp.o
 
 MachineIndependent/ParseContextBase.i: MachineIndependent/ParseContextBase.cpp.i
@@ -432,7 +432,7 @@ MachineIndependent/ParseContextBase.i: MachineIndependent/ParseContextBase.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/ParseContextBase.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.i
 .PHONY : MachineIndependent/ParseContextBase.cpp.i
 
 MachineIndependent/ParseContextBase.s: MachineIndependent/ParseContextBase.cpp.s
@@ -441,7 +441,7 @@ MachineIndependent/ParseContextBase.s: MachineIndependent/ParseContextBase.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/ParseContextBase.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.s
 .PHONY : MachineIndependent/ParseContextBase.cpp.s
 
 MachineIndependent/ParseHelper.o: MachineIndependent/ParseHelper.cpp.o
@@ -450,7 +450,7 @@ MachineIndependent/ParseHelper.o: MachineIndependent/ParseHelper.cpp.o
 
 # target to build an object file
 MachineIndependent/ParseHelper.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o
 .PHONY : MachineIndependent/ParseHelper.cpp.o
 
 MachineIndependent/ParseHelper.i: MachineIndependent/ParseHelper.cpp.i
@@ -459,7 +459,7 @@ MachineIndependent/ParseHelper.i: MachineIndependent/ParseHelper.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/ParseHelper.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.i
 .PHONY : MachineIndependent/ParseHelper.cpp.i
 
 MachineIndependent/ParseHelper.s: MachineIndependent/ParseHelper.cpp.s
@@ -468,7 +468,7 @@ MachineIndependent/ParseHelper.s: MachineIndependent/ParseHelper.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/ParseHelper.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.s
 .PHONY : MachineIndependent/ParseHelper.cpp.s
 
 MachineIndependent/PoolAlloc.o: MachineIndependent/PoolAlloc.cpp.o
@@ -477,7 +477,7 @@ MachineIndependent/PoolAlloc.o: MachineIndependent/PoolAlloc.cpp.o
 
 # target to build an object file
 MachineIndependent/PoolAlloc.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o
 .PHONY : MachineIndependent/PoolAlloc.cpp.o
 
 MachineIndependent/PoolAlloc.i: MachineIndependent/PoolAlloc.cpp.i
@@ -486,7 +486,7 @@ MachineIndependent/PoolAlloc.i: MachineIndependent/PoolAlloc.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/PoolAlloc.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.i
 .PHONY : MachineIndependent/PoolAlloc.cpp.i
 
 MachineIndependent/PoolAlloc.s: MachineIndependent/PoolAlloc.cpp.s
@@ -495,7 +495,7 @@ MachineIndependent/PoolAlloc.s: MachineIndependent/PoolAlloc.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/PoolAlloc.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.s
 .PHONY : MachineIndependent/PoolAlloc.cpp.s
 
 MachineIndependent/RemoveTree.o: MachineIndependent/RemoveTree.cpp.o
@@ -504,7 +504,7 @@ MachineIndependent/RemoveTree.o: MachineIndependent/RemoveTree.cpp.o
 
 # target to build an object file
 MachineIndependent/RemoveTree.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o
 .PHONY : MachineIndependent/RemoveTree.cpp.o
 
 MachineIndependent/RemoveTree.i: MachineIndependent/RemoveTree.cpp.i
@@ -513,7 +513,7 @@ MachineIndependent/RemoveTree.i: MachineIndependent/RemoveTree.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/RemoveTree.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.i
 .PHONY : MachineIndependent/RemoveTree.cpp.i
 
 MachineIndependent/RemoveTree.s: MachineIndependent/RemoveTree.cpp.s
@@ -522,7 +522,7 @@ MachineIndependent/RemoveTree.s: MachineIndependent/RemoveTree.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/RemoveTree.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.s
 .PHONY : MachineIndependent/RemoveTree.cpp.s
 
 MachineIndependent/Scan.o: MachineIndependent/Scan.cpp.o
@@ -531,7 +531,7 @@ MachineIndependent/Scan.o: MachineIndependent/Scan.cpp.o
 
 # target to build an object file
 MachineIndependent/Scan.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o
 .PHONY : MachineIndependent/Scan.cpp.o
 
 MachineIndependent/Scan.i: MachineIndependent/Scan.cpp.i
@@ -540,7 +540,7 @@ MachineIndependent/Scan.i: MachineIndependent/Scan.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/Scan.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.i
 .PHONY : MachineIndependent/Scan.cpp.i
 
 MachineIndependent/Scan.s: MachineIndependent/Scan.cpp.s
@@ -549,7 +549,7 @@ MachineIndependent/Scan.s: MachineIndependent/Scan.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/Scan.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.s
 .PHONY : MachineIndependent/Scan.cpp.s
 
 MachineIndependent/ShaderLang.o: MachineIndependent/ShaderLang.cpp.o
@@ -558,7 +558,7 @@ MachineIndependent/ShaderLang.o: MachineIndependent/ShaderLang.cpp.o
 
 # target to build an object file
 MachineIndependent/ShaderLang.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o
 .PHONY : MachineIndependent/ShaderLang.cpp.o
 
 MachineIndependent/ShaderLang.i: MachineIndependent/ShaderLang.cpp.i
@@ -567,7 +567,7 @@ MachineIndependent/ShaderLang.i: MachineIndependent/ShaderLang.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/ShaderLang.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.i
 .PHONY : MachineIndependent/ShaderLang.cpp.i
 
 MachineIndependent/ShaderLang.s: MachineIndependent/ShaderLang.cpp.s
@@ -576,7 +576,7 @@ MachineIndependent/ShaderLang.s: MachineIndependent/ShaderLang.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/ShaderLang.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.s
 .PHONY : MachineIndependent/ShaderLang.cpp.s
 
 MachineIndependent/SymbolTable.o: MachineIndependent/SymbolTable.cpp.o
@@ -585,7 +585,7 @@ MachineIndependent/SymbolTable.o: MachineIndependent/SymbolTable.cpp.o
 
 # target to build an object file
 MachineIndependent/SymbolTable.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o
 .PHONY : MachineIndependent/SymbolTable.cpp.o
 
 MachineIndependent/SymbolTable.i: MachineIndependent/SymbolTable.cpp.i
@@ -594,7 +594,7 @@ MachineIndependent/SymbolTable.i: MachineIndependent/SymbolTable.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/SymbolTable.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.i
 .PHONY : MachineIndependent/SymbolTable.cpp.i
 
 MachineIndependent/SymbolTable.s: MachineIndependent/SymbolTable.cpp.s
@@ -603,7 +603,7 @@ MachineIndependent/SymbolTable.s: MachineIndependent/SymbolTable.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/SymbolTable.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.s
 .PHONY : MachineIndependent/SymbolTable.cpp.s
 
 MachineIndependent/Versions.o: MachineIndependent/Versions.cpp.o
@@ -612,7 +612,7 @@ MachineIndependent/Versions.o: MachineIndependent/Versions.cpp.o
 
 # target to build an object file
 MachineIndependent/Versions.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o
 .PHONY : MachineIndependent/Versions.cpp.o
 
 MachineIndependent/Versions.i: MachineIndependent/Versions.cpp.i
@@ -621,7 +621,7 @@ MachineIndependent/Versions.i: MachineIndependent/Versions.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/Versions.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.i
 .PHONY : MachineIndependent/Versions.cpp.i
 
 MachineIndependent/Versions.s: MachineIndependent/Versions.cpp.s
@@ -630,7 +630,7 @@ MachineIndependent/Versions.s: MachineIndependent/Versions.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/Versions.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.s
 .PHONY : MachineIndependent/Versions.cpp.s
 
 MachineIndependent/attribute.o: MachineIndependent/attribute.cpp.o
@@ -639,7 +639,7 @@ MachineIndependent/attribute.o: MachineIndependent/attribute.cpp.o
 
 # target to build an object file
 MachineIndependent/attribute.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o
 .PHONY : MachineIndependent/attribute.cpp.o
 
 MachineIndependent/attribute.i: MachineIndependent/attribute.cpp.i
@@ -648,7 +648,7 @@ MachineIndependent/attribute.i: MachineIndependent/attribute.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/attribute.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.i
 .PHONY : MachineIndependent/attribute.cpp.i
 
 MachineIndependent/attribute.s: MachineIndependent/attribute.cpp.s
@@ -657,7 +657,7 @@ MachineIndependent/attribute.s: MachineIndependent/attribute.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/attribute.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.s
 .PHONY : MachineIndependent/attribute.cpp.s
 
 MachineIndependent/glslang_tab.o: MachineIndependent/glslang_tab.cpp.o
@@ -666,7 +666,7 @@ MachineIndependent/glslang_tab.o: MachineIndependent/glslang_tab.cpp.o
 
 # target to build an object file
 MachineIndependent/glslang_tab.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o
 .PHONY : MachineIndependent/glslang_tab.cpp.o
 
 MachineIndependent/glslang_tab.i: MachineIndependent/glslang_tab.cpp.i
@@ -675,7 +675,7 @@ MachineIndependent/glslang_tab.i: MachineIndependent/glslang_tab.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/glslang_tab.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.i
 .PHONY : MachineIndependent/glslang_tab.cpp.i
 
 MachineIndependent/glslang_tab.s: MachineIndependent/glslang_tab.cpp.s
@@ -684,7 +684,7 @@ MachineIndependent/glslang_tab.s: MachineIndependent/glslang_tab.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/glslang_tab.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.s
 .PHONY : MachineIndependent/glslang_tab.cpp.s
 
 MachineIndependent/intermOut.o: MachineIndependent/intermOut.cpp.o
@@ -693,7 +693,7 @@ MachineIndependent/intermOut.o: MachineIndependent/intermOut.cpp.o
 
 # target to build an object file
 MachineIndependent/intermOut.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o
 .PHONY : MachineIndependent/intermOut.cpp.o
 
 MachineIndependent/intermOut.i: MachineIndependent/intermOut.cpp.i
@@ -702,7 +702,7 @@ MachineIndependent/intermOut.i: MachineIndependent/intermOut.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/intermOut.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.i
 .PHONY : MachineIndependent/intermOut.cpp.i
 
 MachineIndependent/intermOut.s: MachineIndependent/intermOut.cpp.s
@@ -711,7 +711,7 @@ MachineIndependent/intermOut.s: MachineIndependent/intermOut.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/intermOut.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.s
 .PHONY : MachineIndependent/intermOut.cpp.s
 
 MachineIndependent/iomapper.o: MachineIndependent/iomapper.cpp.o
@@ -720,7 +720,7 @@ MachineIndependent/iomapper.o: MachineIndependent/iomapper.cpp.o
 
 # target to build an object file
 MachineIndependent/iomapper.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o
 .PHONY : MachineIndependent/iomapper.cpp.o
 
 MachineIndependent/iomapper.i: MachineIndependent/iomapper.cpp.i
@@ -729,7 +729,7 @@ MachineIndependent/iomapper.i: MachineIndependent/iomapper.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/iomapper.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.i
 .PHONY : MachineIndependent/iomapper.cpp.i
 
 MachineIndependent/iomapper.s: MachineIndependent/iomapper.cpp.s
@@ -738,7 +738,7 @@ MachineIndependent/iomapper.s: MachineIndependent/iomapper.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/iomapper.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.s
 .PHONY : MachineIndependent/iomapper.cpp.s
 
 MachineIndependent/limits.o: MachineIndependent/limits.cpp.o
@@ -747,7 +747,7 @@ MachineIndependent/limits.o: MachineIndependent/limits.cpp.o
 
 # target to build an object file
 MachineIndependent/limits.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o
 .PHONY : MachineIndependent/limits.cpp.o
 
 MachineIndependent/limits.i: MachineIndependent/limits.cpp.i
@@ -756,7 +756,7 @@ MachineIndependent/limits.i: MachineIndependent/limits.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/limits.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.i
 .PHONY : MachineIndependent/limits.cpp.i
 
 MachineIndependent/limits.s: MachineIndependent/limits.cpp.s
@@ -765,7 +765,7 @@ MachineIndependent/limits.s: MachineIndependent/limits.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/limits.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.s
 .PHONY : MachineIndependent/limits.cpp.s
 
 MachineIndependent/linkValidate.o: MachineIndependent/linkValidate.cpp.o
@@ -774,7 +774,7 @@ MachineIndependent/linkValidate.o: MachineIndependent/linkValidate.cpp.o
 
 # target to build an object file
 MachineIndependent/linkValidate.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o
 .PHONY : MachineIndependent/linkValidate.cpp.o
 
 MachineIndependent/linkValidate.i: MachineIndependent/linkValidate.cpp.i
@@ -783,7 +783,7 @@ MachineIndependent/linkValidate.i: MachineIndependent/linkValidate.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/linkValidate.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.i
 .PHONY : MachineIndependent/linkValidate.cpp.i
 
 MachineIndependent/linkValidate.s: MachineIndependent/linkValidate.cpp.s
@@ -792,7 +792,7 @@ MachineIndependent/linkValidate.s: MachineIndependent/linkValidate.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/linkValidate.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.s
 .PHONY : MachineIndependent/linkValidate.cpp.s
 
 MachineIndependent/parseConst.o: MachineIndependent/parseConst.cpp.o
@@ -801,7 +801,7 @@ MachineIndependent/parseConst.o: MachineIndependent/parseConst.cpp.o
 
 # target to build an object file
 MachineIndependent/parseConst.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o
 .PHONY : MachineIndependent/parseConst.cpp.o
 
 MachineIndependent/parseConst.i: MachineIndependent/parseConst.cpp.i
@@ -810,7 +810,7 @@ MachineIndependent/parseConst.i: MachineIndependent/parseConst.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/parseConst.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.i
 .PHONY : MachineIndependent/parseConst.cpp.i
 
 MachineIndependent/parseConst.s: MachineIndependent/parseConst.cpp.s
@@ -819,7 +819,7 @@ MachineIndependent/parseConst.s: MachineIndependent/parseConst.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/parseConst.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.s
 .PHONY : MachineIndependent/parseConst.cpp.s
 
 MachineIndependent/preprocessor/Pp.o: MachineIndependent/preprocessor/Pp.cpp.o
@@ -828,7 +828,7 @@ MachineIndependent/preprocessor/Pp.o: MachineIndependent/preprocessor/Pp.cpp.o
 
 # target to build an object file
 MachineIndependent/preprocessor/Pp.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o
 .PHONY : MachineIndependent/preprocessor/Pp.cpp.o
 
 MachineIndependent/preprocessor/Pp.i: MachineIndependent/preprocessor/Pp.cpp.i
@@ -837,7 +837,7 @@ MachineIndependent/preprocessor/Pp.i: MachineIndependent/preprocessor/Pp.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/preprocessor/Pp.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.i
 .PHONY : MachineIndependent/preprocessor/Pp.cpp.i
 
 MachineIndependent/preprocessor/Pp.s: MachineIndependent/preprocessor/Pp.cpp.s
@@ -846,7 +846,7 @@ MachineIndependent/preprocessor/Pp.s: MachineIndependent/preprocessor/Pp.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/preprocessor/Pp.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.s
 .PHONY : MachineIndependent/preprocessor/Pp.cpp.s
 
 MachineIndependent/preprocessor/PpAtom.o: MachineIndependent/preprocessor/PpAtom.cpp.o
@@ -855,7 +855,7 @@ MachineIndependent/preprocessor/PpAtom.o: MachineIndependent/preprocessor/PpAtom
 
 # target to build an object file
 MachineIndependent/preprocessor/PpAtom.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o
 .PHONY : MachineIndependent/preprocessor/PpAtom.cpp.o
 
 MachineIndependent/preprocessor/PpAtom.i: MachineIndependent/preprocessor/PpAtom.cpp.i
@@ -864,7 +864,7 @@ MachineIndependent/preprocessor/PpAtom.i: MachineIndependent/preprocessor/PpAtom
 
 # target to preprocess a source file
 MachineIndependent/preprocessor/PpAtom.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
 .PHONY : MachineIndependent/preprocessor/PpAtom.cpp.i
 
 MachineIndependent/preprocessor/PpAtom.s: MachineIndependent/preprocessor/PpAtom.cpp.s
@@ -873,7 +873,7 @@ MachineIndependent/preprocessor/PpAtom.s: MachineIndependent/preprocessor/PpAtom
 
 # target to generate assembly for a file
 MachineIndependent/preprocessor/PpAtom.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
 .PHONY : MachineIndependent/preprocessor/PpAtom.cpp.s
 
 MachineIndependent/preprocessor/PpContext.o: MachineIndependent/preprocessor/PpContext.cpp.o
@@ -882,7 +882,7 @@ MachineIndependent/preprocessor/PpContext.o: MachineIndependent/preprocessor/PpC
 
 # target to build an object file
 MachineIndependent/preprocessor/PpContext.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o
 .PHONY : MachineIndependent/preprocessor/PpContext.cpp.o
 
 MachineIndependent/preprocessor/PpContext.i: MachineIndependent/preprocessor/PpContext.cpp.i
@@ -891,7 +891,7 @@ MachineIndependent/preprocessor/PpContext.i: MachineIndependent/preprocessor/PpC
 
 # target to preprocess a source file
 MachineIndependent/preprocessor/PpContext.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.i
 .PHONY : MachineIndependent/preprocessor/PpContext.cpp.i
 
 MachineIndependent/preprocessor/PpContext.s: MachineIndependent/preprocessor/PpContext.cpp.s
@@ -900,7 +900,7 @@ MachineIndependent/preprocessor/PpContext.s: MachineIndependent/preprocessor/PpC
 
 # target to generate assembly for a file
 MachineIndependent/preprocessor/PpContext.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.s
 .PHONY : MachineIndependent/preprocessor/PpContext.cpp.s
 
 MachineIndependent/preprocessor/PpScanner.o: MachineIndependent/preprocessor/PpScanner.cpp.o
@@ -909,7 +909,7 @@ MachineIndependent/preprocessor/PpScanner.o: MachineIndependent/preprocessor/PpS
 
 # target to build an object file
 MachineIndependent/preprocessor/PpScanner.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o
 .PHONY : MachineIndependent/preprocessor/PpScanner.cpp.o
 
 MachineIndependent/preprocessor/PpScanner.i: MachineIndependent/preprocessor/PpScanner.cpp.i
@@ -918,7 +918,7 @@ MachineIndependent/preprocessor/PpScanner.i: MachineIndependent/preprocessor/PpS
 
 # target to preprocess a source file
 MachineIndependent/preprocessor/PpScanner.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
 .PHONY : MachineIndependent/preprocessor/PpScanner.cpp.i
 
 MachineIndependent/preprocessor/PpScanner.s: MachineIndependent/preprocessor/PpScanner.cpp.s
@@ -927,7 +927,7 @@ MachineIndependent/preprocessor/PpScanner.s: MachineIndependent/preprocessor/PpS
 
 # target to generate assembly for a file
 MachineIndependent/preprocessor/PpScanner.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
 .PHONY : MachineIndependent/preprocessor/PpScanner.cpp.s
 
 MachineIndependent/preprocessor/PpTokens.o: MachineIndependent/preprocessor/PpTokens.cpp.o
@@ -936,7 +936,7 @@ MachineIndependent/preprocessor/PpTokens.o: MachineIndependent/preprocessor/PpTo
 
 # target to build an object file
 MachineIndependent/preprocessor/PpTokens.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o
 .PHONY : MachineIndependent/preprocessor/PpTokens.cpp.o
 
 MachineIndependent/preprocessor/PpTokens.i: MachineIndependent/preprocessor/PpTokens.cpp.i
@@ -945,7 +945,7 @@ MachineIndependent/preprocessor/PpTokens.i: MachineIndependent/preprocessor/PpTo
 
 # target to preprocess a source file
 MachineIndependent/preprocessor/PpTokens.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
 .PHONY : MachineIndependent/preprocessor/PpTokens.cpp.i
 
 MachineIndependent/preprocessor/PpTokens.s: MachineIndependent/preprocessor/PpTokens.cpp.s
@@ -954,7 +954,7 @@ MachineIndependent/preprocessor/PpTokens.s: MachineIndependent/preprocessor/PpTo
 
 # target to generate assembly for a file
 MachineIndependent/preprocessor/PpTokens.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
 .PHONY : MachineIndependent/preprocessor/PpTokens.cpp.s
 
 MachineIndependent/propagateNoContraction.o: MachineIndependent/propagateNoContraction.cpp.o
@@ -963,7 +963,7 @@ MachineIndependent/propagateNoContraction.o: MachineIndependent/propagateNoContr
 
 # target to build an object file
 MachineIndependent/propagateNoContraction.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o
 .PHONY : MachineIndependent/propagateNoContraction.cpp.o
 
 MachineIndependent/propagateNoContraction.i: MachineIndependent/propagateNoContraction.cpp.i
@@ -972,7 +972,7 @@ MachineIndependent/propagateNoContraction.i: MachineIndependent/propagateNoContr
 
 # target to preprocess a source file
 MachineIndependent/propagateNoContraction.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.i
 .PHONY : MachineIndependent/propagateNoContraction.cpp.i
 
 MachineIndependent/propagateNoContraction.s: MachineIndependent/propagateNoContraction.cpp.s
@@ -981,7 +981,7 @@ MachineIndependent/propagateNoContraction.s: MachineIndependent/propagateNoContr
 
 # target to generate assembly for a file
 MachineIndependent/propagateNoContraction.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.s
 .PHONY : MachineIndependent/propagateNoContraction.cpp.s
 
 MachineIndependent/reflection.o: MachineIndependent/reflection.cpp.o
@@ -990,7 +990,7 @@ MachineIndependent/reflection.o: MachineIndependent/reflection.cpp.o
 
 # target to build an object file
 MachineIndependent/reflection.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o
 .PHONY : MachineIndependent/reflection.cpp.o
 
 MachineIndependent/reflection.i: MachineIndependent/reflection.cpp.i
@@ -999,7 +999,7 @@ MachineIndependent/reflection.i: MachineIndependent/reflection.cpp.i
 
 # target to preprocess a source file
 MachineIndependent/reflection.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.i
 .PHONY : MachineIndependent/reflection.cpp.i
 
 MachineIndependent/reflection.s: MachineIndependent/reflection.cpp.s
@@ -1008,7 +1008,7 @@ MachineIndependent/reflection.s: MachineIndependent/reflection.cpp.s
 
 # target to generate assembly for a file
 MachineIndependent/reflection.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.s
 .PHONY : MachineIndependent/reflection.cpp.s
 
 # Help Target
@@ -1127,6 +1127,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

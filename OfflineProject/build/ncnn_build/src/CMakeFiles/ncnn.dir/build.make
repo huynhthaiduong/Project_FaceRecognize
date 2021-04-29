@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/src/CMakeFiles/ncnn.dir/depend.make
@@ -57,354 +57,362 @@ include ncnn_build/src/CMakeFiles/ncnn.dir/progress.make
 # Include the compile flags for this target's objects.
 include ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 
-ncnn_build/src/layer/arm/absval_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating source absval_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.h -DCLASS=AbsVal -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/absval_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating source absval_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp -DCLASS=AbsVal -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/batchnorm_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating source batchnorm_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.h -DCLASS=BatchNorm -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating source batchnorm_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp -DCLASS=BatchNorm -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/bias_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating source bias_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.h -DCLASS=Bias -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/bias_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating source bias_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp -DCLASS=Bias -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/concat_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating source concat_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.h -DCLASS=Concat -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/concat_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating source concat_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp -DCLASS=Concat -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/convolution_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating source convolution_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.h -DCLASS=Convolution -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/convolution_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating source convolution_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp -DCLASS=Convolution -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/crop_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating source crop_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.h -DCLASS=Crop -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/crop_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating source crop_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp -DCLASS=Crop -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/deconvolution_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating source deconvolution_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.h -DCLASS=Deconvolution -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating source deconvolution_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp -DCLASS=Deconvolution -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/dropout_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating source dropout_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.h -DCLASS=Dropout -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/dropout_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating source dropout_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp -DCLASS=Dropout -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/eltwise_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating source eltwise_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.h -DCLASS=Eltwise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating source eltwise_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp -DCLASS=Eltwise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/flatten_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating source flatten_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.h -DCLASS=Flatten -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/flatten_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating source flatten_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp -DCLASS=Flatten -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/innerproduct_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating source innerproduct_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.h -DCLASS=InnerProduct -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating source innerproduct_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp -DCLASS=InnerProduct -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/lrn_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating source lrn_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.h -DCLASS=LRN -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/lrn_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating source lrn_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp -DCLASS=LRN -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/pooling_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating source pooling_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.h -DCLASS=Pooling -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/pooling_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating source pooling_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp -DCLASS=Pooling -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/prelu_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating source prelu_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.h -DCLASS=PReLU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/prelu_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating source prelu_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp -DCLASS=PReLU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/relu_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating source relu_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.h -DCLASS=ReLU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/relu_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating source relu_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp -DCLASS=ReLU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/reshape_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating source reshape_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.h -DCLASS=Reshape -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/reshape_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating source reshape_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp -DCLASS=Reshape -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/scale_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating source scale_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.h -DCLASS=Scale -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/scale_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating source scale_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp -DCLASS=Scale -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/sigmoid_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating source sigmoid_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.h -DCLASS=Sigmoid -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating source sigmoid_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp -DCLASS=Sigmoid -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/slice_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating source slice_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.h -DCLASS=Slice -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/slice_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating source slice_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp -DCLASS=Slice -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/softmax_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating source softmax_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.h -DCLASS=Softmax -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/softmax_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating source softmax_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp -DCLASS=Softmax -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/tanh_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating source tanh_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.h -DCLASS=TanH -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/tanh_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating source tanh_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp -DCLASS=TanH -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/rnn_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating source rnn_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.h -DCLASS=RNN -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/rnn_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating source rnn_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp -DCLASS=RNN -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/lstm_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating source lstm_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.h -DCLASS=LSTM -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/lstm_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating source lstm_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp -DCLASS=LSTM -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/binaryop_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating source binaryop_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.h -DCLASS=BinaryOp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating source binaryop_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp -DCLASS=BinaryOp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/unaryop_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating source unaryop_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.h -DCLASS=UnaryOp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating source unaryop_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp -DCLASS=UnaryOp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating source convolutiondepthwise_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.h -DCLASS=ConvolutionDepthWise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating source convolutiondepthwise_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp -DCLASS=ConvolutionDepthWise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/padding_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating source padding_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.h -DCLASS=Padding -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/padding_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating source padding_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp -DCLASS=Padding -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/interp_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating source interp_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.h -DCLASS=Interp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/interp_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating source interp_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp -DCLASS=Interp -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating source deconvolutiondepthwise_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.h -DCLASS=DeconvolutionDepthWise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating source deconvolutiondepthwise_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp -DCLASS=DeconvolutionDepthWise -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/shufflechannel_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating source shufflechannel_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.h -DCLASS=ShuffleChannel -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating source shufflechannel_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp -DCLASS=ShuffleChannel -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/clip_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating source clip_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.h -DCLASS=Clip -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/clip_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating source clip_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp -DCLASS=Clip -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/quantize_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating source quantize_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.h -DCLASS=Quantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/quantize_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating source quantize_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp -DCLASS=Quantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/dequantize_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating source dequantize_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.h -DCLASS=Dequantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating source dequantize_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp -DCLASS=Dequantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/packing_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating source packing_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.h -DCLASS=Packing -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/packing_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating source packing_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp -DCLASS=Packing -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/requantize_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating source requantize_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.h -DCLASS=Requantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/requantize_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating source requantize_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp -DCLASS=Requantize -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/cast_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating source cast_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.h -DCLASS=Cast -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/cast_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating source cast_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp -DCLASS=Cast -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating source hardsigmoid_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.h -DCLASS=HardSigmoid -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating source hardsigmoid_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp -DCLASS=HardSigmoid -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/selu_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating source selu_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.h -DCLASS=SELU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/selu_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating source selu_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp -DCLASS=SELU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/hardswish_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating source hardswish_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.h -DCLASS=HardSwish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating source hardswish_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp -DCLASS=HardSwish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/mish_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating source mish_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.h -DCLASS=Mish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/mish_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating source mish_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp -DCLASS=Mish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/swish_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating source swish_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.h -DCLASS=Swish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/swish_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating source swish_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp -DCLASS=Swish -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/gru_arm_arm82.h: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating source gru_arm_arm82.h"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.h -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.h -DCLASS=GRU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
-
-ncnn_build/src/layer/arm/gru_arm_arm82.cpp: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating source gru_arm_arm82.cpp"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp -DDST=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp -DCLASS=GRU -P /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+ncnn_build/src/layer/arm/absval_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating source absval_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.h -DCLASS=AbsVal -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/absval_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating source absval_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp -DCLASS=AbsVal -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/batchnorm_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating source batchnorm_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.h -DCLASS=BatchNorm -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating source batchnorm_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp -DCLASS=BatchNorm -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/bias_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating source bias_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.h -DCLASS=Bias -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/bias_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating source bias_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp -DCLASS=Bias -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/concat_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating source concat_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.h -DCLASS=Concat -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/concat_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating source concat_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp -DCLASS=Concat -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/convolution_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating source convolution_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.h -DCLASS=Convolution -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/convolution_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating source convolution_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp -DCLASS=Convolution -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/crop_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating source crop_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.h -DCLASS=Crop -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/crop_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating source crop_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp -DCLASS=Crop -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/deconvolution_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating source deconvolution_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.h -DCLASS=Deconvolution -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating source deconvolution_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp -DCLASS=Deconvolution -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/dropout_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating source dropout_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.h -DCLASS=Dropout -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/dropout_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating source dropout_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp -DCLASS=Dropout -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/eltwise_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating source eltwise_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.h -DCLASS=Eltwise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating source eltwise_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp -DCLASS=Eltwise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/flatten_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating source flatten_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.h -DCLASS=Flatten -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/flatten_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating source flatten_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp -DCLASS=Flatten -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/innerproduct_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating source innerproduct_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.h -DCLASS=InnerProduct -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating source innerproduct_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp -DCLASS=InnerProduct -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/lrn_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating source lrn_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.h -DCLASS=LRN -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/lrn_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating source lrn_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp -DCLASS=LRN -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/pooling_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating source pooling_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.h -DCLASS=Pooling -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/pooling_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating source pooling_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp -DCLASS=Pooling -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/prelu_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating source prelu_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.h -DCLASS=PReLU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/prelu_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating source prelu_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp -DCLASS=PReLU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/relu_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating source relu_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.h -DCLASS=ReLU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/relu_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating source relu_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp -DCLASS=ReLU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/reshape_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating source reshape_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.h -DCLASS=Reshape -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/reshape_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating source reshape_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp -DCLASS=Reshape -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/scale_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating source scale_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.h -DCLASS=Scale -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/scale_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating source scale_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp -DCLASS=Scale -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/sigmoid_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating source sigmoid_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.h -DCLASS=Sigmoid -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating source sigmoid_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp -DCLASS=Sigmoid -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/slice_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating source slice_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.h -DCLASS=Slice -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/slice_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating source slice_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp -DCLASS=Slice -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/softmax_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating source softmax_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.h -DCLASS=Softmax -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/softmax_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating source softmax_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp -DCLASS=Softmax -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/tanh_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating source tanh_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.h -DCLASS=TanH -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/tanh_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating source tanh_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp -DCLASS=TanH -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/rnn_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating source rnn_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.h -DCLASS=RNN -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/rnn_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating source rnn_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp -DCLASS=RNN -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/lstm_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating source lstm_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.h -DCLASS=LSTM -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/lstm_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating source lstm_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp -DCLASS=LSTM -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/binaryop_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating source binaryop_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.h -DCLASS=BinaryOp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating source binaryop_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp -DCLASS=BinaryOp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/unaryop_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating source unaryop_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.h -DCLASS=UnaryOp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating source unaryop_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp -DCLASS=UnaryOp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating source convolutiondepthwise_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.h -DCLASS=ConvolutionDepthWise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating source convolutiondepthwise_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp -DCLASS=ConvolutionDepthWise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/padding_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating source padding_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.h -DCLASS=Padding -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/padding_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating source padding_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp -DCLASS=Padding -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/interp_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating source interp_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.h -DCLASS=Interp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/interp_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating source interp_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp -DCLASS=Interp -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating source deconvolutiondepthwise_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.h -DCLASS=DeconvolutionDepthWise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating source deconvolutiondepthwise_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp -DCLASS=DeconvolutionDepthWise -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/shufflechannel_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating source shufflechannel_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.h -DCLASS=ShuffleChannel -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating source shufflechannel_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp -DCLASS=ShuffleChannel -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/instancenorm_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating source instancenorm_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/instancenorm_arm_arm82.h -DCLASS=InstanceNorm -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating source instancenorm_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp -DCLASS=InstanceNorm -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/clip_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating source clip_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.h -DCLASS=Clip -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/clip_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating source clip_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp -DCLASS=Clip -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/quantize_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating source quantize_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.h -DCLASS=Quantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/quantize_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating source quantize_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp -DCLASS=Quantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/dequantize_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating source dequantize_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.h -DCLASS=Dequantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating source dequantize_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp -DCLASS=Dequantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/packing_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating source packing_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.h -DCLASS=Packing -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/packing_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating source packing_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp -DCLASS=Packing -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/requantize_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating source requantize_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.h -DCLASS=Requantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/requantize_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating source requantize_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp -DCLASS=Requantize -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/cast_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating source cast_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.h -DCLASS=Cast -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/cast_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating source cast_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp -DCLASS=Cast -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating source hardsigmoid_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.h -DCLASS=HardSigmoid -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating source hardsigmoid_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp -DCLASS=HardSigmoid -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/selu_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating source selu_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.h -DCLASS=SELU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/selu_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating source selu_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp -DCLASS=SELU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/hardswish_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating source hardswish_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.h -DCLASS=HardSwish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating source hardswish_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp -DCLASS=HardSwish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/mish_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating source mish_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.h -DCLASS=Mish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/mish_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating source mish_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp -DCLASS=Mish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/swish_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating source swish_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.h -DCLASS=Swish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/swish_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating source swish_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp -DCLASS=Swish -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/gru_arm_arm82.h: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating source gru_arm_arm82.h"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.h -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.h -DCLASS=GRU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
+
+ncnn_build/src/layer/arm/gru_arm_arm82.cpp: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating source gru_arm_arm82.cpp"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/cmake -DSRC=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp -DDST=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp -DCLASS=GRU -P /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/../cmake/ncnn_generate_arm82_source.cmake
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/allocator.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/allocator.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.cpp > CMakeFiles/ncnn.dir/allocator.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/allocator.cpp > CMakeFiles/ncnn.dir/allocator.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/allocator.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/allocator.cpp -o CMakeFiles/ncnn.dir/allocator.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/allocator.cpp -o CMakeFiles/ncnn.dir/allocator.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o.requires:
 
@@ -418,17 +426,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/benchmark.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/benchmark.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/benchmark.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/benchmark.cpp > CMakeFiles/ncnn.dir/benchmark.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/benchmark.cpp > CMakeFiles/ncnn.dir/benchmark.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/benchmark.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/benchmark.cpp -o CMakeFiles/ncnn.dir/benchmark.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/benchmark.cpp -o CMakeFiles/ncnn.dir/benchmark.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o.requires:
 
@@ -442,17 +450,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/blob.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/blob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/blob.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/blob.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/blob.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.cpp > CMakeFiles/ncnn.dir/blob.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/blob.cpp > CMakeFiles/ncnn.dir/blob.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/blob.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/blob.cpp -o CMakeFiles/ncnn.dir/blob.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/blob.cpp -o CMakeFiles/ncnn.dir/blob.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o.requires:
 
@@ -466,17 +474,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o.provides.build: ncnn_build/src/CMa
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/c_api.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/c_api.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/c_api.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/c_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/c_api.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/c_api.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/c_api.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/c_api.cpp > CMakeFiles/ncnn.dir/c_api.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/c_api.cpp > CMakeFiles/ncnn.dir/c_api.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/c_api.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/c_api.cpp -o CMakeFiles/ncnn.dir/c_api.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/c_api.cpp -o CMakeFiles/ncnn.dir/c_api.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o.requires:
 
@@ -490,17 +498,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/c_api.cpp.o.provides.build: ncnn_build/src/CM
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/command.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/command.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/command.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/command.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.cpp > CMakeFiles/ncnn.dir/command.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/command.cpp > CMakeFiles/ncnn.dir/command.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/command.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/command.cpp -o CMakeFiles/ncnn.dir/command.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/command.cpp -o CMakeFiles/ncnn.dir/command.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o.requires:
 
@@ -514,17 +522,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o.provides.build: ncnn_build/src/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/cpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/cpu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/cpu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/cpu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/cpu.cpp > CMakeFiles/ncnn.dir/cpu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/cpu.cpp > CMakeFiles/ncnn.dir/cpu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/cpu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/cpu.cpp -o CMakeFiles/ncnn.dir/cpu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/cpu.cpp -o CMakeFiles/ncnn.dir/cpu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o.requires:
 
@@ -538,17 +546,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o.provides.build: ncnn_build/src/CMak
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/datareader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/datareader.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/datareader.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/datareader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/datareader.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/datareader.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/datareader.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/datareader.cpp > CMakeFiles/ncnn.dir/datareader.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/datareader.cpp > CMakeFiles/ncnn.dir/datareader.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/datareader.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/datareader.cpp -o CMakeFiles/ncnn.dir/datareader.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/datareader.cpp -o CMakeFiles/ncnn.dir/datareader.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o.requires:
 
@@ -562,17 +570,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/datareader.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/gpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/gpu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/gpu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.cpp > CMakeFiles/ncnn.dir/gpu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/gpu.cpp > CMakeFiles/ncnn.dir/gpu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/gpu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/gpu.cpp -o CMakeFiles/ncnn.dir/gpu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/gpu.cpp -o CMakeFiles/ncnn.dir/gpu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o.requires:
 
@@ -586,17 +594,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o.provides.build: ncnn_build/src/CMak
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.cpp > CMakeFiles/ncnn.dir/layer.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer.cpp > CMakeFiles/ncnn.dir/layer.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer.cpp -o CMakeFiles/ncnn.dir/layer.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer.cpp -o CMakeFiles/ncnn.dir/layer.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o.requires:
 
@@ -610,17 +618,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o.provides.build: ncnn_build/src/CM
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.cpp > CMakeFiles/ncnn.dir/mat.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat.cpp > CMakeFiles/ncnn.dir/mat.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat.cpp -o CMakeFiles/ncnn.dir/mat.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat.cpp -o CMakeFiles/ncnn.dir/mat.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o.requires:
 
@@ -634,17 +642,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o.provides.build: ncnn_build/src/CMak
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel.cpp > CMakeFiles/ncnn.dir/mat_pixel.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel.cpp > CMakeFiles/ncnn.dir/mat_pixel.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel.cpp -o CMakeFiles/ncnn.dir/mat_pixel.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel.cpp -o CMakeFiles/ncnn.dir/mat_pixel.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o.requires:
 
@@ -658,17 +666,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp > CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp > CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp -o CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_affine.cpp -o CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o.requires:
 
@@ -682,17 +690,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp > CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp > CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_resize.cpp -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o.requires:
 
@@ -706,17 +714,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp > CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp > CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp -o CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/mat_pixel_rotate.cpp -o CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o.requires:
 
@@ -730,17 +738,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/modelbin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/modelbin.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/modelbin.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.cpp > CMakeFiles/ncnn.dir/modelbin.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/modelbin.cpp > CMakeFiles/ncnn.dir/modelbin.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/modelbin.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/modelbin.cpp -o CMakeFiles/ncnn.dir/modelbin.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/modelbin.cpp -o CMakeFiles/ncnn.dir/modelbin.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o.requires:
 
@@ -754,17 +762,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o.provides.build: ncnn_build/src
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/net.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/net.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/net.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/net.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/net.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/net.cpp > CMakeFiles/ncnn.dir/net.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/net.cpp > CMakeFiles/ncnn.dir/net.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/net.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/net.cpp -o CMakeFiles/ncnn.dir/net.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/net.cpp -o CMakeFiles/ncnn.dir/net.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o.requires:
 
@@ -778,17 +786,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o.provides.build: ncnn_build/src/CMak
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/option.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/option.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/option.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/option.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/option.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.cpp > CMakeFiles/ncnn.dir/option.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/option.cpp > CMakeFiles/ncnn.dir/option.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/option.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/option.cpp -o CMakeFiles/ncnn.dir/option.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/option.cpp -o CMakeFiles/ncnn.dir/option.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o.requires:
 
@@ -802,17 +810,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o.provides.build: ncnn_build/src/C
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/paramdict.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/paramdict.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/paramdict.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.cpp > CMakeFiles/ncnn.dir/paramdict.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/paramdict.cpp > CMakeFiles/ncnn.dir/paramdict.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/paramdict.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/paramdict.cpp -o CMakeFiles/ncnn.dir/paramdict.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/paramdict.cpp -o CMakeFiles/ncnn.dir/paramdict.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o.requires:
 
@@ -826,17 +834,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipeline.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/pipeline.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.cpp > CMakeFiles/ncnn.dir/pipeline.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipeline.cpp > CMakeFiles/ncnn.dir/pipeline.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/pipeline.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipeline.cpp -o CMakeFiles/ncnn.dir/pipeline.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipeline.cpp -o CMakeFiles/ncnn.dir/pipeline.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o.requires:
 
@@ -850,17 +858,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o.provides.build: ncnn_build/src
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipelinecache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipelinecache.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipelinecache.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipelinecache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipelinecache.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipelinecache.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/pipelinecache.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipelinecache.cpp > CMakeFiles/ncnn.dir/pipelinecache.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipelinecache.cpp > CMakeFiles/ncnn.dir/pipelinecache.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/pipelinecache.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/pipelinecache.cpp -o CMakeFiles/ncnn.dir/pipelinecache.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/pipelinecache.cpp -o CMakeFiles/ncnn.dir/pipelinecache.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o.requires:
 
@@ -874,17 +882,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleocv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simpleocv.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleocv.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleocv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simpleocv.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleocv.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/simpleocv.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleocv.cpp > CMakeFiles/ncnn.dir/simpleocv.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleocv.cpp > CMakeFiles/ncnn.dir/simpleocv.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/simpleocv.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleocv.cpp -o CMakeFiles/ncnn.dir/simpleocv.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleocv.cpp -o CMakeFiles/ncnn.dir/simpleocv.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o.requires:
 
@@ -898,17 +906,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleomp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simpleomp.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleomp.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleomp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simpleomp.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleomp.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/simpleomp.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleomp.cpp > CMakeFiles/ncnn.dir/simpleomp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleomp.cpp > CMakeFiles/ncnn.dir/simpleomp.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/simpleomp.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simpleomp.cpp -o CMakeFiles/ncnn.dir/simpleomp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simpleomp.cpp -o CMakeFiles/ncnn.dir/simpleomp.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o.requires:
 
@@ -922,17 +930,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simplestl.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simplestl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/simplestl.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simplestl.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/simplestl.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.cpp > CMakeFiles/ncnn.dir/simplestl.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simplestl.cpp > CMakeFiles/ncnn.dir/simplestl.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/simplestl.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/simplestl.cpp -o CMakeFiles/ncnn.dir/simplestl.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/simplestl.cpp -o CMakeFiles/ncnn.dir/simplestl.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o.requires:
 
@@ -946,17 +954,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/simplestl.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/absval.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/absval.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/absval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/absval.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/absval.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/absval.cpp > CMakeFiles/ncnn.dir/layer/absval.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/absval.cpp > CMakeFiles/ncnn.dir/layer/absval.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/absval.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/absval.cpp -o CMakeFiles/ncnn.dir/layer/absval.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/absval.cpp -o CMakeFiles/ncnn.dir/layer/absval.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o.requires:
 
@@ -970,17 +978,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o.provides.build: ncnn_build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/absval_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o.requires:
 
@@ -994,17 +1002,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o.provides.build: nc
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/absval_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o.requires:
 
@@ -1019,16 +1027,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o.provides.bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o: ncnn_build/src/layer/arm/absval_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/absval_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o.requires:
 
@@ -1042,17 +1050,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm_arm82.cpp.o.provides.bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp > CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp > CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/batchnorm.cpp -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o.requires:
 
@@ -1066,17 +1074,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/batchnorm_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o.requires:
 
@@ -1090,17 +1098,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o.requires:
 
@@ -1115,16 +1123,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o.provides.
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o: ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/batchnorm_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o.requires:
 
@@ -1138,17 +1146,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_arm82.cpp.o.provides.
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bias.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bias.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bias.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bias.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/bias.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bias.cpp > CMakeFiles/ncnn.dir/layer/bias.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bias.cpp > CMakeFiles/ncnn.dir/layer/bias.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/bias.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bias.cpp -o CMakeFiles/ncnn.dir/layer/bias.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bias.cpp -o CMakeFiles/ncnn.dir/layer/bias.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o.requires:
 
@@ -1162,17 +1170,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/bias_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o.requires:
 
@@ -1187,16 +1195,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o: ncnn_build/src/layer/arm/bias_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/bias_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o.requires:
 
@@ -1210,17 +1218,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bnll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bnll.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bnll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bnll.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/bnll.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bnll.cpp > CMakeFiles/ncnn.dir/layer/bnll.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bnll.cpp > CMakeFiles/ncnn.dir/layer/bnll.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/bnll.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/bnll.cpp -o CMakeFiles/ncnn.dir/layer/bnll.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/bnll.cpp -o CMakeFiles/ncnn.dir/layer/bnll.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o.requires:
 
@@ -1234,17 +1242,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/concat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/concat.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/concat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/concat.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/concat.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/concat.cpp > CMakeFiles/ncnn.dir/layer/concat.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/concat.cpp > CMakeFiles/ncnn.dir/layer/concat.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/concat.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/concat.cpp -o CMakeFiles/ncnn.dir/layer/concat.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/concat.cpp -o CMakeFiles/ncnn.dir/layer/concat.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o.requires:
 
@@ -1258,17 +1266,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o.provides.build: ncnn_build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/concat_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o.requires:
 
@@ -1282,17 +1290,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o.provides.build: nc
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/concat_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o.requires:
 
@@ -1307,16 +1315,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o.provides.bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o: ncnn_build/src/layer/arm/concat_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/concat_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o.requires:
 
@@ -1330,17 +1338,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/concat_arm_arm82.cpp.o.provides.bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolution.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolution.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/convolution.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolution.cpp > CMakeFiles/ncnn.dir/layer/convolution.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolution.cpp > CMakeFiles/ncnn.dir/layer/convolution.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/convolution.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolution.cpp -o CMakeFiles/ncnn.dir/layer/convolution.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolution.cpp -o CMakeFiles/ncnn.dir/layer/convolution.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o.requires:
 
@@ -1354,17 +1362,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o.provides.build: ncnn_
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolution_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o.requires:
 
@@ -1378,17 +1386,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolution_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o.requires:
 
@@ -1403,16 +1411,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o.provide
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o: ncnn_build/src/layer/arm/convolution_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolution_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o.requires:
 
@@ -1426,17 +1434,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_arm82.cpp.o.provide
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/crop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/crop.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/crop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/crop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/crop.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/crop.cpp > CMakeFiles/ncnn.dir/layer/crop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/crop.cpp > CMakeFiles/ncnn.dir/layer/crop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/crop.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/crop.cpp -o CMakeFiles/ncnn.dir/layer/crop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/crop.cpp -o CMakeFiles/ncnn.dir/layer/crop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o.requires:
 
@@ -1450,17 +1458,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/crop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o.requires:
 
@@ -1474,17 +1482,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/crop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o.requires:
 
@@ -1499,16 +1507,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o: ncnn_build/src/layer/arm/crop_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/crop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o.requires:
 
@@ -1522,17 +1530,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/crop_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp > CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp > CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolution.cpp -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o.requires:
 
@@ -1546,17 +1554,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o.provides.build: ncn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolution_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o.requires:
 
@@ -1570,17 +1578,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o.requires:
 
@@ -1595,16 +1603,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o.provi
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o: ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolution_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o.requires:
 
@@ -1618,17 +1626,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_arm82.cpp.o.provi
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dropout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dropout.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dropout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dropout.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/dropout.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dropout.cpp > CMakeFiles/ncnn.dir/layer/dropout.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dropout.cpp > CMakeFiles/ncnn.dir/layer/dropout.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/dropout.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dropout.cpp -o CMakeFiles/ncnn.dir/layer/dropout.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dropout.cpp -o CMakeFiles/ncnn.dir/layer/dropout.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o.requires:
 
@@ -1642,17 +1650,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dropout_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o.requires:
 
@@ -1666,17 +1674,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/dropout_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o.requires:
 
@@ -1691,16 +1699,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o: ncnn_build/src/layer/arm/dropout_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dropout_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o.requires:
 
@@ -1714,17 +1722,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/eltwise.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp > CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp > CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/eltwise.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/eltwise.cpp -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o.requires:
 
@@ -1738,17 +1746,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/eltwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o.requires:
 
@@ -1762,17 +1770,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/eltwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o.requires:
 
@@ -1787,16 +1795,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o: ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/eltwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o.requires:
 
@@ -1810,17 +1818,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/elu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/elu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/elu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/elu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/elu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/elu.cpp > CMakeFiles/ncnn.dir/layer/elu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/elu.cpp > CMakeFiles/ncnn.dir/layer/elu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/elu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/elu.cpp -o CMakeFiles/ncnn.dir/layer/elu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/elu.cpp -o CMakeFiles/ncnn.dir/layer/elu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o.requires:
 
@@ -1834,17 +1842,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/embed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/embed.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/embed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/embed.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/embed.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/embed.cpp > CMakeFiles/ncnn.dir/layer/embed.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/embed.cpp > CMakeFiles/ncnn.dir/layer/embed.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/embed.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/embed.cpp -o CMakeFiles/ncnn.dir/layer/embed.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/embed.cpp -o CMakeFiles/ncnn.dir/layer/embed.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o.requires:
 
@@ -1858,17 +1866,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/exp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/exp.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/exp.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.cpp > CMakeFiles/ncnn.dir/layer/exp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/exp.cpp > CMakeFiles/ncnn.dir/layer/exp.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/exp.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/exp.cpp -o CMakeFiles/ncnn.dir/layer/exp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/exp.cpp -o CMakeFiles/ncnn.dir/layer/exp.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o.requires:
 
@@ -1882,17 +1890,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/flatten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/flatten.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/flatten.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp > CMakeFiles/ncnn.dir/layer/flatten.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/flatten.cpp > CMakeFiles/ncnn.dir/layer/flatten.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/flatten.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/flatten.cpp -o CMakeFiles/ncnn.dir/layer/flatten.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/flatten.cpp -o CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o.requires:
 
@@ -1906,17 +1914,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/flatten_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o.requires:
 
@@ -1930,17 +1938,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/flatten_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o.requires:
 
@@ -1955,16 +1963,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o: ncnn_build/src/layer/arm/flatten_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/flatten_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o.requires:
 
@@ -1978,17 +1986,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp > CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp > CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/innerproduct.cpp -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o.requires:
 
@@ -2002,17 +2010,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/innerproduct_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o.requires:
 
@@ -2026,17 +2034,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o.provides.bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o.requires:
 
@@ -2051,16 +2059,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o.provid
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o: ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/innerproduct_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o.requires:
 
@@ -2074,17 +2082,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_arm82.cpp.o.provid
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/input.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/input.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/input.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/input.cpp > CMakeFiles/ncnn.dir/layer/input.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/input.cpp > CMakeFiles/ncnn.dir/layer/input.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/input.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/input.cpp -o CMakeFiles/ncnn.dir/layer/input.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/input.cpp -o CMakeFiles/ncnn.dir/layer/input.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o.requires:
 
@@ -2098,17 +2106,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/log.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/log.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/log.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/log.cpp > CMakeFiles/ncnn.dir/layer/log.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/log.cpp > CMakeFiles/ncnn.dir/layer/log.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/log.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/log.cpp -o CMakeFiles/ncnn.dir/layer/log.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/log.cpp -o CMakeFiles/ncnn.dir/layer/log.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o.requires:
 
@@ -2122,17 +2130,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lrn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lrn.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lrn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lrn.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/lrn.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lrn.cpp > CMakeFiles/ncnn.dir/layer/lrn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lrn.cpp > CMakeFiles/ncnn.dir/layer/lrn.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/lrn.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lrn.cpp -o CMakeFiles/ncnn.dir/layer/lrn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lrn.cpp -o CMakeFiles/ncnn.dir/layer/lrn.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o.requires:
 
@@ -2146,17 +2154,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lrn_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o.requires:
 
@@ -2170,17 +2178,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o.provides.build: ncnn_
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/lrn_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o.requires:
 
@@ -2195,16 +2203,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o.provides.build:
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o: ncnn_build/src/layer/arm/lrn_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lrn_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o.requires:
 
@@ -2218,17 +2226,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm_arm82.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/memorydata.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp > CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp > CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/memorydata.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/memorydata.cpp -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o.requires:
 
@@ -2242,17 +2250,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/memorydata_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o.requires:
 
@@ -2266,17 +2274,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/memorydata_vulkan.cpp.o.provides
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mvn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mvn.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mvn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mvn.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/mvn.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mvn.cpp > CMakeFiles/ncnn.dir/layer/mvn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mvn.cpp > CMakeFiles/ncnn.dir/layer/mvn.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/mvn.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mvn.cpp -o CMakeFiles/ncnn.dir/layer/mvn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mvn.cpp -o CMakeFiles/ncnn.dir/layer/mvn.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o.requires:
 
@@ -2290,17 +2298,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pooling.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/pooling.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pooling.cpp > CMakeFiles/ncnn.dir/layer/pooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pooling.cpp > CMakeFiles/ncnn.dir/layer/pooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/pooling.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pooling.cpp -o CMakeFiles/ncnn.dir/layer/pooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pooling.cpp -o CMakeFiles/ncnn.dir/layer/pooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o.requires:
 
@@ -2314,17 +2322,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/pooling_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o.requires:
 
@@ -2338,17 +2346,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pooling_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o.requires:
 
@@ -2363,16 +2371,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o: ncnn_build/src/layer/arm/pooling_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/pooling_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o.requires:
 
@@ -2386,17 +2394,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/power.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/power.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/power.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/power.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/power.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/power.cpp > CMakeFiles/ncnn.dir/layer/power.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/power.cpp > CMakeFiles/ncnn.dir/layer/power.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/power.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/power.cpp -o CMakeFiles/ncnn.dir/layer/power.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/power.cpp -o CMakeFiles/ncnn.dir/layer/power.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o.requires:
 
@@ -2410,17 +2418,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/prelu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/prelu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/prelu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/prelu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/prelu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/prelu.cpp > CMakeFiles/ncnn.dir/layer/prelu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/prelu.cpp > CMakeFiles/ncnn.dir/layer/prelu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/prelu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/prelu.cpp -o CMakeFiles/ncnn.dir/layer/prelu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/prelu.cpp -o CMakeFiles/ncnn.dir/layer/prelu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o.requires:
 
@@ -2434,17 +2442,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/prelu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o.requires:
 
@@ -2458,17 +2466,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o.provides.build: ncn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/prelu_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o.requires:
 
@@ -2483,16 +2491,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o: ncnn_build/src/layer/arm/prelu_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/prelu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o.requires:
 
@@ -2506,17 +2514,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_arm82.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/proposal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/proposal.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/proposal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/proposal.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/proposal.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/proposal.cpp > CMakeFiles/ncnn.dir/layer/proposal.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/proposal.cpp > CMakeFiles/ncnn.dir/layer/proposal.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/proposal.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/proposal.cpp -o CMakeFiles/ncnn.dir/layer/proposal.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/proposal.cpp -o CMakeFiles/ncnn.dir/layer/proposal.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o.requires:
 
@@ -2530,17 +2538,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reduction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reduction.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reduction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reduction.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reduction.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reduction.cpp > CMakeFiles/ncnn.dir/layer/reduction.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reduction.cpp > CMakeFiles/ncnn.dir/layer/reduction.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reduction.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reduction.cpp -o CMakeFiles/ncnn.dir/layer/reduction.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reduction.cpp -o CMakeFiles/ncnn.dir/layer/reduction.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o.requires:
 
@@ -2554,17 +2562,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/relu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/relu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/relu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/relu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/relu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/relu.cpp > CMakeFiles/ncnn.dir/layer/relu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/relu.cpp > CMakeFiles/ncnn.dir/layer/relu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/relu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/relu.cpp -o CMakeFiles/ncnn.dir/layer/relu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/relu.cpp -o CMakeFiles/ncnn.dir/layer/relu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o.requires:
 
@@ -2578,17 +2586,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/relu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o.requires:
 
@@ -2602,17 +2610,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/relu_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o.requires:
 
@@ -2627,16 +2635,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o: ncnn_build/src/layer/arm/relu_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/relu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o.requires:
 
@@ -2650,17 +2658,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reshape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reshape.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reshape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reshape.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reshape.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reshape.cpp > CMakeFiles/ncnn.dir/layer/reshape.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reshape.cpp > CMakeFiles/ncnn.dir/layer/reshape.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reshape.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reshape.cpp -o CMakeFiles/ncnn.dir/layer/reshape.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reshape.cpp -o CMakeFiles/ncnn.dir/layer/reshape.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o.requires:
 
@@ -2674,17 +2682,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/reshape_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o.requires:
 
@@ -2698,17 +2706,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reshape_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o.requires:
 
@@ -2723,16 +2731,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o: ncnn_build/src/layer/arm/reshape_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/reshape_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o.requires:
 
@@ -2746,17 +2754,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/roipooling.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp > CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp > CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/roipooling.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roipooling.cpp -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o.requires:
 
@@ -2770,17 +2778,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/scale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/scale.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/scale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/scale.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/scale.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/scale.cpp > CMakeFiles/ncnn.dir/layer/scale.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/scale.cpp > CMakeFiles/ncnn.dir/layer/scale.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/scale.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/scale.cpp -o CMakeFiles/ncnn.dir/layer/scale.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/scale.cpp -o CMakeFiles/ncnn.dir/layer/scale.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o.requires:
 
@@ -2794,17 +2802,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/scale_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o.requires:
 
@@ -2818,17 +2826,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o.provides.build: ncn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/scale_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o.requires:
 
@@ -2843,16 +2851,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o: ncnn_build/src/layer/arm/scale_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/scale_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o.requires:
 
@@ -2866,17 +2874,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm_arm82.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp > CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp > CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/sigmoid.cpp -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o.requires:
 
@@ -2890,17 +2898,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/sigmoid_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o.requires:
 
@@ -2914,17 +2922,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o.requires:
 
@@ -2939,16 +2947,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o: ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/sigmoid_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o.requires:
 
@@ -2962,17 +2970,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/slice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/slice.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/slice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/slice.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/slice.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/slice.cpp > CMakeFiles/ncnn.dir/layer/slice.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/slice.cpp > CMakeFiles/ncnn.dir/layer/slice.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/slice.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/slice.cpp -o CMakeFiles/ncnn.dir/layer/slice.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/slice.cpp -o CMakeFiles/ncnn.dir/layer/slice.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o.requires:
 
@@ -2986,17 +2994,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/slice_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o.requires:
 
@@ -3010,17 +3018,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o.provides.build: ncn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/slice_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o.requires:
 
@@ -3035,16 +3043,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/slice_vulkan.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o: ncnn_build/src/layer/arm/slice_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/slice_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o.requires:
 
@@ -3058,17 +3066,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm_arm82.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softmax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softmax.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softmax.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softmax.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/softmax.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softmax.cpp > CMakeFiles/ncnn.dir/layer/softmax.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softmax.cpp > CMakeFiles/ncnn.dir/layer/softmax.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/softmax.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softmax.cpp -o CMakeFiles/ncnn.dir/layer/softmax.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softmax.cpp -o CMakeFiles/ncnn.dir/layer/softmax.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o.requires:
 
@@ -3082,17 +3090,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/softmax_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o.requires:
 
@@ -3106,17 +3114,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/softmax_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o.requires:
 
@@ -3131,16 +3139,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o: ncnn_build/src/layer/arm/softmax_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/softmax_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o.requires:
 
@@ -3154,17 +3162,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/split.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/split.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/split.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/split.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/split.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/split.cpp > CMakeFiles/ncnn.dir/layer/split.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/split.cpp > CMakeFiles/ncnn.dir/layer/split.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/split.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/split.cpp -o CMakeFiles/ncnn.dir/layer/split.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/split.cpp -o CMakeFiles/ncnn.dir/layer/split.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o.requires:
 
@@ -3178,17 +3186,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/tanh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/tanh.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/tanh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/tanh.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/tanh.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/tanh.cpp > CMakeFiles/ncnn.dir/layer/tanh.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/tanh.cpp > CMakeFiles/ncnn.dir/layer/tanh.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/tanh.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/tanh.cpp -o CMakeFiles/ncnn.dir/layer/tanh.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/tanh.cpp -o CMakeFiles/ncnn.dir/layer/tanh.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o.requires:
 
@@ -3202,17 +3210,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/tanh_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o.requires:
 
@@ -3226,17 +3234,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/tanh_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o.requires:
 
@@ -3251,16 +3259,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o: ncnn_build/src/layer/arm/tanh_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/tanh_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o.requires:
 
@@ -3274,17 +3282,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/threshold.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/threshold.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/threshold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/threshold.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/threshold.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/threshold.cpp > CMakeFiles/ncnn.dir/layer/threshold.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/threshold.cpp > CMakeFiles/ncnn.dir/layer/threshold.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/threshold.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/threshold.cpp -o CMakeFiles/ncnn.dir/layer/threshold.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/threshold.cpp -o CMakeFiles/ncnn.dir/layer/threshold.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o.requires:
 
@@ -3298,17 +3306,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/rnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/rnn.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/rnn.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/rnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/rnn.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/rnn.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/rnn.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/rnn.cpp > CMakeFiles/ncnn.dir/layer/rnn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/rnn.cpp > CMakeFiles/ncnn.dir/layer/rnn.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/rnn.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/rnn.cpp -o CMakeFiles/ncnn.dir/layer/rnn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/rnn.cpp -o CMakeFiles/ncnn.dir/layer/rnn.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o.requires:
 
@@ -3322,17 +3330,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/rnn_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o.requires:
 
@@ -3347,16 +3355,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o.provides.build: ncnn_
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o: ncnn_build/src/layer/arm/rnn_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/rnn_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o.requires:
 
@@ -3370,17 +3378,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_arm82.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lstm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lstm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lstm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lstm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lstm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lstm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/lstm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lstm.cpp > CMakeFiles/ncnn.dir/layer/lstm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lstm.cpp > CMakeFiles/ncnn.dir/layer/lstm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/lstm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/lstm.cpp -o CMakeFiles/ncnn.dir/layer/lstm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/lstm.cpp -o CMakeFiles/ncnn.dir/layer/lstm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o.requires:
 
@@ -3394,17 +3402,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/lstm_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o.requires:
 
@@ -3419,16 +3427,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o: ncnn_build/src/layer/arm/lstm_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/lstm_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o.requires:
 
@@ -3442,17 +3450,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/binaryop.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp > CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp > CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/binaryop.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/binaryop.cpp -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o.requires:
 
@@ -3466,17 +3474,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/binaryop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o.requires:
 
@@ -3490,17 +3498,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o.provides.build: 
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/binaryop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o.requires:
 
@@ -3515,16 +3523,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o.provides.b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o: ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/binaryop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o.requires:
 
@@ -3538,17 +3546,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_arm82.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/unaryop.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp > CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp > CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/unaryop.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/unaryop.cpp -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o.requires:
 
@@ -3562,17 +3570,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/unaryop_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o.requires:
 
@@ -3586,17 +3594,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/unaryop_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o.requires:
 
@@ -3611,16 +3619,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o: ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/unaryop_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o.requires:
 
@@ -3634,17 +3642,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/convolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o.requires:
 
@@ -3658,17 +3666,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o.provides.bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o.requires:
 
@@ -3682,17 +3690,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o.prov
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o.requires:
 
@@ -3707,16 +3715,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o: ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/convolutiondepthwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.o.requires:
 
@@ -3730,17 +3738,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_arm82.cpp.
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/padding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/padding.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/padding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/padding.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/padding.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/padding.cpp > CMakeFiles/ncnn.dir/layer/padding.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/padding.cpp > CMakeFiles/ncnn.dir/layer/padding.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/padding.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/padding.cpp -o CMakeFiles/ncnn.dir/layer/padding.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/padding.cpp -o CMakeFiles/ncnn.dir/layer/padding.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o.requires:
 
@@ -3754,17 +3762,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/padding_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o.requires:
 
@@ -3778,17 +3786,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/padding_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o.requires:
 
@@ -3803,16 +3811,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o: ncnn_build/src/layer/arm/padding_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/padding_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o.requires:
 
@@ -3826,17 +3834,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/padding_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/squeeze.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp > CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp > CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/squeeze.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/squeeze.cpp -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o.requires:
 
@@ -3850,17 +3858,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/expanddims.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp > CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp > CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/expanddims.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/expanddims.cpp -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o.requires:
 
@@ -3874,17 +3882,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/normalize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/normalize.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/normalize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/normalize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/normalize.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/normalize.cpp > CMakeFiles/ncnn.dir/layer/normalize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/normalize.cpp > CMakeFiles/ncnn.dir/layer/normalize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/normalize.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/normalize.cpp -o CMakeFiles/ncnn.dir/layer/normalize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/normalize.cpp -o CMakeFiles/ncnn.dir/layer/normalize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o.requires:
 
@@ -3898,17 +3906,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/normalize_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o.requires:
 
@@ -3922,17 +3930,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/normalize_vulkan.cpp.o.provides.
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/permute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/permute.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/permute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/permute.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/permute.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/permute.cpp > CMakeFiles/ncnn.dir/layer/permute.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/permute.cpp > CMakeFiles/ncnn.dir/layer/permute.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/permute.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/permute.cpp -o CMakeFiles/ncnn.dir/layer/permute.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/permute.cpp -o CMakeFiles/ncnn.dir/layer/permute.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o.requires:
 
@@ -3946,17 +3954,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/permute_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o.requires:
 
@@ -3970,17 +3978,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/priorbox.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp > CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp > CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/priorbox.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/priorbox.cpp -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o.requires:
 
@@ -3994,17 +4002,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/priorbox_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o.requires:
 
@@ -4018,17 +4026,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o.requires:
 
@@ -4042,17 +4050,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/interp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/interp.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/interp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/interp.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/interp.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/interp.cpp > CMakeFiles/ncnn.dir/layer/interp.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/interp.cpp > CMakeFiles/ncnn.dir/layer/interp.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/interp.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/interp.cpp -o CMakeFiles/ncnn.dir/layer/interp.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/interp.cpp -o CMakeFiles/ncnn.dir/layer/interp.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o.requires:
 
@@ -4066,17 +4074,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o.provides.build: ncnn_build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/interp_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o.requires:
 
@@ -4090,17 +4098,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o.provides.build: nc
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/interp_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o.requires:
 
@@ -4115,16 +4123,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o.provides.bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o: ncnn_build/src/layer/arm/interp_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/interp_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o.requires:
 
@@ -4138,17 +4146,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_arm82.cpp.o.provides.bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deconvolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o.requires:
 
@@ -4162,17 +4170,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o.requires:
 
@@ -4186,17 +4194,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o.pr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o.requires:
 
@@ -4211,16 +4219,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o: ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cpp.o.requires:
 
@@ -4234,17 +4242,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_arm82.cp
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp > CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp > CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/shufflechannel.cpp -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o.requires:
 
@@ -4258,17 +4266,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o.provides.build: nc
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/shufflechannel_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o.requires:
 
@@ -4282,17 +4290,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o.requires:
 
@@ -4307,16 +4315,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o.prov
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o: ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o.requires:
 
@@ -4330,17 +4338,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o.prov
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp > CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp > CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/instancenorm.cpp -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.requires:
 
@@ -4353,18 +4361,42 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.provides: ncnn_build
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
 
 
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.i"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.i
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.s"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/instancenorm_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.s
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.requires:
+
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.requires
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.provides: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.requires
+	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.provides.build
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.provides
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o
+
+
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o.requires:
 
@@ -4377,18 +4409,42 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o.provid
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o
 
 
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o: ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.i"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.i
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.s"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.s
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.requires:
+
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.requires
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.provides: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.requires
+	$(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.provides.build
+.PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.provides
+
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.provides.build: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o
+
+
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/clip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/clip.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/clip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/clip.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/clip.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/clip.cpp > CMakeFiles/ncnn.dir/layer/clip.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/clip.cpp > CMakeFiles/ncnn.dir/layer/clip.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/clip.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/clip.cpp -o CMakeFiles/ncnn.dir/layer/clip.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/clip.cpp -o CMakeFiles/ncnn.dir/layer/clip.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o.requires:
 
@@ -4402,17 +4458,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/clip_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o.requires:
 
@@ -4426,17 +4482,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/clip_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o.requires:
 
@@ -4451,16 +4507,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o: ncnn_build/src/layer/arm/clip_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/clip_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o.requires:
 
@@ -4474,17 +4530,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reorg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reorg.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reorg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reorg.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reorg.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reorg.cpp > CMakeFiles/ncnn.dir/layer/reorg.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reorg.cpp > CMakeFiles/ncnn.dir/layer/reorg.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reorg.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/reorg.cpp -o CMakeFiles/ncnn.dir/layer/reorg.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/reorg.cpp -o CMakeFiles/ncnn.dir/layer/reorg.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o.requires:
 
@@ -4498,17 +4554,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/reorg_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o.requires:
 
@@ -4522,17 +4578,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolodetectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o.requires:
 
@@ -4546,17 +4602,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/quantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/quantize.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/quantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/quantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/quantize.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/quantize.cpp > CMakeFiles/ncnn.dir/layer/quantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/quantize.cpp > CMakeFiles/ncnn.dir/layer/quantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/quantize.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/quantize.cpp -o CMakeFiles/ncnn.dir/layer/quantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/quantize.cpp -o CMakeFiles/ncnn.dir/layer/quantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o.requires:
 
@@ -4570,17 +4626,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/quantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o.requires:
 
@@ -4595,16 +4651,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o.provides.build: 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o: ncnn_build/src/layer/arm/quantize_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/quantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o.requires:
 
@@ -4618,17 +4674,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_arm82.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/dequantize.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp > CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp > CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/dequantize.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/dequantize.cpp -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o.requires:
 
@@ -4642,17 +4698,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/dequantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o.requires:
 
@@ -4667,16 +4723,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o: ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/dequantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o.requires:
 
@@ -4690,17 +4746,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_arm82.cpp.o.provides
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/yolov3detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o.requires:
 
@@ -4714,17 +4770,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp > CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp > CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/psroipooling.cpp -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o.requires:
 
@@ -4738,17 +4794,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roialign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roialign.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roialign.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roialign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roialign.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roialign.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/roialign.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roialign.cpp > CMakeFiles/ncnn.dir/layer/roialign.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roialign.cpp > CMakeFiles/ncnn.dir/layer/roialign.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/roialign.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/roialign.cpp -o CMakeFiles/ncnn.dir/layer/roialign.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/roialign.cpp -o CMakeFiles/ncnn.dir/layer/roialign.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o.requires:
 
@@ -4762,17 +4818,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/packing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/packing.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/packing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/packing.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/packing.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/packing.cpp > CMakeFiles/ncnn.dir/layer/packing.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/packing.cpp > CMakeFiles/ncnn.dir/layer/packing.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/packing.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/packing.cpp -o CMakeFiles/ncnn.dir/layer/packing.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/packing.cpp -o CMakeFiles/ncnn.dir/layer/packing.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o.requires:
 
@@ -4786,17 +4842,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o.provides.build: ncnn_buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/packing_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o.requires:
 
@@ -4810,17 +4866,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o.provides.build: n
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/packing_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o.requires:
 
@@ -4835,16 +4891,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o: ncnn_build/src/layer/arm/packing_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/packing_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o.requires:
 
@@ -4858,17 +4914,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/packing_arm_arm82.cpp.o.provides.bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/requantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/requantize.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/requantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/requantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/requantize.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/requantize.cpp > CMakeFiles/ncnn.dir/layer/requantize.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/requantize.cpp > CMakeFiles/ncnn.dir/layer/requantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/requantize.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/requantize.cpp -o CMakeFiles/ncnn.dir/layer/requantize.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/requantize.cpp -o CMakeFiles/ncnn.dir/layer/requantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o.requires:
 
@@ -4882,17 +4938,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o.provides.build: ncnn_b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/requantize_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o.requires:
 
@@ -4907,16 +4963,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o: ncnn_build/src/layer/arm/requantize_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/requantize_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o.requires:
 
@@ -4930,17 +4986,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm_arm82.cpp.o.provides
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/cast.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/cast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/cast.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/cast.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/cast.cpp > CMakeFiles/ncnn.dir/layer/cast.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/cast.cpp > CMakeFiles/ncnn.dir/layer/cast.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/cast.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/cast.cpp -o CMakeFiles/ncnn.dir/layer/cast.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/cast.cpp -o CMakeFiles/ncnn.dir/layer/cast.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o.requires:
 
@@ -4954,17 +5010,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/cast_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o.requires:
 
@@ -4978,17 +5034,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/cast_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o.requires:
 
@@ -5003,16 +5059,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o: ncnn_build/src/layer/arm/cast_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/cast_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o.requires:
 
@@ -5026,17 +5082,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp > CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp > CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardsigmoid.cpp -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o.requires:
 
@@ -5050,17 +5106,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o.provides.build: ncnn_
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardsigmoid_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o.requires:
 
@@ -5074,17 +5130,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o.requires:
 
@@ -5099,16 +5155,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o.provide
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o: ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardsigmoid_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o.requires:
 
@@ -5122,17 +5178,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_arm82.cpp.o.provide
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/selu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/selu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/selu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/selu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/selu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/selu.cpp > CMakeFiles/ncnn.dir/layer/selu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/selu.cpp > CMakeFiles/ncnn.dir/layer/selu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/selu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/selu.cpp -o CMakeFiles/ncnn.dir/layer/selu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/selu.cpp -o CMakeFiles/ncnn.dir/layer/selu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o.requires:
 
@@ -5146,17 +5202,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/selu_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o.requires:
 
@@ -5171,16 +5227,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o: ncnn_build/src/layer/arm/selu_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/selu_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o.requires:
 
@@ -5194,17 +5250,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/selu_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/hardswish.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp > CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp > CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/hardswish.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/hardswish.cpp -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o.requires:
 
@@ -5218,17 +5274,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/hardswish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o.requires:
 
@@ -5242,17 +5298,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/hardswish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o.requires:
 
@@ -5267,16 +5323,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o.provides.
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o: ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/hardswish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o.requires:
 
@@ -5290,17 +5346,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_arm82.cpp.o.provides.
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/noop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/noop.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/noop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/noop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/noop.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/noop.cpp > CMakeFiles/ncnn.dir/layer/noop.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/noop.cpp > CMakeFiles/ncnn.dir/layer/noop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/noop.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/noop.cpp -o CMakeFiles/ncnn.dir/layer/noop.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/noop.cpp -o CMakeFiles/ncnn.dir/layer/noop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o.requires:
 
@@ -5314,17 +5370,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp > CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp > CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp -o CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/pixelshuffle.cpp -o CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o.requires:
 
@@ -5338,17 +5394,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/pixelshuffle_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o.requires:
 
@@ -5362,17 +5418,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/pixelshuffle_vulkan.cpp.o.provid
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp > CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp > CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp -o CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/deepcopy.cpp -o CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o.requires:
 
@@ -5386,17 +5442,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/deepcopy_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o.requires:
 
@@ -5410,17 +5466,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/deepcopy_vulkan.cpp.o.provides.b
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mish.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mish.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mish.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mish.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/mish.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mish.cpp > CMakeFiles/ncnn.dir/layer/mish.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mish.cpp > CMakeFiles/ncnn.dir/layer/mish.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/mish.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/mish.cpp -o CMakeFiles/ncnn.dir/layer/mish.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/mish.cpp -o CMakeFiles/ncnn.dir/layer/mish.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o.requires:
 
@@ -5434,17 +5490,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/mish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o.requires:
 
@@ -5458,17 +5514,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o.provides.build: ncnn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/mish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o.requires:
 
@@ -5483,16 +5539,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/mish_vulkan.cpp.o.provides.build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o: ncnn_build/src/layer/arm/mish_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/mish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o.requires:
 
@@ -5506,17 +5562,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_arm82.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp > CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp > CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp -o CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/statisticspooling.cpp -o CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o.requires:
 
@@ -5530,17 +5586,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/swish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/swish.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/swish.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/swish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/swish.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/swish.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/swish.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/swish.cpp > CMakeFiles/ncnn.dir/layer/swish.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/swish.cpp > CMakeFiles/ncnn.dir/layer/swish.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/swish.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/swish.cpp -o CMakeFiles/ncnn.dir/layer/swish.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/swish.cpp -o CMakeFiles/ncnn.dir/layer/swish.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o.requires:
 
@@ -5554,17 +5610,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o.provides.build: ncnn_build/
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/swish_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o.requires:
 
@@ -5578,17 +5634,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o.provides.build: ncn
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp > CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/vulkan/swish_vulkan.cpp -o CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o.requires:
 
@@ -5603,16 +5659,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/swish_vulkan.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o: ncnn_build/src/layer/arm/swish_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/swish_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o.requires:
 
@@ -5626,17 +5682,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_arm82.cpp.o.provides.buil
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gemm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gemm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gemm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gemm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/gemm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp > CMakeFiles/ncnn.dir/layer/gemm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gemm.cpp > CMakeFiles/ncnn.dir/layer/gemm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/gemm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gemm.cpp -o CMakeFiles/ncnn.dir/layer/gemm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gemm.cpp -o CMakeFiles/ncnn.dir/layer/gemm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o.requires:
 
@@ -5650,17 +5706,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o.provides.build: ncnn_build/s
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp > CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp > CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp -o CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/groupnorm.cpp -o CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o.requires:
 
@@ -5674,17 +5730,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/layernorm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/layernorm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/layernorm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp > CMakeFiles/ncnn.dir/layer/layernorm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp > CMakeFiles/ncnn.dir/layer/layernorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/layernorm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp -o CMakeFiles/ncnn.dir/layer/layernorm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/layernorm.cpp -o CMakeFiles/ncnn.dir/layer/layernorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o.requires:
 
@@ -5698,17 +5754,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o.provides.build: ncnn_bu
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softplus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softplus.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softplus.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softplus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softplus.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softplus.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/softplus.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softplus.cpp > CMakeFiles/ncnn.dir/layer/softplus.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softplus.cpp > CMakeFiles/ncnn.dir/layer/softplus.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/softplus.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/softplus.cpp -o CMakeFiles/ncnn.dir/layer/softplus.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/softplus.cpp -o CMakeFiles/ncnn.dir/layer/softplus.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o.requires:
 
@@ -5722,17 +5778,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o.provides.build: ncnn_bui
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gru.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gru.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gru.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gru.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/gru.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.cpp > CMakeFiles/ncnn.dir/layer/gru.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gru.cpp > CMakeFiles/ncnn.dir/layer/gru.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/gru.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gru.cpp -o CMakeFiles/ncnn.dir/layer/gru.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gru.cpp -o CMakeFiles/ncnn.dir/layer/gru.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o.requires:
 
@@ -5746,17 +5802,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o.provides.build: ncnn_build/sr
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp > CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/arm/gru_arm.cpp -o CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o.requires:
 
@@ -5771,16 +5827,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o.provides.build: ncnn_
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o: ncnn_build/src/layer/arm/gru_arm_arm82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -o CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -o CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp > CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16 -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -march=armv8.2-a+fp16+dotprod -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/layer/arm/gru_arm_arm82.cpp -o CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o.requires:
 
@@ -5794,17 +5850,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_arm82.cpp.o.provides.build:
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp > CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp > CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp -o CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/multiheadattention.cpp -o CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o.requires:
 
@@ -5818,17 +5874,17 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o.provides.build
 
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
-ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gelu.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/gelu.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gelu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/gelu.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp > CMakeFiles/ncnn.dir/layer/gelu.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gelu.cpp > CMakeFiles/ncnn.dir/layer/gelu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/gelu.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src/layer/gelu.cpp -o CMakeFiles/ncnn.dir/layer/gelu.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src/layer/gelu.cpp -o CMakeFiles/ncnn.dir/layer/gelu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o.requires:
 
@@ -6008,7 +6064,9 @@ ncnn_OBJECTS = \
 "CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o" \
+"CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o" \
+"CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/clip.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o" \
 "CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o" \
@@ -6239,7 +6297,9 @@ ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflech
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o
+ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o
@@ -6303,9 +6363,9 @@ ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/multiheadatte
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/build.make
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Linking CXX static library libncnn.a"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Linking CXX static library libncnn.a"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean_target.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/src/CMakeFiles/ncnn.dir/build: ncnn_build/src/libncnn.a
@@ -6477,7 +6537,9 @@ ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm_arm82.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.requires
+ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o.requires
+ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_arm82.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o.requires
 ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o.requires
@@ -6543,7 +6605,7 @@ ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/requires
 
 ncnn_build/src/CMakeFiles/ncnn.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean.cmake
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/clean
 
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/absval_arm_arm82.h
@@ -6606,6 +6668,8 @@ ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/deconvolutio
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/deconvolutiondepthwise_arm_arm82.cpp
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/shufflechannel_arm_arm82.h
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/shufflechannel_arm_arm82.cpp
+ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/instancenorm_arm_arm82.h
+ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/instancenorm_arm_arm82.cpp
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/clip_arm_arm82.h
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/clip_arm_arm82.cpp
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/quantize_arm_arm82.h
@@ -6630,6 +6694,6 @@ ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/swish_arm_ar
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/swish_arm_arm82.cpp
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/gru_arm_arm82.h
 ncnn_build/src/CMakeFiles/ncnn.dir/depend: ncnn_build/src/layer/arm/gru_arm_arm82.cpp
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/src /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/src /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/depend
 

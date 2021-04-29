@@ -95,6 +95,6 @@ class student
     dlib::matrix<float, 0, 1> student_features;
     int checked;
     void CreateListStu(student &Student, std::map<std::string, dlib::matrix<float,0,1>> &data_faces);
-    int ReadListStu(student &temp_student, std::vector<student> &temp_lst);
+    int ReadListStu(student &temp_student, std::vector<student> &temp_lst, std::map<std::string, std::vector<float>> &data_faces);
 };
 

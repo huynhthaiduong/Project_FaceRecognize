@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/progress.make
 include ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/flags.make
-ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
+ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp > CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp > CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.i
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.s
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o.requires:
 
@@ -91,9 +91,9 @@ glslang_EXTERNAL_OBJECTS =
 ncnn_build/glslang/glslang/libglslang.a: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o
 ncnn_build/glslang/glslang/libglslang.a: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make
 ncnn_build/glslang/glslang/libglslang.a: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libglslang.a"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/glslang.dir/cmake_clean_target.cmake
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glslang.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libglslang.a"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/glslang.dir/cmake_clean_target.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glslang.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build: ncnn_build/glslang/glslang/libglslang.a
@@ -105,10 +105,10 @@ ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/requires: ncnn_build/glslang/g
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/requires
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/glslang.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang && $(CMAKE_COMMAND) -P CMakeFiles/glslang.dir/cmake_clean.cmake
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/clean
 
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,8 +104,8 @@ list_install_components/fast: list_install_components
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/progress.marks
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/progress.marks
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/clean
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/preinstall
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/preinstall
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/yolov3.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov3.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov3.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/yolov3.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ yolov3: ncnn_build/examples/CMakeFiles/yolov3.dir/rule
 
 # fast build rule for target.
 yolov3/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/build
 .PHONY : yolov3/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/simplepose.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/simplepose.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/simplepose.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/simplepose.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ simplepose: ncnn_build/examples/CMakeFiles/simplepose.dir/rule
 
 # fast build rule for target.
 simplepose/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/build
 .PHONY : simplepose/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/rfcn.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/rfcn.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/rfcn.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/rfcn.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ rfcn: ncnn_build/examples/CMakeFiles/rfcn.dir/rule
 
 # fast build rule for target.
 rfcn/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/build
 .PHONY : rfcn/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/nanodet.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/nanodet.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/nanodet.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/nanodet.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ nanodet: ncnn_build/examples/CMakeFiles/nanodet.dir/rule
 
 # fast build rule for target.
 nanodet/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/build
 .PHONY : nanodet/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ shufflenetv2: ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
 
 # fast build rule for target.
 shufflenetv2/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build
 .PHONY : shufflenetv2/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/yolov4.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov4.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov4.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/yolov4.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ yolov4: ncnn_build/examples/CMakeFiles/yolov4.dir/rule
 
 # fast build rule for target.
 yolov4/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/build
 .PHONY : yolov4/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/squeezenet.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ squeezenet: ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
 
 # fast build rule for target.
 squeezenet/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/build
 .PHONY : squeezenet/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ squeezenet_c_api: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
 
 # fast build rule for target.
 squeezenet_c_api/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build
 .PHONY : squeezenet_c_api/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/yolov5.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov5.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov5.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/yolov5.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ yolov5: ncnn_build/examples/CMakeFiles/yolov5.dir/rule
 
 # fast build rule for target.
 yolov5/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/build
 .PHONY : yolov5/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/yolov2.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov2.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov2.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ yolov2: ncnn_build/examples/CMakeFiles/yolov2.dir/rule
 
 # fast build rule for target.
 yolov2/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/build
 .PHONY : yolov2/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ mobilenetv2ssdlite: ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
 
 # fast build rule for target.
 mobilenetv2ssdlite/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build
 .PHONY : mobilenetv2ssdlite/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ mobilenetssd: ncnn_build/examples/CMakeFiles/mobilenetssd.dir/rule
 
 # fast build rule for target.
 mobilenetssd/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
 .PHONY : mobilenetssd/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ squeezenetssd: ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
 
 # fast build rule for target.
 squeezenetssd/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build
 .PHONY : squeezenetssd/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ peleenetssd_seg: ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
 
 # fast build rule for target.
 peleenetssd_seg/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build
 .PHONY : peleenetssd_seg/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ fasterrcnn: ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
 
 # fast build rule for target.
 fasterrcnn/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build
 .PHONY : fasterrcnn/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/retinaface.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/retinaface.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/retinaface.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/retinaface.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ retinaface: ncnn_build/examples/CMakeFiles/retinaface.dir/rule
 
 # fast build rule for target.
 retinaface/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/build
 .PHONY : retinaface/fast
 
 # Convenience name for target.
 ncnn_build/examples/CMakeFiles/yolact.dir/rule:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolact.dir/rule
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolact.dir/rule
 .PHONY : ncnn_build/examples/CMakeFiles/yolact.dir/rule
 
 # Convenience name for target.
@@ -408,7 +408,7 @@ yolact: ncnn_build/examples/CMakeFiles/yolact.dir/rule
 
 # fast build rule for target.
 yolact/fast:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/build
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/build
 .PHONY : yolact/fast
 
 fasterrcnn.o: fasterrcnn.cpp.o
@@ -417,7 +417,7 @@ fasterrcnn.o: fasterrcnn.cpp.o
 
 # target to build an object file
 fasterrcnn.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o
 .PHONY : fasterrcnn.cpp.o
 
 fasterrcnn.i: fasterrcnn.cpp.i
@@ -426,7 +426,7 @@ fasterrcnn.i: fasterrcnn.cpp.i
 
 # target to preprocess a source file
 fasterrcnn.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i
 .PHONY : fasterrcnn.cpp.i
 
 fasterrcnn.s: fasterrcnn.cpp.s
@@ -435,7 +435,7 @@ fasterrcnn.s: fasterrcnn.cpp.s
 
 # target to generate assembly for a file
 fasterrcnn.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/fasterrcnn.dir/build.make ncnn_build/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s
 .PHONY : fasterrcnn.cpp.s
 
 mobilenetssd.o: mobilenetssd.cpp.o
@@ -444,7 +444,7 @@ mobilenetssd.o: mobilenetssd.cpp.o
 
 # target to build an object file
 mobilenetssd.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o
 .PHONY : mobilenetssd.cpp.o
 
 mobilenetssd.i: mobilenetssd.cpp.i
@@ -453,7 +453,7 @@ mobilenetssd.i: mobilenetssd.cpp.i
 
 # target to preprocess a source file
 mobilenetssd.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.i
 .PHONY : mobilenetssd.cpp.i
 
 mobilenetssd.s: mobilenetssd.cpp.s
@@ -462,7 +462,7 @@ mobilenetssd.s: mobilenetssd.cpp.s
 
 # target to generate assembly for a file
 mobilenetssd.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.s
 .PHONY : mobilenetssd.cpp.s
 
 mobilenetv2ssdlite.o: mobilenetv2ssdlite.cpp.o
@@ -471,7 +471,7 @@ mobilenetv2ssdlite.o: mobilenetv2ssdlite.cpp.o
 
 # target to build an object file
 mobilenetv2ssdlite.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.o
 .PHONY : mobilenetv2ssdlite.cpp.o
 
 mobilenetv2ssdlite.i: mobilenetv2ssdlite.cpp.i
@@ -480,7 +480,7 @@ mobilenetv2ssdlite.i: mobilenetv2ssdlite.cpp.i
 
 # target to preprocess a source file
 mobilenetv2ssdlite.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.i
 .PHONY : mobilenetv2ssdlite.cpp.i
 
 mobilenetv2ssdlite.s: mobilenetv2ssdlite.cpp.s
@@ -489,7 +489,7 @@ mobilenetv2ssdlite.s: mobilenetv2ssdlite.cpp.s
 
 # target to generate assembly for a file
 mobilenetv2ssdlite.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.s
 .PHONY : mobilenetv2ssdlite.cpp.s
 
 nanodet.o: nanodet.cpp.o
@@ -498,7 +498,7 @@ nanodet.o: nanodet.cpp.o
 
 # target to build an object file
 nanodet.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.o
 .PHONY : nanodet.cpp.o
 
 nanodet.i: nanodet.cpp.i
@@ -507,7 +507,7 @@ nanodet.i: nanodet.cpp.i
 
 # target to preprocess a source file
 nanodet.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.i
 .PHONY : nanodet.cpp.i
 
 nanodet.s: nanodet.cpp.s
@@ -516,7 +516,7 @@ nanodet.s: nanodet.cpp.s
 
 # target to generate assembly for a file
 nanodet.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/nanodet.dir/build.make ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.s
 .PHONY : nanodet.cpp.s
 
 peleenetssd_seg.o: peleenetssd_seg.cpp.o
@@ -525,7 +525,7 @@ peleenetssd_seg.o: peleenetssd_seg.cpp.o
 
 # target to build an object file
 peleenetssd_seg.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.o
 .PHONY : peleenetssd_seg.cpp.o
 
 peleenetssd_seg.i: peleenetssd_seg.cpp.i
@@ -534,7 +534,7 @@ peleenetssd_seg.i: peleenetssd_seg.cpp.i
 
 # target to preprocess a source file
 peleenetssd_seg.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.i
 .PHONY : peleenetssd_seg.cpp.i
 
 peleenetssd_seg.s: peleenetssd_seg.cpp.s
@@ -543,7 +543,7 @@ peleenetssd_seg.s: peleenetssd_seg.cpp.s
 
 # target to generate assembly for a file
 peleenetssd_seg.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/build.make ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.s
 .PHONY : peleenetssd_seg.cpp.s
 
 retinaface.o: retinaface.cpp.o
@@ -552,7 +552,7 @@ retinaface.o: retinaface.cpp.o
 
 # target to build an object file
 retinaface.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.o
 .PHONY : retinaface.cpp.o
 
 retinaface.i: retinaface.cpp.i
@@ -561,7 +561,7 @@ retinaface.i: retinaface.cpp.i
 
 # target to preprocess a source file
 retinaface.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.i
 .PHONY : retinaface.cpp.i
 
 retinaface.s: retinaface.cpp.s
@@ -570,7 +570,7 @@ retinaface.s: retinaface.cpp.s
 
 # target to generate assembly for a file
 retinaface.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/retinaface.dir/build.make ncnn_build/examples/CMakeFiles/retinaface.dir/retinaface.cpp.s
 .PHONY : retinaface.cpp.s
 
 rfcn.o: rfcn.cpp.o
@@ -579,7 +579,7 @@ rfcn.o: rfcn.cpp.o
 
 # target to build an object file
 rfcn.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.o
 .PHONY : rfcn.cpp.o
 
 rfcn.i: rfcn.cpp.i
@@ -588,7 +588,7 @@ rfcn.i: rfcn.cpp.i
 
 # target to preprocess a source file
 rfcn.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.i
 .PHONY : rfcn.cpp.i
 
 rfcn.s: rfcn.cpp.s
@@ -597,7 +597,7 @@ rfcn.s: rfcn.cpp.s
 
 # target to generate assembly for a file
 rfcn.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/rfcn.dir/build.make ncnn_build/examples/CMakeFiles/rfcn.dir/rfcn.cpp.s
 .PHONY : rfcn.cpp.s
 
 shufflenetv2.o: shufflenetv2.cpp.o
@@ -606,7 +606,7 @@ shufflenetv2.o: shufflenetv2.cpp.o
 
 # target to build an object file
 shufflenetv2.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.o
 .PHONY : shufflenetv2.cpp.o
 
 shufflenetv2.i: shufflenetv2.cpp.i
@@ -615,7 +615,7 @@ shufflenetv2.i: shufflenetv2.cpp.i
 
 # target to preprocess a source file
 shufflenetv2.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.i
 .PHONY : shufflenetv2.cpp.i
 
 shufflenetv2.s: shufflenetv2.cpp.s
@@ -624,7 +624,7 @@ shufflenetv2.s: shufflenetv2.cpp.s
 
 # target to generate assembly for a file
 shufflenetv2.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/shufflenetv2.dir/build.make ncnn_build/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.s
 .PHONY : shufflenetv2.cpp.s
 
 simplepose.o: simplepose.cpp.o
@@ -633,7 +633,7 @@ simplepose.o: simplepose.cpp.o
 
 # target to build an object file
 simplepose.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.o
 .PHONY : simplepose.cpp.o
 
 simplepose.i: simplepose.cpp.i
@@ -642,7 +642,7 @@ simplepose.i: simplepose.cpp.i
 
 # target to preprocess a source file
 simplepose.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.i
 .PHONY : simplepose.cpp.i
 
 simplepose.s: simplepose.cpp.s
@@ -651,7 +651,7 @@ simplepose.s: simplepose.cpp.s
 
 # target to generate assembly for a file
 simplepose.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/simplepose.dir/build.make ncnn_build/examples/CMakeFiles/simplepose.dir/simplepose.cpp.s
 .PHONY : simplepose.cpp.s
 
 squeezenet.o: squeezenet.cpp.o
@@ -660,7 +660,7 @@ squeezenet.o: squeezenet.cpp.o
 
 # target to build an object file
 squeezenet.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.o
 .PHONY : squeezenet.cpp.o
 
 squeezenet.i: squeezenet.cpp.i
@@ -669,7 +669,7 @@ squeezenet.i: squeezenet.cpp.i
 
 # target to preprocess a source file
 squeezenet.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.i
 .PHONY : squeezenet.cpp.i
 
 squeezenet.s: squeezenet.cpp.s
@@ -678,7 +678,7 @@ squeezenet.s: squeezenet.cpp.s
 
 # target to generate assembly for a file
 squeezenet.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.s
 .PHONY : squeezenet.cpp.s
 
 squeezenet_c_api.o: squeezenet_c_api.cpp.o
@@ -687,7 +687,7 @@ squeezenet_c_api.o: squeezenet_c_api.cpp.o
 
 # target to build an object file
 squeezenet_c_api.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o
 .PHONY : squeezenet_c_api.cpp.o
 
 squeezenet_c_api.i: squeezenet_c_api.cpp.i
@@ -696,7 +696,7 @@ squeezenet_c_api.i: squeezenet_c_api.cpp.i
 
 # target to preprocess a source file
 squeezenet_c_api.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i
 .PHONY : squeezenet_c_api.cpp.i
 
 squeezenet_c_api.s: squeezenet_c_api.cpp.s
@@ -705,7 +705,7 @@ squeezenet_c_api.s: squeezenet_c_api.cpp.s
 
 # target to generate assembly for a file
 squeezenet_c_api.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s
 .PHONY : squeezenet_c_api.cpp.s
 
 squeezenetssd.o: squeezenetssd.cpp.o
@@ -714,7 +714,7 @@ squeezenetssd.o: squeezenetssd.cpp.o
 
 # target to build an object file
 squeezenetssd.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.o
 .PHONY : squeezenetssd.cpp.o
 
 squeezenetssd.i: squeezenetssd.cpp.i
@@ -723,7 +723,7 @@ squeezenetssd.i: squeezenetssd.cpp.i
 
 # target to preprocess a source file
 squeezenetssd.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.i
 .PHONY : squeezenetssd.cpp.i
 
 squeezenetssd.s: squeezenetssd.cpp.s
@@ -732,7 +732,7 @@ squeezenetssd.s: squeezenetssd.cpp.s
 
 # target to generate assembly for a file
 squeezenetssd.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/squeezenetssd.dir/build.make ncnn_build/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.s
 .PHONY : squeezenetssd.cpp.s
 
 yolact.o: yolact.cpp.o
@@ -741,7 +741,7 @@ yolact.o: yolact.cpp.o
 
 # target to build an object file
 yolact.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.o
 .PHONY : yolact.cpp.o
 
 yolact.i: yolact.cpp.i
@@ -750,7 +750,7 @@ yolact.i: yolact.cpp.i
 
 # target to preprocess a source file
 yolact.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.i
 .PHONY : yolact.cpp.i
 
 yolact.s: yolact.cpp.s
@@ -759,7 +759,7 @@ yolact.s: yolact.cpp.s
 
 # target to generate assembly for a file
 yolact.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolact.dir/build.make ncnn_build/examples/CMakeFiles/yolact.dir/yolact.cpp.s
 .PHONY : yolact.cpp.s
 
 yolov2.o: yolov2.cpp.o
@@ -768,7 +768,7 @@ yolov2.o: yolov2.cpp.o
 
 # target to build an object file
 yolov2.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o
 .PHONY : yolov2.cpp.o
 
 yolov2.i: yolov2.cpp.i
@@ -777,7 +777,7 @@ yolov2.i: yolov2.cpp.i
 
 # target to preprocess a source file
 yolov2.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.i
 .PHONY : yolov2.cpp.i
 
 yolov2.s: yolov2.cpp.s
@@ -786,7 +786,7 @@ yolov2.s: yolov2.cpp.s
 
 # target to generate assembly for a file
 yolov2.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov2.dir/build.make ncnn_build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.s
 .PHONY : yolov2.cpp.s
 
 yolov3.o: yolov3.cpp.o
@@ -795,7 +795,7 @@ yolov3.o: yolov3.cpp.o
 
 # target to build an object file
 yolov3.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.o
 .PHONY : yolov3.cpp.o
 
 yolov3.i: yolov3.cpp.i
@@ -804,7 +804,7 @@ yolov3.i: yolov3.cpp.i
 
 # target to preprocess a source file
 yolov3.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.i
 .PHONY : yolov3.cpp.i
 
 yolov3.s: yolov3.cpp.s
@@ -813,7 +813,7 @@ yolov3.s: yolov3.cpp.s
 
 # target to generate assembly for a file
 yolov3.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov3.dir/build.make ncnn_build/examples/CMakeFiles/yolov3.dir/yolov3.cpp.s
 .PHONY : yolov3.cpp.s
 
 yolov4.o: yolov4.cpp.o
@@ -822,7 +822,7 @@ yolov4.o: yolov4.cpp.o
 
 # target to build an object file
 yolov4.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.o
 .PHONY : yolov4.cpp.o
 
 yolov4.i: yolov4.cpp.i
@@ -831,7 +831,7 @@ yolov4.i: yolov4.cpp.i
 
 # target to preprocess a source file
 yolov4.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.i
 .PHONY : yolov4.cpp.i
 
 yolov4.s: yolov4.cpp.s
@@ -840,7 +840,7 @@ yolov4.s: yolov4.cpp.s
 
 # target to generate assembly for a file
 yolov4.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov4.dir/build.make ncnn_build/examples/CMakeFiles/yolov4.dir/yolov4.cpp.s
 .PHONY : yolov4.cpp.s
 
 yolov5.o: yolov5.cpp.o
@@ -849,7 +849,7 @@ yolov5.o: yolov5.cpp.o
 
 # target to build an object file
 yolov5.cpp.o:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.o
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.o
 .PHONY : yolov5.cpp.o
 
 yolov5.i: yolov5.cpp.i
@@ -858,7 +858,7 @@ yolov5.i: yolov5.cpp.i
 
 # target to preprocess a source file
 yolov5.cpp.i:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.i
 .PHONY : yolov5.cpp.i
 
 yolov5.s: yolov5.cpp.s
@@ -867,7 +867,7 @@ yolov5.s: yolov5.cpp.s
 
 # target to generate assembly for a file
 yolov5.cpp.s:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(MAKE) -f ncnn_build/examples/CMakeFiles/yolov5.dir/build.make ncnn_build/examples/CMakeFiles/yolov5.dir/yolov5.cpp.s
 .PHONY : yolov5.cpp.s
 
 # Help Target
@@ -961,6 +961,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

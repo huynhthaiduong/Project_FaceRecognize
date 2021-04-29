@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
 ../glslang/OSDependent/osinclude.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseHelper.h
 ../MachineIndependent/parseVersions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
 ../MachineIndependent/ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 ../MachineIndependent/attribute.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 array
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseables.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseables.h
 ../MachineIndependent/Initialize.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslScanContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslScanContext.h
 ../MachineIndependent/ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 hlslTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 algorithm
 -
 cassert
@@ -68,23 +68,23 @@ stdint.h
 stdlib.h
 -
 PoolAlloc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/BaseTypes.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 cmath
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InitializeGlobals.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InitializeGlobals.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring
@@ -92,43 +92,43 @@ cstring
 vector
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/BaseTypes.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/BaseTypes.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 arrays.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/arrays.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/arrays.h
 algorithm
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/arrays.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/arrays.h
 algorithm
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 ../Include/ConstantUnion.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Constant.cpp
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 cmath
 -
 cfloat
@@ -138,43 +138,43 @@ cstdlib
 climits
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 cstring
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 Initialize.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/ShHandle.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 RemoveTree.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 propagateNoContraction.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
 cfloat
 -
 utility
@@ -182,75 +182,75 @@ utility
 tuple
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 reflection.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 gl_types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
 list
 -
 unordered_set
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp
 cstdarg
 -
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 ../OSDependent/osinclude.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 algorithm
 -
 preprocessor/PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 cstdarg
 -
 functional
 -
 parseVersions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
 ../Include/ShHandle.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 attribute.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/PoolAlloc.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/PoolAlloc.h
 ../Include/InitializeGlobals.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InitializeGlobals.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InitializeGlobals.h
 ../OSDependent/osinclude.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 RemoveTree.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.cpp
 cstring
 -
 unordered_map
@@ -258,33 +258,33 @@ unordered_map
 unordered_set
 -
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 attribute.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 glslang_tab.cpp.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
 ScanContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
 Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 preprocessor/PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 preprocessor/PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp
 cstring
 -
 iostream
@@ -294,85 +294,85 @@ sstream
 memory
 -
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 ScanContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ScanContext.h
 ../HLSL/hlslParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseHelper.h
 ../HLSL/hlslParseables.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseables.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslParseables.h
 ../HLSL/hlslScanContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslScanContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/HLSL/hlslScanContext.h
 ../Include/ShHandle.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ShHandle.h
 ../../OGLCompilersDLL/InitializeDll.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/OGLCompilersDLL/InitializeDll.h
 preprocessor/PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 reflection.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
 iomapper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
 Initialize.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Initialize.h
 preprocessor/PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 glslang/build_info.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang/build_info.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang/build_info.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.cpp
 parseVersions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.cpp
 attribute.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/ConstantUnion.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ConstantUnion.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 attribute.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/attribute.h
 glslang_tab.cpp.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
 limits.h
 -
 stdint.h
@@ -394,13 +394,13 @@ stdlib.h
 stdio.h
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 cfloat
 -
 cmath
@@ -408,47 +408,47 @@ cmath
 cstdint
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 gl_types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
 iomapper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
 SymbolTable.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/iomapper.h
 cstdint
 -
 LiveTraverser.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
 unordered_map
 -
 unordered_set
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/limits.cpp
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 string
 -
 vector
@@ -460,21 +460,21 @@ set
 array
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp
 ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/parseVersions.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 ../Include/InfoSink.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/InfoSink.h
 Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 map
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
 sstream
 -
 cstdlib
@@ -486,11 +486,11 @@ cctype
 climits
 -
 PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
 cassert
 -
 cstdlib
@@ -498,19 +498,19 @@ cstdlib
 cstring
 -
 PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
 cstdlib
 -
 locale
 -
 PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 stack
 -
 unordered_map
@@ -518,23 +518,23 @@ unordered_map
 sstream
 -
 ../ParseHelper.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h
 PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
 cstdlib
 -
 cstring
 -
 PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 ../Scan.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Scan.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
 cassert
 -
 cstdlib
@@ -544,15 +544,15 @@ cstring
 cctype
 -
 PpContext.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h
 PpTokens.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
 propagateNoContraction.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
 cstdlib
 -
 string
@@ -564,41 +564,41 @@ unordered_map
 unordered_set
 -
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h
 ../Include/intermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/intermediate.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.cpp
 ../Include/Common.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Common.h
 reflection.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
 LiveTraverser.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h
 localintermediate.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/localintermediate.h
 gl_types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/gl_types.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/reflection.h
 ../Public/ShaderLang.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 ../Include/Types.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/Types.h
 list
 -
 set
 -
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/OSDependent/osinclude.h
 
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
+/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/glslang/glslang/MachineIndependent/Versions.h
 cstring
 -
 vector

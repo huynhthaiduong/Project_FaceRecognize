@@ -268,9 +268,9 @@
 {ShuffleChannel_final_arm82_layer_creator},
 #endif
 #if NCNN_STRING
-{"InstanceNorm", InstanceNorm_final_layer_creator},
+{"InstanceNorm", InstanceNorm_final_arm82_layer_creator},
 #else
-{InstanceNorm_final_layer_creator},
+{InstanceNorm_final_arm82_layer_creator},
 #endif
 #if NCNN_STRING
 {"Clip", Clip_final_arm82_layer_creator},

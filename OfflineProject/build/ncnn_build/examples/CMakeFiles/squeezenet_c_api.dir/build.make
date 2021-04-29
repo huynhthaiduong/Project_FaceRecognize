@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/progress.make
 include ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/flags.make
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/flags.make
-ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
+ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp > CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp > CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.i
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp -o CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/examples/squeezenet_c_api.cpp -o CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.s
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o.requires:
 
@@ -91,23 +91,19 @@ squeezenet_c_api_EXTERNAL_OBJECTS =
 ncnn_build/examples/squeezenet_c_api: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o
 ncnn_build/examples/squeezenet_c_api: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build.make
 ncnn_build/examples/squeezenet_c_api: ncnn_build/src/libncnn.a
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.1.1
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1.1
+ncnn_build/examples/squeezenet_c_api: /usr/local/lib/libopencv_world.so.4.3.0
 ncnn_build/examples/squeezenet_c_api: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libpthread.so
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libvulkan.so
+ncnn_build/examples/squeezenet_c_api: /usr/local/lib/libvulkan.so
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/glslang/libglslang.a
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/SPIRV/libSPIRV.a
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/glslang/libMachineIndependent.a
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 ncnn_build/examples/squeezenet_c_api: ncnn_build/glslang/glslang/libGenericCodeGen.a
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.1.1
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.1.1
-ncnn_build/examples/squeezenet_c_api: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.1.1
 ncnn_build/examples/squeezenet_c_api: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable squeezenet_c_api"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/squeezenet_c_api.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable squeezenet_c_api"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/squeezenet_c_api.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/build: ncnn_build/examples/squeezenet_c_api
@@ -119,10 +115,10 @@ ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/requires: ncnn_build/example
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/requires
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/squeezenet_c_api.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples && $(CMAKE_COMMAND) -P CMakeFiles/squeezenet_c_api.dir/cmake_clean.cmake
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/clean
 
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/examples /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/examples /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/depend
 

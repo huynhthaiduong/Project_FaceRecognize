@@ -16,8 +16,8 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
                      float score_threshold_, float iou_threshold_, int topk_) {
     num_thread = num_thread_;
     topk = topk_;
-    score_threshold = score_threshold_;
-    iou_threshold = iou_threshold_;
+    score_threshold = 0.7;//score_threshold_;
+    iou_threshold = 0.3;//iou_threshold_;
     in_w = input_width;
     in_h = input_length;
     w_h_list = {in_w, in_h};
@@ -54,24 +54,432 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
     num_anchors = priors.size();
     /* generate prior anchors finished */
     ncnn::create_gpu_instance();
-    /* --> Set the params you need for the ncnn inference <-- */
-    ultraface.opt.num_threads = 128;//You need to compile with libgomp for multi thread support
-    ultraface.opt.use_vulkan_compute = true;//You need to compile with libvulkan for gpu support
-    ultraface.opt.use_winograd_convolution = true;
-    ultraface.opt.use_sgemm_convolution = true;
-    ultraface.opt.use_fp16_packed = true;
-    ultraface.opt.use_fp16_storage = true;
-    ultraface.opt.use_fp16_arithmetic = true;
-    ultraface.opt.use_packing_layout = true;
-    ultraface.opt.use_shader_pack8 = false;
-    ultraface.opt.use_image_storage = false;
-    /* --> End of setting params <-- */
-    ultraface.load_param(param_path.data());
-    ultraface.load_model(bin_path.data());
+   
+    ultraface.opt.use_vulkan_compute = 1;
+    ultraface.load_param("../Model/retinaface_full.param");
+    ultraface.load_model("../Model/retinaface_full.bin");
+    //ultraface.load_param(param_path.data());
+    //ultraface.load_model(bin_path.data());
+    arcface.opt.use_vulkan_compute =1;
+    arcface.load_param("../Model/mobilefacenet.param");
+    arcface.load_model("../Model/mobilefacenet.bin");
+      
 }
 
-UltraFace::~UltraFace() {ncnn::destroy_gpu_instance(); ultraface.clear(); }
+UltraFace::~UltraFace() { ncnn::destroy_gpu_instance();
+  ultraface.clear(); }
 
+ncnn::Mat UltraFace::generate_anchors(int base_size, const ncnn::Mat& ratios, const ncnn::Mat& scales)
+{
+    int num_ratio = ratios.w;
+    int num_scale = scales.w;
+
+    ncnn::Mat anchors;
+    anchors.create(4, num_ratio * num_scale);
+
+    const float cx = base_size * 0.5f;
+    const float cy = base_size * 0.5f;
+
+    for (int i = 0; i < num_ratio; i++)
+    {
+        float ar = ratios[i];
+
+        int r_w = round(base_size / sqrt(ar));
+        int r_h = round(r_w * ar);//round(base_size * sqrt(ar));
+
+        for (int j = 0; j < num_scale; j++)
+        {
+            float scale = scales[j];
+
+            float rs_w = r_w * scale;
+            float rs_h = r_h * scale;
+
+            float* anchor = anchors.row(i * num_scale + j);
+
+            anchor[0] = cx - rs_w * 0.5f;
+            anchor[1] = cy - rs_h * 0.5f;
+            anchor[2] = cx + rs_w * 0.5f;
+            anchor[3] = cy + rs_h * 0.5f;
+        }
+    }
+
+    return anchors;
+}
+void UltraFace::generate_proposals(const ncnn::Mat& anchors, int feat_stride, const ncnn::Mat& score_blob, const ncnn::Mat& bbox_blob, const ncnn::Mat& landmark_blob, float prob_threshold, std::vector<FaceInfo>& faceobjects)
+{
+    int w = score_blob.w;
+    int h = score_blob.h;
+
+    // generate face proposal from bbox deltas and shifted anchors
+    const int num_anchors = anchors.h;
+
+    for (int q=0; q<num_anchors; q++)
+    {
+        const float* anchor = anchors.row(q);
+
+        const ncnn::Mat score = score_blob.channel(q + num_anchors);
+        const ncnn::Mat bbox = bbox_blob.channel_range(q * 4, 4);
+        const ncnn::Mat landmark = landmark_blob.channel_range(q * 10, 10);
+
+        // shifted anchor
+        float anchor_y = anchor[1];
+
+        float anchor_w = anchor[2] - anchor[0];
+        float anchor_h = anchor[3] - anchor[1];
+
+        for (int i=0; i<h; i++)
+        {
+            float anchor_x = anchor[0];
+
+            for (int j=0; j<w; j++)
+            {
+                int index = i * w + j;
+
+                float prob = score[index];
+
+                if (prob >= prob_threshold)
+                {
+                    // apply center size
+                    float dx = bbox.channel(0)[index];
+                    float dy = bbox.channel(1)[index];
+                    float dw = bbox.channel(2)[index];
+                    float dh = bbox.channel(3)[index];
+
+                    float cx = anchor_x + anchor_w * 0.5f;
+                    float cy = anchor_y + anchor_h * 0.5f;
+
+                    float pb_cx = cx + anchor_w * dx;
+                    float pb_cy = cy + anchor_h * dy;
+
+                    float pb_w = anchor_w * exp(dw);
+                    float pb_h = anchor_h * exp(dh);
+
+                    float x0 = pb_cx - pb_w * 0.5f;
+                    float y0 = pb_cy - pb_h * 0.5f;
+                    float x1 = pb_cx + pb_w * 0.5f;
+                    float y1 = pb_cy + pb_h * 0.5f;
+                    FaceInfo obj;            
+                    obj.landmark[0].x = cx + (anchor_w + 1) * landmark.channel(0)[index];
+                    obj.landmark[0].y = cy + (anchor_h + 1) * landmark.channel(1)[index];
+                    obj.landmark[1].x = cx + (anchor_w + 1) * landmark.channel(2)[index];
+                    obj.landmark[1].y = cy + (anchor_h + 1) * landmark.channel(3)[index];
+                    obj.landmark[2].x = cx + (anchor_w + 1) * landmark.channel(4)[index];
+                    obj.landmark[2].y = cy + (anchor_h + 1) * landmark.channel(5)[index];
+                    obj.landmark[3].x = cx + (anchor_w + 1) * landmark.channel(6)[index];
+                    obj.landmark[3].y = cy + (anchor_h + 1) * landmark.channel(7)[index];
+                    obj.landmark[4].x = cx + (anchor_w + 1) * landmark.channel(8)[index];
+                    obj.landmark[4].y = cy + (anchor_h + 1) * landmark.channel(9)[index];
+                    
+
+                    obj.x1 = x0;
+                    obj.y1 = y0;
+                    obj.x2 = x1 ;
+                    obj.y2 = y1;
+                    obj.score = prob;
+
+                    faceobjects.push_back(obj);
+                }
+
+                anchor_x += feat_stride;
+            }
+
+            anchor_y += feat_stride;
+        }
+    }
+
+}
+void UltraFace::generate_proposals(const ncnn::Mat& anchors, int feat_stride, const ncnn::Mat& score_blob, const ncnn::Mat& bbox_blob, float prob_threshold, std::vector<FaceInfo>& faceobjects)
+{
+    int w = score_blob.w;
+    int h = score_blob.h;
+
+    // generate face proposal from bbox deltas and shifted anchors
+    const int num_anchors = anchors.h;
+
+    for (int q=0; q<num_anchors; q++)
+    {
+        const float* anchor = anchors.row(q);
+
+        const ncnn::Mat score = score_blob.channel(q + num_anchors);
+        const ncnn::Mat bbox = bbox_blob.channel_range(q * 4, 4);
+
+        // shifted anchor
+        float anchor_y = anchor[1];
+
+        float anchor_w = anchor[2] - anchor[0];
+        float anchor_h = anchor[3] - anchor[1];
+
+        for (int i=0; i<h; i++)
+        {
+            float anchor_x = anchor[0];
+
+            for (int j=0; j<w; j++)
+            {
+                int index = i * w + j;
+
+                float prob = score[index];
+
+                if (prob >= prob_threshold)
+                {
+                    // apply center size
+                    float dx = bbox.channel(0)[index];
+                    float dy = bbox.channel(1)[index];
+                    float dw = bbox.channel(2)[index];
+                    float dh = bbox.channel(3)[index];
+
+                    float cx = anchor_x + anchor_w * 0.5f;
+                    float cy = anchor_y + anchor_h * 0.5f;
+
+                    float pb_cx = cx + anchor_w * dx;
+                    float pb_cy = cy + anchor_h * dy;
+
+                    float pb_w = anchor_w * exp(dw);
+                    float pb_h = anchor_h * exp(dh);
+
+                    float x0 = pb_cx - pb_w * 0.5f;
+                    float y0 = pb_cy - pb_h * 0.5f;
+                    float x1 = pb_cx + pb_w * 0.5f;
+                    float y1 = pb_cy + pb_h * 0.5f;
+
+                    FaceInfo obj;
+                    obj.x1 = x0;
+                    obj.y1 = y0;
+                    obj.x2 = x1 ;
+                    obj.y2 = y1;
+                    obj.score = prob;
+
+                    faceobjects.push_back(obj);
+                }
+
+                anchor_x += feat_stride;
+            }
+
+            anchor_y += feat_stride;
+        }
+    }
+
+}
+
+
+int UltraFace::detect(ncnn::Mat &img, ncnn::Mat &score_blob32, ncnn::Mat &bbox_blob32,ncnn::Mat &score_blob16,ncnn::Mat &bbox_blob16) {
+  
+    const float prob_threshold = 0.8f;
+    const float nms_threshold = 0.4f;
+
+    ncnn::Extractor ex = ultraface.create_extractor();
+    ex.set_vulkan_compute(true);
+    ex.input("data", img);
+    ex.extract("face_rpn_cls_prob_reshape_stride32", score_blob32);
+    ex.extract("face_rpn_bbox_pred_stride32", bbox_blob32);
+    ex.extract("face_rpn_cls_prob_reshape_stride16", score_blob16);
+    ex.extract("face_rpn_bbox_pred_stride16", bbox_blob16);
+    /* std::vector<FaceInfo> faceproposals;
+    {
+        ncnn::Mat score_blob, bbox_blob;
+        ex.extract("face_rpn_cls_prob_reshape_stride32", score_blob);
+        ex.extract("face_rpn_bbox_pred_stride32", bbox_blob);
+
+        const int base_size = 16;
+        const int feat_stride = 32;
+        ncnn::Mat ratios(1);
+        ratios[0] = 1.f;
+        ncnn::Mat scales(2);
+        scales[0] = 32.f;
+        scales[1] = 16.f;
+        ncnn::Mat anchors = generate_anchors(base_size, ratios, scales);
+
+        std::vector<FaceInfo> faceobjects32;
+        generate_proposals(anchors, feat_stride, score_blob, bbox_blob, prob_threshold, faceobjects32);
+
+        faceproposals.insert(faceproposals.end(), faceobjects32.begin(), faceobjects32.end());
+    }
+
+    // stride 16
+    {
+        ncnn::Mat score_blob, bbox_blob;
+        ex.extract("face_rpn_cls_prob_reshape_stride16", score_blob);
+        ex.extract("face_rpn_bbox_pred_stride16", bbox_blob);
+
+        const int base_size = 16;
+        const int feat_stride = 16;
+        ncnn::Mat ratios(1);
+        ratios[0] = 1.f;
+        ncnn::Mat scales(2);
+        scales[0] = 8.f;
+        scales[1] = 4.f;
+        ncnn::Mat anchors = generate_anchors(base_size, ratios, scales);
+
+        std::vector<FaceInfo> faceobjects16;
+        generate_proposals(anchors, feat_stride, score_blob, bbox_blob, prob_threshold, faceobjects16);
+
+        faceproposals.insert(faceproposals.end(), faceobjects16.begin(), faceobjects16.end());
+    }
+    nms(faceproposals, face_list); */
+    return 0;
+}
+void qsort_descent_inplace(std::vector<FaceInfo>& faceobjects, int left, int right)
+{
+    int i = left;
+    int j = right;
+    float p = faceobjects[(left + right) / 2].score;
+
+    while (i <= j)
+    {
+        while (faceobjects[i].score > p)
+            i++;
+
+        while (faceobjects[j].score < p)
+            j--;
+
+        if (i <= j)
+        {
+            // swap
+            std::swap(faceobjects[i], faceobjects[j]);
+
+            i++;
+            j--;
+        }
+    }
+
+    #pragma omp parallel sections
+    {
+        #pragma omp section
+        {
+            if (left < j) qsort_descent_inplace(faceobjects, left, j);
+        }
+        #pragma omp section
+        {
+            if (i < right) qsort_descent_inplace(faceobjects, i, right);
+        }
+    }
+}
+
+void qsort_descent_inplace(std::vector<FaceInfo>& faceobjects)
+{
+    if (faceobjects.empty())
+        return;
+
+    qsort_descent_inplace(faceobjects, 0, faceobjects.size() - 1);
+}
+inline float intersection_area(const FaceInfo& a, const FaceInfo& b)
+{
+    cv::Rect_<float> a_rect(cv::Point(a.x1,a.y1),cv::Point(a.x2, a.y2));
+    cv::Rect_<float> b_rect(cv::Point(b.x1,b.y1),cv::Point(b.x2, b.y2));
+
+    cv::Rect_<float> inter = a_rect & b_rect;
+    return inter.area();
+}
+void nms_sorted_bboxes(const std::vector<FaceInfo>& faceobjects, std::vector<int>& picked, float nms_threshold)
+{
+    picked.clear();
+
+    const int n = faceobjects.size();
+
+    std::vector<float> areas(n);
+    for (int i = 0; i < n; i++)
+    {
+        cv::Rect_<float> rect(cv::Point(faceobjects[i].x1,faceobjects[i].y1),cv::Point(faceobjects[i].x2, faceobjects[i].y2));
+
+        areas[i] = rect.area();
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        const FaceInfo& a = faceobjects[i];
+
+        int keep = 1;
+        for (int j = 0; j < (int)picked.size(); j++)
+        {
+            const FaceInfo& b = faceobjects[picked[j]];
+
+            // intersection over union
+            float inter_area = intersection_area(a, b);
+            float union_area = areas[i] + areas[picked[j]] - inter_area;
+//             float IoU = inter_area / union_area
+            if (inter_area / union_area > nms_threshold)
+                keep = 0;
+        }
+
+        if (keep)
+            picked.push_back(i);
+    }
+}
+
+int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
+  
+    const float prob_threshold = 0.8f;
+    const float nms_threshold = 0.4f;
+
+    ncnn::Extractor ex = ultraface.create_extractor();
+    ex.set_vulkan_compute(true);
+    ex.input("data", img);
+    
+    std::vector<FaceInfo> faceproposals;
+
+    //#pragma omp parallel
+    {
+        ncnn::Mat score_blob, bbox_blob, landmark_blob;
+        ex.extract("face_rpn_cls_prob_reshape_stride32", score_blob);
+        ex.extract("face_rpn_bbox_pred_stride32", bbox_blob);
+        ex.extract("face_rpn_landmark_pred_stride32", landmark_blob);
+
+        const int base_size = 16;
+        const int feat_stride = 32;
+        ncnn::Mat ratios(1);
+        ratios[0] = 1.f;
+        ncnn::Mat scales(2);
+        scales[0] = 32.f;
+        scales[1] = 16.f;
+        ncnn::Mat anchors = generate_anchors(base_size, ratios, scales);
+
+        std::vector<FaceInfo> faceobjects32;
+        generate_proposals(anchors, feat_stride, score_blob, bbox_blob,landmark_blob, prob_threshold, faceobjects32);
+
+        faceproposals.insert(faceproposals.end(), faceobjects32.begin(), faceobjects32.end());  
+    }
+
+    // stride 16
+    //#pragma omp parallel
+    {
+        ncnn::Mat score_blob, bbox_blob, landmark_blob;
+        ex.extract("face_rpn_cls_prob_reshape_stride16", score_blob);
+        ex.extract("face_rpn_bbox_pred_stride16", bbox_blob);
+        ex.extract("face_rpn_landmark_pred_stride16", landmark_blob);
+
+        const int base_size = 16;
+        const int feat_stride = 16;
+        ncnn::Mat ratios(1);
+        ratios[0] = 1.f;
+        ncnn::Mat scales(2);
+        scales[0] = 8.f;
+        scales[1] = 4.f;
+        ncnn::Mat anchors = generate_anchors(base_size, ratios, scales);
+
+        std::vector<FaceInfo> faceobjects16;
+        generate_proposals(anchors, feat_stride, score_blob, bbox_blob,landmark_blob, prob_threshold, faceobjects16);
+
+        faceproposals.insert(faceproposals.end(), faceobjects16.begin(), faceobjects16.end());
+    }
+
+    //nms(faceproposals, face_list);
+    qsort_descent_inplace(faceproposals);
+
+    // apply nms with nms_threshold
+    std::vector<int> picked;
+    nms_sorted_bboxes(faceproposals, picked, nms_threshold);
+
+    int face_count = picked.size();
+
+    face_list.resize(face_count);
+    for (int i = 0; i < face_count; i++)
+    {
+        face_list[i] = faceproposals[ picked[i] ];   
+    }
+ 
+    return 0;
+}
+
+/*
 int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     if (img.empty()) {
         std::cout << "image is empty ,please check!" << std::endl;
@@ -101,6 +509,34 @@ int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     nms(bbox_collection, face_list);
     return 0;
 }
+*/
+
+int UltraFace::face_embedding(ncnn::Mat &img, std::vector<float> &out) {
+  
+    ncnn::Extractor ex = arcface.create_extractor();
+    ex.set_vulkan_compute(true);
+   
+    ex.input("data", img);
+    ncnn::Mat score;
+    ex.extract("fc1", score);
+    const float* ptr_score = score.channel(0);
+    float l2 = 0;
+    
+    for(int i = 0; i < score.w;i++)
+    {
+        l2 += ptr_score[i]*ptr_score[i];
+    }
+    l2 = sqrt(l2);
+
+    std::vector<float> tmp;
+    for(int i = 0; i < score.w;i++)
+    {
+        tmp.push_back(ptr_score[i]/l2);
+    }
+    out = tmp;
+    return 0;
+}
+
 
 void UltraFace::generateBBox(std::vector<FaceInfo> &bbox_collection, ncnn::Mat scores, ncnn::Mat boxes, float score_threshold, int num_anchors) {
     for (int i = 0; i < num_anchors; i++) {
@@ -167,7 +603,7 @@ void UltraFace::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output,
             float score;
 
             score = inner_area / (area0 + area1 - inner_area);
-
+            
             if (score > iou_threshold) {
                 merged[j] = 1;
                 buf.push_back(input[j]);

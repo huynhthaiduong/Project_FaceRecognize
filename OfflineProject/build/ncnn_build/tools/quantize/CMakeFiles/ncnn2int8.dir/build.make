@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject
+CMAKE_SOURCE_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build
+CMAKE_BINARY_DIR = /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/depend.make
@@ -58,17 +58,17 @@ include ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/progress.make
 include ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/flags.make
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o: ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/flags.make
-ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o -c /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
+ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o -c /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp > CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp > CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize/ncnn2int8.cpp -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o.requires:
 
@@ -93,7 +93,7 @@ ncnn_build/tools/quantize/ncnn2int8: ncnn_build/tools/quantize/CMakeFiles/ncnn2i
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/src/libncnn.a
 ncnn_build/tools/quantize/ncnn2int8: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 ncnn_build/tools/quantize/ncnn2int8: /usr/lib/aarch64-linux-gnu/libpthread.so
-ncnn_build/tools/quantize/ncnn2int8: /usr/lib/aarch64-linux-gnu/libvulkan.so
+ncnn_build/tools/quantize/ncnn2int8: /usr/local/lib/libvulkan.so
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/glslang/libglslang.a
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/SPIRV/libSPIRV.a
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/glslang/libMachineIndependent.a
@@ -101,8 +101,8 @@ ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/OGLCompilersDLL/libOGLCo
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/glslang/glslang/libGenericCodeGen.a
 ncnn_build/tools/quantize/ncnn2int8: ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2int8"
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2int8.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2int8"
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2int8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/build: ncnn_build/tools/quantize/ncnn2int8
@@ -114,10 +114,10 @@ ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/requires: ncnn_build/tools/qu
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/requires
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/clean:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2int8.dir/cmake_clean.cmake
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2int8.dir/cmake_clean.cmake
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/clean
 
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/depend:
-	cd /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/quantize /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize /home/kyo/Desktop/KLTN/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/quantize /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/OfflineProject/build/ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/depend
 

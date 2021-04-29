@@ -4,6 +4,6 @@
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o: ncnn_build/tools/onnx/onnx.pb.cc
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o: ncnn_build/tools/onnx/onnx.pb.h
 
-ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: /home/kyo/Desktop/KLTN/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
+ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: /home/nghiep/Desktop/KLTN/V1.0/Project_FaceRecognize/ncnn/tools/onnx/onnx2ncnn.cpp
 ncnn_build/tools/onnx/CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o: ncnn_build/tools/onnx/onnx.pb.h
 
